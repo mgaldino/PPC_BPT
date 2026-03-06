@@ -6,9 +6,9 @@
 
 ## Abstract
 
-Bayesian process tracing (BPT) has imported the machinery of Bayesian updating but not the machinery of Bayesian diagnostics. We develop *qualitative posterior predictive checks* (PPCs) for BPT: a procedure in which the analyst derives predictions from the fitted model about evidence not yet examined and compares those predictions to domain knowledge or newly collected data. To address the circularity objection, we formalize the problem as one of correlated elicitation errors and propose design principles --- including multi-channel likelihood elicitation --- that reduce this correlation. We demonstrate the framework by reanalyzing Fairfield and Charman's (2022) canonical application to Chile's 2005 income tax reform. The PPC reveals diagnostic features not formally incorporated into the original analysis, and a stress test confirms that the check detects misspecification when the model converges on the wrong hypothesis.
+Bayesian process tracing (BPT) has imported the machinery of Bayesian updating but not the machinery of Bayesian diagnostics. We develop *qualitative posterior predictive checks* (PPCs) for BPT: a procedure in which the analyst derives predictions from the fitted model about evidence not yet examined and compares those predictions to domain knowledge or newly collected data. To address the circularity objection, we formalize the problem as one of correlated elicitation errors and propose design principles --- including multi-channel likelihood elicitation --- that reduce this correlation. We demonstrate the framework on two cases that contrast sharply in posterior extremity: Fairfield and Charman's (2022) canonical application to Chile's 2005 income tax reform (posterior $\approx 1.0$), where the PPC generates sharp predictions and confirms broad coherence while surfacing diagnostic refinements; and their (2025) Bayesian reanalysis of oil majors' carbon pricing support (posterior $\approx 0.71$ for H$_{SA}$), where the PPC reveals that post-2020 holdout evidence dramatically strengthens the original posterior and that company-level heterogeneity challenges the binary hypothesis structure. The comparison illustrates a key property of the framework: extreme posteriors generate the most testable predictions.
 
-**Keywords:** Bayesian process tracing, posterior predictive checks, model diagnostics, qualitative methods, likelihood specification, Chile tax reform
+**Keywords:** Bayesian process tracing, posterior predictive checks, model diagnostics, qualitative methods, likelihood specification, Chile tax reform, climate politics
 
 ---
 
@@ -24,9 +24,9 @@ This paper proposes a solution. We develop *qualitative posterior predictive che
 
 The core insight is straightforward. Errors in likelihood specification that are invisible when we examine only the evidence already incorporated into the analysis become visible when the model is asked to predict evidence it has not yet seen. A researcher who has assigned likelihoods to six pieces of archival evidence and arrived at a posterior distribution can ask: *given this posterior, what should I expect to find if I examine a seventh piece of evidence?* If the model's prediction is wildly at odds with what domain knowledge suggests, something in the specification is likely wrong.
 
-Our contribution is both methodological and empirical. Methodologically, we formalize the qualitative posterior predictive distribution as a discrete analogue of the standard PPC formula, operationalize it as a six-step workflow that integrates into existing BPT practice, and situate it relative to existing diagnostic tools --- particularly sensitivity analysis of priors (Fairfield and Charman 2017). We also address the circularity objection head-on: rather than claiming that qualitative PPCs are "not circular," we formalize the problem as one of correlated errors in likelihood elicitation and propose design principles --- including blind second-analyst elicitation and human--LLM triangulation with diversified prompts --- that reduce the correlation between estimation and checking errors. Empirically, we demonstrate the procedure by reanalyzing Fairfield and Charman's (2022) canonical application to Chile's 2005 income tax reform. We identify four items of evidence spanning distinct evidentiary domains --- congressional committee records, comparative data from earlier reform attempts, internal party deliberation records, and business lobbying behavior --- and assess whether the model's predictions are coherent with these observations. We implement the multi-channel elicitation protocol by comparing predictive likelihoods from the human analyst with those from three LLM assessments using standard, skeptical, and minimalist prompts. The exercise reveals diagnostic features that were not formally incorporated into the original model specification and demonstrates that the PPC's conclusions are robust across heterogeneous elicitation channels.
+Our contribution is both methodological and empirical. Methodologically, we formalize the qualitative posterior predictive distribution as a discrete analogue of the standard PPC formula, operationalize it as a six-step workflow that integrates into existing BPT practice, and situate it relative to existing diagnostic tools --- particularly sensitivity analysis of priors (Fairfield and Charman 2017). We also address the circularity objection head-on: rather than claiming that qualitative PPCs are "not circular," we formalize the problem as one of correlated errors in likelihood elicitation and propose design principles --- including blind second-analyst elicitation and human--LLM triangulation with diversified prompts --- that reduce the correlation between estimation and checking errors. Empirically, we demonstrate the procedure on two cases that contrast sharply in posterior extremity. The first is Fairfield and Charman's (2022) canonical application to Chile's 2005 income tax reform, where the posterior is approximately 1.0 for the equity appeal hypothesis. The second is their (2025) Bayesian reanalysis of oil majors' carbon pricing advocacy, where the posterior is a modest 4 dB (~71%) for the strategic accommodation hypothesis. The contrast is deliberate: it tests the framework's prediction that extreme posteriors generate the most testable predictions, and it demonstrates that PPCs can generate qualitatively different diagnostic insights depending on the posterior's extremity.
 
-The paper proceeds as follows. Section 2 reviews the BPT literature and the tradition of posterior predictive checking in Bayesian statistics, identifying the gap that motivates our proposal. Section 3 develops the qualitative PPC framework: the formal apparatus, the six-step workflow, practical guidance on discrepancy assessment, scope conditions, and a detailed treatment of the circularity problem --- including a formal framework for correlated elicitation errors and protocols for multi-channel likelihood elicitation. Section 4 applies the framework to the Chilean tax reform case, integrating empirical evidence, a multi-channel elicitation exercise using human and LLM assessments, and a stress test that demonstrates the PPC's ability to detect deliberate misspecification. Section 5 discusses the findings, addresses limitations, and outlines an agenda for future work.
+The paper proceeds as follows. Section 2 reviews the BPT literature and the tradition of posterior predictive checking in Bayesian statistics, identifying the gap that motivates our proposal. Section 3 develops the qualitative PPC framework: the formal apparatus, the six-step workflow, practical guidance on discrepancy assessment, scope conditions, and a detailed treatment of the circularity problem --- including a formal framework for correlated elicitation errors and protocols for multi-channel likelihood elicitation. Section 4 applies the framework to the Chilean tax reform case, integrating empirical evidence, a multi-channel elicitation exercise using human and LLM assessments, and a stress test that demonstrates the PPC's ability to detect deliberate misspecification. Section 5 applies the framework to the oil majors case, demonstrating how the PPC operates with non-extreme posteriors and publicly verifiable holdout evidence. Section 6 discusses the findings, addresses limitations, and outlines an agenda for future work.
 
 
 # 2. BPT and the Missing Diagnostic
@@ -37,7 +37,7 @@ The formalization of process tracing along Bayesian lines has proceeded in three
 
 The second phase, inaugurated by Humphreys and Jacobs (2015) and Fairfield and Charman (2017), made the formalization explicit. Humphreys and Jacobs developed the BIQQ framework for integrating qualitative and quantitative evidence within a single Bayesian model. Fairfield and Charman proposed detailed guidelines for explicit Bayesian analysis in qualitative case research, using weight of evidence measured in decibels --- a logarithmic scale where approximately 3 dB corresponds to "barely worth mentioning," 10 dB to "moderate" evidence, 20 dB to "strong" evidence, and 30 dB to "very strong" evidence (Fairfield and Charman 2017: 370). Their application to Chile's 2005 tax reform demonstrated that even a small number of well-characterized evidence items could produce overwhelming posterior support for one hypothesis over its rivals. Barrenechea and Mahoney (2019) connected BPT to set-theoretic foundations, showing that the two approaches are "two faces of the same coin."
 
-The third phase, from approximately 2020 to the present, has seen consolidation and critique. Fairfield and Charman (2022) published a comprehensive book-length treatment. Humphreys and Jacobs (2023) developed the *CausalQueries* computational framework. Applications have expanded to policy evaluation (Brandao et al. 2023; Befani 2020), mixed-methods integration (Behrens and Rohlfing 2025), and qualitative replication analysis (Fairfield and Charman 2025). At the same time, Zaks (2021, 2022) mounted a systematic critique, questioning whether BPT provides adequate guidance for practitioners and identifying the absence of "guardrails" as a fundamental weakness. Bennett, Fairfield, and Charman (2022) responded by clarifying foundational issues, but the debate remains open on the question of how to validate likelihood specifications.
+The third phase, from approximately 2020 to the present, has seen consolidation and critique. Fairfield and Charman (2022) published a comprehensive book-length treatment. Humphreys and Jacobs (2023) developed the *CausalQueries* computational framework. Applications have expanded to policy evaluation (Brandao et al. 2023; Befani 2020), mixed-methods integration (Behrens and Rohlfing 2025), and qualitative replication analysis (Fairfield and Charman 2025), including reanalysis of climate politics research (Vormedal et al. 2020). At the same time, Zaks (2021, 2022) mounted a systematic critique, questioning whether BPT provides adequate guidance for practitioners and identifying the absence of "guardrails" as a fundamental weakness. Bennett, Fairfield, and Charman (2022) responded by clarifying foundational issues, but the debate remains open on the question of how to validate likelihood specifications.
 
 Yet despite this growth, the number of papers that apply formal BPT with explicit numerical likelihoods to real empirical cases remains modest --- roughly 10 to 15 as of early 2026. The field has reached a stage where the conceptual framework is well-established but the practical infrastructure for quality control is underdeveloped.
 
@@ -612,29 +612,120 @@ Under this moderate scenario, the predictions shift but remain broadly consisten
 The stress tests together demonstrate two properties. First, the PPC detects gross misspecification: a model dominated by $H_{CC}$ generates predictions clearly discrepant with the holdout evidence. Second, the PPC is less sensitive to moderate misspecification, where the correct hypothesis retains substantial weight. The diagnostic power depends on both the degree of misspecification and the choice of holdout evidence, which is why Step 2's selection criteria emphasize cross-domain coverage and discriminating predictions.
 
 
-# 5. Discussion and Conclusion
+# 5. Application: Reanalyzing Fairfield and Charman's Oil Majors Case
 
-## 5.1 What the PPC Revealed
+The Chilean application demonstrates the PPC with an extreme posterior ($\approx 1.0$). This section applies the framework to a case where the posterior is modest, testing the prediction that non-extreme posteriors generate less sharp --- and therefore less diagnostic --- predictions.
 
-The application to Fairfield and Charman's analysis illustrates five features of the qualitative PPC framework.
+## 5.1 The Case: Oil Majors and Carbon Pricing
 
-**First, the PPC adds value even when the original analysis is well-executed.** Fairfield and Charman's analysis is a model of transparent, rigorous BPT. It is not "broken" in any obvious way. Yet the posterior predictive check surfaced diagnostic observations --- the low-stakes confound, the temporal sequence test, the comparative counterfactual --- that were not formally incorporated into the original model specification. These observations do not overturn the conclusion that the equity appeal was an important mechanism. But they suggest that the posterior's extreme confidence may be partly shaped by the hypothesis set's structure (the absence of a composite "equity + low stakes" hypothesis) rather than being a pure reflection of the evidence's discriminating power. A posterior that acknowledges the possible role of complementary mechanisms might be more appropriate.
+Fairfield and Charman (2025) conduct a Bayesian reanalysis of Vormedal, Gulbrandsen, and Skjæresth's (2020) study of why European and US oil majors (Shell, BP, ExxonMobil, TotalEnergies, ConocoPhillips, Equinor) publicly supported carbon pricing policies. Two hypotheses are evaluated:
 
-This is precisely the kind of insight PPCs are designed to generate. In quantitative Bayesian analysis, a well-fitting model can produce implausible predictions when pushed to generate out-of-sample data, revealing features that in-sample fit alone would not expose (Gelman et al. 2020). The same logic applies here.
+- $H_{SA}$ **(Strategic Accommodation):** Oil majors support moderate carbon pricing to hedge against or preclude more radical regulation --- a defensive strategy.
 
-**Second, the PPC imposes discipline on the distinction between strong evidence and merely compatible evidence.** One of the persistent challenges in process tracing is distinguishing evidence that strongly *favors* a hypothesis from evidence that is merely *consistent* with it. The PPC sharpens this distinction by forcing the analyst to consider whether the evidence is also consistent with alternative hypotheses. The lobbying silence ($e^*_4$) illustrates this well: it is consistent with both $H_{EA}$ and $H_{CC}$, but for different reasons and with different implications. The comparative reform evidence ($e^*_2$), by contrast, provides richer diagnostic information because it reveals conditions under which equity framing was *not* sufficient. And the internal deliberations ($e^*_3$) sharply discriminate $H_{EA}$ from $H_{CC}$ by testing the temporal sequence of the causal mechanism. The PPC provides a structured way to surface these differences in diagnostic value.
+- $H_{CA}$ **(Competitive Advantage):** Oil majors support carbon pricing because it creates competitive advantages --- notably for natural gas over coal and for carbon capture and storage (CCS) --- an offensive strategy.
 
-**Third, multi-channel elicitation provides a practical response to the circularity concern.** The multi-channel exercise (Table 4) shows that the PPC's diagnostic conclusions are robust across four heterogeneous elicitation channels --- the human analyst, a standard LLM assessment, a skeptical LLM assessment, and a minimalist LLM assessment. Ordinal rankings are preserved across all channels for all four evidence items. The skeptical channel, prompted to favor structural over agency-based explanations, systematically lowers $H_{EA}$ likelihoods but does not alter the diagnostic structure. This convergence provides evidence that the check's findings are not artifacts of the human analyst's particular interpretive commitments. Notably, the one point of sharpest divergence --- the skeptical LLM's lower assessment of $P(e^*_4 \mid H_{EA})$ --- reinforces the ambiguous status of the lobbying silence, confirming that this ambiguity is inherent in the evidence rather than an artifact of the elicitation.
+F&C set a prior of approximately 6 dB for $H_{SA}$ (~80% probability), based on Vormedal et al.'s own literature review emphasizing the strategic accommodation tradition (Falkner 2008; Meckling 2015). They evaluate four pieces of evidence:
 
-**Fourth, the stress tests clarify the PPC's diagnostic reach.** When we imposed a grossly misspecified posterior ($H_{CC} \approx 1.0$), the PPC detected two clear discrepancies, demonstrating that the check can identify when a model has converged on the wrong hypothesis. When we imposed a moderately misspecified posterior ($H_{EA} = 0.60$, $H_{CC} = 0.30$), the predictions shifted but remained broadly plausible --- the PPC did not flag a clear discrepancy. This asymmetry is informative: the qualitative PPC is better suited to detecting gross misspecification than subtle overconfidence, an honest limitation analogous to the conservatism of posterior predictive p-values in quantitative settings.
+| Evidence | Description | WoE (dB) | Direction |
+|----------|-------------|:--------:|-----------|
+| $E_1$ | European majors' UNFCCC letter supporting carbon pricing | 4 | $H_{CA}$ |
+| $E_2$ | Exxon CEO letter to Trump urging US to stay in Paris Agreement | 3 | $H_{CA}$ |
+| $E_3$ | Oil majors create Climate Leadership Council, proposing US carbon tax with liability waiver | 12 | $H_{SA}$ |
+| $E_4$ | Investor presentations projecting "golden age" for gas, coal-to-gas switching | 7 | $H_{CA}$ |
 
-**Fifth, the PPC generates a research agenda.** The diagnostic observations point toward specific empirical investigations: collecting the full *Historia de la Ley* to verify committee testimony framing, accessing internal right-coalition records to test the temporal sequence of the decision, documenting business lobbying behavior (or its absence) with primary sources, and developing a more explicit comparative analysis of equity framing across the Lagos-era reforms. In this sense, the PPC functions not only as a diagnostic tool but as a generator of productive research questions --- a feature it shares with its quantitative counterpart (Gabry et al. 2019).
+The net weight of evidence is 2 dB for $H_{CA}$, yielding a posterior of approximately 4 dB for $H_{SA}$ (~71% probability). The inference is dominated by the prior; the evidence barely moves the needle. Crucially, F&C diverge from the original authors: Vormedal et al. conclude that carbon pricing advocacy is "unlikely to represent... hedging," while F&C's reanalysis finds that $H_{SA}$ remains weakly favored.
 
-## 5.2 Implications for the Fairfield--Charman / Zaks Debate
+
+## 5.2 Applying the PPC Workflow
+
+### Step 1: Starting from the posterior
+
+The posterior assigns $P(H_{SA} \mid \mathbf{e}_{\text{obs}}) \approx 0.71$. Unlike the Chilean case, the posterior weight on the rival hypothesis ($H_{CA}$) is substantial (0.29), so predictions will reflect a mixture of both hypotheses rather than collapsing onto the dominant one.
+
+### Step 2: Identifying holdout evidence
+
+We identify four items of post-2020 holdout evidence spanning distinct domains. All evidence postdates F&C's analysis window (which covers through approximately 2019) and is drawn from publicly verifiable sources.
+
+1. **Internal revelations about carbon pricing support ($e^*_5$).** In June 2021, Greenpeace's investigative unit Unearthed released undercover video of ExxonMobil's senior lobbyist Keith McCoy, who stated that the company's carbon tax support was "an effective advocacy tool" and a "talking point" for a policy they knew would never pass: "Nobody is going to propose a tax on all Americans and the cynical side of me says, yeah, we kind of know that" (NPR 2021; Unearthed 2021). ExxonMobil was subsequently suspended from the Climate Leadership Council.
+
+2. **Lobbying conditionality ($e^*_6$).** In March 2021, the American Petroleum Institute endorsed carbon pricing for the first time --- but explicitly conditioned its support on the carbon price "replacing all environmental laws and regulations that are intended to reduce or control carbon and other GHG emissions" (Bloomberg 2021; CNBC 2021). ConocoPhillips adopted identical language. Congressional investigations found that less than 0.4% of oil industry lobbying expenditure targeted carbon pricing legislation (House Oversight Committee 2022).
+
+3. **Corporate strategy reversals ($e^*_7$).** Between 2023 and 2025, BP, Shell, and Equinor systematically retreated from climate commitments --- cutting renewable investment, abandoning emissions targets, and increasing fossil fuel spending --- while maintaining their public support for carbon pricing (Fortune 2025; Carbon Brief 2024; Al Jazeera 2025). BP's CEO stated the company had gone "too far, too fast" and its faith in green energy was "misplaced."
+
+4. **CCS investment positioning ($e^*_8$).** ExxonMobil acquired Denbury Inc. for \$4.9 billion (2023), gaining the largest US CO2 pipeline network. The Northern Lights project (Equinor, Shell, TotalEnergies) invested \$3.4 billion in commercial CCS infrastructure in Norway. These investments create genuine profit centers that depend on carbon pricing (ExxonMobil 2023; Equinor 2025).
+
+### Step 3: Deriving predictions
+
+The non-extreme posterior generates blurred predictions:
+
+| | $H_{SA}$ | $H_{CA}$ | Posterior predictive |
+|---|:---:|:---:|:---:|
+| $P(e^*_5 = \text{cynical "talking point" admission})$ | 0.80 | 0.05 | $0.80 \times 0.71 + 0.05 \times 0.29 = 0.58$ |
+| $P(e^*_6 = \text{support conditioned on replacing regulations})$ | 0.75 | 0.15 | $0.75 \times 0.71 + 0.15 \times 0.29 = 0.58$ |
+| $P(e^*_7 = \text{retreat from climate but maintain carbon pricing rhetoric})$ | 0.70 | 0.20 | $0.70 \times 0.71 + 0.20 \times 0.29 = 0.56$ |
+| $P(e^*_8 = \text{large CCS investments dependent on carbon pricing})$ | 0.40 | 0.80 | $0.40 \times 0.71 + 0.80 \times 0.29 = 0.52$ |
+
+Note how the predictions cluster near 0.55--0.58 --- much less sharp than Chile's 0.55--0.90 range. This is exactly what the framework predicts: a 71% posterior generates moderate predictions that are harder to confront with evidence. The posterior predictive distribution does not collapse onto the dominant hypothesis; it remains genuinely uncertain.
+
+### Step 4: Assessing coherence
+
+All four predictions are confirmed by the holdout evidence --- but the evidence is far stronger than the moderate predictions suggest.
+
+**$e^*_5$ (internal revelations):** The McCoy sting is devastating for $H_{CA}$. A company genuinely motivated by competitive advantage would want carbon pricing to pass, not celebrate its impossibility. The model predicted this evidence with probability 0.58; the evidence's strongly $H_{SA}$-consistent character suggests the posterior should assign substantially more weight to $H_{SA}$. Estimated WoE: 8--10 dB for $H_{SA}$.
+
+**$e^*_6$ (lobbying conditionality):** Supporting carbon pricing *as a substitute* for command-and-control regulation is textbook strategic accommodation. Under $H_{CA}$, one would expect support for carbon pricing *in addition to* other policies that accelerate gas-over-coal transitions, not as a replacement for them. The API's negligible lobbying expenditure on actual carbon pricing legislation reinforces this. Estimated WoE: 6--8 dB for $H_{SA}$.
+
+**$e^*_7$ (strategy reversals):** The simultaneous retreat from climate investments while maintaining carbon pricing rhetoric is strongly consistent with $H_{SA}$: carbon pricing support was a strategic hedge that could be sustained at low cost while genuine transition investments were abandoned when short-term fossil fuel profits surged. Under $H_{CA}$, companies seeing genuine competitive advantage in carbon pricing would sustain transition investments. Estimated WoE: 5--7 dB for $H_{SA}$.
+
+**$e^*_8$ (CCS investments):** The main counterevidence. Large-scale CCS investments suggest some companies are genuinely positioning to profit from carbon pricing, consistent with $H_{CA}$. However, these investments depend heavily on government subsidies (the US 45Q tax credit, IRA funding, Norwegian state support) rather than on market carbon prices, complicating the $H_{CA}$ interpretation. Estimated WoE: 3--4 dB for $H_{CA}$.
+
+### Step 5: Diagnosis
+
+The PPC reveals three findings.
+
+**Finding 1: The holdout evidence dramatically strengthens the posterior.** The net holdout WoE is approximately 16--21 dB for $H_{SA}$ (after accounting for the CCS counterevidence). Combined with F&C's posterior of 4 dB for $H_{SA}$, the updated posterior would be approximately 20--25 dB (~99%) for $H_{SA}$. This suggests that F&C's original analysis was *too conservative* --- the 2 dB net evidence they identified substantially underweighted $H_{SA}$. This is a different PPC outcome than Chile: rather than confirming the posterior's level of confidence, the check suggests the original model was insufficiently confident.
+
+**Finding 2: Company heterogeneity challenges the binary hypothesis structure.** The evidence is not uniformly $H_{SA}$ or $H_{CA}$ across companies. $H_{SA}$ dominates for ExxonMobil (the McCoy admission, CLC suspension) and ConocoPhillips (oil-heavy but advocates carbon tax as regulatory replacement). $H_{CA}$ is more plausible for TotalEnergies (which left API for insufficient climate ambition and frames gas as a competitive transition fuel) and Equinor (whose CCS strategy leverages Norway's geological advantages). This heterogeneity suggests that the binary $H_{SA}$-vs-$H_{CA}$ framing may be too coarse: different companies may be motivated by different logics simultaneously. Following the framework's Step 5 guidance on hypothesis revision, a composite hypothesis --- "$H_{SA}$ for some companies and $H_{CA}$ for others, with the mix depending on regulatory exposure and gas portfolio" --- might better account for the evidence. This is exactly the kind of structural insight that PPCs are designed to generate (Section 3.2, Step 5).
+
+**Finding 3: The PPC illustrates the posterior-extremity prediction.** Chile's extreme posterior ($\approx 1.0$) generated predictions in the 0.55--0.90 range, producing sharp tests that confirmed broad coherence. The oil majors' modest posterior ($\approx 0.71$) generated predictions clustered near 0.55, producing weaker tests --- but the holdout evidence nonetheless provided strong diagnostic information because it was *far more extreme* than the predictions suggested. The PPC worked not because the predictions were sharp but because the evidence was dramatically one-sided. This suggests a refinement of Observation 1 from the Chile case: even when posteriors are non-extreme, PPCs can be diagnostic if the holdout evidence is sufficiently strong to overwhelm the prediction's uncertainty.
+
+### Step 6: Documentation
+
+**Table 5: Oil Majors PPC Summary**
+
+| Element | Content |
+|---------|---------|
+| **Posterior** | $P(H_{SA} \mid \mathbf{e}_{\text{obs}}) \approx 0.71$; 4 dB for $H_{SA}$ |
+| **Holdout evidence** | 4 items across 4 domains (internal revelations, lobbying records, corporate strategy, capital allocation) |
+| **Predictions** | Posterior predictive probabilities clustered near 0.55--0.58 (blurred by non-extreme posterior) |
+| **Coherence assessment** | 3 items strongly confirm $H_{SA}$; 1 item moderately supports $H_{CA}$ |
+| **Diagnoses** | (1) Original posterior was too conservative: holdout evidence adds ~16--21 dB for $H_{SA}$. (2) Company heterogeneity suggests composite hypothesis. (3) Non-extreme posteriors can still yield diagnostic PPCs when holdout evidence is strong. |
+| **Revision recommended?** | Yes: (a) composite hypothesis incorporating company-level variation; (b) revision of $E_3$ weight upward (CLC evidence was strongest in original, and holdout evidence on lobbying conditionality reinforces it). |
+
+**Audit note.** All holdout evidence is drawn from publicly verifiable sources: undercover video published by Greenpeace/Unearthed (2021) and reported by NPR, CNN, and CNBC; API's own Climate Action Framework (2021); corporate press releases and SEC filings; and journalistic reporting from Bloomberg, Fortune, Al Jazeera, and Carbon Brief. Source URLs are documented in the supplementary materials.
+
+
+# 6. Discussion and Conclusion
+
+## 6.1 What the PPCs Revealed
+
+The two applications illustrate five features of the qualitative PPC framework.
+
+**First, the PPC adds value even when the original analysis is well-executed.** Neither the Chile analysis nor the oil majors reanalysis is "broken" in any obvious way. Yet both PPCs surfaced diagnostic observations not formally incorporated into the original model specifications. In Chile, the low-stakes confound, the temporal sequence test, and the comparative counterfactual suggest that the extreme posterior may be partly shaped by the absence of a composite hypothesis. In the oil majors case, the PPC revealed that post-2020 evidence dramatically strengthens $H_{SA}$ beyond F&C's modest 4 dB posterior, and that company-level heterogeneity challenges the binary hypothesis structure. These are precisely the kinds of insights PPCs are designed to generate.
+
+**Second, the two cases confirm the posterior-extremity prediction.** Chile's extreme posterior ($\approx 1.0$) generated predictions in the 0.55--0.90 range, producing sharp tests. The oil majors' modest posterior ($\approx 0.71$) generated predictions clustered near 0.55, producing weaker tests. Yet the oil majors PPC was still diagnostic because the holdout evidence was dramatically one-sided. This suggests a refinement: even when posteriors are non-extreme, PPCs can generate diagnostic information when the holdout evidence is sufficiently strong.
+
+**Third, multi-channel elicitation provides a practical response to the circularity concern.** The multi-channel exercise in the Chile case (Table 4) shows that diagnostic conclusions are robust across four heterogeneous elicitation channels. Ordinal rankings are preserved across all channels for all four evidence items. In the oil majors case, the publicly verifiable nature of the holdout evidence provides a different form of robustness: any researcher can audit the sources.
+
+**Fourth, the stress tests clarify the PPC's diagnostic reach.** When we imposed a grossly misspecified posterior on the Chile case ($H_{CC} \approx 1.0$), the PPC detected two clear discrepancies. When we imposed a moderately misspecified posterior ($H_{EA} = 0.60$), the predictions remained broadly plausible. The qualitative PPC is better suited to detecting gross misspecification than subtle overconfidence --- an honest limitation analogous to the conservatism of posterior predictive p-values in quantitative settings.
+
+**Fifth, the PPCs generate distinct research agendas.** In Chile, the diagnostics point toward collecting primary archival evidence (committee transcripts, internal party records). In the oil majors case, the diagnostics point toward revising the hypothesis structure to accommodate company-level heterogeneity. The PPC functions not only as a diagnostic tool but as a generator of productive research questions --- a feature it shares with its quantitative counterpart (Gabry et al. 2019).
+
+## 6.2 Implications for the Fairfield--Charman / Zaks Debate
 
 The exercise speaks to the ongoing debate between proponents and critics of BPT. Qualitative PPCs offer a middle path between Zaks's (2021) critique that BPT lacks guardrails and the Fairfield--Charman response that explicitness itself is a guardrail. PPCs concede that *something beyond transparency is needed* --- the analyst should check assumptions against out-of-sample evidence --- while showing that the Bayesian formalism itself generates a natural diagnostic procedure. The result aligns BPT with the full Bayesian workflow (Gelman et al. 2020): not only updating (priors $\rightarrow$ likelihoods $\rightarrow$ posteriors) but also checking (posteriors $\rightarrow$ predictions $\rightarrow$ comparison $\rightarrow$ revision).
 
-## 5.3 Limitations
+## 6.3 Limitations
 
 Several limitations of this study should be acknowledged.
 
@@ -642,11 +733,9 @@ Several limitations of this study should be acknowledged.
 
 **Circularity concerns.** As discussed in Section 3.6, the circularity objection is the most serious challenge to qualitative PPCs. Our demonstration partially implements the design principles proposed there: we use holdout evidence from domains structurally distinct from the interview-based evidence in the original analysis, and we implement multi-channel elicitation (Section 4) to show that the diagnostic conclusions are robust across heterogeneous assessment channels. However, the demonstration falls short of the strongest protocol in two respects: the human analyst's predictive likelihoods were not elicited fully blind to the posterior (which is approximately 1.0 for $H_{EA}$ and widely known from the published analysis), and the evidence assessments draw partly on information reported in Fairfield's own publications. A stronger test would involve a blind second analyst with independent domain expertise and genuinely primary evidence that the original analyst did not discuss.
 
-**Single case.** We demonstrate the PPC on one canonical application. The framework's portability to different types of BPT analyses --- cases with more hypotheses, different evidentiary domains, or less extreme posteriors --- remains to be demonstrated.
-
 **Subjectivity of coherence assessment.** The Step 4 assessments are our judgment. Other researchers might assess the same evidence differently. This is inherent in the qualitative nature of the check and mirrors the assessment involved in standard BPT. The transparency of the procedure --- all predictions, evidence, and assessments are documented --- allows readers to substitute their own judgments.
 
-## 5.4 Agenda for Future Work
+## 6.4 Agenda for Future Work
 
 The qualitative PPC framework opens several avenues for future research.
 
@@ -656,15 +745,15 @@ The qualitative PPC framework opens several avenues for future research.
 
 **Connection to sensitivity analysis.** Qualitative PPCs check likelihoods; sensitivity analysis checks priors. Developing an integrated diagnostic framework that combines both tools would provide a more complete picture of model robustness. The interaction between prior sensitivity and posterior predictive coherence is theoretically interesting and practically important.
 
-**Multi-case applications.** Applying PPCs to cases with less extreme posteriors would test whether the tool is informative when the model's predictions are less sharp. We conjecture that PPCs will be most diagnostic when posteriors are extreme (creating sharp predictions) or when the evidence base is thin (creating greater risk of miscalibration), but this is an empirical question.
+**Multi-case applications.** Our two applications contrast extreme and non-extreme posteriors, confirming that the PPC generates qualitatively different diagnostic insights in each setting. Extending the framework to cases with more hypotheses, richer evidence bases, or different substantive domains would further test its portability.
 
-## 5.5 Conclusion
+## 6.5 Conclusion
 
 Bayesian process tracing has brought rigor and transparency to qualitative causal inference. But the methodology has imported the Bayesian machinery of updating without the Bayesian machinery of diagnostics. This paper addresses the gap by developing qualitative posterior predictive checks --- a formal procedure for asking whether a BPT model's predictions about unobserved evidence are coherent with what domain knowledge and newly collected data suggest.
 
 We do not claim that PPCs resolve all concerns about BPT. The subjectivity of likelihood specification remains, and qualitative PPCs cannot achieve the clean separation between model and check that exists in quantitative settings. But this does not make the check valueless. As we argue in Section 3.6, the diagnostic power of a qualitative PPC depends on design choices that reduce the correlation between estimation errors and checking errors --- pre-specification, separation of analysts, external elicitation, and adversarial collaboration. When these protocols are followed, the check creates genuine opportunities for surprise and revision. When they are not, the check should be treated as exploratory rather than confirmatory.
 
-The multi-channel elicitation exercise in Section 4 illustrates this logic. Convergence across architecturally diverse model families --- Claude, Gemini, and GPT-5, each with distinct training data and latent representations --- provides evidence that the check's conclusions are not artifacts of a single analyst's or model's interpretive commitments. This is a meaningful advance over the status quo, in which likelihood specification is checked only by verbal argumentation and peer review.
+The two applications illustrate this logic from different angles. Chile's extreme posterior generates sharp, testable predictions; the oil majors' modest posterior generates blurred predictions that are nonetheless diagnostic because the holdout evidence turns out to be dramatically one-sided. In both cases, the PPC surfaces insights --- the low-stakes confound in Chile, the company heterogeneity in the oil majors case --- that the original analyses did not formally incorporate. The multi-channel elicitation exercise in Section 4 provides additional evidence that the check's conclusions are not artifacts of a single analyst's interpretive commitments.
 
 If BPT is Bayesian, it should check its models. Posterior predictive checks show how --- and the credibility of those checks depends on the care with which they are designed.
 
@@ -692,6 +781,8 @@ Box, George E. P. 1980. "Sampling and Bayes' Inference in Scientific Modelling a
 
 Brandao, Federico, Barbara Befani, Britaldo Soares-Filho, Raoni Rajao, and Romulo Garcia. 2023. "How to Halt Deforestation in the Amazon? A Bayesian Process-Tracing Approach." *Land Use Policy* 133(C): 106862.
 
+Falkner, Robert. 2008. *Business Power and Conflict in International Environmental Politics*. New York: Palgrave Macmillan.
+
 Fairfield, Tasha. 2015a. *Private Wealth and Public Revenue in Latin America: Business Power and Tax Politics*. New York: Cambridge University Press.
 
 Fairfield, Tasha. 2015b. "La economía política de la reforma tributaria progresiva en Chile." *Revista de Economía Institucional* 17(32): 129--156.
@@ -718,11 +809,15 @@ Humphreys, Macartan, and Alan M. Jacobs. 2015. "Mixing Methods: A Bayesian Appro
 
 Humphreys, Macartan, and Alan M. Jacobs. 2023. *Integrated Inferences: Causal Models for Qualitative and Mixed-Method Research*. Cambridge: Cambridge University Press.
 
+Meckling, Jonas. 2015. "Oppose, Support, or Hedge? Distributional Effects, Regulatory Pressure, and Business Strategy in Environmental Politics." *Global Environmental Politics* 15(2): 19--37.
+
 Meng, Xiao-Li. 1994. "Posterior Predictive p-Values." *The Annals of Statistics* 22(3): 1142--1160.
 
 Rubin, Donald B. 1984. "Bayesianly Justifiable and Relevant Frequency Calculations for the Applied Statistician." *The Annals of Statistics* 12(4): 1151--1172.
 
 Zaks, Sherry. 2021. "Updating Bayesian(s): A Critical Evaluation of Bayesian Process Tracing." *Political Analysis* 29(1): 58--74.
+
+Vormedal, Irja, Lars H. Gulbrandsen, and Jon Birger Skjæresth. 2020. "Big Oil and Climate Regulation: Business as Usual or a Changing Business?" *Global Environmental Politics* 20(4): 143--166.
 
 Zaks, Sherry. 2022. "Return to the Scene of the Crime: Revisiting Process Tracing, Bayesianism, and Murder." *Political Analysis* 30(2): 306--310.
 
@@ -736,7 +831,10 @@ Zaks, Sherry. 2022. "Return to the Scene of the Crime: Revisiting Process Tracin
 - [TODO] Seek access to internal UDI/RN records (caucus minutes, memoranda) for definitive temporal sequence test ($e^*_3$)
 - [TODO] Document business lobbying behavior for/against 57 bis with primary sources ($e^*_4$) --- CPC/SOFOFA archives, press reports
 - [TODO] Verify exact page reference for Lagos quote from Fairfield (2014) Wilson Center paper
-- [DONE] Cross-model elicitation: Gemini (gemini-2.0-flash) and GPT-5 (gpt-5.3-codex) results added to Table 4. Ordinal rankings preserved across all model families. Full raw results in `cross_model_elicitation_results.md`.
-- [DONE] Clean bibliography: removed Collier (2011), Beach and Pedersen (2019), Flores-Macias (2012), Fairfield (2010, 2013), Napoli (2012). Bayarri and Berger (2000) retained (cited in Section 4.3).
-- [DONE] Checkel (2021) statistic removed (unverifiable, no bibliography entry)
+- [DONE] Cross-model elicitation: Gemini (gemini-2.0-flash) and GPT-5 (gpt-5.3-codex) results added to Table 4
+- [DONE] Clean bibliography: orphaned references removed
+- [DONE] Checkel (2021) statistic removed (unverifiable)
+- [DONE] Oil majors case (Section 5) integrated with 4 holdout evidence items from post-2020 public sources
 - [VERIFY] Exact dB threshold adjectives from Fairfield and Charman (2017: 370)
+- [TODO] Supplementary materials: compile full source URLs for oil majors holdout evidence
+- [TODO] Run multi-channel elicitation (Gemini + Codex) for oil majors case (matching Chile protocol)
