@@ -1,0 +1,69 @@
+You are a political scientist with expertise in Latin American politics and Bayesian process tracing. Your task is to assess predictive likelihoods for a posterior predictive check (PPC) of a Bayesian process tracing analysis.
+
+IMPORTANT: Before answering, please report your exact model name/ID (e.g., "gemini-2.5-pro", "o3", "gpt-4o", etc.) for reproducibility purposes.
+
+## Context
+
+In 2005, Chile's President Ricardo Lagos succeeded in eliminating Article 57 bis of the Income Tax Law — a preferential tax regime that overwhelmingly benefited high-income individuals (0.5% of adults received 72% of the tax expenditure). The reform was enacted as Ley 20.028. The puzzle is why the right-wing coalition (UDI/RN), which held a Senate majority, accepted this progressive reform after blocking similar initiatives in 1990, 1995, 1998, and 2001.
+
+Fairfield and Charman (2022, ch. 10) evaluate three mutually exclusive hypotheses:
+
+- H_EA (Equity Appeal): Lagos's public equity challenge, in the context of high issue-salience during a presidential campaign, drove the right to accept the reform out of electoral fear.
+- H_MV (Median Voter): The right accepted the reform due to generic electoral competition (median voter logic). Lagos's specific equity appeal was irrelevant.
+- H_CC (Core Constituency): The right accepted because its elite base no longer valued the 57 bis subsidy (its material value had declined over time).
+
+Their BPT analysis produced a posterior of approximately 1.0 for H_EA (98 dB vs H_CC, 110 dB vs H_MV).
+
+## Task
+
+We are conducting a posterior predictive check using four holdout evidence items NOT used in the original analysis. For each item, assess the probability of observing the described evidence under each hypothesis. Use THREE different assessment styles:
+
+### Evidence items:
+
+1. **Congressional committee records (e*_1)**: The BCN "Historia de la Ley" for Ley 20.028 documents how government officials, business representatives, and legislators framed the reform in committee. The specific evidence to assess: equity-dominated debate (government witnesses emphasizing distributional fairness, right-wing legislators acquiescing on equity grounds rather than contesting the frame).
+
+2. **Comparative evidence from earlier reforms (e*_2)**: The Lagos government pursued at least five tax initiatives (2001-2005). The specific evidence to assess: weak or absent equity framing in reforms that failed or required major concessions (Mining Royalty I rejected with sovereignty frame; Anti-Evasion 2001 required concessions despite equity frame; VAT 2003 passed without equity frame).
+
+3. **Right-coalition internal deliberations (e*_3)**: Internal party records, interviews, and press reports about the decision sequence. The specific evidence to assess: reactive decision post-challenge (the right decided to accept AFTER Lagos's public challenge, driven by electoral-damage calculations, rather than having pre-assessed the subsidy as expendable).
+
+4. **Elite lobbying silence (e*_4)**: Evidence about business association (CPC, SOFOFA) responses to the reform. The specific evidence to assess: no organized lobbying to defend 57 bis (business associations did not mobilize to block the reform, unlike their active opposition to other Lagos tax initiatives).
+
+### Assessment 1: Standard
+Assess likelihoods based on your domain knowledge of Latin American politics and process-tracing logic. For each evidence item, provide P(e* | H_EA), P(e* | H_MV), and P(e* | H_CC).
+
+### Assessment 2: Skeptical
+Adopt a skeptical stance toward agency-based explanations (particularly H_EA's reliance on public rhetoric as a causal mechanism). Favor structural and institutional explanations. Re-assess all likelihoods.
+
+### Assessment 3: Minimalist
+Apply a strict "minimal interpretation" principle: assign high probabilities (>0.70) only when the mechanism directly and necessarily implies the evidence, and moderate probabilities (0.40-0.60) when the evidence is merely consistent. Re-assess all likelihoods.
+
+## Output format
+
+Please structure your response as follows:
+
+```
+Model ID: [your exact model name/version]
+
+STANDARD ASSESSMENT:
+e*_1 (committee records): H_EA=___, H_MV=___, H_CC=___
+e*_2 (comparative reforms): H_EA=___, H_MV=___, H_CC=___
+e*_3 (internal deliberations): H_EA=___, H_MV=___, H_CC=___
+e*_4 (lobbying silence): H_EA=___, H_MV=___, H_CC=___
+
+SKEPTICAL ASSESSMENT:
+e*_1: H_EA=___, H_MV=___, H_CC=___
+e*_2: H_EA=___, H_MV=___, H_CC=___
+e*_3: H_EA=___, H_MV=___, H_CC=___
+e*_4: H_EA=___, H_MV=___, H_CC=___
+
+MINIMALIST ASSESSMENT:
+e*_1: H_EA=___, H_MV=___, H_CC=___
+e*_2: H_EA=___, H_MV=___, H_CC=___
+e*_3: H_EA=___, H_MV=___, H_CC=___
+e*_4: H_EA=___, H_MV=___, H_CC=___
+
+BRIEF JUSTIFICATION:
+[For each evidence item, 2-3 sentences explaining your reasoning for the standard assessment]
+```
+
+Do NOT read or modify any files. Just provide the assessment as text output.

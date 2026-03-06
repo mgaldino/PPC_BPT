@@ -1,0 +1,28 @@
+Model ID: GPT-5 (Codex)
+
+STANDARD ASSESSMENT:
+e*_1 (committee records): H_EA=0.85, H_MV=0.45, H_CC=0.30  
+e*_2 (comparative reforms): H_EA=0.75, H_MV=0.40, H_CC=0.50  
+e*_3 (internal deliberations): H_EA=0.90, H_MV=0.20, H_CC=0.15  
+e*_4 (lobbying silence): H_EA=0.65, H_MV=0.45, H_CC=0.85  
+
+SKEPTICAL ASSESSMENT:
+e*_1: H_EA=0.60, H_MV=0.50, H_CC=0.45  
+e*_2: H_EA=0.55, H_MV=0.45, H_CC=0.65  
+e*_3: H_EA=0.65, H_MV=0.35, H_CC=0.30  
+e*_4: H_EA=0.50, H_MV=0.50, H_CC=0.90  
+
+MINIMALIST ASSESSMENT:
+e*_1: H_EA=0.72, H_MV=0.50, H_CC=0.42  
+e*_2: H_EA=0.58, H_MV=0.48, H_CC=0.52  
+e*_3: H_EA=0.78, H_MV=0.24, H_CC=0.20  
+e*_4: H_EA=0.55, H_MV=0.50, H_CC=0.74  
+
+BRIEF JUSTIFICATION:
+e*_1: Equity-centered committee discourse with right-wing acquiescence is strongly expected if Lagos’s equity challenge shaped the decision environment. Under H_MV, similar rhetoric could appear as campaign positioning, but it is not the core mechanism. Under H_CC, acceptance should rely more on low-stakes material logic than explicit equity-frame concession, so likelihood is lower.
+
+e*_2: The cross-reform pattern (equity weak/absent where outcomes were worse) fits the claim that equity framing was not generic and had special causal weight in the 57 bis episode. H_MV predicts broader electoral convergence across reforms, making this pattern only moderately expected. H_CC can also fit part of the pattern because issue-specific material stakes, not framing, would drive differentiated outcomes.
+
+e*_3: A reactive post-challenge decision sequence driven by anticipated electoral costs is highly diagnostic for H_EA. It cuts against H_MV’s claim that Lagos’s specific challenge was irrelevant. It also conflicts with H_CC’s expectation of prior internal assessment that the subsidy was already expendable.
+
+e*_4: Business-organized lobbying silence is strongly consistent with H_CC because declining constituency valuation should reduce costly mobilization. Under H_EA, silence is still plausible if public defense became electorally toxic under an equity spotlight. Under H_MV, silence is possible but less directly implied by generic competition alone.
