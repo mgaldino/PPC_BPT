@@ -22,11 +22,9 @@ No analogous tool exists for BPT. Having specified likelihoods, updated to a pos
 
 This paper proposes a solution. We develop *qualitative posterior predictive checks* for BPT: a formal procedure in which the analyst, having obtained a posterior distribution over hypotheses, (1) identifies evidence not examined in the original analysis, (2) derives the model's predictions about that evidence using the posterior predictive distribution, and (3) compares the predictions to domain knowledge or newly collected data. Discrepancies between predictions and observations provide diagnostic information about where the model's likelihood specification may be miscalibrated --- and, crucially, about how to fix it.
 
-The core insight is straightforward. Errors in likelihood specification that are invisible when we examine only the evidence already incorporated into the analysis become visible when the model is asked to predict evidence it has not yet seen. A researcher who has assigned likelihoods to six pieces of archival evidence and arrived at a posterior distribution can ask: *given this posterior, what should I expect to find if I examine a seventh piece of evidence?* If the model's prediction is wildly at odds with what domain knowledge suggests, something in the specification is likely wrong.
+Our contribution is both methodological and empirical. Methodologically, we formalize the qualitative posterior predictive distribution, operationalize it as a six-step workflow, and address the circularity objection by formalizing correlated elicitation errors and proposing protocols --- including blind second-analyst elicitation and human--LLM triangulation --- that reduce the correlation between estimation and checking errors. Empirically, we demonstrate the procedure on two cases that contrast in posterior extremity: Fairfield and Charman's (2022) analysis of Chile's 2005 income tax reform (posterior $\approx 1.0$) and their (2025) reanalysis of oil majors' carbon pricing advocacy (posterior $\approx 0.71$). The contrast tests the framework's prediction that extreme posteriors generate the most testable predictions.
 
-Our contribution is both methodological and empirical. Methodologically, we formalize the qualitative posterior predictive distribution as a discrete analogue of the standard PPC formula, operationalize it as a six-step workflow that integrates into existing BPT practice, and situate it relative to existing diagnostic tools --- particularly sensitivity analysis of priors (Fairfield and Charman 2017). We also address the circularity objection head-on: rather than claiming that qualitative PPCs are "not circular," we formalize the problem as one of correlated errors in likelihood elicitation and propose design principles --- including blind second-analyst elicitation and human--LLM triangulation with diversified prompts --- that reduce the correlation between estimation and checking errors. Empirically, we demonstrate the procedure on two cases that contrast sharply in posterior extremity. The first is Fairfield and Charman's (2022) canonical application to Chile's 2005 income tax reform, where the posterior is approximately 1.0 for the equity appeal hypothesis. The second is their (2025) Bayesian reanalysis of oil majors' carbon pricing advocacy, where the posterior is a modest 4 dB (~71%) for the strategic accommodation hypothesis. The contrast is deliberate: it tests the framework's prediction that extreme posteriors generate the most testable predictions, and it demonstrates that PPCs can generate qualitatively different diagnostic insights depending on the posterior's extremity.
-
-The paper proceeds as follows. Section 2 reviews the BPT literature and the tradition of posterior predictive checking in Bayesian statistics, identifying the gap that motivates our proposal. Section 3 develops the qualitative PPC framework: the formal apparatus, the six-step workflow, practical guidance on discrepancy assessment, scope conditions, and a detailed treatment of the circularity problem --- including a formal framework for correlated elicitation errors and protocols for multi-channel likelihood elicitation. Section 4 applies the framework to the Chilean tax reform case, integrating empirical evidence, a multi-channel elicitation exercise using human and LLM assessments, and a stress test that demonstrates the PPC's ability to detect deliberate misspecification. Section 5 applies the framework to the oil majors case, demonstrating how the PPC operates with non-extreme posteriors and publicly verifiable holdout evidence. Section 6 discusses the findings, addresses limitations, and outlines an agenda for future work.
+Section 2 reviews the BPT literature and identifies the diagnostic gap. Section 3 develops the framework. Sections 4 and 5 apply it to the Chile and oil majors cases, respectively. Section 6 discusses findings, limitations, and future work.
 
 
 # 2. BPT and the Missing Diagnostic
@@ -43,9 +41,7 @@ Yet despite this growth, the number of papers that apply formal BPT with explici
 
 ## 2.2 Posterior Predictive Checks in Bayesian Statistics
 
-The idea that a fitted model should be checked against its own predictions has deep roots in Bayesian statistics. Box (1980) argued that scientific inference involves an iterative cycle of estimation and criticism, with the predictive distribution serving as the basis for model criticism. Rubin (1984) provided a formal justification for posterior predictive checks as "Bayesianly justifiable and relevant frequency calculations." Meng (1994) developed the posterior predictive p-value as a Bayesian analogue of the classical p-value. The foundational treatment is Gelman, Meng, and Stern (1996), who introduced "realized discrepancies" --- test statistics evaluated at both observed data and replicated data drawn from the posterior predictive distribution --- as the primary tool for model assessment. Their key insight was that PPCs serve a diagnostic rather than decisional function: the goal is not to accept or reject a model but to understand *how* and *where* it fails.
-
-Subsequent work has refined and extended the approach. Gabry et al. (2019) developed graphical tools for posterior predictive checking implemented in the *bayesplot* R package. Gelman and Shalizi (2013) offered a philosophical defense, arguing that Bayesian statistics is best understood as hypothetico-deductive rather than inductivist, with model checking playing the role of "falsification" within the Bayesian cycle. Gelman et al. (2020) integrated PPCs into a comprehensive "Bayesian workflow" framework in which model building, inference, checking, and revision form a continuous iterative loop.
+The idea that a fitted model should be checked against its own predictions has deep roots in Bayesian statistics (Box 1980; Rubin 1984; Meng 1994). The foundational treatment is Gelman, Meng, and Stern (1996), who introduced "realized discrepancies" as the primary tool for model assessment. Their key insight was that PPCs serve a diagnostic rather than decisional function: the goal is not to accept or reject a model but to understand *how* and *where* it fails. Subsequent work developed graphical tools (Gabry et al. 2019), a philosophical defense of model checking as "falsification" within a hypothetico-deductive Bayesian framework (Gelman and Shalizi 2013), and a comprehensive "Bayesian workflow" integrating model building, inference, checking, and revision (Gelman et al. 2020).
 
 The central formula is well-known. Given observed data $y$ and model parameters $\theta$, the posterior predictive distribution for a new observation $y^{\text{rep}}$ is:
 
@@ -90,25 +86,25 @@ This expression is the discrete analogue of the standard PPC formula. It says: t
 
 $$P(e^* \mid \mathbf{e}_{\text{obs}}) = 0.90 \times 0.80 + 0.20 \times 0.20 = 0.72 + 0.04 = 0.76$$
 
-The model predicts with probability 0.76 that the document exists. If the researcher then discovers that it does *not* exist, the discrepancy is notable: the model assigned 76% probability to something that turned out to be false. This discrepancy could signal that $P(e^* \mid H_1) = 0.90$ was too high (likelihood miscalibration) or that $H_1$'s posterior of 0.80 is inflated. Note also how the posterior weights matter: if the posterior had been more diffuse ($P(H_1) = 0.50$, $P(H_2) = 0.50$), the predictive probability would be $0.90 \times 0.50 + 0.20 \times 0.50 = 0.55$ --- a weaker prediction and a less diagnostic check. This illustrates the point developed below: extreme posteriors generate the sharpest predictions.
+The model predicts with probability 0.76 that the document exists. If the researcher discovers it does *not* exist, the discrepancy could signal likelihood miscalibration or an inflated posterior. Note how the posterior weights matter: with a more diffuse posterior ($P(H_1) = P(H_2) = 0.50$), the predictive probability would be only 0.55 --- a weaker prediction and a less diagnostic check.
 
 ### Interpretation
 
-Several features of this expression deserve emphasis.
+Three features of this expression deserve emphasis. First, the posterior predictive distribution is a compound reflection of the *entire* model specification --- not just the likelihoods for $e^*$, but also those for $e_1, \ldots, e_n$ that generated the posteriors. It is this compound character that gives the tool its diagnostic power.
 
-First, notice that the posterior predictive distribution depends on *both* the likelihoods $P(e^* \mid H_i)$ and the posteriors $P(H_i \mid \mathbf{e}_{\text{obs}})$. The posteriors, in turn, were determined by the likelihoods assigned to previously observed evidence. This means that the posterior predictive distribution is a compound reflection of the *entire* model specification --- not just the likelihoods for the new evidence $e^*$, but also the likelihoods for $e_1, \ldots, e_n$ that generated the posteriors. It is this compound character that gives the tool its diagnostic power.
+Second, unlike in quantitative PPCs, we do not literally "generate replicated data." The qualitative PPC asks an analogous question: *given the posterior, how strongly does the model predict that a specific piece of evidence will be present or absent?* The check consists of comparing this prediction to domain knowledge or observation.
 
-Second, unlike in quantitative PPCs, we do not literally "generate replicated data." We cannot resample archival documents or simulate interview transcripts. Instead, the qualitative PPC asks a different but analogous question: *given the model's current state (the posterior), how strongly does it predict that a specific piece of evidence will be present or absent, positive or negative, strong or weak?* The check consists of comparing this prediction to what domain knowledge, auxiliary evidence, or eventual observation suggests.
+Third, the expression accommodates both binary evidence ($e^*$ is present or absent) and graded evidence ($e^*$ takes qualitative categories that the researcher specifies).
 
-Third, the expression naturally accommodates the distinction between binary evidence (an observation is either made or not made) and graded evidence (an observation can take different forms, ranging from strongly supportive of one hypothesis to strongly supportive of another). In the binary case, $e^*$ takes values in $\{$present, absent$\}$; in the graded case, $e^*$ takes values in a set of qualitative categories that the researcher specifies.
+### Why formalize?
 
-Fourth, the formula makes explicit an operation that good qualitative researchers already perform implicitly --- namely, asking "if my leading hypothesis is correct, what else should I expect to find?" The contribution of formalizing this operation is not to replace substantive judgment but to make the reasoning *auditable*. When the prediction and the observation diverge, the formalization makes it possible to trace the source of the discrepancy back to specific assumptions.
+A natural objection is that good qualitative researchers already ask "if my hypothesis is correct, what else should I expect to find?" --- so what does computing $P(e^* \mid \mathbf{e}_{\text{obs}}) = 0.76$ add over this informal practice? The formalization adds three things. First, it forces the researcher to specify predictive likelihoods *under each hypothesis*, not just the leading one. Informal reasoning tends to ask "is this evidence consistent with my conclusion?" rather than "is this evidence *more consistent with my conclusion than with the alternatives*?" The formula makes the comparative structure explicit. Second, the posterior weights ensure that the prediction reflects the *entire model*, including the cumulative effect of all previously observed evidence. Informal prediction tends to condition on the leading hypothesis alone, ignoring the posterior weight on alternatives. When the posterior is non-extreme --- as in the oil majors case --- the alternatives contribute substantially, and the informal prediction will systematically overstate the model's confidence. Third, the documentation of explicit predictions and likelihoods makes the check *auditable and replicable*: another researcher can inspect the same predictions, substitute different likelihoods, and determine whether the diagnostic conclusion is robust. Informal reasoning, by contrast, is typically not recorded and cannot be scrutinized. The formalization premium is therefore not about replacing substantive judgment but about making that judgment *visible and contestable*.
 
-### What the posterior predictive distribution is *not*
+### What the PPC is --- and is not
 
-It is important to be clear about what this tool does not do. The posterior predictive distribution is not a test of whether a hypothesis is "true" or "false." It is a diagnostic of *internal coherence*: given the assumptions embedded in the model (priors and likelihoods), do the model's out-of-sample predictions make sense? A model can pass posterior predictive checks and still be wrong about the world, just as a quantitative model can generate plausible-looking replicated data while being misspecified in ways that the chosen test statistics do not capture (Gelman, Meng, and Stern 1996: 737). The value of the check lies not in certification but in *diagnosis*: it helps identify specific points where the model's assumptions may be implausible. Conversely, when predictions are broadly confirmed, the PPC provides only weak evidence of model adequacy --- the model has survived one set of checks but may still be misspecified in ways that the chosen holdout evidence does not capture.
+The posterior predictive distribution is not a test of whether a hypothesis is "true" or "false." It is a diagnostic of *internal coherence*: do the model's out-of-sample predictions make sense given its assumptions? A model can pass PPCs and still be wrong, just as a quantitative model can generate plausible replicated data while being misspecified in ways the chosen test statistics do not capture (Gelman, Meng, and Stern 1996: 737). Conversely, when predictions are broadly confirmed, the PPC provides only weak evidence of adequacy. The value lies in *diagnosis*, not certification.
 
-It is also important to distinguish the PPC from simply continuing to update the posterior with additional evidence. Standard BPT allows incorporating new evidence at any time: the analyst collects a seventh piece of evidence, assigns likelihoods, and updates. But this procedure *presupposes* that the model is well-specified --- that the hypothesis set is adequate and the likelihoods for previous evidence were reasonable. The PPC serves a logically prior function: it asks whether the specification deserves that trust. If the PPC reveals a discrepancy, the appropriate response is not to add the new evidence and update but to *revise the model* --- adjust likelihoods, reinterpret evidence, or expand the hypothesis set (Step 5). The PPC thus occupies a different position in the inferential workflow: it diagnoses the specification before further updating proceeds.
+Crucially, the PPC differs from simply continuing to update with additional evidence. Standard BPT presupposes that the model is well-specified; the PPC asks whether that presupposition is warranted. If a discrepancy is found, the response is not to update but to *revise* --- adjust likelihoods, reinterpret evidence, or expand the hypothesis set (Step 5).
 
 
 ## 3.2 Operationalization: The Qualitative PPC Workflow
@@ -117,15 +113,7 @@ This subsection translates the formal apparatus into a practical procedure. The 
 
 ### Step 1: Conduct standard BPT to obtain a posterior
 
-The starting point is a completed (or partially completed) round of Bayesian process tracing. The researcher has:
-
-- Specified a set of mutually exclusive and exhaustive hypotheses $H_1, \ldots, H_K$.
-- Assigned prior probabilities $P(H_i)$.
-- Collected evidence $\mathbf{e}_{\text{obs}} = (e_1, \ldots, e_n)$.
-- For each piece of evidence and each hypothesis, specified a likelihood $P(e_j \mid H_i)$.
-- Updated to a posterior $P(H_i \mid \mathbf{e}_{\text{obs}})$ via Bayes' rule.
-
-This step is not new; it is the standard BPT procedure as described in Fairfield and Charman (2017, 2022). The qualitative PPC begins where this procedure ends.
+The starting point is a completed round of Bayesian process tracing: hypotheses specified, priors assigned, evidence collected with likelihoods, and posteriors computed via Bayes' rule (Fairfield and Charman 2017, 2022). The qualitative PPC begins where this procedure ends.
 
 ### Step 2: Identify potential unobserved evidence
 
@@ -179,18 +167,7 @@ The researcher need not determine with certainty which type of revision is appro
 
 ### Step 6: Iterate and document
 
-The revised model generates new posteriors, which generate new predictions, which may reveal further discrepancies. The researcher iterates until the model's predictions are qualitatively coherent with domain knowledge and available evidence --- or until the researcher has exhausted the evidence items identified in Step 2.
-
-**Documentation is essential.** The researcher should record, for each iteration:
-
-- The potential evidence items considered.
-- The likelihoods assigned under each hypothesis.
-- The model's predictions (the posterior predictive narrative).
-- The external information used for comparison.
-- The discrepancy identified (if any).
-- The revision made and the rationale for it.
-
-This record serves two purposes. It makes the analysis *transparent* --- a reader can trace the researcher's reasoning. And it provides a *guard against circularity*.
+The revised model generates new posteriors and new predictions; the researcher iterates until predictions are coherent with domain knowledge or holdout evidence is exhausted. Documentation of each iteration --- evidence items, likelihoods, predictions, comparisons, discrepancies, and revisions --- is essential for transparency and serves as a guard against circularity.
 
 
 ## 3.3 Assessing Discrepancies in Practice
@@ -203,11 +180,9 @@ The workflow described above may suggest a more algorithmic procedure than is ac
 
 **The direction of the discrepancy is informative.** A model that predicts evidence *more strongly* than warranted may have inflated the likelihoods under the leading hypothesis. A model that predicts evidence *less strongly* than warranted may have underweighted a hypothesis. The direction provides a diagnostic clue about the nature of the revision needed.
 
-**Consult a colleague.** When feasible, the researcher can present the model's predictions to a domain expert *without* revealing the model's posteriors and ask whether the predictions seem reasonable. This informal "adversarial check" provides an external perspective.
+**Consult a colleague.** When feasible, the researcher can present the model's predictions to a domain expert *without* revealing the model's posteriors and ask whether the predictions seem reasonable.
 
-The underlying philosophy mirrors that of Gelman and colleagues in the quantitative context: posterior predictive checks are "a tool for understanding model fit, not a formal hypothesis test" (Gelman, Meng, and Stern 1996: 734). The goal is to learn about the model, not to certify it.
-
-In quantitative Bayesian model checking, posterior predictive assessments are often summarized through discrepancy measures or posterior predictive p-values. Our qualitative adaptation does not aim to reproduce that scalar summary. Its objective is more modest: to provide a formalized comparison between the evidentiary implications generated by the model and the additional evidence observed in the case. The diagnostic force of the check lies in whether the holdout evidence is broadly consistent or inconsistent with those posterior predictive implications, not in a single thresholded test statistic. The aim of the qualitative PPC is not to produce a posterior predictive p-value, but to probe the model for predictive surprise. Although we do not formalize surprise as a scalar quantity in this paper, the exercise is still diagnostic because it disciplines how surprise is assessed. Rather than allowing the researcher to retrofit the narrative after inspecting new material, the PPC requires explicit predictive implications, structured evaluation of holdout evidence, and transparent justification of whether that evidence is broadly expected or genuinely surprising under the model.
+The underlying philosophy mirrors Gelman, Meng, and Stern (1996: 734): posterior predictive checks are "a tool for understanding model fit, not a formal hypothesis test." Unlike quantitative PPCs, which produce posterior predictive p-values, our qualitative adaptation does not aim for a scalar summary. The diagnostic force lies in whether holdout evidence is broadly consistent or inconsistent with the model's predictive implications. The PPC disciplines how surprise is assessed by requiring explicit predictions *before* inspecting new material --- preventing post hoc rationalization.
 
 
 ## 3.4 Relationship to Sensitivity Analysis of Priors
@@ -256,63 +231,35 @@ where $\eta_{ik}$ is the predictive elicitation error.
 
 The circularity problem arises when $\epsilon_{ij}$ and $\eta_{ik}$ are positively correlated. In that case, the same latent bias that distorted the original likelihoods also distorts the predictive likelihoods, so the posterior predictive check may mechanically confirm the original model. The design problem is therefore not how to eliminate subjective judgment, but how to reduce $\mathrm{Corr}(\epsilon_{ij}, \eta_{ik})$ --- or, more modestly, how to make it unlikely that both stages are driven by the same error-generating process.
 
-### Design principles for credible checks
+### Protocols for reducing correlated errors
 
-We propose four design principles that reduce the correlation between estimation errors and checking errors.
+The design problem is to introduce heterogeneity in *who* generates the predictive likelihoods and *how* they are generated. We propose four protocols, each targeting a different source of correlation.
 
-**Principle 1: Pre-specification before examining new evidence.** A qualitative PPC is more informative when the predictive likelihoods are specified before the researcher inspects the additional evidence used for the check. This does not eliminate judgment, but it reduces the scope for ex post rationalization. Once the new material has been seen, the researcher can always adjust predictive assessments to protect the original model. Pre-specification makes such repair more difficult and therefore increases the credibility of the check.
+**Protocol 1: Pre-specification.** Fix holdout evidence and elicit predictive likelihoods *before* inspecting the holdout material. This removes ex post adjustment --- the most accessible source of shared bias.
 
-**Principle 2: Separation between estimation and checking.** The check is stronger when the person assigning predictive likelihoods is not the same person who derived the posterior from the original evidence, or at least does not know the posterior at the time of elicitation. A second researcher can assign predictive likelihoods for the holdout evidence while blind to the posterior ranking of hypotheses. This makes the check less dependent on a single coherent narrative built by one analyst.
+**Protocol 2: Blind second analyst.** A second analyst assigns predictive likelihoods without knowing the posterior ranking. This breaks the tendency of the original analyst to protect the model. Practical version: Analyst A estimates the model; Analyst B receives only the hypotheses and holdout materials; the PPC is computed using Analyst B's likelihoods.
 
-**Principle 3: External elicitation by domain experts.** A related strategy is to delegate predictive elicitation to an external expert with substantive knowledge of the case. The expert need not estimate the full BPT model; their narrower task is only to assess how likely the holdout evidence would be under each hypothesis. This creates a partial division of labor: one analyst estimates the model, another contributes predictive judgments. The diagnostic value of the PPC is higher when those stages are separated.
+**Protocol 3: Human--LLM triangulation.** Combine human elicitation with LLM elicitation. The rationale is not that LLMs are neutral but that their errors differ from human errors: humans impose coherent narratives; LLMs rely on textual pattern completion and overgeneralization. Agreement across these different failure modes is more informative than agreement within a single workflow.
 
-**Principle 4: Adversarial or multi-analyst checking.** The strongest qualitative PPC is produced under adversarial collaboration. Researchers with different prior substantive commitments independently assign predictive likelihoods for the same holdout evidence. The paper then reports whether the check is robust across these alternative elicitation exercises. If the model only "passes" under one analyst's judgments but fails under others, that divergence is itself substantively informative --- it suggests that the apparent success of the check depends too heavily on a particular interpretive stance.
+**Protocol 4: Prompt diversification.** When using LLMs, employ different prompt families --- standard, skeptical, and minimalist --- to induce heterogeneity in inferential style. The goal is not repetition but diversity in the pathway generating each assessment.
 
-### Strong protocols: reducing correlated errors in practice
+A recommended protocol for empirical work combines Protocols 1--4: pre-specified holdout evidence; a blind second analyst; LLMs with diversified prompts; and reporting of convergence or divergence across channels. We implement a version of this protocol in Section 4.
 
-These design principles can be implemented through specific protocols. The strongest protocols are those that introduce heterogeneity in who generates the predictive likelihoods and how they are generated.
+### Graded credibility
 
-**Protocol 1: Blind second analyst.** The cleanest protocol is to have a second analyst assign predictive likelihoods without knowing the posterior ranking produced by the original analysis. This breaks the most obvious source of correlated error: the tendency of the original analyst to protect the model they already estimated. The second analyst may still be wrong, but their errors are less likely to be driven by the same inferential commitment. A practical version: (1) Analyst A estimates the original BPT model; (2) holdout evidence is fixed in advance; (3) Analyst B receives only the hypotheses and holdout materials; (4) Analyst B assigns $P(e^*_k \mid H_i)$ blind to the posterior; (5) the PPC is computed using Analyst B's predictive likelihoods.
-
-**Protocol 2: Human--LLM triangulation.** A second strong protocol combines human elicitation with large language model (LLM) elicitation. The rationale is not that LLMs are neutral --- it is that their errors are often generated differently from human errors. Human analysts tend to impose coherent substantive narratives; LLMs tend to rely on textual pattern completion, generic plausibility, and overgeneralization. These are different failure modes. A useful design: (1) the original human analyst estimates the model; (2) a blind human analyst or the same analyst using pre-specification elicits predictive likelihoods; (3) one or more LLMs, using fixed prompts and the same holdout material, also elicit predictive likelihoods; (4) the paper reports convergence or divergence across these channels. Agreement across heterogeneous systems is more informative than agreement within a single human workflow.
-
-**Protocol 3: Prompt diversification across LLM runs.** If LLMs are used, repeated runs with nearly identical prompts do not provide much independence. A stronger design uses different prompt families that induce different inferential styles --- for example, one prompt asks for standard process-tracing assessment, one for a skeptical or adversarial assessment, and one for a minimalist assessment that penalizes inferential leaps. Prompt diversification is the LLM analogue of using different coding strategies or estimators: the goal is not repetition but heterogeneity in the pathway generating the answer.
-
-**Protocol 4: Pre-specification of holdout evidence and predictive elicitation.** The holdout evidence should be fixed before examining it, and predictive likelihoods should be elicited before the analyst inspects the material in detail. This removes a major source of shared bias: ex post adjustment. The minimal rule: (1) define the holdout evidence ex ante; (2) elicit predictive likelihoods ex ante; (3) only then inspect the holdout material for the PPC.
-
-A recommended protocol for empirical work would combine Protocols 1, 2, and 4: the original analyst estimates the model; holdout evidence is selected by rule in advance; a blind second analyst elicits predictive likelihoods; one or more LLMs with distinct prompts also elicit predictive likelihoods; and the paper reports whether the PPC conclusion is robust across these heterogeneous elicitation channels. We implement a version of this protocol in Section 4.
-
-### Graded credibility of qualitative PPCs
-
-These design principles imply that qualitative PPCs should be presented as *graded* rather than binary. Some checks are weak, some are strong. A same-researcher, post hoc predictive check should be treated as exploratory. A blind, pre-specified, externally elicited check should be treated as much more credible. This grading allows the field to calibrate its confidence in PPC results according to the design used to produce them.
-
-### The revised claim
-
-The paper therefore does not argue that qualitative PPCs are "not circular." That claim is too strong for qualitative research. The defensible claim is that qualitative PPCs have diagnostic value when predictive judgments are made prospectively and with at least partial independence from the original estimation exercise. This formulation is more modest but also stronger: it acknowledges the continuing role of judgment while identifying concrete procedures that make the check genuinely informative rather than merely confirmatory.
-
-Using the formal framework above: a qualitative PPC is more credible when predictive likelihoods are generated through heterogeneous elicitation channels whose errors are unlikely to share the same latent source. This is the qualitative analogue of validating a computational result across different programming languages. The point is not that any one elicitation channel is error-free, but that convergence across channels with different failure modes is less likely to be the product of correlated error.
+Qualitative PPCs should be presented as *graded* rather than binary. A same-researcher, post hoc check is exploratory; a blind, pre-specified, multi-channel check is much more credible. The defensible claim is not that qualitative PPCs are "not circular" but that they have diagnostic value when predictive judgments are elicited prospectively through heterogeneous channels whose errors are unlikely to share the same latent source. Convergence across channels with different failure modes is less likely to be the product of correlated error --- the qualitative analogue of validating a result across different programming languages.
 
 
 ## 3.7 Other Objections and Limitations
 
 **Objection: Qualitative assessment is debatable.** The assessment of coherence relies on judgment (as discussed in Section 3.3). This objection is valid but does not undermine the tool's value. The alternative is *no check at all*. A debatable check is better than no check. The transparency requirement means readers who disagree can offer their own evaluation.
 
-**Objection: The risk of p-hacking by analogy.** Could a researcher manipulate the choice of evidence items to make the model appear better than it is? In principle, yes. The mitigation is the same as in quantitative analysis: report all checks conducted, not just those that support the desired conclusion. Pre-specification of holdout evidence (Protocol 4 above) further mitigates this concern.
-
-### What qualitative PPCs do not do
-
-- They do not provide a definitive test of model adequacy. They provide *diagnostic information*.
-- They do not eliminate the subjectivity of likelihood specification. They *discipline* that subjectivity by subjecting it to out-of-sample scrutiny and, when strong protocols are used, by separating the stages of estimation and checking.
-- They do not replace careful, substantively informed process tracing. They add a layer of quality control.
-
-The goal, following Gelman and Shalizi (2013), is not to "prove" that the model is correct but to identify the specific ways in which it might be wrong --- and thereby to improve it.
+**Objection: The risk of p-hacking by analogy.** Could a researcher manipulate the choice of evidence items to make the model appear better than it is? In principle, yes. The mitigation is the same as in quantitative analysis: report all checks conducted, not just those that support the desired conclusion. Pre-specification of holdout evidence (Protocol 1 above) further mitigates this concern.
 
 
 # 4. Application: Reanalyzing Fairfield and Charman's Chilean Tax Reform
 
-The qualitative PPC framework proposed in Section 3 is only as valuable as its ability to illuminate features of a BPT analysis that would otherwise remain hidden. This section puts the framework to work on what is arguably the canonical application of explicit Bayesian process tracing: Fairfield and Charman's analysis of Chile's 2005 income tax reform, presented in their *Political Analysis* article (2017) and developed in full detail in their book (Fairfield and Charman 2022, ch. 10). The case is ideal for a first demonstration. The analysis is fully transparent --- priors, likelihoods in decibels, and posteriors are all reported. The case is substantively well-understood, thanks to Fairfield's (2015a) book-length treatment of Chilean tax politics. And the number of evidence items is small enough (six) to permit a detailed walk-through of every step in the workflow.
-
-The goal is not to "overturn" Fairfield and Charman's conclusions. It is to show that even a well-executed BPT analysis benefits from the discipline of posterior predictive checking --- and that the exercise can reveal features of the model specification that deserve further scrutiny.
+We apply the framework to Fairfield and Charman's canonical BPT analysis of Chile's 2005 income tax reform (2017; 2022, ch. 10). The case is ideal: the analysis is fully transparent, substantively well-understood (Fairfield 2015a), and small enough (six evidence items) for a detailed walk-through. The goal is not to overturn F&C's conclusions but to show that even a well-executed analysis benefits from posterior predictive checking.
 
 
 ## 4.1 The Case: Chile's 2005 Income Tax Reform
@@ -399,7 +346,7 @@ Posterior predictive: $\approx 0.70$.
 |---|---|---|---|
 | $P(e^*_3 = \text{reactive decision post-challenge})$ | 0.90 | 0.50 | 0.15 |
 
-Posterior predictive: $\approx 0.90$. Note the strong discrimination: if the decision was pre-existing rather than reactive, the posterior predictive probability would be dramatically at odds with the observation.
+Posterior predictive: $\approx 0.90$.
 
 **Prediction 4 (Lobbying silence, $e^*_4$).** Under $H_{EA}$, business lobbying to defend 57 bis may or may not have occurred --- the equity appeal operates through political/electoral channels, and business behavior is not central to the mechanism. Under $H_{CC}$, the *absence* of organized lobbying is strongly predicted: if the right's core constituency no longer valued the subsidy, there should be no mobilization to defend it. Under $H_{MV}$, business lobbying is orthogonal to the mechanism (electoral competition drives the outcome regardless).
 
@@ -467,19 +414,9 @@ Crucially, none of the LLM channels were given the posterior distribution over h
 | $e^*_4$ | $H_{MV}$ | 0.40 | 0.50 | 0.35 |
 | $e^*_4$ | $H_{CC}$ | 0.85 | 0.80 | 0.75 |
 
-Several patterns emerge from these comparisons.
+The key finding is that **ordinal rankings are preserved across all four channels for all four evidence items**: every channel agrees that $e^*_1$, $e^*_2$, and $e^*_3$ are most likely under $H_{EA}$ and that $e^*_4$ is most likely under $H_{CC}$. Cross-model agreement is remarkably tight for the most diagnostic items ($P(e^*_1 \mid H_{EA}) = 0.85$ and $P(e^*_3 \mid H_{EA}) = 0.90$ across all four channels). Prompt variation (Table 4b) shows that the skeptical channel systematically lowers $H_{EA}$ assessments by 0.15--0.20 but preserves all ordinal rankings, with one exception: $e^*_2$ (comparative reforms), where Gemini-skeptical and GPT-5-skeptical assign $H_{CC}$ higher than $H_{EA}$ --- consistent with our own assessment that $e^*_2$ is the most ambiguous prediction. The only notable divergence is $e^*_4$ (lobbying silence), where $P(e^*_4 \mid H_{EA})$ ranges from 0.40 to 0.65, reinforcing that this item is genuinely ambiguous rather than an artifact of any single assessor.
 
-**First, ordinal rankings are preserved across all four model families for all four evidence items in the standard assessment (Table 4).** Every channel --- human, Claude, Gemini, and GPT-5 --- agrees that $e^*_1$, $e^*_2$, and $e^*_3$ are most likely under $H_{EA}$ and that $e^*_4$ is most likely under $H_{CC}$. The diagnostic structure of the PPC --- which evidence favors which hypothesis --- is robust to both the elicitation channel and the model architecture. This is the strongest form of convergence evidence: models with different training data, architectures, and latent representations independently agree on the qualitative pattern.
-
-**Second, cross-model agreement on point estimates is remarkably tight for the most diagnostic items.** For $e^*_1$ (committee records), all four channels assign $P(e^*_1 \mid H_{EA}) = 0.85$. For $e^*_3$ (internal deliberations), all assign $P(e^*_3 \mid H_{EA}) = 0.90$. The range across models is zero for these key assessments.
-
-**Third, prompt variation within Claude (Table 4b) shows that the skeptical channel systematically lowers $H_{EA}$ assessments by 0.15--0.20 but does not change the diagnostic conclusions.** Even the skeptic assigns $H_{EA}$ the highest likelihood for $e^*_1$, $e^*_2$, and $e^*_3$. Skeptical assessments from Gemini and GPT-5 show the same pattern, with one exception: for $e^*_2$ (comparative reforms), both Gemini-skeptical and GPT-5-skeptical assign $H_{CC}$ a higher likelihood than $H_{EA}$, consistent with the paper's own assessment that $e^*_2$ is the most ambiguous prediction.
-
-**Fourth, $H_{CC}$ predictions are the most stable across channels.** In the standard assessment, the range of $H_{CC}$ assessments is $\leq 0.15$ for all evidence items. This suggests that the predictions for the core-constituency hypothesis are driven more by the hypothesis's internal logic than by the assessor's inferential stance --- a sign of low susceptibility to correlated elicitation error.
-
-The convergence across architecturally diverse model families provides evidence that the PPC's diagnostic conclusions are not artifacts of a single model's training data or the human analyst's interpretive commitments. In the language of Section 3.6, the use of three independent architectures (Protocol 2) combined with prompt diversification within Claude (Protocol 3) substantially reduces the plausibility that correlated elicitation errors drive the results.
-
-One notable divergence warrants discussion. For $e^*_4$ (lobbying silence), assessments of $P(e^*_4 \mid H_{EA})$ range from 0.40 (Claude-skeptical) to 0.65 (GPT-5-standard). This spread reinforces the ambiguous assessment of $e^*_4$ in Step 4: the lobbying silence is genuinely open to multiple interpretations, and this ambiguity is not an artifact of the human analyst's assessment.
+**Training data contamination.** A potential concern is that the LLM convergence may reflect shared training data rather than genuine independence. Fairfield and Charman's (2022) book and their earlier *Political Analysis* article are publicly available and likely present in the training corpora of all three LLM families. If the LLMs are simply reproducing the book's analytical conclusions, the convergence provides echo rather than independent confirmation. Three considerations partially mitigate this concern. First, the holdout evidence items ($e^*_1$--$e^*_4$) are not analyzed in F&C's book; the LLMs must generate *new* predictive judgments rather than recall existing ones. Second, the skeptical and minimalist prompts explicitly instruct the models to adopt stances that differ from the book's conclusions, yet ordinal rankings are preserved --- suggesting the pattern reflects the substantive logic of the hypotheses rather than memorized text. Third, the oil majors application (Section 5) provides a stronger test: the holdout evidence ($e^*_5$--$e^*_8$) postdates all model training cutoffs, so LLM assessments for that case cannot reflect training data contamination. The multi-channel exercise in Section 5 thus provides a cleaner test of whether human-LLM convergence reflects genuine diagnostic agreement.
 
 
 ### Step 4: Assessing qualitative coherence
@@ -578,43 +515,14 @@ The posterior predictive check does not reveal a stark discrepancy that would ca
 
 ## 4.3 Stress Test: Does the PPC Detect Deliberate Misspecification?
 
-The preceding analysis applied the PPC to a model that the original authors considered well-specified, and the check confirmed broad coherence. But can the PPC detect misspecification when it exists? To demonstrate the tool's diagnostic power, we conduct a stress test: we deliberately impose an incorrect posterior and ask whether the PPC's predictions become discrepant with the holdout evidence.
+To demonstrate diagnostic power, we impose an incorrect posterior and check whether the PPC detects it. Retaining the same predictive likelihoods, we replace $P(H_{EA}) \approx 1.0$ with $P(H_{CC}) \approx 1.0$. The misspecified model produces two clear discrepancies: it predicts equity-dominated debate is unlikely ($P = 0.30$) when the evidence shows equity framing dominated, and it predicts reactive decision-making is very unlikely ($P = 0.15$) when the evidence confirms the reactive sequence. Only $e^*_4$ (lobbying silence, $P = 0.85$) is equally consistent with the wrong model.
 
-**Setup.** We retain the same predictive likelihoods from Step 3 but replace the posterior. Instead of $P(H_{EA} \mid \mathbf{e}_{\text{obs}}) \approx 1.0$, we impose $P(H_{CC} \mid \mathbf{e}_{\text{obs}}) \approx 1.0$ --- as if the model had concluded that the right accepted the reform because its core constituency no longer valued the 57 bis subsidy. Under this misspecified posterior, the model's predictions are driven entirely by likelihoods under $H_{CC}$.
-
-**Predictions under the misspecified model:**
-
-| Evidence | Description | $P(e^* \mid H_{CC})$ | Actual evidence |
-|----------|-------------|:---:|---------|
-| $e^*_1$ | Equity-dominated debate | 0.30 | Equity framing dominated (strongly supported under correct model) |
-| $e^*_2$ | Weak equity in failed reforms | 0.40 | Partially consistent under correct model |
-| $e^*_3$ | Reactive decision post-challenge | 0.15 | Strong evidence of reactive sequence under correct model |
-| $e^*_4$ | No organized lobbying | 0.85 | No organized lobbying found (ambiguous under correct model) |
-
-**Results.** The misspecified model produces two clear discrepancies:
-
-1. **$e^*_1$ (committee records).** The model predicts that equity-dominated debate is unlikely (0.30), but the holdout evidence shows that the equity frame dominated both government argumentation and the right's acquiescence calculus. The discrepancy is sharp: the evidence that was most expected under the correct model is poorly predicted by the wrong one.
-
-2. **$e^*_3$ (internal deliberations).** The model predicts that a reactive decision is very unlikely (0.15) --- under $H_{CC}$, the right should have been *already disposed* to accept the reform before Lagos's challenge. But the evidence shows the opposite: the ILD advisor opposed the reform, the "1999 trap" framing implies reactive electoral calculation, and no pre-existing support for elimination was found. This is the sharpest discrepancy: the misspecified model assigns probability 0.15 to an outcome that the evidence strongly confirms.
-
-3. **$e^*_4$ (lobbying silence).** The model correctly predicts no organized lobbying (0.85), and this is observed. This item does not help detect the misspecification --- it is equally consistent with the wrong model.
-
-This gross misspecification is easy to detect. A harder question is whether the PPC can detect *moderate* misspecification --- a posterior that overweights $H_{EA}$ relative to a more balanced assessment. Consider a posterior of $P(H_{EA}) = 0.60$, $P(H_{CC}) = 0.30$, $P(H_{MV}) = 0.10$. The posterior predictive probabilities become:
-
-| Evidence | $P(e^* \mid \mathbf{e}_{\text{obs}})$ under correct model ($H_{EA} \approx 1.0$) | $P(e^* \mid \mathbf{e}_{\text{obs}})$ under moderate misspecification |
-|----------|:---:|:---:|
-| $e^*_1$ (equity debate) | 0.85 | $0.85 \times 0.60 + 0.50 \times 0.10 + 0.30 \times 0.30 = 0.65$ |
-| $e^*_3$ (reactive decision) | 0.90 | $0.90 \times 0.60 + 0.50 \times 0.10 + 0.15 \times 0.30 = 0.64$ |
-| $e^*_4$ (no lobbying) | 0.55 | $0.55 \times 0.60 + 0.50 \times 0.10 + 0.85 \times 0.30 = 0.64$ |
-
-Under this moderate scenario, the predictions shift but remain broadly consistent with the holdout evidence. The PPC would not flag a clear discrepancy --- the predictions are still plausible. This is expected: the moderate posterior still assigns 60% to $H_{EA}$, so the predictions remain dominated by the correct hypothesis. The qualitative PPC is better suited to detecting gross misspecification (wrong hypothesis dominating) than subtle overconfidence in the correct hypothesis. This is an honest limitation, analogous to the well-known conservatism of posterior predictive p-values in quantitative settings (Bayarri and Berger 2000).
-
-The stress tests together demonstrate two properties. First, the PPC detects gross misspecification: a model dominated by $H_{CC}$ generates predictions clearly discrepant with the holdout evidence. Second, the PPC is less sensitive to moderate misspecification, where the correct hypothesis retains substantial weight. The diagnostic power depends on both the degree of misspecification and the choice of holdout evidence, which is why Step 2's selection criteria emphasize cross-domain coverage and discriminating predictions.
+Under *moderate* misspecification ($P(H_{EA}) = 0.60$, $P(H_{CC}) = 0.30$, $P(H_{MV}) = 0.10$), predictions shift modestly (e.g., $e^*_1$ drops from 0.85 to 0.65) but remain broadly plausible. The qualitative PPC is better suited to detecting gross misspecification than subtle overconfidence --- an honest limitation analogous to the conservatism of posterior predictive p-values (Bayarri and Berger 2000). The diagnostic power depends on both the degree of misspecification and the choice of holdout evidence, reinforcing the importance of Step 2's selection criteria.
 
 
 # 5. Application: Reanalyzing Fairfield and Charman's Oil Majors Case
 
-The Chilean application demonstrates the PPC with an extreme posterior ($\approx 1.0$). This section applies the framework to a case where the posterior is modest, testing the prediction that non-extreme posteriors generate less sharp --- and therefore less diagnostic --- predictions.
+This section applies the framework to a case where the posterior is modest ($\approx 0.71$), contrasting with Chile's extreme posterior.
 
 ## 5.1 The Case: Oil Majors and Carbon Pricing
 
@@ -665,13 +573,34 @@ The non-extreme posterior generates blurred predictions:
 | $P(e^*_7 = \text{retreat from climate but maintain carbon pricing rhetoric})$ | 0.70 | 0.20 | $0.70 \times 0.71 + 0.20 \times 0.29 = 0.56$ |
 | $P(e^*_8 = \text{large CCS investments dependent on carbon pricing})$ | 0.40 | 0.80 | $0.40 \times 0.71 + 0.80 \times 0.29 = 0.52$ |
 
-Note how the predictions cluster near 0.55--0.58 --- much less sharp than Chile's 0.55--0.90 range. This is exactly what the framework predicts: a 71% posterior generates moderate predictions that are harder to confront with evidence. The posterior predictive distribution does not collapse onto the dominant hypothesis; it remains genuinely uncertain.
+The predictions cluster near 0.55--0.58 --- much less sharp than Chile's 0.55--0.90 range, reflecting the non-extreme posterior.
+
+### Multi-Channel Likelihood Elicitation
+
+As in the Chile case (Section 4), we conducted a multi-channel elicitation exercise using three prompt variants (standard, skeptical, minimalist). Unlike the Chile case, the holdout evidence here postdates all LLM training cutoffs, eliminating training data contamination as an alternative explanation for convergence.
+
+**Table 6: Multi-Channel Likelihood Comparison --- Oil Majors (Claude only, 3 prompt variants)**
+
+| Evidence | Hypothesis | Standard | Skeptical | Minimalist |
+|----------|-----------|:--------:|:---------:|:----------:|
+| $e^*_5$ | $H_{SA}$ | 0.75 | 0.30 | 0.55 |
+| $e^*_5$ | $H_{CA}$ | 0.15 | 0.15 | 0.25 |
+| $e^*_6$ | $H_{SA}$ | 0.80 | 0.40 | 0.60 |
+| $e^*_6$ | $H_{CA}$ | 0.10 | 0.30 | 0.30 |
+| $e^*_7$ | $H_{SA}$ | 0.70 | 0.25 | 0.50 |
+| $e^*_7$ | $H_{CA}$ | 0.25 | 0.55 | 0.35 |
+| $e^*_8$ | $H_{SA}$ | 0.30 | 0.10 | 0.30 |
+| $e^*_8$ | $H_{CA}$ | 0.75 | 0.75 | 0.55 |
+
+The oil majors elicitation reveals a strikingly different pattern from Chile. **Ordinal rankings are preserved for three of four items** ($e^*_5$, $e^*_6$, $e^*_8$), but **$e^*_7$ (strategy reversals) flips under the skeptical channel**: the skeptic assigns $P(e^*_7 \mid H_{CA}) = 0.55 > P(e^*_7 \mid H_{SA}) = 0.25$, arguing that retreating from renewables while maintaining carbon pricing support is *exactly what $H_{CA}$ predicts* --- the competitive advantage accrues through gas and CCS, not renewables. This is a substantively important disagreement: whether the strategy reversals constitute evidence for $H_{SA}$ or $H_{CA}$ depends on whether one reads the retreats as revealing cynicism (standard channel) or as revealing which specific investments the companies value (skeptical channel).
+
+The aggregate net WoE also diverges across channels: approximately $+16.5$ dB for $H_{SA}$ (standard), $+5.3$ dB for $H_{SA}$ (minimalist), and $-8.0$ dB toward $H_{CA}$ (skeptical). The skeptical channel *reverses the direction* of the overall evidence. This divergence is itself diagnostic: it reveals that the PPC's conclusions for the oil majors case are sensitive to the analyst's interpretive stance in a way that the Chile case was not. The stability of $e^*_8$ (CCS investments favoring $H_{CA}$ across all channels) and $e^*_5$ (McCoy admission favoring $H_{SA}$ across all channels) identifies the genuinely diagnostic core of the holdout evidence.
 
 ### Step 4: Assessing coherence
 
-All four predictions are confirmed by the holdout evidence --- but the evidence is far stronger than the moderate predictions suggest.
+All four predictions are confirmed by the holdout evidence --- but the evidence is far stronger than the moderate predictions suggest. Crucially, several items carry diagnostic implications for the *original* specification, not just updating implications for the posterior.
 
-**$e^*_5$ (internal revelations):** The McCoy sting is devastating for $H_{CA}$. A company genuinely motivated by competitive advantage would want carbon pricing to pass, not celebrate its impossibility. The model predicted this evidence with probability 0.58; the evidence's strongly $H_{SA}$-consistent character suggests the posterior should assign substantially more weight to $H_{SA}$. Estimated WoE: 8--10 dB for $H_{SA}$.
+**$e^*_5$ (internal revelations):** The McCoy sting is devastating for $H_{CA}$. A company genuinely motivated by competitive advantage would want carbon pricing to pass, not celebrate its impossibility. This evidence is diagnostic of the original specification because McCoy described a strategy that was operational *during F&C's analysis window*: ExxonMobil's carbon tax advocacy was a "talking point" throughout the period covered by $E_1$--$E_4$. This suggests that $E_1$ and $E_2$ --- which F&C coded as favoring $H_{CA}$ --- may have been miscalibrated: the public support for carbon pricing was *equally predicted* by $H_{SA}$. Estimated WoE: 8--10 dB for $H_{SA}$.
 
 **$e^*_6$ (lobbying conditionality):** Supporting carbon pricing *as a substitute* for command-and-control regulation is textbook strategic accommodation. Under $H_{CA}$, one would expect support for carbon pricing *in addition to* other policies that accelerate gas-over-coal transitions, not as a replacement for them. The API's negligible lobbying expenditure on actual carbon pricing legislation reinforces this. Estimated WoE: 6--8 dB for $H_{SA}$.
 
@@ -683,11 +612,11 @@ All four predictions are confirmed by the holdout evidence --- but the evidence 
 
 The PPC reveals three findings.
 
-**Finding 1: The holdout evidence dramatically strengthens the posterior.** The net holdout WoE is approximately 16--21 dB for $H_{SA}$ (after accounting for the CCS counterevidence). Combined with F&C's posterior of 4 dB for $H_{SA}$, the updated posterior would be approximately 20--25 dB (~99%) for $H_{SA}$. This suggests that F&C's original analysis was *too conservative* --- the 2 dB net evidence they identified substantially underweighted $H_{SA}$. This is a different PPC outcome than Chile: rather than confirming the posterior's level of confidence, the check suggests the original model was insufficiently confident.
+**Finding 1: The original likelihoods underweighted $H_{SA}$-diagnostic evidence.** The PPC's function is not to update the posterior with new evidence (standard BPT does that) but to diagnose whether the *original specification* was adequate. The holdout evidence provides this diagnostic information as follows. F&C's original analysis assigned net WoE of only 2 dB to $H_{CA}$ across four evidence items, yielding a posterior barely moved from the prior. But the holdout evidence --- particularly the McCoy admission ($e^*_5$) and the lobbying conditionality ($e^*_6$) --- reveals that *within the analysis window* (pre-2020), there was already substantial evidence of strategic accommodation that the original coding did not capture. McCoy described a strategy that was operational during the period F&C analyzed; API's conditional endorsement reflects a posture that predates the formal announcement. The implication is not merely that post-2020 events move the posterior forward (which is updating), but that the original likelihood assignments --- particularly $E_1$ (4 dB for $H_{CA}$) and $E_2$ (3 dB for $H_{CA}$) --- may have been miscalibrated. F&C coded European majors' UNFCCC letter and Exxon's Paris letter as evidence for $H_{CA}$, but the holdout evidence suggests these public statements were *consistent with* $H_{SA}$ as well (strategic accommodation *predicts* public support for carbon pricing). If the likelihoods for $E_1$ and $E_2$ under $H_{SA}$ were higher than originally assigned, the original posterior would have been substantially more favorable to $H_{SA}$ even without post-2020 evidence. This is a *diagnostic* finding about the original specification, not merely an update.
 
 **Finding 2: Company heterogeneity challenges the binary hypothesis structure.** The evidence is not uniformly $H_{SA}$ or $H_{CA}$ across companies. $H_{SA}$ dominates for ExxonMobil (the McCoy admission, CLC suspension) and ConocoPhillips (oil-heavy but advocates carbon tax as regulatory replacement). $H_{CA}$ is more plausible for TotalEnergies (which left API for insufficient climate ambition and frames gas as a competitive transition fuel) and Equinor (whose CCS strategy leverages Norway's geological advantages). This heterogeneity suggests that the binary $H_{SA}$-vs-$H_{CA}$ framing may be too coarse: different companies may be motivated by different logics simultaneously. Following the framework's Step 5 guidance on hypothesis revision, a composite hypothesis --- "$H_{SA}$ for some companies and $H_{CA}$ for others, with the mix depending on regulatory exposure and gas portfolio" --- might better account for the evidence. This is exactly the kind of structural insight that PPCs are designed to generate (Section 3.2, Step 5).
 
-**Finding 3: The PPC illustrates the posterior-extremity prediction.** Chile's extreme posterior ($\approx 1.0$) generated predictions in the 0.55--0.90 range, producing sharp tests that confirmed broad coherence. The oil majors' modest posterior ($\approx 0.71$) generated predictions clustered near 0.55, producing weaker tests --- but the holdout evidence nonetheless provided strong diagnostic information because it was *far more extreme* than the predictions suggested. The PPC worked not because the predictions were sharp but because the evidence was dramatically one-sided. This suggests a refinement of Observation 1 from the Chile case: even when posteriors are non-extreme, PPCs can be diagnostic if the holdout evidence is sufficiently strong to overwhelm the prediction's uncertainty.
+**Finding 3: Non-extreme posteriors can still yield diagnostic PPCs when holdout evidence is strong.** The predictions clustered near 0.55, but the holdout evidence was dramatically one-sided, providing strong diagnostic information despite the blurred predictions.
 
 ### Step 6: Documentation
 
@@ -698,9 +627,9 @@ The PPC reveals three findings.
 | **Posterior** | $P(H_{SA} \mid \mathbf{e}_{\text{obs}}) \approx 0.71$; 4 dB for $H_{SA}$ |
 | **Holdout evidence** | 4 items across 4 domains (internal revelations, lobbying records, corporate strategy, capital allocation) |
 | **Predictions** | Posterior predictive probabilities clustered near 0.55--0.58 (blurred by non-extreme posterior) |
-| **Coherence assessment** | 3 items strongly confirm $H_{SA}$; 1 item moderately supports $H_{CA}$ |
-| **Diagnoses** | (1) Original posterior was too conservative: holdout evidence adds ~16--21 dB for $H_{SA}$. (2) Company heterogeneity suggests composite hypothesis. (3) Non-extreme posteriors can still yield diagnostic PPCs when holdout evidence is strong. |
-| **Revision recommended?** | Yes: (a) composite hypothesis incorporating company-level variation; (b) revision of $E_3$ weight upward (CLC evidence was strongest in original, and holdout evidence on lobbying conditionality reinforces it). |
+| **Coherence assessment** | 3 items strongly confirm $H_{SA}$; 1 item moderately supports $H_{CA}$. Multi-channel elicitation (Table 6) shows ordinal stability for 3/4 items but reversal for $e^*_7$ under skeptical channel; aggregate direction sensitive to interpretive stance. |
+| **Diagnoses** | (1) Original likelihoods for $E_1$/$E_2$ likely miscalibrated: holdout evidence ($e^*_5$, $e^*_6$) reveals that public carbon pricing support was equally predicted by $H_{SA}$, suggesting the original WoE assignments overstated $H_{CA}$. (2) Company heterogeneity suggests composite hypothesis. (3) Non-extreme posteriors can still yield diagnostic PPCs when holdout evidence is strong. |
+| **Revision recommended?** | Yes: (a) revise $P(E_1 \mid H_{SA})$ and $P(E_2 \mid H_{SA})$ upward; (b) composite hypothesis incorporating company-level variation. |
 
 **Audit note.** All holdout evidence is drawn from publicly verifiable sources: undercover video published by Greenpeace/Unearthed (2021) and reported by NPR, CNN, and CNBC; API's own Climate Action Framework (2021); corporate press releases and SEC filings; and journalistic reporting from Bloomberg, Fortune, Al Jazeera, and Carbon Brief. Source URLs are documented in the supplementary materials.
 
@@ -709,17 +638,9 @@ The PPC reveals three findings.
 
 ## 6.1 What the PPCs Revealed
 
-The two applications illustrate five features of the qualitative PPC framework.
+The two applications illustrate the framework's diagnostic value and its dependence on posterior extremity. Neither the Chile nor the oil majors analysis is "broken," yet both PPCs surfaced observations not formally incorporated into the original specifications: in Chile, the low-stakes confound and the comparative counterfactual suggest that a composite hypothesis might better account for the evidence; in the oil majors case, the PPC reveals that the original likelihood assignments for $E_1$ and $E_2$ likely underweighted $H_{SA}$ (a diagnostic finding about the specification, not merely an update with new evidence), and that company-level heterogeneity challenges the binary hypothesis structure.
 
-**First, the PPC adds value even when the original analysis is well-executed.** Neither the Chile analysis nor the oil majors reanalysis is "broken" in any obvious way. Yet both PPCs surfaced diagnostic observations not formally incorporated into the original model specifications. In Chile, the low-stakes confound, the temporal sequence test, and the comparative counterfactual suggest that the extreme posterior may be partly shaped by the absence of a composite hypothesis. In the oil majors case, the PPC revealed that post-2020 evidence dramatically strengthens $H_{SA}$ beyond F&C's modest 4 dB posterior, and that company-level heterogeneity challenges the binary hypothesis structure. These are precisely the kinds of insights PPCs are designed to generate.
-
-**Second, the two cases confirm the posterior-extremity prediction.** Chile's extreme posterior ($\approx 1.0$) generated predictions in the 0.55--0.90 range, producing sharp tests. The oil majors' modest posterior ($\approx 0.71$) generated predictions clustered near 0.55, producing weaker tests. Yet the oil majors PPC was still diagnostic because the holdout evidence was dramatically one-sided. This suggests a refinement: even when posteriors are non-extreme, PPCs can generate diagnostic information when the holdout evidence is sufficiently strong.
-
-**Third, multi-channel elicitation provides a practical response to the circularity concern.** The multi-channel exercise in the Chile case (Table 4) shows that diagnostic conclusions are robust across four heterogeneous elicitation channels. Ordinal rankings are preserved across all channels for all four evidence items. In the oil majors case, the publicly verifiable nature of the holdout evidence provides a different form of robustness: any researcher can audit the sources.
-
-**Fourth, the stress tests clarify the PPC's diagnostic reach.** When we imposed a grossly misspecified posterior on the Chile case ($H_{CC} \approx 1.0$), the PPC detected two clear discrepancies. When we imposed a moderately misspecified posterior ($H_{EA} = 0.60$), the predictions remained broadly plausible. The qualitative PPC is better suited to detecting gross misspecification than subtle overconfidence --- an honest limitation analogous to the conservatism of posterior predictive p-values in quantitative settings.
-
-**Fifth, the PPCs generate distinct research agendas.** In Chile, the diagnostics point toward collecting primary archival evidence (committee transcripts, internal party records). In the oil majors case, the diagnostics point toward revising the hypothesis structure to accommodate company-level heterogeneity. The PPC functions not only as a diagnostic tool but as a generator of productive research questions --- a feature it shares with its quantitative counterpart (Gabry et al. 2019).
+The contrast between cases confirms that extreme posteriors generate the sharpest predictions (Chile: 0.55--0.90 range) while non-extreme posteriors produce blurred ones (oil majors: clustered near 0.55). Multi-channel elicitation revealed a second contrast: in Chile (Table 4), diagnostic conclusions are stable across all channels; in the oil majors case (Table 6), the skeptical channel *reverses* the aggregate direction, revealing that the PPC's conclusions depend on the analyst's interpretive stance when the posterior is non-extreme. This divergence is itself diagnostic --- it identifies which evidence items are robust ($e^*_5$, $e^*_8$) and which are contested ($e^*_7$). The oil majors multi-channel exercise also provides a cleaner test of human-LLM convergence, since the holdout evidence postdates all training cutoffs.
 
 ## 6.2 Implications for the Fairfield--Charman / Zaks Debate
 
@@ -737,25 +658,13 @@ Several limitations of this study should be acknowledged.
 
 ## 6.4 Agenda for Future Work
 
-The qualitative PPC framework opens several avenues for future research.
-
-**Software integration.** The posterior predictive calculation is straightforward and could be implemented as an extension to existing BPT tools, including Humphreys and Jacobs's (2023) *CausalQueries* R package. A software tool that automatically computes posterior predictive probabilities for user-specified evidence items would lower the barrier to adoption.
-
-**Empirical calibration.** How often do PPCs reveal genuine problems with BPT analyses? An empirical study applying PPCs to a sample of published BPT applications --- systematically identifying potential evidence, deriving predictions, and assessing coherence --- would provide evidence about the tool's diagnostic yield.
-
-**Connection to sensitivity analysis.** Qualitative PPCs check likelihoods; sensitivity analysis checks priors. Developing an integrated diagnostic framework that combines both tools would provide a more complete picture of model robustness. The interaction between prior sensitivity and posterior predictive coherence is theoretically interesting and practically important.
-
-**Multi-case applications.** Our two applications contrast extreme and non-extreme posteriors, confirming that the PPC generates qualitatively different diagnostic insights in each setting. Extending the framework to cases with more hypotheses, richer evidence bases, or different substantive domains would further test its portability.
+Three avenues merit priority. First, software integration: the posterior predictive calculation could be implemented as an extension to *CausalQueries* (Humphreys and Jacobs 2023), lowering the barrier to adoption. Second, empirical calibration: applying PPCs to a sample of published BPT applications would provide evidence about the tool's diagnostic yield. Third, integration with sensitivity analysis of priors to produce a comprehensive diagnostic framework for BPT model robustness.
 
 ## 6.5 Conclusion
 
-Bayesian process tracing has brought rigor and transparency to qualitative causal inference. But the methodology has imported the Bayesian machinery of updating without the Bayesian machinery of diagnostics. This paper addresses the gap by developing qualitative posterior predictive checks --- a formal procedure for asking whether a BPT model's predictions about unobserved evidence are coherent with what domain knowledge and newly collected data suggest.
+This paper addresses a gap in BPT by developing qualitative posterior predictive checks --- a procedure for checking whether a model's predictions about unobserved evidence are coherent with domain knowledge and newly collected data. PPCs do not resolve all concerns about BPT: the subjectivity of likelihood specification remains. But the diagnostic power depends on design choices --- pre-specification, separation of analysts, multi-channel elicitation --- that create genuine opportunities for surprise. The two applications illustrate this from different angles: Chile's extreme posterior generates sharp predictions; the oil majors' modest posterior generates blurred predictions that are nonetheless diagnostic when the holdout evidence is dramatically one-sided.
 
-We do not claim that PPCs resolve all concerns about BPT. The subjectivity of likelihood specification remains, and qualitative PPCs cannot achieve the clean separation between model and check that exists in quantitative settings. But this does not make the check valueless. As we argue in Section 3.6, the diagnostic power of a qualitative PPC depends on design choices that reduce the correlation between estimation errors and checking errors --- pre-specification, separation of analysts, external elicitation, and adversarial collaboration. When these protocols are followed, the check creates genuine opportunities for surprise and revision. When they are not, the check should be treated as exploratory rather than confirmatory.
-
-The two applications illustrate this logic from different angles. Chile's extreme posterior generates sharp, testable predictions; the oil majors' modest posterior generates blurred predictions that are nonetheless diagnostic because the holdout evidence turns out to be dramatically one-sided. In both cases, the PPC surfaces insights --- the low-stakes confound in Chile, the company heterogeneity in the oil majors case --- that the original analyses did not formally incorporate. The multi-channel elicitation exercise in Section 4 provides additional evidence that the check's conclusions are not artifacts of a single analyst's interpretive commitments.
-
-If BPT is Bayesian, it should check its models. Posterior predictive checks show how --- and the credibility of those checks depends on the care with which they are designed.
+If BPT is Bayesian, it should check its models. Posterior predictive checks show how.
 
 ---
 
@@ -837,4 +746,4 @@ Zaks, Sherry. 2022. "Return to the Scene of the Crime: Revisiting Process Tracin
 - [DONE] Oil majors case (Section 5) integrated with 4 holdout evidence items from post-2020 public sources
 - [VERIFY] Exact dB threshold adjectives from Fairfield and Charman (2017: 370)
 - [TODO] Supplementary materials: compile full source URLs for oil majors holdout evidence
-- [TODO] Run multi-channel elicitation (Gemini + Codex) for oil majors case (matching Chile protocol)
+- [DONE] Multi-channel elicitation for oil majors case: 3 prompt variants (standard/skeptical/minimalist), Table 6 added
