@@ -445,7 +445,7 @@ Predictions cluster near 0.55--0.58, much less sharp than Chile's 0.55--0.87, re
 
 **$e^*_5$ (McCoy sting):** ExxonMobil's senior lobbyist Keith McCoy admitted on undercover video that carbon tax support was "an effective advocacy tool" for a policy "nobody is going to propose" (NPR 2021; Unearthed 2021). Devastating for $H_{CA}$: a company genuinely motivated by competitive advantage would want carbon pricing to pass. McCoy described a strategy operational *during* F&C's analysis window, meaning that $E_1$ (UNFCCC letter) and $E_2$ (Exxon CEO letter) --- coded as favoring $H_{CA}$ --- were equally predicted by $H_{SA}$. The link-level analysis localizes this: the holdout evidence confirms $m_4$ and $m_5$ for ExxonMobil, suggesting that the original likelihoods for $E_1$ and $E_2$ under $H_{SA}$ were too low. WoE: 8--10 dB for $H_{SA}$.
 
-**$e^*_6$ (API conditionality):** API endorsed carbon pricing conditioned on "replacing all environmental laws and regulations" for GHG emissions (Bloomberg 2021). Less than 0.4% of oil industry lobbying targeted carbon pricing legislation (House Oversight 2022). Textbook $m_3$ (conditional support): $H_{CA}$ would predict *additional* policies accelerating gas transitions, not carbon pricing as regulatory replacement. WoE: 6--8 dB for $H_{SA}$.
+**$e^*_6$ (API conditionality):** API endorsed carbon pricing as "the primary government climate policy instrument" while "avoiding regulatory duplication" (API Climate Action Framework 2021; Bloomberg 2021). Less than 0.4% of oil industry lobbying targeted carbon pricing legislation (House Oversight 2021). Textbook $m_3$ (conditional support): $H_{CA}$ would predict *additional* policies accelerating gas transitions, not carbon pricing as regulatory substitute. WoE: 6--8 dB for $H_{SA}$.
 
 **$e^*_7$ (strategy reversals):** BP, Shell, and Equinor cut renewable investment while maintaining carbon pricing support (Fortune 2025; Carbon Brief 2024). Under $H_{SA}$, carbon pricing was a low-cost hedge abandoned in practice. Under $H_{CA}$, companies seeing genuine advantage would sustain transition investments. WoE: 5--7 dB for $H_{SA}$.
 
@@ -575,7 +575,7 @@ Jacobs, Alan M. 2023. "Comments on *Social Inquiry and Bayesian Inference*." *Qu
 
 Soifer, Hillel David. 2023. "Comments on *Social Inquiry and Bayesian Inference*." *Qualitative and Multi-Method Research* 21(2): 63--65.
 
-Vormedal, Irja, Lars H. Gulbrandsen, and Jon Birger Skjæresth. 2020. "Big Oil and Climate Regulation: Business as Usual or a Changing Business?" *Global Environmental Politics* 20(4): 143--166.
+Vormedal, Irja, Lars H. Gulbrandsen, and Jon Birger Skjærseth. 2020. "Big Oil and Climate Regulation: Business as Usual or a Changing Business?" *Global Environmental Politics* 20(4): 143--166.
 
 Zaks, Sherry. 2021. "Updating Bayesian(s): A Critical Evaluation of Bayesian Process Tracing." *Political Analysis* 29(1): 58--74.
 

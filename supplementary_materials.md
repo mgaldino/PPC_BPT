@@ -14,7 +14,7 @@
 ### e*₁ — Committee Records (Equity-Dominated Debate)
 
 Primary source:
-- Biblioteca del Congreso Nacional de Chile. *Historia de la Ley 20.028* (Ley de Rentas). Full legislative transcripts of committee debates. https://www.bcn.cl/historiadelaley/nc/historia-de-la-ley/5607/
+- Biblioteca del Congreso Nacional de Chile. *Historia de la Ley 20.028*. Legislative transcripts of committee debates. [URL pending: BCN ID 5607 points to Ley 19.990; correct BCN page for Ley 20.028 not yet identified]
 
 Secondary references:
 - Fairfield (2015a), ch. 6: documents Lagos's equity framing and Finance Ministry characterization of 57 bis as "a pure transfer to rich people."
@@ -56,13 +56,13 @@ ExxonMobil's senior federal relations director Keith McCoy admitted on Greenpeac
 
 ### e*₆ — API Conditionality (Carbon Price as Regulatory Replacement)
 
-American Petroleum Institute endorsed carbon pricing conditioned on "replacing all environmental laws and regulations" for GHG emissions (March 2021). Congressional investigation found <0.4% of oil industry lobbying targeted carbon pricing legislation.
+American Petroleum Institute endorsed carbon pricing as "the primary government climate policy instrument" while "avoiding regulatory duplication" (API Climate Action Framework, March 2021). Congressional investigation found <0.4% of oil industry lobbying targeted carbon pricing legislation.
 
 - **CNBC:** "American Petroleum Institute endorses carbon pricing." March 25, 2021. https://www.cnbc.com/2021/03/25/climate-change-american-petroleum-institute-endorses-carbon-pricing.html
 - **Bloomberg:** "U.S. Oil Lobby Backs Carbon Fee as Substitute for Regulation." March 25, 2021. https://www.bloomberg.com/news/articles/2021-03-25/u-s-oil-lobby-backs-carbon-fee-as-substitute-for-regulation
 - **Grist:** "Oil's biggest lobbying group killed carbon prices. Now it supports them?" March 26, 2021. https://grist.org/energy/oils-biggest-lobbying-group-killed-carbon-pricing-now-it-supports-them/
 - **InfluenceMap:** "American Petroleum Institute's 'carbon price' policy." 2021. https://influencemap.org/pressrelease/American-Petroleum-Institute-s-carbon-price-policy-2e62fb8756be1dc5c5e40f9aff65aebf
-- **House Oversight Committee:** "Committee Analysis of Fossil Fuel Industry's Lobbying Reveals Public Praise Not Backed by Meaningful Action." December 2022. https://oversightdemocrats.house.gov/news/press-releases/committee-analysis-of-fossil-fuel-industry-s-lobbying-reveals-public-praise-for
+- **House Oversight Committee:** "Committee Analysis of Fossil Fuel Industry's Lobbying Reveals Public Praise Not Backed by Meaningful Action." October 2021. https://oversightdemocrats.house.gov/news/press-releases/committee-analysis-of-fossil-fuel-industry-s-lobbying-reveals-public-praise-for
 - **Senate Budget Committee:** "Denial, Disinformation, and Doublespeak: Big Oil's Evolving Efforts to Avoid Accountability for Climate Change." April 2024 (full report). https://www.budget.senate.gov/imo/media/doc/fossil_fuel_report1.pdf
 
 ### e*₇ — Strategy Reversals (Great Retreat from Climate Commitments, 2023–2025)
