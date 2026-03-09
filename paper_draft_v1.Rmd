@@ -1,9 +1,28 @@
-# From Monolithic Hypotheses to Mechanism Configurations: Posterior Predictive Checks for Bayesian Process Tracing
-
-**[DRAFT v2 --- Option B rewrite, assembled 2026-03-08]**
-
 ---
-
+title: "From Monolithic Hypotheses to Mechanism Configurations: Posterior Predictive Checks for Bayesian Process Tracing"
+subtitle: "DRAFT v2 --- Option B rewrite, 2026-03-08"
+author: ""
+date: ""
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    keep_tex: false
+    number_sections: true
+    toc: false
+    extra_dependencies:
+      - amsmath
+      - amssymb
+      - booktabs
+      - longtable
+    includes:
+      in_header: null
+header-includes:
+  - \usepackage{setspace}
+  - \onehalfspacing
+  - \usepackage[margin=1in]{geometry}
+  - \usepackage{hyperref}
+  - \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}
+---
 ## Abstract
 
 Bayesian process tracing (BPT) treats causal hypotheses as monolithic black boxes, updating beliefs across the entire set without examining the internal structure of any one account. We argue that causal hypotheses are not atomic propositions but configurations of mechanism links --- discrete, binary steps in a causal chain. Decomposing hypotheses into mechanism configurations creates an internal parameter space that enables posterior predictive checks (PPCs) in the proper Bayesian sense: predictions derived by integrating over uncertainty in mechanism links within and across configurations. We formalize this two-level predictive distribution, operationalize it as a workflow, and address the circularity objection through correlated-error analysis and multi-channel elicitation protocols combining human and LLM assessments across diverse prompt families. Two applications to cases previously analyzed by Fairfield and Charman --- Chile's 2005 income tax reform (posterior $\approx 1.0$) and oil majors' carbon pricing advocacy (posterior $\approx 0.71$) --- demonstrate that mechanism decomposition generates finer-grained diagnostics than monolithic hypothesis testing. In Chile, the PPC identifies a composite mechanism configuration --- equity appeal plus low business stakes --- that better accounts for the evidence than the dominant hypothesis alone. In the oil majors case, decomposition reveals that original likelihood assignments were miscalibrated because the monolithic treatment hid uncertainty about a critical link, and that company-level heterogeneity challenges the binary hypothesis structure. The framework resolves long-standing problems in BPT --- mutual exclusivity distortions, ad hoc compound hypotheses, and the absence of model checking --- by giving hypotheses the internal structure that makes Bayesian diagnostics possible.
