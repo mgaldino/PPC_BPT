@@ -1,85 +1,85 @@
 ---
 title: "Mechanism Configurations and Posterior Predictive Checks for Bayesian Process Tracing"
-subtitle: "DRAFT v2 --- Option B rewrite, 2026-03-08"
-author: ""
-date: ""
+author: "Manoel Galdino^[University of São Paulo. Corresponding author: mgaldino@usp.br]"
+date: "2026"
 output:
-  pdf_document:
-    latex_engine: pdflatex
-    keep_tex: false
-    number_sections: true
+  bookdown::pdf_document2:
     toc: false
-    extra_dependencies:
-      - amsmath
-      - amssymb
-      - booktabs
-      - longtable
-    includes:
-      in_header: null
+    number_sections: true
+    latex_engine: xelatex
+always_allow_html: true
 header-includes:
   - \usepackage{setspace}
-  - \onehalfspacing
-  - \usepackage[margin=1in]{geometry}
-  - \usepackage{hyperref}
-  - \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}
+  - \setstretch{1.5}
+  - \usepackage{parskip}
+  - \setlength{\parskip}{6pt}
+  - \setlength{\parindent}{0pt}
+  - \usepackage{float}
+  - \usepackage{amsmath}
+  - \usepackage{amssymb}
+  - \usepackage{booktabs}
+  - \usepackage{longtable}
+fontsize: 12pt
+geometry: margin=2.5cm
+mainfont: Times New Roman
+abstract: "\\singlespacing Bayesian process tracing (BPT) evaluates competing causal explanations by updating beliefs with evidence, but it concentrates likelihood assessment on a single dominant scenario within each hypothesis, leaving alternative causal pathways unenumerated. We propose decomposing hypotheses into configurations of mechanism links --- discrete, binary steps in a causal chain. This decomposition creates an internal parameter space that enables posterior predictive checks (PPCs): predictions that integrate over uncertainty in which causal steps are active, diagnosing where a hypothesis succeeds or fails. We formalize this predictive distribution as a workflow and address circularity through multi-channel elicitation combining human and large language model assessments. Applications to Chile's 2005 income tax reform (near-certain posterior) and oil majors' carbon pricing advocacy (posterior probability $\\approx 0.71$) demonstrate finer-grained diagnostics than standard hypothesis-level testing. In Chile, the PPC identifies a composite configuration --- equity appeal plus low business stakes --- that better accounts for the evidence than any single hypothesis. In the oil majors case, decomposition reveals that original likelihood assignments were miscalibrated because assessment concentrated on a single pathway, and that company-level heterogeneity challenges the binary hypothesis structure. The framework resolves long-standing problems --- mutual exclusivity distortions, ad hoc compound hypotheses, and the absence of model checking --- by giving hypotheses the internal structure that makes Bayesian diagnostics possible."
+bibliography: "references.bib"
+link-citations: true
 ---
-## Abstract
-
-Bayesian process tracing (BPT) evaluates competing causal explanations by updating beliefs with evidence, but it concentrates likelihood assessment on a single dominant scenario within each hypothesis, leaving alternative causal pathways unenumerated. We propose decomposing hypotheses into configurations of mechanism links --- discrete, binary steps in a causal chain. This decomposition creates an internal parameter space that enables posterior predictive checks (PPCs): predictions that integrate over uncertainty in which causal steps are active, diagnosing where a hypothesis succeeds or fails. We formalize this predictive distribution as a workflow and address circularity through multi-channel elicitation combining human and large language model assessments. Applications to Chile's 2005 income tax reform (near-certain posterior) and oil majors' carbon pricing advocacy (posterior probability $\approx 0.71$) demonstrate finer-grained diagnostics than standard hypothesis-level testing. In Chile, the PPC identifies a composite configuration --- equity appeal plus low business stakes --- that better accounts for the evidence than any single hypothesis. In the oil majors case, decomposition reveals that original likelihood assignments were miscalibrated because assessment concentrated on a single pathway, and that company-level heterogeneity challenges the binary hypothesis structure. The framework resolves long-standing problems --- mutual exclusivity distortions, ad hoc compound hypotheses, and the absence of model checking --- by giving hypotheses the internal structure that makes Bayesian diagnostics possible.
 
 **Keywords:** Bayesian process tracing, mechanism configurations, posterior predictive checks, model diagnostics, qualitative methods, Chile tax reform, climate politics
 
----
+\pagebreak
 
-# 1. Introduction
+# Introduction
 
-Process tracing evaluates competing explanations for political outcomes. A researcher posits rival accounts --- communal elites organized the rebellion, the central government provoked it, external powers financed it --- and evaluates each against the evidence. Bayesian process tracing (BPT) has made this evaluation explicit and auditable by assigning numerical likelihoods and updating beliefs via Bayes' rule (Fairfield and Charman 2017, 2022; Humphreys and Jacobs 2015, 2023). Yet BPT concentrates likelihood assessment on a single dominant scenario within each hypothesis. Fairfield and Charman's (2022) framework provides mathematical infrastructure for multiple causal pathways within each hypothesis, but in practice practitioners assess likelihoods under the most plausible pathway rather than integrating over alternatives (Fairfield and Charman 2022: 123). Each hypothesis thus functions as a single undifferentiated proposition: evidence can tell the analyst *which* hypothesis is best supported, but not *which parts* of that hypothesis are doing the explanatory work.
+Process tracing evaluates competing explanations for political outcomes. A researcher posits rival accounts --- communal elites organized the rebellion, the central government provoked it, external powers financed it --- and evaluates each against the evidence. Bayesian process tracing (BPT) has made this evaluation explicit and auditable by assigning numerical likelihoods and updating beliefs via Bayes' rule [@FairfieldCharman2017; @FairfieldCharman2022; @HumphreysJacobs2015; @HumphreysJacobs2023]. Yet BPT concentrates likelihood assessment on a single dominant scenario within each hypothesis. @FairfieldCharman2022's framework provides mathematical infrastructure for multiple causal pathways within each hypothesis, but in practice practitioners assess likelihoods under the most plausible pathway rather than integrating over alternatives [@FairfieldCharman2022, p. 123]. Each hypothesis thus functions as a single undifferentiated proposition: evidence can tell the analyst *which* hypothesis is best supported, but not *which parts* of that hypothesis are doing the explanatory work.
 
-This limitation has generated a persistent and unresolved debate. Zaks (2021) demonstrates that when hypotheses share causal mechanisms, treating them as mutually exclusive distorts likelihood assignments --- evidence supporting one hypothesis penalizes the other even when both mechanisms could operate simultaneously. Zaks (2022) identifies a second difficulty: when the likelihood of evidence "depends" on contingencies not modeled within the hypothesis, those contingencies have no formal representation. And when compound hypotheses must be constructed from multiple causal factors, the framework provides no structural basis for choosing among the many possible constructions (Zaks 2022; Fairfield and Charman 2023). Bennett (2023) offers a constructive analogy: a car engine can fail because of a dirty spark plug, a clogged fuel line, or both --- these are distinct diagnoses that share components. Jacobs (2023) argues for extending formalization deeper into hypothesis construction; Soifer (2023) identifies a tension between BPT's broad evidence criterion and the mainstream emphasis on mechanisms. These critiques converge: BPT needs within-hypothesis structure.
+This limitation has generated a persistent and unresolved debate. @Zaks2021 demonstrates that when hypotheses share causal mechanisms, treating them as mutually exclusive distorts likelihood assignments --- evidence supporting one hypothesis penalizes the other even when both mechanisms could operate simultaneously. @Zaks2022 identifies a second difficulty: when the likelihood of evidence "depends" on contingencies not modeled within the hypothesis, those contingencies have no formal representation. And when compound hypotheses must be constructed from multiple causal factors, the framework provides no structural basis for choosing among the many possible constructions [@Zaks2022; @FairfieldCharman2023]. @Bennett2023 offers a constructive analogy: a car engine can fail because of a dirty spark plug, a clogged fuel line, or both --- these are distinct diagnoses that share components. @Jacobs2023 argues for extending formalization deeper into hypothesis construction; @Soifer2023 identifies a tension between BPT's broad evidence criterion and the mainstream emphasis on mechanisms. These critiques converge: BPT needs within-hypothesis structure.
 
-The connection to model checking makes the stakes precise. In quantitative Bayesian statistics, posterior predictive checks (PPCs) diagnose model adequacy by generating predictions that integrate over uncertainty in *parameters within a model* (Gelman, Meng, and Stern 1996; Gelman et al. 2020). Without within-hypothesis parameters, there is nothing to integrate over. What BPT computes when it averages predictions across hypotheses weighted by posteriors is structurally Bayesian model averaging --- asking "which model wins?" --- not posterior predictive checking --- asking "does this model make sense?"
+The connection to model checking makes the stakes precise. In quantitative Bayesian statistics, posterior predictive checks (PPCs) diagnose model adequacy by generating predictions that integrate over uncertainty in *parameters within a model* [@GelmanMengStern1996; @GelmanEtAl2020]. Without within-hypothesis parameters, there is nothing to integrate over. What BPT computes when it averages predictions across hypotheses weighted by posteriors is structurally Bayesian model averaging --- asking "which model wins?" --- not posterior predictive checking --- asking "does this model make sense?"
 
-We propose a framework that gives hypotheses the internal structure needed for proper Bayesian diagnostics. Specifically, we (a) decompose BPT hypotheses into **configurations of mechanism links** --- binary variables indicating whether each step in a causal chain is active or absent --- operationalizing the scenario structure that Fairfield and Charman's framework defines but that the dominant-scenario approximation leaves implicit; (b) show that this decomposition naturally enables posterior predictive checks, yielding a two-level predictive distribution with finer-grained diagnostics than hypothesis-level testing; and (c) address the circularity objection through multi-channel elicitation protocols combining human and large language model assessments. A *mechanism configuration* is a specific combination of active links. Different hypotheses can share links --- just as different regression models share covariates --- while remaining mutually exclusive as configurations.
+We propose a framework that gives hypotheses the internal structure needed for proper Bayesian diagnostics. Specifically, we (a) decompose BPT hypotheses into **configurations of mechanism links** --- binary variables indicating whether each step in a causal chain is active or absent --- operationalizing the scenario structure that @FairfieldCharman2022's framework defines but that the dominant-scenario approximation leaves implicit; (b) show that this decomposition naturally enables posterior predictive checks, yielding a two-level predictive distribution with finer-grained diagnostics than hypothesis-level testing; and (c) address the circularity objection through multi-channel elicitation protocols combining human and large language model assessments. A *mechanism configuration* is a specific combination of active links. Different hypotheses can share links --- just as different regression models share covariates --- while remaining mutually exclusive as configurations.
 
-We demonstrate the framework on two cases previously analyzed by Fairfield and Charman: Chile's 2005 income tax reform, where the posterior is near-certain ($\approx 1.0$), and oil majors' carbon pricing advocacy, where the posterior is modest ($\approx 0.71$). In both cases, mechanism decomposition reveals diagnostic information invisible to standard analysis. In Chile, the PPC identifies a composite configuration --- equity appeal plus low business stakes --- that better accounts for the evidence than any single hypothesis. In the oil majors case, decomposition reveals miscalibrated original likelihoods and company-level heterogeneity that challenges the binary hypothesis structure.
+We demonstrate the framework on two cases previously analyzed by @FairfieldCharman2022: Chile's 2005 income tax reform, where the posterior is near-certain ($\approx 1.0$), and oil majors' carbon pricing advocacy, where the posterior is modest ($\approx 0.71$). In both cases, mechanism decomposition reveals diagnostic information invisible to standard analysis. In Chile, the PPC identifies a composite configuration --- equity appeal plus low business stakes --- that better accounts for the evidence than any single hypothesis. In the oil majors case, decomposition reveals miscalibrated original likelihoods and company-level heterogeneity that challenges the binary hypothesis structure.
 
 Section 2 reviews BPT and identifies the dominant-scenario problem. Section 3 develops the mechanism configurations framework and derives PPCs as a consequence. Sections 4 and 5 apply it to Chile and oil majors. Section 6 discusses implications.
 
 
-# 2. The Dominant-Scenario Approximation and Its Discontents
+# The Dominant-Scenario Approximation and Its Discontents
 
-## 2.1 The Bayesian Turn
+## The Bayesian Turn
 
-The formalization of process tracing along Bayesian lines has proceeded in three phases. Bennett's (2008) *Oxford Handbook* chapter established the conceptual parallel: evidence can be classified by diagnostic value, and belief updating follows Bayes' rule. The connection was suggestive but informal. Humphreys and Jacobs (2015) and Fairfield and Charman (2017) made the formalization explicit, developing frameworks for mixed-method integration and detailed guidelines for explicit Bayesian analysis using weight of evidence in decibels --- a logarithmic scale where 10 dB corresponds to 10:1 odds. Fairfield and Charman's application to Chile's 2005 tax reform demonstrated that even a small number of well-characterized evidence items could produce overwhelming posterior support.
+The formalization of process tracing along Bayesian lines has proceeded in three phases. @Bennett2008's *Oxford Handbook* chapter established the conceptual parallel: evidence can be classified by diagnostic value, and belief updating follows Bayes' rule. The connection was suggestive but informal. @HumphreysJacobs2015 and @FairfieldCharman2017 made the formalization explicit, developing frameworks for mixed-method integration and detailed guidelines for explicit Bayesian analysis using weight of evidence in decibels --- a logarithmic scale where 10 dB corresponds to 10:1 odds. @FairfieldCharman2017's application to Chile's 2005 tax reform demonstrated that even a small number of well-characterized evidence items could produce overwhelming posterior support.
 
-The third phase, from approximately 2020, brought consolidation and critique. Fairfield and Charman (2022) published a comprehensive book-length treatment; Humphreys and Jacobs (2023) developed *CausalQueries*. Applications expanded to policy evaluation (Brandao et al. 2023; Befani 2020) and qualitative replication analysis (Fairfield and Charman 2025). At the same time, Zaks (2021, 2022) mounted a systematic critique, questioning whether BPT provides adequate guidance for practitioners and identifying the absence of "guardrails" as a fundamental weakness. Bennett, Fairfield, and Charman (2022) responded, but the debate remains open. Despite this growth, the number of papers that apply formal BPT with explicit numerical likelihoods to real empirical cases remains modest --- roughly 10 to 15 as of early 2026.
+The third phase, from approximately 2020, brought consolidation and critique. @FairfieldCharman2022 published a comprehensive book-length treatment; @HumphreysJacobs2023 developed *CausalQueries*. Applications expanded to policy evaluation [@BrandaoEtAl2023; @Befani2020] and qualitative replication analysis [@FairfieldCharman2025]. At the same time, @Zaks2021; @Zaks2022 mounted a systematic critique, questioning whether BPT provides adequate guidance for practitioners and identifying the absence of "guardrails" as a fundamental weakness. @BennettFairfieldCharman2022 responded, but the debate remains open. Despite this growth, the number of papers that apply formal BPT with explicit numerical likelihoods to real empirical cases remains modest --- roughly 10 to 15 as of early 2026.
 
-## 2.2 The Dominant-Scenario Problem
+## The Dominant-Scenario Problem
 
 Across these three phases, one feature has remained unchanged: practitioners assess likelihoods under the most plausible causal pathway within each hypothesis rather than integrating over alternatives. This dominant-scenario approximation has generated a persistent debate about hypothesis construction and comparison.
 
-**The mutual exclusivity problem.** Zaks (2021: 66--67) demonstrates that when hypotheses share causal mechanisms --- as they frequently do in social inquiry --- treating them as mutually exclusive distorts likelihood assignments. Using the greed-versus-grievance example, she shows that evidence consistent with one hypothesis automatically penalizes the other, even when both mechanisms could operate simultaneously. The result is a "disconfirmation bias" that is an artifact of this undifferentiated treatment, not a feature of the evidence. Zaks explicitly calls for "expansions to Bayes' rule to accommodate the wide scope of relationships among rival hypotheses" (2021: 72).
+**The mutual exclusivity problem.** @Zaks2021 [pp. 66--67] demonstrates that when hypotheses share causal mechanisms --- as they frequently do in social inquiry --- treating them as mutually exclusive distorts likelihood assignments. Using the greed-versus-grievance example, she shows that evidence consistent with one hypothesis automatically penalizes the other, even when both mechanisms could operate simultaneously. The result is a "disconfirmation bias" that is an artifact of this undifferentiated treatment, not a feature of the evidence. Zaks explicitly calls for "expansions to Bayes' rule to accommodate the wide scope of relationships among rival hypotheses" [-@Zaks2021, p. 72].
 
-**The "it depends" problem.** Zaks (2022: 308) identifies a second difficulty: when researchers ask "how likely am I to observe $E_i$ under $H_j$?" the answer is frequently "it depends" --- on contingencies not modeled within the hypothesis. Whether finding a suspect's receipts is likely under a murder hypothesis depends on whether the murder was premeditated, whether the suspect was sophisticated enough to create an alibi, and other unspecified conditions. These contingencies are substantively important but have no formal representation in the standard framework.
+**The "it depends" problem.** @Zaks2022 [p. 308] identifies a second difficulty: when researchers ask "how likely am I to observe $E_i$ under $H_j$?" the answer is frequently "it depends" --- on contingencies not modeled within the hypothesis. Whether finding a suspect's receipts is likely under a murder hypothesis depends on whether the murder was premeditated, whether the suspect was sophisticated enough to create an alibi, and other unspecified conditions. These contingencies are substantively important but have no formal representation in the standard framework.
 
-**The compound hypothesis problem.** Zaks (2022: 307) notes that BPT provides "three different strategies for forming compound hypotheses from two causal factors" --- a single broad compound, a precise specification of how the factors interact, or a set of rivals resembling a Likert scale --- with "no guidance" on which to use. The standard framework offers no structural basis for choosing because it does not decompose hypotheses into components.
+**The compound hypothesis problem.** @Zaks2022 [p. 307] notes that BPT provides "three different strategies for forming compound hypotheses from two causal factors" --- a single broad compound, a precise specification of how the factors interact, or a set of rivals resembling a Likert scale --- with "no guidance" on which to use. The standard framework offers no structural basis for choosing because it does not decompose hypotheses into components.
 
-**The QMMR 2023 symposium.** A book symposium on Fairfield and Charman (2022) brought these tensions into focus. Soifer (2023: 64--65) identified a "tension" in Fairfield and Charman's framework: they maintain that "a well-specified explanatory hypothesis should generally include some sort of causal mechanism" (Fairfield and Charman 2022: 80) while simultaneously arguing that any evidence discriminating between hypotheses is informative, even if unrelated to the mechanism. Soifer predicts that "a certain set of qualitative scholars may see an insufficiently mechanistic view of causation" and resist integration.
+**The QMMR 2023 symposium.** A book symposium on @FairfieldCharman2022 brought these tensions into focus. @Soifer2023 [pp. 64--65] identified a "tension" in Fairfield and Charman's framework: they maintain that "a well-specified explanatory hypothesis should generally include some sort of causal mechanism" [@FairfieldCharman2022, p. 80] while simultaneously arguing that any evidence discriminating between hypotheses is informative, even if unrelated to the mechanism. Soifer predicts that "a certain set of qualitative scholars may see an insufficiently mechanistic view of causation" and resist integration.
 
-Bennett (2023: 52) offered a constructive clarification: "Mutual exclusivity of hypotheses is conceptually distinct from exclusivity of the variables, causal factors, or mechanisms." His engine analogy --- a car can fail because of a dirty spark plug, a dirty plug plus a clogged fuel line, or any combination, and these are distinct, mutually exclusive diagnoses despite sharing components --- points toward the solution we develop, though Bennett does not formalize it.
+@Bennett2023 [p. 52] offered a constructive clarification: "Mutual exclusivity of hypotheses is conceptually distinct from exclusivity of the variables, causal factors, or mechanisms." His engine analogy --- a car can fail because of a dirty spark plug, a dirty plug plus a clogged fuel line, or any combination, and these are distinct, mutually exclusive diagnoses despite sharing components --- points toward the solution we develop, though Bennett does not formalize it.
 
-Jacobs (2023: 58) argued for *more* formalization, not less: deriving likelihoods from explicit causal models rather than treating them as irreducible subjective judgments. Against Fairfield and Charman's objection that formalization "pushes the subjectivity back deeper into the model," Jacobs responded that formalization "extends the benefits of analytic explicitness deeper into the process of scientific reasoning."
+@Jacobs2023 [p. 58] argued for *more* formalization, not less: deriving likelihoods from explicit causal models rather than treating them as irreducible subjective judgments. Against Fairfield and Charman's objection that formalization "pushes the subjectivity back deeper into the model," Jacobs responded that formalization "extends the benefits of analytic explicitness deeper into the process of scientific reasoning."
 
-Fairfield and Charman (2023: 68--70) responded by clarifying that mechanisms serve to "make our hypotheses more precise" and that patchwork hypotheses and composite accounts can always be added to the analysis. Their footnote 17 (p. 70) invokes Occam's razor: complex hypotheses should receive lower priors because there are exponentially more complex theories than simple ones. But this parsimony operates only through prior assignment, not through any structural feature of the framework.
+@FairfieldCharman2023 [pp. 68--70] responded by clarifying that mechanisms serve to "make our hypotheses more precise" and that patchwork hypotheses and composite accounts can always be added to the analysis. Their footnote 17 (p. 70) invokes Occam's razor: complex hypotheses should receive lower priors because there are exponentially more complex theories than simple ones. But this parsimony operates only through prior assignment, not through any structural feature of the framework.
 
-Importantly, Fairfield and Charman already possess the mathematical infrastructure to address internal structure within hypotheses. Their Appendix 3.A (Fairfield and Charman 2022: 122--123) presents Equation 3.11, which formalizes "scenarios within worlds": $P(E \mid H_i \mathcal{I}) = \sum_{k=1}^{n} P(S_k \mid H_i \mathcal{I}) \cdot P(E \mid S_k H_i \mathcal{I})$, where $S_1 \ldots S_n$ are mutually exclusive and exhaustive scenarios under each hypothesis. This is structurally identical to the marginal likelihood in quantitative Bayesian statistics. Furthermore, their atomization procedure (Ch. 6, pp. 234--235) constructs mutually exclusive hypotheses from Boolean combinations of non-exclusive factors, and they explicitly note that "mutual exclusivity of hypotheses is conceptually distinct from exclusivity of their constituent independent variables, causal factors, or mechanisms" (p. 87).
+Importantly, Fairfield and Charman already possess the mathematical infrastructure to address internal structure within hypotheses. Their Appendix 3.A [@FairfieldCharman2022, pp. 122--123] presents Equation 3.11, which formalizes "scenarios within worlds": $P(E \mid H_i \mathcal{I}) = \sum_{k=1}^{n} P(S_k \mid H_i \mathcal{I}) \cdot P(E \mid S_k H_i \mathcal{I})$, where $S_1 \ldots S_n$ are mutually exclusive and exhaustive scenarios under each hypothesis. This is structurally identical to the marginal likelihood in quantitative Bayesian statistics. Furthermore, their atomization procedure [Ch. 6, pp. 234--235; @FairfieldCharman2022] constructs mutually exclusive hypotheses from Boolean combinations of non-exclusive factors, and they explicitly note that "mutual exclusivity of hypotheses is conceptually distinct from exclusivity of their constituent independent variables, causal factors, or mechanisms" [-@FairfieldCharman2022, p. 87].
 
-However, in practice this infrastructure remains latent. Fairfield and Charman acknowledge that "when there are multiple plausible scenarios to consider, we tend to leave this process implicit" (p. 123), focusing on the dominant scenario (Eq. 3.12) rather than systematically enumerating configurations. Atomization, while structurally similar to mechanism decomposition, is presented as a strategy for constructing mutually exclusive hypothesis sets rather than as a tool for within-hypothesis diagnostics. What is missing is not the mathematical foundation but its operationalization --- a systematic procedure for structuring scenarios as testable mechanism links, which would enable the posterior predictive checks that the full Bayesian workflow demands.
+However, in practice this infrastructure remains latent. Fairfield and Charman acknowledge that "when there are multiple plausible scenarios to consider, we tend to leave this process implicit" [-@FairfieldCharman2022, p. 123], focusing on the dominant scenario (Eq. 3.12) rather than systematically enumerating configurations. Atomization, while structurally similar to mechanism decomposition, is presented as a strategy for constructing mutually exclusive hypothesis sets rather than as a tool for within-hypothesis diagnostics. What is missing is not the mathematical foundation but its operationalization --- a systematic procedure for structuring scenarios as testable mechanism links, which would enable the posterior predictive checks that the full Bayesian workflow demands.
 
 The debate thus identifies a real gap between theory and practice. Zaks's critique is correct that something is missing in application. Fairfield and Charman are correct that the answer should be Bayesian --- and their Eq. 3.11 provides the foundation. What is needed is the operationalization: a decomposition that makes the implicit scenarios explicit and thereby enables within-hypothesis diagnostics.
 
 
-## 2.3 PPC Requires Internal Structure
+## PPC Requires Internal Structure
 
 PPCs formalize the diagnostic question. In quantitative Bayesian statistics, PPCs work by integrating over parameters *within* a model (Gelman, Meng, and Stern 1996):
 
@@ -91,7 +91,7 @@ In BPT as currently practiced, the predictive formula is:
 
 $$P(e^* \mid \mathbf{e}_{\text{obs}}) = \sum_{i=1}^{K} P(e^* \mid H_i) \times P(H_i \mid \mathbf{e}_{\text{obs}})$$
 
-This is structurally identical to Bayesian model averaging: it averages predictions across models (hypotheses) weighted by posterior model probabilities. Fairfield and Charman's Eq. 3.11 provides for integration over scenarios within each hypothesis, but the dominant-scenario approximation (Eq. 3.12) reduces this sum to a single pathway, leaving the within-hypothesis scenarios unenumerated. Without explicit scenarios to integrate over, BPT has no within-hypothesis parameters, and the diagnostic power is correspondingly limited: the formula can tell us that a prediction fails, but it cannot tell us *which part* of the hypothesis is responsible.
+This is structurally identical to Bayesian model averaging: it averages predictions across models (hypotheses) weighted by posterior model probabilities. @FairfieldCharman2022's Eq. 3.11 provides for integration over scenarios within each hypothesis, but the dominant-scenario approximation (Eq. 3.12) reduces this sum to a single pathway, leaving the within-hypothesis scenarios unenumerated. Without explicit scenarios to integrate over, BPT has no within-hypothesis parameters, and the diagnostic power is correspondingly limited: the formula can tell us that a prediction fails, but it cannot tell us *which part* of the hypothesis is responsible.
 
 To enable PPCs in the proper sense, we need internal structure --- "parameters" within each hypothesis over which to integrate. The next section shows that mechanism links provide exactly this.
 
@@ -99,21 +99,21 @@ To enable PPCs in the proper sense, we need internal structure --- "parameters" 
 
 | Work | What it does | What it lacks |
 |------|-------------|---------------|
-| Fairfield & Charman (2017) | Sensitivity analysis with different priors | Checks priors, not likelihoods; no internal structure |
-| Fairfield & Charman (2019) | Iterative updating with new evidence | Presupposes well-specified model; no diagnostics |
-| Fairfield & Charman (2022, Eq. 3.11, Ch. 6) | Scenarios within worlds; atomization from non-exclusive factors | Scenarios left implicit in practice; no PPC; atomization ad hoc |
-| Befani et al. (2021) | Simulated probabilities via agent-based models | Limited to program evaluation; no mechanism decomposition |
-| Humphreys & Jacobs (2023) | DAG-based causal models (*CausalQueries*) | Different formalism; not posterior predictive distribution |
-| Behrens & Rohlfing (2025) | Posterior predictive sampling for case selection | PPCs from quantitative component, not from BPT |
-| Zaks (2021, 2022) | Identifies structural problems with hypothesis construction | Diagnosis without formal solution |
+| @FairfieldCharman2017 | Sensitivity analysis with different priors | Checks priors, not likelihoods; no internal structure |
+| @FairfieldCharman2019 | Iterative updating with new evidence | Presupposes well-specified model; no diagnostics |
+| @FairfieldCharman2022 [Eq. 3.11, Ch. 6] | Scenarios within worlds; atomization from non-exclusive factors | Scenarios left implicit in practice; no PPC; atomization ad hoc |
+| @BefaniElsenbroichBadham2021 | Simulated probabilities via agent-based models | Limited to program evaluation; no mechanism decomposition |
+| @HumphreysJacobs2023 | DAG-based causal models (*CausalQueries*) | Different formalism; not posterior predictive distribution |
+| @BehrensRohlfing2025 | Posterior predictive sampling for case selection | PPCs from quantitative component, not from BPT |
+| @Zaks2021; @Zaks2022 | Identifies structural problems with hypothesis construction | Diagnosis without formal solution |
 | This paper | Mechanism decomposition + two-level PPC | --- |
 
 
-# 3. Mechanism Configurations
+# Mechanism Configurations
 
-## 3.1 Hypotheses as Configurations of Mechanism Links
+## Hypotheses as Configurations of Mechanism Links
 
-Fairfield and Charman's "scenarios within worlds" (Eq. 3.11) provides the mathematical foundation for internal structure within hypotheses. We operationalize this foundation by proposing that the scenarios be structured as **mechanism links**: discrete, binary steps in the causal chain connecting cause to outcome. Each link $m_j$ represents a specific causal step --- an actor perceiving a condition, a decision being made, a group responding --- that is either present (active, $m_j = 1$) or absent (inactive, $m_j = 0$).
+@FairfieldCharman2022's "scenarios within worlds" (Eq. 3.11) provides the mathematical foundation for internal structure within hypotheses. We operationalize this foundation by proposing that the scenarios be structured as **mechanism links**: discrete, binary steps in the causal chain connecting cause to outcome. Each link $m_j$ represents a specific causal step --- an actor perceiving a condition, a decision being made, a group responding --- that is either present (active, $m_j = 1$) or absent (inactive, $m_j = 0$).
 
 A **mechanism configuration** is a specific combination of active links: a vector $\mathbf{c} = (m_1, m_2, \ldots, m_n) \in \{0, 1\}^n$ specifying which links are active and which are not. A causal hypothesis, in this framework, is a mechanism configuration: a specific account of which links are operating.
 
@@ -129,7 +129,7 @@ This resolves the problems identified in Section 2.2:
 
 2. **Compound hypotheses as configurations.** A composite hypothesis is not a vague "A plus B caused the outcome" but a specific configuration that includes links from multiple accounts. It is testable link by link.
 
-3. **The "it depends" problem dissolves.** When the likelihood of evidence $E_i$ under hypothesis $H_j$ "depends" on unspecified contingencies (Zaks 2022), those contingencies are mechanism links that the standard framework leaves implicit. Making them explicit as binary parameters transforms "it depends" into a structured integration over link states.
+3. **The "it depends" problem dissolves.** When the likelihood of evidence $E_i$ under hypothesis $H_j$ "depends" on unspecified contingencies [@Zaks2022], those contingencies are mechanism links that the standard framework leaves implicit. Making them explicit as binary parameters transforms "it depends" into a structured integration over link states.
 
 **Table 2: Standard BPT vs. Mechanism Configurations**
 
@@ -146,9 +146,9 @@ This resolves the problems identified in Section 2.2:
 **Combinatorial explosion and pruning.** With $n$ mechanism links, the full configuration space contains $2^n$ possibilities. This is a feature, not a bug: it makes explicit the richness of the hypothesis space that standard BPT collapses into a handful of propositions. In practice, most configurations are substantively implausible and can be pruned using domain knowledge. The analyst need only consider configurations that correspond to coherent causal stories --- typically a small fraction of the combinatorial space. This is no different from quantitative model selection, where the space of possible regression specifications is vast but substantive theory constrains the models actually considered.
 
 
-## 3.2 Worked Example: Chile Mechanism Decomposition
+## Worked Example: Chile Mechanism Decomposition
 
-To make the framework concrete, consider Fairfield and Charman's (2022, ch. 10) analysis of Chile's 2005 income tax reform. Three hypotheses explain why the right accepted the elimination of Article 57 bis:
+To make the framework concrete, consider @FairfieldCharman2022 [ch. 10]'s analysis of Chile's 2005 income tax reform. Three hypotheses explain why the right accepted the elimination of Article 57 bis:
 
 **Table 3: Mechanism Decomposition --- Chile Case**
 
@@ -186,7 +186,7 @@ $$P(e^*_3 = \text{reactive} \mid H_{EA}, \mathbf{e}_{\text{obs}}) \approx (0.95)
 The aggregate prediction (0.87) is similar to the standard value (0.90), but the structure reveals that the prediction is sensitive to $m_4$ (the leadership override). If $e^*_3$ turns out to show ambiguous rather than clearly reactive deliberations, the decomposition tells us *where* to look: the override link is the likely source of the discrepancy, not the equity appeal writ large.
 
 
-## 3.3 PPC as a Consequence of Mechanism Decomposition
+## PPC as a Consequence of Mechanism Decomposition
 
 With mechanism links as parameters, the posterior predictive distribution acquires a two-level structure. At the first level, within each configuration $\mathbf{c}_i$, the analyst integrates over uncertainty in which links are active:
 
@@ -204,10 +204,10 @@ A natural objection is that good researchers already ask "if my hypothesis is co
 
 ### What PPC is --- and is not
 
-The posterior predictive distribution is a diagnostic of *internal coherence*, not a test of truth (Gelman and Shalizi 2013). A model can pass PPCs and still be wrong. The value lies in *diagnosis*: when predictions fail, mechanism decomposition localizes the failure to specific links rather than condemning entire hypotheses. Crucially, PPC differs from continuing to update with additional evidence. Standard BPT presupposes that the model is well-specified; PPC asks whether that presupposition is warranted. If a discrepancy is found, the response is not to update but to *revise* --- adjust likelihoods, reinterpret evidence, or expand the hypothesis set.
+The posterior predictive distribution is a diagnostic of *internal coherence*, not a test of truth [@GelmanShalizi2013]. A model can pass PPCs and still be wrong. The value lies in *diagnosis*: when predictions fail, mechanism decomposition localizes the failure to specific links rather than condemning entire hypotheses. Crucially, PPC differs from continuing to update with additional evidence. Standard BPT presupposes that the model is well-specified; PPC asks whether that presupposition is warranted. If a discrepancy is found, the response is not to update but to *revise* --- adjust likelihoods, reinterpret evidence, or expand the hypothesis set.
 
 
-## 3.4 Workflow
+## Workflow
 
 The qualitative PPC consists of six steps.
 
@@ -224,7 +224,7 @@ The qualitative PPC consists of six steps.
 **Step 6: Document.** Record predictions, evidence, assessments, and revisions. Documentation guards against circularity and enables independent evaluation.
 
 
-## 3.5 Addressing the Circularity Problem
+## Addressing the Circularity Problem
 
 The most serious objection to qualitative PPCs is circularity: the researcher specifies predictive likelihoods using the same type of judgment that produced the original likelihoods. If the same biases distort both stages, the check mechanically confirms the model.
 
@@ -251,7 +251,7 @@ A recommended protocol combines all four: pre-specified holdout evidence, a blin
 Qualitative PPCs should be presented as *graded*: a same-researcher, post hoc check is exploratory; a blind, pre-specified, multi-channel check is much more credible. The defensible claim is not that qualitative PPCs eliminate circularity but that they have diagnostic value when predictive judgments are elicited prospectively through channels whose errors are unlikely to share the same latent source.
 
 
-## 3.6 Scope Conditions and Objections
+## Scope Conditions and Objections
 
 ### Scope conditions
 
@@ -259,7 +259,7 @@ The framework is most valuable when (1) the domain is well-understood enough to 
 
 ### Relationship to sensitivity analysis
 
-Fairfield and Charman (2017: 372--374) recommend sensitivity analysis by varying priors. PPCs complement rather than replace this. Sensitivity analysis asks *do my conclusions change with different priors?* PPCs ask *does the model make sensible predictions about unobserved evidence?* The former checks priors; the latter checks likelihoods. A model can pass one and fail the other.
+@FairfieldCharman2017 [pp. 372--374] recommend sensitivity analysis by varying priors. PPCs complement rather than replace this. Sensitivity analysis asks *do my conclusions change with different priors?* PPCs ask *does the model make sensible predictions about unobserved evidence?* The former checks priors; the latter checks likelihoods. A model can pass one and fail the other.
 
 ### Objections
 
@@ -270,13 +270,13 @@ Fairfield and Charman (2017: 372--374) recommend sensitivity analysis by varying
 **"Combinatorial explosion makes the approach impractical."** The full configuration space is $2^n$, but substantive theory constrains the analyst to coherent causal stories --- typically 3--6 configurations. This is no more burdensome than the standard requirement to specify rival hypotheses.
 
 
-# 4. Application: Chile's 2005 Tax Reform
+# Application: Chile's 2005 Tax Reform
 
-## 4.1 The Case and the Original BPT
+## The Case and the Original BPT {#chile-case}
 
 In 2005, President Ricardo Lagos eliminated Article 57 bis of Chile's Income Tax Law --- a tax credit on financial savings that overwhelmingly benefited high-income individuals (0.5% of adults received 72% of the tax expenditure). The puzzle is why the right, which held a Senate majority and had blocked similar reforms since 1990, accepted the elimination. During the 2005 presidential campaign, Catholic bishops denounced inequality; Lagos seized the moment with a public equity challenge: "The famous Article 57 bis is still in force and signifies a tremendous source of inequality. ... Instead of just talking, why don't we agree to eliminate 57 bis in less than 24 hours?" (Lagos, *El Mercurio*, May 10, 2005). The right accepted and voted in favor.
 
-Fairfield and Charman (2022, ch. 10) evaluate three hypotheses: $H_{EA}$ (Equity Appeal --- Lagos's challenge, amplified by high issue-salience, drove the right to accept via electoral-damage concerns), $H_{MV}$ (Median Voter --- generic electoral competition), and $H_{CC}$ (Core Constituency --- the right's base no longer valued the subsidy). Starting from equal priors, they evaluate six evidence items:
+@FairfieldCharman2022 [ch. 10] evaluate three hypotheses: $H_{EA}$ (Equity Appeal --- Lagos's challenge, amplified by high issue-salience, drove the right to accept via electoral-damage concerns), $H_{MV}$ (Median Voter --- generic electoral competition), and $H_{CC}$ (Core Constituency --- the right's base no longer valued the subsidy). Starting from equal priors, they evaluate six evidence items:
 
 **Table 4: Original Evidence --- Chile Case**
 
@@ -292,7 +292,7 @@ Fairfield and Charman (2022, ch. 10) evaluate three hypotheses: $H_{EA}$ (Equity
 The total WoE is 98 dB for $H_{EA}$ over $H_{CC}$ and 110 dB over $H_{MV}$, yielding a posterior of approximately 1.0 for $H_{EA}$ regardless of prior specification.
 
 
-## 4.2 Mechanism Decomposition
+## Mechanism Decomposition {#chile-decomp}
 
 Decomposing the three hypotheses into mechanism links (Table 3, Section 3.2) reveals the structure that standard analysis obscures. Each piece of original evidence maps to specific links:
 
@@ -310,7 +310,7 @@ Decomposing the three hypotheses into mechanism links (Table 3, Section 3.2) rev
 The mapping reveals that $m_1$ and $m_2$ (salience and challenge) are well-evidenced by $E_0$ and $E_2$; $m_3$ (threat perception) is strongly supported by $E_4$ and $E_5$; $m_4$ (leadership override) rests primarily on $E_4$; and $m_5$ (caucus compliance) is directly observed. Under $H_{CC}$, the critical link $m'_3$ (pre-challenge assessment of dispensability) is *disconfirmed* by $E_1$ and $E_3$: the right had repeatedly blocked similar reforms, suggesting the subsidy was not previously considered expendable. However, $m'_1$ (declining material value) receives no direct test from the original evidence --- a gap the PPC addresses.
 
 
-## 4.3 PPC Predictions, Evidence, and Diagnosis
+## PPC Predictions, Evidence, and Diagnosis {#chile-ppc}
 
 We identify four holdout evidence items spanning legislative records, comparative politics, internal deliberations, and business behavior. Each is selected for mechanism-derived diagnostic value.
 
@@ -333,7 +333,7 @@ For each item, we derive predictions from the posterior model. Given $P(H_{EA} \
 
 **$e^*_3$ (internal deliberations):** The ILD advisor's opposition *after* Lagos's challenge, the "1999 trap" framing by Lavin's advisors, the rapid timeline, and the absence of pre-existing support for elimination all confirm a reactive sequence. **Strongly consistent** with links $m_3$ and $m_4$. Access to internal party records would provide the definitive test.
 
-**$e^*_4$ (lobbying silence):** No organized business mobilization documented. Fairfield (2015a) documents active CPC/SOFOFA opposition to other reforms but finds only "business complaints" for 57 bis. The silence is consistent with $H_{CC}$'s $m'_1$ (declining value) but also with $H_{EA}$'s irrelevance of business lobbying to the equity appeal mechanism. The ambiguity is informative: it identifies $m'_1$ as a link that the original evidence does not resolve.
+**$e^*_4$ (lobbying silence):** No organized business mobilization documented. @Fairfield2015a documents active CPC/SOFOFA opposition to other reforms but finds only "business complaints" for 57 bis. The silence is consistent with $H_{CC}$'s $m'_1$ (declining value) but also with $H_{EA}$'s irrelevance of business lobbying to the equity appeal mechanism. The ambiguity is informative: it identifies $m'_1$ as a link that the original evidence does not resolve.
 
 ### Diagnosis
 
@@ -357,7 +357,7 @@ The PPC reveals three findings, reframed through mechanism links.
 | **Revision recommended?** | No fundamental revision. Consider composite hypothesis; seek internal party records to test $m_4$ directly |
 
 
-## 4.4 Multi-Channel Elicitation
+## Multi-Channel Elicitation {#chile-elicit}
 
 To implement the anti-circularity protocols, we conducted multi-channel elicitation using four model families (human, Claude, Gemini, GPT-5) each with three prompt variants (standard, skeptical, minimalist). None received the posterior distribution.
 
@@ -399,17 +399,17 @@ To implement the anti-circularity protocols, we conducted multi-channel elicitat
 
 **Ordinal rankings are preserved across all four channels for all four items**: every channel agrees that $e^*_1$, $e^*_2$, and $e^*_3$ are most likely under $H_{EA}$ and that $e^*_4$ is most likely under $H_{CC}$. The skeptical channel lowers $H_{EA}$ by 0.15--0.20 but preserves diagnostic structure. $H_{CC}$ assessments are most stable (range $\leq 0.15$).
 
-**Training data contamination.** Fairfield and Charman's (2022) book is likely in all LLM training corpora, so convergence may reflect echo rather than independence. Three considerations partially mitigate this: (1) the holdout evidence items are not analyzed in the book, requiring new predictive judgments; (2) skeptical prompts adopt stances differing from the book's conclusions yet preserve ordinal rankings; (3) the oil majors case (Section 5) provides a cleaner test, since holdout evidence postdates all training cutoffs.
+**Training data contamination.** @FairfieldCharman2022's book is likely in all LLM training corpora, so convergence may reflect echo rather than independence. Three considerations partially mitigate this: (1) the holdout evidence items are not analyzed in the book, requiring new predictive judgments; (2) skeptical prompts adopt stances differing from the book's conclusions yet preserve ordinal rankings; (3) the oil majors case (Section 5) provides a cleaner test, since holdout evidence postdates all training cutoffs.
 
 
-# 5. Application: Oil Majors and Carbon Pricing
+# Application: Oil Majors and Carbon Pricing
 
-## 5.1 The Case and the Original BPT
+## The Case and the Original BPT {#oil-case}
 
-Why did European and US oil majors publicly support carbon pricing? Fairfield and Charman (2025), reanalyzing Vormedal et al. (2020), address this question. Two hypotheses: $H_{SA}$ (Strategic Accommodation --- a defensive hedge against radical regulation) and $H_{CA}$ (Competitive Advantage --- offensive strategy exploiting gas and CCS advantages). Starting from a 6 dB prior for $H_{SA}$ (~80%), they evaluate four evidence items yielding net WoE of 2 dB for $H_{CA}$, leaving the posterior at approximately 4 dB for $H_{SA}$ (~71%). The inference is dominated by the prior; the evidence barely moves the needle.
+Why did European and US oil majors publicly support carbon pricing? @FairfieldCharman2025, reanalyzing @VormedalEtAl2020, address this question. Two hypotheses: $H_{SA}$ (Strategic Accommodation --- a defensive hedge against radical regulation) and $H_{CA}$ (Competitive Advantage --- offensive strategy exploiting gas and CCS advantages). Starting from a 6 dB prior for $H_{SA}$ (~80%), they evaluate four evidence items yielding net WoE of 2 dB for $H_{CA}$, leaving the posterior at approximately 4 dB for $H_{SA}$ (~71%). The inference is dominated by the prior; the evidence barely moves the needle.
 
 
-## 5.2 Mechanism Decomposition
+## Mechanism Decomposition {#oil-decomp}
 
 **Table 8: Mechanism Decomposition --- Oil Majors**
 
@@ -448,7 +448,7 @@ $$P(e^*_5 \mid H_{SA}, \mathbf{e}_{\text{obs}}) \approx 0.85 \times 0.50 \times 
 This is *dramatically lower* than the standard 0.80 because the standard value hides uncertainty about $m_4$. The original evidence was genuinely ambiguous about whether oil majors invested seriously in carbon-pricing-dependent businesses --- a critical link that the dominant-scenario treatment obscures.
 
 
-## 5.3 PPC Predictions, Evidence, and Diagnosis
+## PPC Predictions, Evidence, and Diagnosis {#oil-ppc}
 
 We identify four items of post-2020 holdout evidence. All postdate F&C's analysis window and are from publicly verifiable sources.
 
@@ -493,7 +493,7 @@ Predictions cluster near 0.55--0.58, much less sharp than Chile's 0.55--0.87, re
 **Audit note.** All holdout evidence is from publicly verifiable sources: Greenpeace/Unearthed (2021) undercover video (NPR, CNN, CNBC); API Climate Action Framework (2021); corporate press releases and SEC filings; Bloomberg, Fortune, Al Jazeera, Carbon Brief reporting.
 
 
-## 5.4 Multi-Channel Elicitation
+## Multi-Channel Elicitation {#oil-elicit}
 
 Unlike Chile, the holdout evidence here postdates all LLM training cutoffs, eliminating training data contamination as an explanation for convergence.
 
@@ -515,22 +515,22 @@ Ordinal rankings are preserved for three of four items ($e^*_5$, $e^*_6$, $e^*_8
 The aggregate net WoE diverges: $+16.5$ dB for $H_{SA}$ (standard), $+5.3$ dB (minimalist), $-8.0$ dB toward $H_{CA}$ (skeptical). The skeptical channel *reverses the direction*. This divergence is itself diagnostic: it identifies which evidence is robust ($e^*_5$, $e^*_8$) and which is contested ($e^*_7$). The contrast with Chile --- where all channels converge --- confirms that the multi-channel exercise's value is greatest when posteriors are non-extreme.
 
 
-# 6. Discussion and Conclusion
+# Discussion and Conclusion
 
-## 6.1 What the Framework Revealed
+## What the Framework Revealed
 
 The two applications demonstrate that mechanism decomposition generates diagnostic information unavailable to standard hypothesis-level testing. In Chile, the PPC confirmed the equity appeal mechanism at the link level ($m_1$--$m_4$) while identifying $m'_1$ (low business stakes) as a likely co-determinant --- a finding that emerges naturally as a composite configuration $\{m_1, m_2, m_3, m_4, m'_1\}$ rather than an ad hoc addition. In the oil majors case, mechanism decomposition revealed that the original likelihood assignments for $E_1$ and $E_2$ were miscalibrated because the dominant-scenario treatment hid uncertainty about link $m_4$ (no serious investment), and that company-level heterogeneity in mechanism configurations challenges the binary hypothesis structure.
 
 The contrast between cases confirms two properties of the framework. First, extreme posteriors generate the sharpest predictions (Chile: 0.55--0.87; oil majors: 0.52--0.58). Second, multi-channel elicitation reveals interpretive fragility: in Chile, all channels converge; in the oil majors case, the skeptical channel reverses the aggregate direction, identifying $e^*_7$ as contested and $e^*_5$/$e^*_8$ as robust.
 
 
-## 6.2 Engaging the Debate
+## Engaging the Debate
 
 The framework addresses specific interlocutors in the BPT debate.
 
 **Fairfield and Charman** are correct that any evidence discriminating between hypotheses is informative and that Bayesian inference can accommodate diverse causal ontologies. But their dominant-scenario approximation (Eq. 3.12) leaves the rich scenario structure of Eq. 3.11 unenumerated, and with it the diagnostic capacity of the full Bayesian workflow untapped. Mechanism configurations operationalize this latent structure: mutual exclusivity is preserved at the configuration level, parsimony operates through PPC rather than prior assignment alone, and composite hypotheses are formalized rather than informally appended.
 
-**Zaks** is correct that BPT lacks guardrails and that mutual exclusivity creates distortions when hypotheses share mechanisms. But the solution is not to abandon BPT; it is to decompose hypotheses so that mutual exclusivity operates at the right level --- configurations --- while mechanism links can be shared. The decomposition also answers Zaks's (2021: 72) explicit call for "expansions to Bayes' rule to accommodate the wide scope of relationships among rival hypotheses."
+**Zaks** is correct that BPT lacks guardrails and that mutual exclusivity creates distortions when hypotheses share mechanisms. But the solution is not to abandon BPT; it is to decompose hypotheses so that mutual exclusivity operates at the right level --- configurations --- while mechanism links can be shared. The decomposition also answers @Zaks2021's [p. 72] explicit call for "expansions to Bayes' rule to accommodate the wide scope of relationships among rival hypotheses."
 
 **Bennett's** engine analogy --- hypotheses can share components while remaining mutually exclusive if they specify different overall configurations --- is precisely what mechanism configurations formalize.
 
@@ -539,76 +539,14 @@ The framework addresses specific interlocutors in the BPT debate.
 **Soifer** identifies a tension between Fairfield and Charman's broad view of informative evidence and the mainstream emphasis on mechanisms. Mechanism configurations reconcile the two: mechanisms provide the *structure* of hypotheses (Soifer's concern), while any evidence that discriminates at the link level is informative (Fairfield and Charman's insight).
 
 
-## 6.3 Limitations and Future Work
+## Limitations and Future Work
 
 Our demonstration relies on secondary sources rather than independent primary data collection. Complete primary access --- BCN transcripts for Chile, internal party archives, independent CCS investment data --- would strengthen the analysis. The circularity protocols are partially but not fully implemented: a blind second analyst was not used for the human channel. The link-level posteriors (e.g., $P(m_4 \mid \mathbf{e}_{\text{obs}}) = 0.90$) are point estimates without formal uncertainty propagation. Future work should explore integration with *CausalQueries* (Humphreys and Jacobs 2023), empirical calibration across published BPT applications, and formal criteria for configuration space pruning.
 
 
-## 6.4 Conclusion
+## Conclusion
 
 BPT has imported the machinery of Bayesian updating but not the machinery of Bayesian diagnostics. The reason is structural: the dominant-scenario approximation (Eq. 3.12) collapses the rich scenario sum of Eq. 3.11 to a single pathway, leaving no within-hypothesis parameters over which to integrate and no foothold for posterior predictive checks in the proper sense. Decomposing hypotheses into mechanism configurations --- discrete, binary steps in a causal chain --- creates the parameter space that makes PPCs possible. The decomposition also resolves long-standing problems with mutual exclusivity, compound hypotheses, and diagnostic granularity. If BPT treats hypotheses as models, it should give those models the internal structure that makes model checking possible.
 
 
----
-
 # References
-
-Befani, Barbara. 2020. "Diagnostic Evaluation and Bayesian Updating: Practical Solutions to Common Problems." *Evaluation* 26(4): 415--438.
-
-Befani, Barbara, and Gavin Stedman-Bryce. 2017. "Process Tracing and Bayesian Updating for Impact Evaluation." *Evaluation* 23(1): 42--60.
-
-Befani, Barbara, Corinna Elsenbroich, and Jen Badham. 2021. "Diagnostic Evaluation with Simulated Probabilities." *Evaluation* 27(2): 102--115.
-
-Behrens, Lars, and Ingo Rohlfing. 2025. "The Integration of Bayesian Regression Analysis and Bayesian Process Tracing in Mixed-Methods Research." *Sociological Methods & Research*. DOI: 10.1177/00491241241295336.
-
-Bennett, Andrew. 2008. "Process Tracing: A Bayesian Perspective." In Janet M. Box-Steffensmeier, Henry E. Brady, and David Collier (eds.), *The Oxford Handbook of Political Methodology*. Oxford: Oxford University Press, pp. 702--721.
-
-Bennett, Andrew. 2023. "Comments on *Social Inquiry and Bayesian Inference*." *Qualitative and Multi-Method Research* 21(2): 51--55.
-
-Bennett, Andrew, Tasha Fairfield, and Andrew E. Charman. 2022. "Understanding Bayesianism: Fundamentals for Process Tracers." *Political Analysis* 30(2): 298--305.
-
-Brandao, Federico, Barbara Befani, Britaldo Soares-Filho, Raoni Rajao, and Romulo Garcia. 2023. "How to Halt Deforestation in the Amazon? A Bayesian Process-Tracing Approach." *Land Use Policy* 133(C): 106862.
-
-Fairfield, Tasha. 2015a. *Private Wealth and Public Revenue in Latin America: Business Power and Tax Politics*. New York: Cambridge University Press.
-
-Fairfield, Tasha, and Andrew E. Charman. 2017. "Explicit Bayesian Analysis for Process Tracing: Guidelines, Opportunities, and Caveats." *Political Analysis* 25(3): 363--380.
-
-Fairfield, Tasha, and Andrew E. Charman. 2019. "A Dialogue with the Data: The Bayesian Foundations of Iterative Research in Qualitative Social Science." *Perspectives on Politics* 17(1): 154--167.
-
-Fairfield, Tasha, and Andrew E. Charman. 2022. *Social Inquiry and Bayesian Inference: Rethinking Qualitative Research*. Cambridge: Cambridge University Press.
-
-Fairfield, Tasha, and Andrew E. Charman. 2023. "Bayesian Reflections." *Qualitative and Multi-Method Research* 21(2): 66--71.
-
-Fairfield, Tasha, and Andrew E. Charman. 2025. "Bayesian Reasoning for Qualitative Replication Analysis: Examples from Climate Politics." *Political Science Research and Methods*, 1--16.
-
-Gelman, Andrew, and Cosma Rohilla Shalizi. 2013. "Philosophy and the Practice of Bayesian Statistics." *British Journal of Mathematical and Statistical Psychology* 66(1): 8--38.
-
-Gelman, Andrew, Xiao-Li Meng, and Hal Stern. 1996. "Posterior Predictive Assessment of Model Fitness via Realized Discrepancies." *Statistica Sinica* 6(4): 733--807.
-
-Gelman, Andrew, Aki Vehtari, Daniel Simpson, et al. 2020. "Bayesian Workflow." arXiv preprint, arXiv:2011.01808.
-
-Humphreys, Macartan, and Alan M. Jacobs. 2015. "Mixing Methods: A Bayesian Approach." *American Political Science Review* 109(4): 653--673.
-
-Humphreys, Macartan, and Alan M. Jacobs. 2023. *Integrated Inferences: Causal Models for Qualitative and Mixed-Method Research*. Cambridge: Cambridge University Press.
-
-Jacobs, Alan M. 2023. "Comments on *Social Inquiry and Bayesian Inference*." *Qualitative and Multi-Method Research* 21(2): 56--59.
-
-Soifer, Hillel David. 2023. "Comments on *Social Inquiry and Bayesian Inference*." *Qualitative and Multi-Method Research* 21(2): 63--65.
-
-Vormedal, Irja, Lars H. Gulbrandsen, and Jon Birger Skjærseth. 2020. "Big Oil and Climate Regulation: Business as Usual or a Changing Business?" *Global Environmental Politics* 20(4): 143--166.
-
-Zaks, Sherry. 2021. "Updating Bayesian(s): A Critical Evaluation of Bayesian Process Tracing." *Political Analysis* 29(1): 58--74.
-
-Zaks, Sherry. 2022. "Return to the Scene of the Crime: Revisiting Process Tracing, Bayesianism, and Murder." *Political Analysis* 30(2): 306--310.
-
----
-
-**[END OF DRAFT v2 --- Option B rewrite]**
-
-**Remaining TODOs:**
-
-- [TODO] Obtain full transcripts from BCN "Historia de la Ley N. 20.028" (ID 6630) to verify $e^*_1$
-- [TODO] Seek access to internal UDI/RN records (caucus minutes) for $e^*_3$
-- [TODO] Document business lobbying behavior with primary sources ($e^*_4$)
-- [TODO] Supplementary materials: compile full source URLs for oil majors evidence
-- [VERIFY] Exact dB threshold adjectives from Fairfield and Charman (2017: 370)
