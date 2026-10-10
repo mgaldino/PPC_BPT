@@ -1,0 +1,6 @@
+"stage","published_woe_db","cumulative_db","sa_probability","origin"
+"prior",6,6,0.799239991086898,"arithmetic_from_published_author_judgments"
+"E1",-4,2,0.613136820153143,"arithmetic_from_published_author_judgments"
+"E2",-3,-1,0.442688366237707,"arithmetic_from_published_author_judgments"
+"E3",12,11,0.926412443882426,"arithmetic_from_published_author_judgments"
+"E4",-7,4,0.715252751049199,"arithmetic_from_published_author_judgments"

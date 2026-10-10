@@ -1,0 +1,403 @@
+Bayesian Reasoning for Qualitative Replication Analysis
+Examples from Climate Politics
+
+
+       Tasha Fairfield (London School of Economics) and Andrew Charman (UC Berkeley)
+
+
+
+
+Online Appendices
+
+
+
+Appendix A: Additional Considerations Regarding Hypotheses and Priors
+
+
+
+1. Hypothesis Articulation
+
+
+
+Readers might wonder if a Bayesian approach can be applied in contexts where rival hypotheses
+are not as well developed as in our example applications in Sections 3 and 5. If the alternative
+hypotheses remain somewhat vague, we can often still proceed in a Bayesian manner, at least
+during early stages of research. For instance, if we start with hypotheses that lack detailed
+causal mechanisms, it may still be possible to evaluate relative likelihoods for some of the
+evidence that turns up. John Snow’s investigation of cholera is an example. Snow lived well
+before the germ theory of disease, but he was able to find evidence that weighed strongly in
+favor of waterborne contagion vs. airborne contagion (e.g., information about the distribution
+of cholera deaths around the Broad Street pump), even without any detailed understanding of
+how exposure to contaminated water or to bad air might produce disease in the human body.
+
+In social science contexts, however, we do need to aim for well specified rival hypotheses. If a
+hypotheses is left too vague, it can be difficult to figure out what kinds of observations would
+be expected and what kinds of observations would be surprising, which poses problems for
+reasoning about relative likelihoods. Within a Bayesian framework, articulating hypotheses is
+often an iterative process—after collecting data, we may need to go back and flesh out the
+hypotheses so that they make clearer predictions with respect to particular kinds of evidence
+that have turned up. Likewise, It is reasonable to begin a research project with vague or very
+tentative ideas about possible explanations, but moving forward, we must refine our ideas,
+figure out our argument, and compare it to rivals. It is the Bayesian scholar’s job not only to
+articulate their own argument, but also to articulate rivals for comparison.
+                                                                                                 2
+
+
+2. Relative Import of Priors
+
+
+
+Although Bayesianism is strongly associated with priors, this is arguably the least important
+part of Bayesian analysis when it comes to model comparison. The fundamental difference be-
+tween frequentism (the more dominant inferential framework in social science) and Bayesianism
+lies in the definition of probability itself (Jaynes 2003)—for logical Bayesians, probabilities are
+rational degrees of belief, and the concept of probability can be applied to any proposition,
+including hypotheses and nonstochastic data, whereas frequentism understands probability in
+terms of repeated random experiments and restricts the applicability of the concept exclusively
+to stochastic data.
+
+While the “Statistics Wars” between Frequentists and Bayesians have often focused on questions
+of prior probabilities, Bayesians like Harold Jeffreys have emphasized the use of Bayes factors,
+and statisticians like I.J. Good have emphasized the conceptual utility of their logarithms
+(weights of evidence) much more than posterior probabilities themselves, precisely because the
+former separate the import of the evidence from prior beliefs about the theories.
+
+As per Eq. 2 (main text), both prior log-odds and weights of evidence contribute additively to
+posterior log-odds. Ideally, we would like to be in a situation where the weight of evidence over-
+whelms our prior log-odds. Priors are the most subjective component of Bayesian analysis—it
+is difficult to directly evaluate the relative plausibility of hypotheses in light of large amounts
+of background knowledge. Evaluating the likelihoods of concrete empirical observations condi-
+tional on a hypothesis is an easier endeavor that can be conducted much more systematically.
+Moreover, when the weight of evidence is very strong, scholars who begin with different prior
+log-odds may all end up with posterior log-odds that favor the same hypothesis. That is, strong
+evidence can bring scholars with substantial initial disagreements to a state of posterior agree-
+ment. Of course, we do not always end up with strong evidence that overwhelms our priors.
+We are currently working on another project that illustrates the opposite extreme, where the
+prior log-odds are very strong and end up overwhelming the weight of evidence.
+                                                                                                 3
+
+
+3. Additional Hypotheses for the Big Oil Example
+
+
+
+Two additional hypotheses beyond strategic accommodation and competitive advantage are
+plausible alternatives that could also be considered:
+
+Leveling (HL )
+Since 2015, oil majors have endorsed moderate climate policies first and foremost when they
+perceive that those policies will level the playing field with competitors. (E.g., Falkner 2008) In
+the absence of such perceived benefits, they are unlikely to support climate policies. 1
+
+Costless Reputational Gains (HR )
+Since 2015, oil majors have endorsed moderate climate policies first and foremost when they
+perceive them as politically infeasible, in order to take advantage of cost-free opportunities for
+improving their reputation among climate-conscious citizens and policymakers. Reputational
+gains can in turn attract green-minded consumers, preclude boycotts, and/or help keep other
+politically feasible climate policies from gaining salience.
+
+The leveling hypothesis is similar to the competitive advantage hypothesis, but it postulates
+a distinct rationale and distinct conditions under which we should anticipate support from
+Big Oil. Under HL , oil majors support moderate climate policies that eliminate disadvantages
+they are presently facing with respect to competitors, whereas under HCA , they seek to gain
+new competitive advantages to exploit at their competitors’ expense. Likewise, the reputation
+hypothesis shares a broadly similar rationale with strategic accommodation, in that reputational
+gains may help to reduce or preclude demand from society for more stringent regulations.
+But these hypotheses make distinct predictions about the kinds of climate policies that oil
+majors support. Under HR , they advocate infeasible policies that pose no real threat, whereas
+we interpret HSA as implying support for policies that oil majors envision could actually be
+adopted, for the sake of locking in the lesser evil and closing down political space for more
+costly alternatives. We would make this implication more explicit in the wording of HCA for
+clarity if we were including HR in our analysis.
+
+While Vormedal et al. (2020:159) do not consider HL , they mention a possibility akin to HR in
+a footnote toward the end of their analysis: “Another interpretation is that oil majors support
+
+1
+    We thank Robert Falkner for suggesting this hypothesis.
+                                                                                                   4
+
+
+a US carbon tax in order to appear green but in fact consider such a tax to be politically in-
+feasible.” And in their conclusion, they incorporate a reputational logic into their comparative
+advantage argument when they write that: “by supporting favorably designed and moder-
+ate carbon pricing, the majors may profit from expanding gas markets, while simultaneously
+‘greening’ their image by acting like climate protagonists on the regulatory scene.” While it is
+reasonable to suggest extensions of an argument or additional possibilities at the end of one’s
+analysis, it is important to recognize that revised hypotheses require testing against the evi-
+dence presented—one cannot subsume an additional variable or causal logic into one’s argument
+after the fact and assume that evidence previously analyzed from the perspective of a simpler
+version of the argument bears the same import with respect to a designated rival. Moreover, a
+sensible first step would be to ask how some version of a hypothesis that invokes reputational
+considerations alone performs against the originally articulated HCA .
+
+Beyond including additional hypotheses that propose distinct causal logics, along the lines of
+HL and HR , we could also include more complex hypotheses postulating that two or more of
+the causal factors invoked by simpler rival hypotheses matter for the outcome of interest. For
+example:
+HSA/CA = Since 2015, oil majors have endorsed moderate climate policies when either (a) they
+face regulatory threats, in an effort to prevent or hedge against more radical and costly policies on
+the political horizon, or (b), they perceive that those policies will create competitive advantages
+over rivals and foster new market opportunities that they are well-positioned to exploit.
+A more compelling formulation of this hypothesis might also specify the conditions under which
+oil majors are expected to follow the respective strategies.
+
+More complex hypotheses could also postulate that the primary strategy oil majors pursue has
+changed over time; for example:
+ 0
+HSA/CA = Before 2015, oil majors endorsed moderate climate policies when they faced regu-
+latory threats, in an effort to prevent or hedge against more radical and costly policies on the
+political horizon. But since 2015, they have endorsed moderate climate policies when they per-
+ceive that those policies will create competitive advantages over rivals and foster new market
+opportunities that they are well-positioned to exploit.
+                                                                         0
+Moving forward, it would also be helpful to include some explanation in HSA/CA of why oil
+                                             0
+majors have changed their strategy. To test HSA/CA against the simpler alternatives, we would
+need to generalize HSA and HCA from Section 5 by broadening their temporal scope, which we
+                                                                                              5
+
+
+can do by simply dropped the “since 2015” qualifying clause:
+ 0
+HSA = Oil majors have endorsed moderate climate policies first and foremost when they face
+regulatory threats, in an effort to prevent or hedge against more radical and costly policies on
+the political horizon. In the absence of such regulatory threats, they are unlikely to support
+climate policies.
+ 0
+HCA =Oil majors have endorsed moderate climate policies first and foremost when they perceive
+that those policies will create competitive advantages over rivals and foster new market oppor-
+tunities that they are well-positioned to exploit. In the absence of such perceived advantages,
+they are unlikely to support climate policies.
+Evidence regarding big oil’s behavior in the pre-2015 period as well as the post-2015 period
+                                              0 , H 0 , and H 0
+would then be salient for adjudicating among HSA   CA        SA/CA .
+
+
+From a Bayesian perspective, introducing additional hypotheses (or revising an existing hy-
+pothesis) poses no particular difficulties beyond some additional inferential work. The set of
+hypotheses needs to be examined carefully and reformulated as needed to make sure that the al-
+ternatives are indeed mutually exclusive rivals. One then proceeds with pairwise comparisons—
+we must analyze prior odds involving the new hypotheses as well as likelihood ratios involving
+the new hypotheses for each piece of evidence. For the Big Oil example, we leave this to future
+work.
+
+
+
+Appendix B: Additional Considerations Regarding Weights of Evidence
+
+
+
+1. Logical Dependence
+
+
+
+In Section 4, we deferred discussion of a technical subtlety that can matter when analyzing
+multiple pieces of evidence. Namely, previously-analyzed evidence becomes part of our condi-
+tioning information, alongside our initial background knowledge I, when we proceed to weigh
+the next piece of evidence. The more mathematically explicit version of Eq. 3 (main text)
+highlights this fact:
+                                                                                                         6
+
+
+
+                           h P (E | H I) P (E | E H I)                P (EN | E1 · · · EN −1 Hj I) i
+                                  1    j          2    1   j
+W oE (Hj : Hk ) = log                                           ···
+                             P (E1 | Hk I) P (E2 | E1 Hk I)           P (EN | E1 · · · EN −1 Hk I)
+                    = W oE1 (Hj : Hk ) + W oE2 (Hj : Hk | E1 ) + · · · + W oEN (Hj : Hk | E1 · · · EN −1 ) ,
+                                                                                                       (B1)
+
+where our notation denotes that for each successive piece of evidence we must take into account
+possible logical dependencies with previously analyzed evidence. That is, when analyzing the
+weight of evidence En , we must consider whether the previously analyzed evidence E1 E2 ...En−1
+makes En more or less likely than it would otherwise be under hypothesis Hj .2
+
+In some situations, logical dependence may be intuitively obvious and easy to take into account
+almost without conscious effort. In other situations, logical dependence can be much more
+difficult to evaluate. Our advice for qualitative research is to spend some time considering
+logical dependence, but not to over-think matters if the effect is not clearly discernible.
+
+To give an example where logical dependence is relatively easy to handle, our analysis in Section
+5 did in fact involve conditioning on previously analyzed evidence—most importantly, knowing
+E0 (information pertaining to the independent variables invoked by each hypotheses) mattered
+for our reasoning about subsequent evidence regarding the oil companies’ policy positions (the
+dependent variable of interest—especially E1 , E2 , and E3 ). For instance, knowledge of E0c was
+crucial for our judgement that E1 seemed quite plausible under HSA , while conditioning on E0e
+and E0f was central to our assessment that E1 was also quite plausible under HCA . In essence,
+given regulatory pressures in Europe (E0c ), the strategic-accommodation hypothesis makes a
+correct prediction regarding the oil majors’ support for a moderate carbon price (E1 ), while
+given the companies’ shifts toward natural gas production (E0e ), the competitive-advantage
+hypothesis also makes a correct prediction about their policy stance (E1 ). Throughout the
+Big Oil example, we (implicitly) indicated logical dependence in our reasoning by noting in
+parentheses the previously introduced evidence upon which we conditioned.
+
+2
+    We discuss logical dependence extensively elsewhere (self-citation).
+                                                                                                   7
+
+
+2. Details Matter for Inferential Weight
+
+
+
+We mentioned in Section 4 that even seemingly small details in the evidence can matter for
+relative likelihoods and inferential weight. We provide a brief example here to illustrate, drawing
+on evidence from the Big Oil application. In Section 5, we argued that the following evidence
+very weakly favors HCA (W oE ≈ 3 dB):
+
+E2 = In 2017 while President Trump was moving toward withdrawing from the Paris Agreement,
+US oil majors Exxon and Chevron publicly urged him to reconsider. In a widely reported letter to
+Trump, Exxon’s CEO argued that the US was “well positioned to compete within the framework
+of the Paris Agreement with abundant low-carbon resources such as natural gas,” and that
+remaining in the accord would allow the US to retain “a seat at the negotiating table to ensure
+a level playing field so that all energy sources and technologies are treated equitably in an open,
+transparent and competitive global market.”
+
+We then noted that Vormedal et al. imply that the letter also mentioned that “Paris could
+provide a boost for natural gas.” We could find no record of that detail, but let us consider
+hypothetical evidence E20 that includes it:
+
+E20 = In 2017 while President Trump was moving toward withdrawing from the Paris Agreement,
+US oil majors Exxon and Chevron publicly urged him to reconsider. In a widely reported letter to
+Trump, Exxon’s CEO argued that the US was “well positioned to compete within the framework
+of the Paris Agreement with abundant low-carbon resources such as natural gas,” explicitly
+asserted that “Paris could provide a boost for natural gas,” and added that remaining
+in the accord would allow the US to retain “a seat at the negotiating table to ensure a level playing
+field so that all energy sources and technologies are treated equitably in an open, transparent
+and competitive global market.”
+
+Thanks to these additional details, E20 weighs more strongly in favor of competitive advantage
+(HCA ). While our analysis of the elements common to E2 and E20 remains unchanged, seeing
+Exxon make an explicit link between the Paris agreement and increased gas sales would be
+much more expected under the competitive advantage hypothesis as compared to the hedging
+(strategic accommodation) hypothesis, where concerns over precluding more radical climate
+policies should predominate.
+                                                                                                  8
+
+
+Now consider another variation. Suppose that Exxon’s letter had not included any mention
+of being “well positioned to compete” within the Paris framework (and no explicit mention of
+Paris providing a boost for gas):
+
+E200 = In 2017 while President Trump was moving toward withdrawing from the Paris Agreement,
+US oil majors Exxon and Chevron publicly urged him to reconsider. In a widely reported letter to
+Trump, Exxon’s CEO argued that remaining in the accord would allow the US to retain “a seat
+at the negotiating table to ensure a level playing field so that all energy sources and technologies
+are treated equitably in an open, transparent and competitive global market.”
+
+Thanks to the omission of details, E200 favors the strategic accommodation hypothesis. Follow-
+ing the same reasoning presented in Section 5, we would have to assume that the comments
+regarding “a seat at the negotiating table” under HCA are motivated by an interest in pro-
+moting carbon pricing at the international level, which could benefit natural gas, even though
+Exxon’s letter does not reveal that logic. But these comments seem more plausible under HSA ,
+where we would understand them as an effort to hedge against less market-friendly policies
+that might emerge in the international context absent US leadership at Paris—here we would
+expect oil majors to support a weak but popular treaty to preclude pressure from below for
+more ambitious climate policies that might spur future government action.
+
+Notice that E2 , E20 , and E200 can all be considered members of a (vaguer) overarching class of
+evidence EII = In 2017 while President Trump was moving toward withdrawing from the Paris
+Agreement, US oil majors Exxon and Chevron publicly urged him to reconsider. Yet the more
+specific evidentiary statements each carry distinct inferential weight—E2 very weakly favors
+HCA , E20 favors HCA much more strongly, and E200 instead favors HSA —precisely because their
+details differ. Two important points follow. First, as a matter of principle, small details and
+nuances that we may not foresee and cannot exhaustively delineate in advance when imaging
+what kinds of evidence we might encounter can matter critically for the inferential weight. In
+qualitative research, analyzing likelihood ratios is therefore a task to be undertaken after data
+collection, once the actual evidence is in hand (Jaynes 2003). Second, care should be taken
+to report adequate detail in the evidence rather than resorting to high-level summaries, so
+that readers can independently evaluate whether they agree with the author’s analysis of its
+inferential import.
+                                                                                                 9
+
+
+3. Quantifying Weights of Evidence
+
+
+
+In Section 4, we noted that there will always be some subjectivity when quantifying weighs
+of evidence in qualitative research. Readers might wonder if there are additional rules for as-
+signing decibels that could curtail subjectivity, beyond the guidance we have provided. But
+any effort to devise algorithmic rules for assigning inferential weight would falter due to the
+unlimited diversity of qualitative information that could materialize. Small details that cannot
+be adequately imagined in advance may matter significantly for inferential import (Appendix
+B.2), so we must instead analyze evidence once it is hand, following the Bayesian reasoning
+process we have already described: mentally inhabit the world of each hypothesis, evaluate how
+much more expected evidence E seems under Hj relative to Hk , provide a clear written expla-
+nation of that assessment, and then choose however many decibels best reflect one’s inferential
+judgement about the weight of evidence—using Fig. 1, the corresponding sound files, and the
+examples we provide as a basis for calibration.
+
+If the analyst has done a good job of explaining their reasoning about relative likelihoods, the
+basis for their choice of decibels should be clear (again, aside from some inherent arbitrariness).
+But if the analyst has not done a good job of explaining their reasoning, if that reasoning
+does not seem to justify the decibels assigned, or if other scholars disagree with the reasoning
+expounded, they should ask for further justification or revision.
+
+Some scholars have asked about the possibility of coarse graining weights of evidence into
+discreet categories, e.g., 5, 10, 15, 20, 25, 30 dB, which might at first glance appear less
+arbitrary, rather than retaining a continuous scale. This would not be an appropriate practice.
+For scholars who prefer a more coarse-grained approach, we advocate simply using the odds-
+ratio approach described in Section 2 that uses qualitative adjectives to describe inferential
+weight and does not involve quantification. But excessive coarse-gaining of the logarithmic
+scale (a) would defeat the purpose of making our judgements more precise—e.g., some pieces
+of “moderate” evidence may merit closer to 12 dB while others might merit closer to 17 dB;
+(b) would make it more difficult to reach consensus on weights of evidence—e.g., instead of
+splitting the difference between one scholar’s judgment of say 5 dB and a colleague’s somewhat
+higher 10 dB to obtain 7 dB, they would have to agree to settle on either 5 dB or 10 dB, with
+no possibility for actual compromise; and (c) would risk accumulating substantial round-off
+errors when aggregating multiple pieces of evidence—e.g., if we consider ten observations that
+                                                                                               10
+
+
+we would each judge to provide 3 dB in favor of H1 over H2 , but we employ a coarse-grained
+scale that associates “weak” evidence with 5 dB, the reported net weight of evidence would
+overstate our beliefs by a sizable 20 dB. That said, differences of less than a decibel or two are
+generally imperceptible, so implicitly a natural level of course-graining already exists (e.g., we
+would not assign weights of say, 5.5 dB or 10.25 dB).
+
+
+
+4. Sensitivity Analysis for Oil Majors and Carbon Pricing
+
+
+
+In Section 4 we mentioned that sensitivity analysis can be useful, in light of some inherent
+arbitrariness in quantifying the weight of qualitative evidence. For the oil majors example, we
+report below the point estimates from Section 5, followed by the range we deem reasonable
+for each of the four evidentiary statements we analyzed. Positive weights of evidence indicate
+support for HCA , whereas negative signs indicate support for HSA :
+
+W oE1 ≈ 4 dB, (3 to 4 dB)
+
+W oE2 ≈ 3 dB, (1 to 4 dB)
+
+W oE3 ≈ −12 dB, (−10 to −15 dB)
+
+W oE4 ≈ 7 dB, (5 to 9 dB)
+
+The range deemed reasonable is naturally wider for larger weights of evidence. But more
+generally, the ranges reflect our judgements as motivated by the reasoning that we explained in
+Section 5. We arrived at these numbers through iterative discussion of the sort we recommended
+for an expert panel in Section 6. After the two of us independently analyzed each piece of
+evidence, we discussed until arriving at agreement on the most compelling line of reasoning
+as to how likely a given observation would be under HSA vs. HCA . We then compared our
+respective decibel assignments. In most instances, our numbers agreed to within 3 or 4 dB.
+Larger discrepancies required additional discussion to arrive at agreement and motivated the
+wider ranges reported above, whereas smaller discrepancies led to narrower ranges.
+
+For the aggregate weight of evidence (E = E1 E2 E3 E4 ), we arrive at a point estimate of 2 dB
+for HCA , with a range from 6 dB for HSA to 8 dB for HCA :
+
+W oE ≈ 2 dB, (−6 to 7 dB)
+                                                                                            11
+
+
+In the best case scenario for the authors, who argue for competitive advantage, the evidence
+weighs only very modestly in favor of HCA . In the worse case scenario, the evidence weakly
+favors HSA . But either way, these are very weak overall findings—a more convincing test of the
+hypotheses would require additional evidence. More compelling evidence in a qualitative social
+science context would reach or exceed 40 dB. Readers might hold strong prior log-odds, and an
+advisable goal is to overwhelm the priors we anticipate a skeptical reader would espouse.
+

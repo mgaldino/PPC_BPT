@@ -1,0 +1,2 @@
+"diagnostic_convention","a_sa_at_boundary","b_ca_at_boundary","r0_at_boundary","condition_for_q_below_convention","condition_for_q_above_convention","status"
+0.05,0.0681924418339332,0.00430265220131586,0.935834126932379,"a_sa < a_sa_at_boundary","a_sa > a_sa_at_boundary","algebraic_frontier_not_estimate_or_elicited_bound"

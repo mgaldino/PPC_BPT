@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "adjudication_id": "causal-likelihoods:9b7419e7c943:round1",
+  "source": {
+    "reviewed_artifact": "quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/proposta.md",
+    "sha256": "9b7419e7c9434dabefeaaa4b0e0729b46a167255ead86e6ac38a314606b283f2",
+    "artifact_intact": true
+  },
+  "contract": {
+    "required": false, "path": null, "sha256": null,
+    "contract_id": null, "artifact_sha256": null, "status": null, "stale": false
+  },
+  "review_sources": [{
+    "review_id": "R10",
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/agents/10_audit.md",
+    "sha256": "a1c5923d0e0501c52cafd826cbf8c6fc145e15fc1b949f8e30622b2466f5f3d5"
+  }],
+  "findings": [
+    {
+      "finding_id": "R10-F001", "source_review": "R10",
+      "quoted_finding": "A família é um PPC condicional de nova emissão de E3; não constitui gerador conjunto de todas as evidências E1–E4.",
+      "type": "scope_or_consistency", "severity": "major", "scientific_dimension": "scope",
+      "held_decision": false, "status": "REFUTED",
+      "source_locations": ["proposta.md, seção 3.3", "proposta.md, primeiro parágrafo"],
+      "defect_evidence": [],
+      "refuting_evidence": ["O texto declara PPC condicional in-sample, prefixo fixo e auxiliar novo; não reivindica gerador conjunto E1–E4."],
+      "mechanical_checks": ["Leitura integral da seção 3.3 e confronto com o gerador em causal_ppc.R."],
+      "reasoning": "A ressalva científica é correta, mas um defeito de sobreafirmação global está refutado na versão atual: seu alcance limitado é expresso.",
+      "proposed_fix_assessment": "not_provided", "disposition": "Preservar o alcance na entrega final."
+    },
+    {
+      "finding_id": "R10-F002", "source_review": "R10",
+      "quoted_finding": "Âncora empírica ou elicitação humana que feche as likelihoods permanece não resolvida.",
+      "type": "method", "severity": "major", "scientific_dimension": "identification",
+      "held_decision": false, "status": "UNRESOLVED",
+      "source_locations": ["proposta.md, seções 1, 4 e 5", "data/source_ledger.csv", "agents/10_audit.md, Sugestões e adjudicação"],
+      "defect_evidence": [], "refuting_evidence": [],
+      "mechanical_checks": ["O ledger e os dez relatórios não apresentam âncora absoluta medida ou elicitada; o R varia especificações sem escolher uma."],
+      "reasoning": "A identidade e o valor da informação necessária estão explicitados, mas a evidência que determinaria um ponto ou limite substantivo não foi obtida. A limitação é do objetivo científico ainda aberto, não erro aritmético do relatório.",
+      "proposed_fix_assessment": "needs_design", "disposition": "Não encaminhar a família como aplicação empírica pontual completa; obter calibração ou elicitação real."
+    },
+    {
+      "finding_id": "R10-F003", "source_review": "R10",
+      "quoted_finding": "Evento composto e retrospectivo pode ser raro por granularidade, sem inadequação causal.",
+      "type": "overclaim", "severity": "major", "scientific_dimension": "inference",
+      "held_decision": false, "status": "REFUTED",
+      "source_locations": ["proposta.md, seções 3.1 e final de 3.3"],
+      "defect_evidence": [],
+      "refuting_evidence": ["O relatório restringe a demonstração à identificação da previsão e explicita que raridade não prova inadequação."],
+      "mechanical_checks": ["Confronto de E3 com FC pp. 12–13; leitura de T(Y)=Y e dos qualificadores."],
+      "reasoning": "A objeção seria procedente contra um diagnóstico de má adequação; a versão entregue não faz esse diagnóstico.",
+      "proposed_fix_assessment": "not_provided", "disposition": "Não transferir 12 dB a categoria simplificada nem afirmar rejeição de SA/CA."
+    }
+  ],
+  "summary": {"total": 3, "confirmed": 0, "partial": 0, "refuted": 2, "unresolved": 1, "held_decisions": 0},
+  "adjudication": {
+    "verdict": "BLOCKED",
+    "checked_at": "2026-10-10T18:09:00-03:00",
+    "reasons": ["A aplicação empírica pontual requerida não está identificada pelas fontes examinadas. A entrega da demonstração condicional e dos arquivos é válida e não depende de resolver essa lacuna. Não é bloqueio de permissão ou do ambiente."]
+  }
+}
