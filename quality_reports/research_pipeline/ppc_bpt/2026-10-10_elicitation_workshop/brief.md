@@ -1,0 +1,15 @@
+# Oficina de elicitação: instruções comuns
+Data: 2026-10-10. Pedido do usuário: debater com cerca de dez subagentes um procedimento CONCRETO para obter probabilidades defensáveis e validá-las, aplicado a um dos dois casos do paper. O trabalho anterior deu categorias e fórmulas, mas ainda deixou a origem dos números pouco operacional.
+
+## Fontes obrigatórias e identidade
+Leia CLAUDE.md, os trechos relevantes de paper_draft_v1.Rmd e supplementary_materials.md. Fonte canônica SHA256 8bcda550633f3d55369a9c4b26d8732d2da73ecb086c506c8d6e53634939446f. O contrato prévio de fidelidade está em quality_reports/argument_contracts/ppc_bpt/8bcda550633f/argument_contract.md; relatório anterior em quality_reports/research_pipeline/ppc_bpt/2026-10-10_method_design/proposta_final.md. Não edite nenhum desses arquivos.
+Caso principal provisório: petróleo/carbon pricing, sujeito à comparação de viabilidade por agentes 02/03. Não assumir que artigo54etc ou corpus enumerado exista; verifique fontes primárias e informe escopo exato do que abriu. Caso chileno é alternativa e controle de transportabilidade.
+
+## Decisões anteriores a preservar ou contestar explicitamente
+y_rep é resposta codificada a oportunidade documental, com categorias exaustivas, perguntas e protocolo definidos. Previsão de respostas reservadas de corpus fixo não equivale a réplica de produção de arquivo; ambas são possíveis, com semânticas diferentes. Relações entre fontes precisam ser preservadas. Não registro não prova ausência histórica. LR não identifica probabilidade absoluta. Categorias/quadro normalizado não garantem validade. Cenários FC e CausalQueries já oferecem estrutura; contribuição é operacional.
+Material conhecido (ILD, McCoy, API, evidências do paper) é desenvolvimento, não holdout rebatizado. Aberturas novas devem ser registradas como exposição e não prometidas como reserva. Atores causais ou intenções privadas não ganham rótulo verdadeiro apenas porque um documento acusa/revela algo.
+
+## Entrega independente
+Produza 800–1.300 palavras em português no seu arquivo indicado; não leia propostas de colegas antes de salvar sua versão independente. Inclua: proposta executável com caso/pergunta/insumos/pessoas/produtos; decisões explícitas; ao menos duas objeções que antecipa; informação que continua faltando; até 4 fontes primárias verificadas com URLs (quando a função exigir pesquisa). Não produzir números empíricos inventados. Números de tamanho de equipe, perguntas e horas podem ser recomendações de planejamento, claramente como tais. Não executar simulações, análises, scripts do projeto, APIs pagas ou mensagens a pessoas. A redação de instrumentos/relatório e checagens documentais são autorizadas, não reescrita do manuscrito.
+Não criar outros agentes. Cada um dos dez tem papel delimitado. A equipe de agentes desenha o método: não é painel de especialistas humanos, nem amostra independente para gerar probabilidades. Ao terminar, envie resumo ao coordenador e fique disponível para debate posterior. Salve crítica posterior em debate/, preservando a proposta original.
+

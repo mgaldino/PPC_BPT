@@ -1,0 +1,45 @@
+# Participante 03 — Chile como primeiro piloto verificável
+
+Recomendo **Chile/57 bis para o primeiro piloto de elicitação**, com alvo restrito a respostas documentais públicas. Petróleo continua candidato a uma aplicação maior, mas sua variedade de empresas e documentos não demonstra, por si, disponibilidade de reserva nem âncoras melhores. No Chile já há um acervo oficial delimitado. A recomendação não transforma o piloto em validação do temor eleitoral, da intervenção da liderança ou do mecanismo composto.
+
+Há uma precisão indispensável: a reforma de 2005 revogou o benefício preservado para ações adquiridas antes de 29/07/1998 pelo artigo 18, inciso terceiro, da Lei 19.578. O instrumento deve identificar esse benefício, evitando a expressão genérica “eliminação do artigo 57 bis”. A mensagem presidencial e a circular tributária esclarecem o alcance. [BCN, História da Lei 20.028, pp. 4–6](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F37346%2F2%2FHL20028.pdf); [SII, Circular 43/2005](https://www.sii.cl/documentos/circulares/2005/circu43.htm).
+
+## Desenho executável
+
+**Pergunta principal:** “No bloco documental delimitado, parlamentares do grupo previamente definido apresentam explicitamente a distribuição do benefício entre grupos de renda como razão para aceitar sua revogação?”. Fixar antes da previsão o grupo, a sessão, a definição de razão explícita e o tratamento de discurso citado. Categorias: (A) existe manifestação qualificável e não existe manifestação explicitamente contrária; (B) existem ambas; (C) não existe manifestação qualificável no bloco acessível; (D) bloco indisponível ou incompleto para aplicar o protocolo. C inclui silêncio e outras justificativas, preservados como subcódigos. Ausência de manifestação registrada não significa ausência de motivação.
+
+O inventário teria como unidades famílias de intervenções na mesma sessão, com falas reproduzidas ligadas ao original. Câmara e Senado não constituem testemunhas automaticamente independentes. O índice da BCN identifica comissão do Senado a partir da p. 33 e plenário a partir da p. 45; isso permite delimitar candidatos antes de ler seu conteúdo. A nota editorial informa omissão de documentos de mera tramitação: a população-alvo será o acervo publicado, não tudo que ocorreu. [BCN, pp. 2–3](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F37346%2F2%2FHL20028.pdf).
+
+Planejamento recomendado: um custodiante prepara manifesto e controla exposição; dois especialistas em política tributária chilena fazem elicitações individuais; dois codificadores avaliam os resultados posteriormente. Uma pessoa pode acumular custódia e codificação, mas não produzir a previsão que depois julgará. Reservar 24–36 horas totais como orçamento inicial, sujeito ao inventário. Produtos: manifesto, cartões das perguntas, planilhas individuais, justificativas das probabilidades, registro de conflitos, previsões congeladas e relatório de desempenho. Não executar entrevistas nem contatar participantes nesta oficina.
+
+## De onde sairão os números
+
+1. **Âncora observável.** Em material de desenvolvimento, o custodiante aplica o mesmo código a blocos comparáveis e entrega contagens por reforma, estágio legislativo e grupo parlamentar. Cada frequência descreve somente aquele conjunto finito. Não misturar 2001, 2004 e 2005 para obter uma “taxa chilena”. Se faltarem blocos comparáveis, registrar ausência de âncora, sem fabricar pseudocontagens.
+2. **Previsão individual.** Cada especialista distribui cem fichas entre A–D para o bloco alvo e registra quais contagens, características do episódio e convenções do arquivo sustentam a distribuição. Perguntas de revisão: qual diferença entre o bloco de origem e o alvo justifica afastar a previsão da frequência observada? Qual informação mudaria esse afastamento? Solicitar depois duas distribuições completas alternativas consideradas plausíveis. As fichas são instrumento de expressão; não representam cem observações.
+3. **Revisão controlada.** Mostrar divergências e razões, permitir uma revisão individual e conservar ambas as versões. Publicar previsões individuais; uma média com pesos iguais pode ser benchmark previamente escolhido, sem alegar superioridade ou consenso empírico. Especialistas que conheçam o resultado particular não participam da sua previsão cega.
+4. **Comparação metodológica.** Pedir previsão direta e previsão por configurações com o mesmo pacote informacional e orçamento. Na segunda, eliciar pesos das configurações e distribuições A–D condicionais, mantendo alternativas plausíveis. Nenhum peso herdado do posterior original substitui essa especificação. A primeira rodada deve conter uma pergunta principal; outras serão exploratórias, evitando produto de probabilidades marginais como se fossem independentes.
+
+O objetivo é tornar os números **rastreáveis e refutáveis**, não transformá-los em estimativas empíricas apenas por seguir um formulário. Uma previsão marginal pode ser avaliada contra a resposta reservada. As probabilidades condicionais a mecanismos verdadeiros não serão diretamente calibradas, porque os mecanismos continuam desconhecidos. Modelos com o mesmo prognóstico marginal podem permanecer indistinguíveis.
+
+## O papel de 2001 e 2004
+
+Usaria as três reformas como exercícios separados de transporte e de clareza do instrumento. A Lei 19.753 combinou aumento gradual da primeira categoria com alterações da tributação pessoal; portanto, “aceitar imposto” exige identificar a medida e o pacote. O cadastro do royalty de 2004 registra rejeição de artigos e continuidade de outra parte do projeto: “fracasso da reforma” também exige definição. Essas diferenças são observáveis, sem atribuir a cada reforma o mecanismo verdadeiro. [Lei 19.753](https://www.bcn.cl/leychile/Navegar?idNorma=189887&idVersion=2001-09-28); [Câmara, boletim 3588-08](https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmBL=3588-08&prmID=3908).
+
+Para antievasão/2001, imposto corporativo/2001 e royalty/2004, preencher uma ficha por episódio: objeto, grupos afetados, compensações documentadas, estágio, calendário eleitoral e tipo de registro. Especialistas explicam quais diferenças alteram previsões documentais. Não aplicar exchangeability entre reformas; não usar três resultados históricos para estimar “probabilidade de êxito sob equidade”; não interpretar equidade presente em reforma negociada como teste isolado de necessidade ou suficiência. Uma analogia fraca deve alargar as alternativas plausíveis, inclusive tornar o piloto inconclusivo.
+
+## Escolha, validação e objeções
+
+| Critério verificável | Chile | Petróleo |
+|---|---|---|
+| Observabilidade | Corpus legislativo oficial delimitado; intenção privada permanece latente | Mais tipos de vestígios; intenções e condições comerciais continuam latentes |
+| Reserva | Blocos candidatos identificáveis no índice; novidade substantiva ainda precisa ser auditada | Inventário e reserva adicional precisam ser demonstrados; exemplos conhecidos já expostos |
+| Ancoragem | Mesma instituição facilita comparar práticas de registro; contextos fiscais diferem | Comparações exigem justificar transporte entre empresa, política, jurisdição e período |
+| Custo | Primeiro piloto pequeno e com limite documental explícito | Curadoria e reconstrução de dependências provavelmente maiores; orçamento ainda desconhecido |
+
+Após congelar previsões, os dois codificadores produzem respostas com trechos verificáveis; divergências são resolvidas por regra previamente escrita. Calcular posteriormente Brier por pergunta e mostrar resultados por bloco, comparando previsão direta, decomposta e benchmark. Poucos blocos de uma reforma permitem um teste piloto de acerto preditivo, não uma alegação forte de calibração. Concordância de codificação mede consistência, não revela mecanismo histórico.
+
+**Objeção 1:** a história já é conhecida. Procede; a reserva precisa conter informação adicional sobre o alvo exato, não páginas inéditas repetindo ILD ou “1999 trap”. Sem isso, classificar como retrospectivo. **Objeção 2:** boas previsões sobre discursos podem ser causalmente triviais. Procede; comparar métodos expõe esse limite. Só fontes com capacidade discriminante sobre a decisão privada sustentariam diagnóstico desses elos.
+
+Faltam inventário de exposição por participante, acesso a especialistas sem conhecimento dos resultados reservados, contagens comparáveis e confirmação de registros partidários pertinentes. A escolha chilena deve ser abandonada para validação cega se a auditoria não encontrar reserva substantiva.
+
+**Exposição nesta tarefa, 10/10/2026:** fontes locais obrigatórias; índice e abertura automática da BCN até p. 7, dentro das pp. 1–14 já classificadas como desenvolvimento; circular SII; texto indexado da Lei 19.753; cadastro de tramitação do royalty. Consultas também mostraram snippets institucionais sobre Lei 19.738; sua página BCN abriu sem texto substantivo. Não abri debates adicionais do Senado, arquivos partidários ou novos documentos de petróleo. Nada aqui é reserva recém-validada.

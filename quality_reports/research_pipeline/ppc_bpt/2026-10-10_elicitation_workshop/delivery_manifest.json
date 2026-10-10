@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-10",
+  "status": "prepared_not_empirically_validated",
+  "independent_proposals": 10,
+  "debate_records": 10,
+  "ratifications": 10,
+  "pdf_pages": 14,
+  "sha256": {
+    "quality_reports/research_pipeline/ppc_bpt/2026-10-10_elicitation_workshop/protocolo_final.md": "ab3de812e0cc4c4fca6d3c43939e9cb1fe09040a4c909f16ab43220b51192227",
+    "output/pdf/protocolo_elicitacao_ppc_bpt_2026-10-10.pdf": "cf777bbd80568a775fc62bfb03544fae7b0ae8601b9e83a846e4435deadc81b9",
+    "paper_draft_v1.Rmd": "8bcda550633f3d55369a9c4b26d8732d2da73ecb086c506c8d6e53634939446f",
+    "paper_draft_v1.pdf": "1db03332c15fb3c63657a69eba16536fb1dc0073f038f73508ddad8433dc11ca",
+    "supplementary_materials.md": "8a6e700c259d8a65117bef025d05ff623740c9229c01c0c6146971aec3dda84a",
+    "references.bib": "236cef6ad7468d0bcc0c7447e19a9a6b5ea467ee690c1256af2b8a910622d39e"
+  }
+}
