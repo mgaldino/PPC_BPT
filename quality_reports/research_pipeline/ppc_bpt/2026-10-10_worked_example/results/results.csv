@@ -1,0 +1,12 @@
+"quantity","value"
+"N",8
+"signers",5
+"raw_fraction",0.625
+"posterior_mean",0.6
+"T_obs",1
+"ppc_absolute",0.00600575894693543
+"ppc_conditional",0.0178571428571429
+"prior_robust_bound",0.0078125
+"ppc_region_model",0.311750154607297
+"posterior_mean_Europe_M1",0.857142857142857
+"posterior_mean_US_M1",0.2
