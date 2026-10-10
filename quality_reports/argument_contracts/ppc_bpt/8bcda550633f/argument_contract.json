@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "ppc_bpt:8bcda550633f:round1",
+  "profile": "general",
+  "source": {
+    "reviewed_artifact": "paper_draft_v1.Rmd",
+    "sha256": "8bcda550633f3d55369a9c4b26d8732d2da73ecb086c506c8d6e53634939446f",
+    "editable_sources": [{"path": "supplementary_materials.md", "sha256": "8a6e700c259d8a65117bef025d05ff623740c9229c01c0c6146971aec3dda84a"}]
+  },
+  "document": {"title": "Mechanism Configurations and Posterior Predictive Checks for Bayesian Process Tracing", "language": "en", "format": "Rmd", "word_count": 8092, "page_count": null, "substantive_sections": 7},
+  "section_map": [
+    {"section_id":"S01","title":"Abstract and Introduction","locator":"25,34-49","reader_id":"/root/read_intro","function":"framing","claims":["C01","C06","C07"],"evidence":["S01_intro.md"],"non_claims":["No absence of formal FC structure"],"ambiguities":[]},
+    {"section_id":"S02","title":"The Dominant-Scenario Problem","locator":"50-100","reader_id":"/root/read_problem","function":"problem","claims":["C01"],"evidence":["S02_problem.md"],"non_claims":["No ban on shared mechanisms in FC"],"ambiguities":[]},
+    {"section_id":"S03","title":"Mechanism Configurations","locator":"101-261","reader_id":"/root/read_framework","function":"method","claims":["C02","C03","C04","C05"],"evidence":["S03_framework.md"],"non_claims":["PPC does not prove causal truth","Circularity not eliminated"],"ambiguities":[]},
+    {"section_id":"S04","title":"Chile","locator":"262-393","reader_id":"/root/read_chile","function":"application","claims":["C06","C08"],"evidence":["S04_chile.md"],"non_claims":["No posterior for composite calculated"],"ambiguities":[]},
+    {"section_id":"S05","title":"Oil Majors","locator":"394-506","reader_id":"/root/read_oil","function":"application","claims":["C07","C08"],"evidence":["S05_oil.md"],"non_claims":["No uniform strategic accommodation across companies"],"ambiguities":[]},
+    {"section_id":"S06","title":"Discussion and Conclusion","locator":"507-540","reader_id":"/root/read_discussion","function":"synthesis and limitations","claims":["C09"],"evidence":["S06_discussion.md"],"non_claims":["No full independent primary data collection"],"ambiguities":[]},
+    {"section_id":"S07","title":"Supplementary source documentation","locator":"supplementary_materials.md:1-155","reader_id":"/root/read_supplement","function":"provenance","claims":["C10"],"evidence":["S07_supplement.md"],"non_claims":["Source lists are not a generative algorithm"],"ambiguities":[]}
+  ],
+  "synthesis": {
+    "thesis": "Explicit mechanism links operationalize existing FC scenario structure for finer predictive diagnostics.",
+    "research_question": "How can BPT evidence specifications be checked and failures localized?",
+    "contribution": "Mechanism decomposition, two-level prediction, holdout workflow and graded anti-circularity protocols.",
+    "claim_type": "methodological proposal with qualitative demonstrations",
+    "core_claims": [
+      {"claim_id":"C01","text":"FC already has internal scenarios; gap concerns practice.","strength":"explicit constructive scope"},
+      {"claim_id":"C02","text":"Configuration is a complete binary state vector.","strength":"definition"},
+      {"claim_id":"C03","text":"Text also integrates uncertain link states within configurations without reconciling this with C02.","strength":"two literal formulations; absence of reconciliation recorded, not authorial intent inferred"},
+      {"claim_id":"C04","text":"PPC is qualitative adequacy diagnosis; no general y_rep generator is supplied.","strength":"workflow and documented absence"},
+      {"claim_id":"C05","text":"Holdout should precede inspection; circularity is reduced rather than eliminated.","strength":"prescriptive protocol"},
+      {"claim_id":"C06","text":"Chile suggests a composite with low business stakes, without formal posterior comparison.","strength":"qualitative diagnosis with variable verbal strength"},
+      {"claim_id":"C07","text":"Oil application claims likelihood misspecification and company heterogeneity.","strength":"assertive summaries; likely in detailed finding"},
+      {"claim_id":"C08","text":"Elicitation shows agreement in displayed Chile standard channels and disagreement in oil prompts.","strength":"reported comparisons, no independent calibration"},
+      {"claim_id":"C09","text":"Secondary data, incomplete blind protocol and point link posteriors are acknowledged limitations.","strength":"explicit limitation"},
+      {"claim_id":"C10","text":"Supplement lists sources and explicit access gaps.","strength":"documentation, not new collection"}
+    ],
+    "evidence_map": [
+      {"claim_id":"C01","source_locator":"38-42,64-68,105","evidence":"FC equations and atomization explicitly acknowledged","scope":"operational extension"},
+      {"claim_id":"C02","source_locator":"105-117","evidence":"binary vector definition","scope":"proposed representation"},
+      {"claim_id":"C03","source_locator":"129,180-188","evidence":"nested sums over uncertain links and configurations","scope":"literal coexistence with C02; proposed repairs must be labeled new"},
+      {"claim_id":"C04","source_locator":"194-213","evidence":"six steps, qualitative comparison, no general simulator","scope":"not proof of truth"},
+      {"claim_id":"C05","source_locator":"205-240","evidence":"four protocols and graded credibility","scope":"partial application"},
+      {"claim_id":"C06","source_locator":"319-346","evidence":"comparative reforms, deliberations, lobbying silence","scope":"suggestive, not quantified superiority"},
+      {"claim_id":"C07","source_locator":"427-480,511","evidence":"McCoy, API, investment evidence and worked example","scope":"company/time distinctions and qualifiers retained"},
+      {"claim_id":"C08","source_locator":"349-391,485-504","evidence":"elicitation tables","scope":"robust means direction across specified channels, not factual calibration"},
+      {"claim_id":"C09","source_locator":"533","evidence":"limitations paragraph","scope":"acknowledged limitations are not discoveries"},
+      {"claim_id":"C10","source_locator":"supplementary_materials.md:14-36,109-111","evidence":"BCN missing link, unavailable archives, non-holdout sources","scope":"status declared in source, not current accessibility audit"}
+    ],
+    "scope_conditions": ["Known domain", "Identifiable holdout", "Distinguishable link predictions", "Proposal development, not manuscript rewriting"],
+    "non_claims": ["PPC proves causal truth", "FC lacks scenario infrastructure", "Circularity eliminated", "Independent LLM errors established", "Complete primary collection", "Composite posterior estimated", "Formal pruning or simulation validation completed"],
+    "terminology": [{"preferred":"operational extension of FC","avoid":["FC has no internal structure"],"reason":"64-68"},{"preferred":"predictive diagnosis","avoid":["causal validation"],"reason":"196"}],
+    "ambiguities": [],
+    "profile_fields": {"documented_tensions": ["C02 versus C03 both explicit; ontology not resolved by manuscript", "Chile active/probable/ambiguous low stakes all retained", "e3 labeled holdout but shares E4/E5 episodes", "oil 0.41 versus displayed direct 0.80 not operationally connected", "replication target not generally specified"]},
+    "not_applicable": {"empirical_estimand":"Methodological paper, not a single population causal estimate", "game_theory":"No strategic equilibrium model", "page_count":"Canonical artifact is Rmd; prior 33-page PDF synchronization not assumed"}
+  },
+  "reconciliation": {
+    "questions": ["Fixed or uncertain configuration?", "Does FC lack theory?", "Is composite superiority quantified?", "What is y_rep?"],
+    "responses": ["S03 follow-up confirms both literal formulations and no reconciliation; contract records both, so later critique cannot assume either intended ontology.", "64-68 explicitly limits gap to operationalization.", "S04 reports qualitative diagnosis and no quantified comparison.", "S03/S05/S07 show no general generator; this documented absence is not filled by interpretation."],
+    "unresolved": []
+  },
+  "gate": {
+    "status":"PASS","round":1,"checked_at":"2026-10-10",
+    "checks":{"coverage":true,"anchors":true,"scope":true,"nonclaims":true,"preferred_specification":true,"ambiguities":true,"source_hash":true},
+    "reasons":["Seven independent source readings plus full macro reading; all central claims anchored", "Textual tensions preserved as explicit coexisting claims, not silently resolved; authorial intent is not needed for bounded proposal review", "PASS certifies documentary fidelity only, not scientific validity or editorial readiness"]
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0",
+  "adjudication_id": "ppc_bpt:8bcda550633f:round1",
+  "source": {
+    "reviewed_artifact": "paper_draft_v1.Rmd",
+    "sha256": "8bcda550633f3d55369a9c4b26d8732d2da73ecb086c506c8d6e53634939446f",
+    "artifact_intact": true
+  },
+  "contract": {
+    "required": true,
+    "path": "quality_reports/argument_contracts/ppc_bpt/8bcda550633f/argument_contract.json",
+    "sha256": "a23e23f326ebb14930e9c946a264215f005fedc97290a6aa2ea2ffa02b49df02",
+    "contract_id": "ppc_bpt:8bcda550633f:round1",
+    "artifact_sha256": "8bcda550633f3d55369a9c4b26d8732d2da73ecb086c506c8d6e53634939446f",
+    "status": "PASS",
+    "stale": false
+  },
+  "review_sources": [
+    {
+      "review_id": "A",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-10_method_design/proposals/A_generative.md",
+      "sha256": "d359fb2318f0e26c97cafe836859348dbc4199fb8c71bff1c0105a076f8cafc5"
+    },
+    {
+      "review_id": "B",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-10_method_design/proposals/B_predictive.md",
+      "sha256": "8468b0c47918b5a98dfabb97f42648f5872eb03101a71b8239e4c1243c8d74e6"
+    },
+    {
+      "review_id": "C",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-10_method_design/proposals/C_validation.md",
+      "sha256": "9a49b71d153d39d479632280603abeabcaae1b9235b0a687e518f4377ac6d0b8"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "F01",
+      "source_review": "A,B,C",
+      "quoted_finding": "O workflow não define um objeto replicável geral nem distribuição completa para seus resultados.",
+      "type": "method",
+      "severity": "major",
+      "scientific_dimension": "mensuração",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "paper_draft_v1.Rmd:199-213",
+        "supplementary_materials.md:14-105"
+      ],
+      "defect_evidence": [
+        "Passos identificam evidências, elicitam previsões e avaliam coerência; categorias completas, protocolo de aquisição e distribuição conjunta não são definidos."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [],
+      "reasoning": "Nomear e* e fornecer P(e*) não especifica a chance de cada resultado possível nem a relação entre os itens.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Definir pergunta, suporte, protocolo e distribuição do vetor observado; não exigir corpus textual simulado."
+    },
+    {
+      "finding_id": "F02",
+      "source_review": "A,B",
+      "quoted_finding": "Configuração fixa e elos variáveis dentro da mesma configuração não estão compatibilizados.",
+      "type": "scope_or_consistency",
+      "severity": "major",
+      "scientific_dimension": "especificação",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "paper_draft_v1.Rmd:107",
+        "paper_draft_v1.Rmd:180-188"
+      ],
+      "defect_evidence": [
+        "Definição c=(m1,...,mn) fixa os estados; fórmula posterior volta a somar estados m dentro de c."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [],
+      "reasoning": "Se c fixa m, a distribuição condicional desses mesmos m é degenerada; alternativas exigem definições distintas.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Escolher explicitamente modelo M, configuração C e parâmetros de observação; não imputar a escolha ao texto atual."
+    },
+    {
+      "finding_id": "F03",
+      "source_review": "A,B",
+      "quoted_finding": "Parâmetros internos incertos não são requisito matemático para checagem preditiva.",
+      "type": "false_statement",
+      "severity": "major",
+      "scientific_dimension": "inferência",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "paper_draft_v1.Rmd:44",
+        "paper_draft_v1.Rmd:73-85",
+        "paper_draft_v1.Rmd:538"
+      ],
+      "defect_evidence": [
+        "Texto exige parâmetros internos para proper PPC; um modelo Bernoulli com p conhecido produz Yrep e permite avaliar uma discrepância."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [],
+      "reasoning": "Uma posterior degenerada preserva a distribuição de observações. Soma discreta entre hipóteses também pode sustentar checagem; decomposição pode aumentar interpretabilidade, não inaugura PPC.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Retirar requisito universal; defender ganho operacional específico da decomposição."
+    },
+    {
+      "finding_id": "F04",
+      "source_review": "A,B,C",
+      "quoted_finding": "Pesos e pressupostos dos exemplos não fornecem um pipeline estimado de predição.",
+      "type": "method",
+      "severity": "major",
+      "scientific_dimension": "reprodutibilidade",
+      "held_decision": false,
+      "status": "PARTIAL",
+      "source_locations": [
+        "paper_draft_v1.Rmd:165-175",
+        "paper_draft_v1.Rmd:427-449",
+        "paper_draft_v1.Rmd:533"
+      ],
+      "defect_evidence": [
+        "Posteriores marginais de elos aparecem sem derivação e produtos pressupõem estrutura conjunta; resultado .41 não alimenta tabela que mantém .80."
+      ],
+      "refuting_evidence": [
+        "Texto chama cálculos de exemplos e reconhece estimativas pontuais sem propagação formal."
+      ],
+      "mechanical_checks": [],
+      "reasoning": "Não é descoberta de limitação ignorada; é necessidade de passar de ilustração a especificação computável. Aritmética dos exemplos está correta sob seus pesos implícitos.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Rotular exemplos como sintéticos ou derivar pesos conjuntos, normalização e tabelas de um modelo reproduzível."
+    },
+    {
+      "finding_id": "F05",
+      "source_review": "A,B,C",
+      "quoted_finding": "O holdout chileno não está delimitado de modo a demonstrar novidade informacional.",
+      "type": "method",
+      "severity": "major",
+      "scientific_dimension": "inferência",
+      "held_decision": false,
+      "status": "PARTIAL",
+      "source_locations": [
+        "paper_draft_v1.Rmd:278-279",
+        "paper_draft_v1.Rmd:323",
+        "paper_draft_v1.Rmd:391",
+        "supplementary_materials.md:28-31"
+      ],
+      "defect_evidence": [
+        "ILD e 1999 trap aparecem em E4/E5 e novamente na descrição de e*3; suplemento remete ao mesmo capítulo original."
+      ],
+      "refuting_evidence": [
+        "Protocolo geral exige previsão antes da inspeção; limitações admitem implementação parcial."
+      ],
+      "mechanical_checks": [],
+      "reasoning": "A sobreposição textual é verificável; não se afirma que nenhuma observação nova possa existir, mas sua adicionalidade não foi demonstrada.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Auditar famílias de eventos/fontes e tratar material conhecido como desenvolvimento."
+    },
+    {
+      "finding_id": "F06",
+      "source_review": "A,B,C",
+      "quoted_finding": "Silêncio documental não permite sozinho inferir ausência de mobilização ou baixos interesses.",
+      "type": "method",
+      "severity": "major",
+      "scientific_dimension": "mensuração",
+      "held_decision": false,
+      "status": "PARTIAL",
+      "source_locations": [
+        "paper_draft_v1.Rmd:325-331",
+        "supplementary_materials.md:33-36"
+      ],
+      "defect_evidence": [
+        "A ausência documentada contribui para declarar m'_1 ativo sem taxas de registro/recuperação ou fonte material independente."
+      ],
+      "refuting_evidence": [
+        "A avaliação de e*4 já diz que o item é ambíguo e compatível com mais de uma hipótese."
+      ],
+      "mechanical_checks": [],
+      "reasoning": "O defeito é o fortalecimento posterior e a falta de modelo observacional, não o simples uso cauteloso de ausência.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Separar ausência explícita, busca inconclusiva e inacessibilidade; ancorar detecção e interesse material."
+    },
+    {
+      "finding_id": "F07",
+      "source_review": "A,B,C",
+      "quoted_finding": "Discrepância preditiva não identifica automaticamente qual elo ou likelihood original falhou.",
+      "type": "overclaim",
+      "severity": "major",
+      "scientific_dimension": "identificação",
+      "held_decision": false,
+      "status": "PARTIAL",
+      "source_locations": [
+        "paper_draft_v1.Rmd:175",
+        "paper_draft_v1.Rmd:196",
+        "paper_draft_v1.Rmd:211",
+        "paper_draft_v1.Rmd:465-480"
+      ],
+      "defect_evidence": [
+        "Diagnósticos mais fortes atribuem falha a m4/m5 e a likelihoods E1/E2 sem excluir mecanismos de observação, heterogeneidade ou mudança temporal."
+      ],
+      "refuting_evidence": [
+        "Exemplo usa likely source, workflow may localize, seção de limites não promete teste de verdade."
+      ],
+      "mechanical_checks": [],
+      "reasoning": "Há linguagem cautelosa que deve ser preservada. Ganho relativo de um rival não estabelece inadequação absoluta; modelos observacionalmente equivalentes não são distinguíveis.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Relatar conjunto de componentes compatíveis com a discrepância e condições para diagnóstico mais fino."
+    },
+    {
+      "finding_id": "F08",
+      "source_review": "A,C",
+      "quoted_finding": "A comparação com CausalQueries precisa enfrentar capacidades gerativas existentes.",
+      "type": "scope_or_consistency",
+      "severity": "major",
+      "scientific_dimension": "contribuição",
+      "held_decision": false,
+      "status": "PARTIAL",
+      "source_locations": [
+        "paper_draft_v1.Rmd:95",
+        "paper_draft_v1.Rmd:526",
+        "paper_draft_v1.Rmd:533"
+      ],
+      "defect_evidence": [
+        "Documentação atual consultada inclui make_data(param_type='posterior_draw'), probabilidades de observação, condicionamento given e probabilidades de eventos."
+      ],
+      "refuting_evidence": [
+        "Paper reconhece formalismo distinto e integração futura; documentação atual não determina automaticamente capacidades exatas da edição de 2023."
+      ],
+      "mechanical_checks": [],
+      "reasoning": "Não se conclui que CausalQueries já contém todo o protocolo proposto, nem se projeta versão atual no passado. Inviável sustentar novidade por ausência geral de predição no concorrente.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Comparar mesmos alvos, dados e restrições; reconhecer infraestrutura existente e isolar contribuição operacional."
+    },
+    {
+      "finding_id": "F09",
+      "source_review": "coordinator,C",
+      "quoted_finding": "Probabilidade preditiva exibida para e6/API é incompatível com pesos e probabilidades da tabela.",
+      "type": "artifact",
+      "severity": "minor",
+      "scientific_dimension": "reprodutibilidade",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "paper_draft_v1.Rmd:398",
+        "paper_draft_v1.Rmd:447"
+      ],
+      "defect_evidence": [
+        "0.75×0.71 + 0.15×0.29 = 0.5325, enquanto a célula mostra 0.58."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Substituição aritmética explícita; confirmação independente por C registrada no debate."
+      ],
+      "reasoning": "Arredondamento do posterior 4 dB não explica a diferença. Substituição conferida pelo coordenador e por C; nenhuma simulação necessária.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Corrigir na futura revisão e gerar todos os valores de uma fonte computacional única."
+    },
+    {
+      "finding_id": "F10",
+      "source_review": "A,B,C",
+      "quoted_finding": "Razões de verossimilhança e posterior agregado não identificam a preditiva absoluta necessária ao método.",
+      "type": "method",
+      "severity": "major",
+      "scientific_dimension": "identificação",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "paper_draft_v1.Rmd:201-209",
+        "paper_draft_v1.Rmd:271-315"
+      ],
+      "defect_evidence": [
+        "O workflow parte do BPT original e pede probabilidades adicionais sem uma ponte geral; pares (.8,.2) e (.08,.02) têm BF 4 e previsões distintas."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [],
+      "reasoning": "Resultado de insuficiência não é falha de Bayes ou de FC; delimita a informação adicional que a operacionalização deve fornecer.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Apresentar resultado elementar e tabela de ancoragem/normalização para probabilidades novas."
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "confirmed": 5,
+    "partial": 5,
+    "refuted": 0,
+    "unresolved": 0,
+    "held_decisions": 0
+  },
+  "adjudication": {
+    "verdict": "READY_FOR_IMPLEMENTATION",
+    "checked_at": "2026-10-10",
+    "reasons": [
+      "Adjudicação delimitada de dez problemas para preparar correções futuras; não certifica validade empírica, originalidade ou prontidão editorial.",
+      "Pedido atual autoriza proposta e relatório, não reescrita; nenhuma alteração aplicada ao manuscrito.",
+      "Método proposto ainda exige testes e coleta. Viabilidade empírica e novidade completa são questões de pesquisa abertas fora do veredicto documental."
+    ]
+  }
+}

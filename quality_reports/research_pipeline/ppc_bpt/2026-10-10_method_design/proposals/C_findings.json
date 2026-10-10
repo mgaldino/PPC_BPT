@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "proposal_id": "C_validation",
+  "author_role": "independent_design_and_validation",
+  "contract_id": "ppc_bpt:8bcda550633f:round1",
+  "source_sha256": "8bcda550633f3d55369a9c4b26d8732d2da73ecb086c506c8d6e53634939446f",
+  "supplement_sha256": "8a6e700c259d8a65117bef025d05ff623740c9229c01c0c6146971aec3dda84a",
+  "independence": {"read_A_before_saving": false, "read_B_before_saving": false, "full_source_read": true, "scripts_executed": false, "manuscript_modified": false},
+  "thesis": "Qualitative replication must specify opportunities, trace generation, recording and coding; preserve partial predictive identification when absolute probabilities and observation processes cannot be anchored.",
+  "replication_target": "Joint vector of prespecified retrieval and coding outcomes at fixed historical observation opportunities, optionally a directly modeled substantive summary.",
+  "model_objects": {"M": "causal structure", "Z": "realized configuration", "W": "historical trace or action", "R": "recording, preservation and retrieval", "Y": "observed coding", "theta": "substantive parameters", "phi": "observation and measurement parameters", "d": "fixed observation design"},
+  "novelty_candidate": "Protocol-aware predictive checking for BPT with explicit nonidentification, robust observational sensitivity and an auditable holdout design; not discovery of scenario averaging or binary causal simulation.",
+  "claims": [
+    {"id": "C_R1", "kind": "elementary_result_proposed", "claim": "Likelihood ratios and posterior hypothesis probabilities do not uniquely determine absolute predictive probabilities.", "proof_status": "algebra supplied; independent verification pending", "priority": "core"},
+    {"id": "C_R2", "kind": "elementary_result_proposed", "claim": "Without false positives, observation probability q=a*rho does not identify occurrence and detection separately.", "proof_status": "algebra supplied; independent verification pending", "priority": "core"},
+    {"id": "C_R3", "kind": "elementary_result_proposed", "claim": "Observationally equivalent mechanisms cannot be localized by any check using the same targets.", "proof_status": "equality-of-distributions argument supplied; independent verification pending", "priority": "core"},
+    {"id": "C_R4", "kind": "design_proposal", "claim": "Choose reserved opportunities using separation of rival joint predictions robust to admissible observation parameters.", "proof_status": "criterion proposed, no optimization or simulation executed", "priority": "extension"}
+  ],
+  "absolute_probability_routes": ["reference records with defensible coverage", "independent retrieval and coding validation", "prospective coherent elicitation with uncertainty", "partial predictive envelopes when point anchoring is unavailable"],
+  "holdout_requirements": ["freeze model and search protocol before retrieval", "document exposure", "split source and event families", "exclude all known McCoy/ILD/Lavin examples from fresh validation", "reserve a second batch for revised models", "do not use LLM convergence as independence evidence"],
+  "empirical_design": {"Chile": "pilot of documentary observation with public legislative corpus; private mechanisms require genuinely additional records", "Oil": "main company-episode-time application with separate original-period records and temporal transition validation", "selection": "metadata-based frame and retrieval log; condition claims on accessible selected archive when needed", "dependence": "shared event/source genealogy with joint replication", "drift": "separate date of action from date of disclosure and model later transitions explicitly"},
+  "verified_new_source": {"title": "BCN Historia de la Ley 20.028", "url": "https://www.bcn.cl/obtienearchivo?id=recursoslegales/10221.3/37346/2/HL20028.pdf", "pages": 71, "pages_exposed": "1-14, page 14 partial", "exposure_status": "development material, not holdout for this agent", "verified_scope": "identity, contents list, explicit editorial omission on page 2", "not_done": "complete substantive coding or independent holdout collection", "accessed": "2026-10-10"},
+  "benchmarks": ["FC explicit scenarios", "CausalQueries", "direct expert prediction with equal information", "proposed observation model", "naive independence/detection model", "oracle observation model"],
+  "simulation_dimensions": ["posterior concentration", "omitted mechanisms", "detection", "selection", "source dependence", "elicitation correlation", "temporal drift", "predictive separation", "independent family count"],
+  "validation_metrics": ["false alarm rate", "misspecification detection", "link mislocalization", "predictive coverage", "heldout proper scores", "collection and elicitation cost"],
+  "limits": ["robust posterior tail areas are not automatically frequentist tests", "coherent subjective prediction is not empirical calibration", "mechanism and observation errors may remain inseparable", "Chile archive now inspected is development material for this agent", "no exhaustive novelty review", "no guarantee of publication"],
+  "status": "independent_proposal_saved_before_peer_exchange"
+}

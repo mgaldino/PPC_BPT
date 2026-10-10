@@ -1,0 +1,34 @@
+{
+  "proposal_id": "B_predictive",
+  "role": "Independent proposer: minimal predictive adaptation",
+  "date": "2026-10-10",
+  "contract_id": "ppc_bpt:8bcda550633f:round1",
+  "source_sha256": "8bcda550633f3d55369a9c4b26d8732d2da73ecb086c506c8d6e53634939446f",
+  "complete_reads": ["CLAUDE.md", "paper_draft_v1.Rmd", "supplementary_materials.md", "argument_contract.md", "argument_contract.json", "sources.md"],
+  "status": "Independent proposal saved before reading A or C; analytical synthetic example only; round 1 clarifications logged in debate/B_round1.md",
+  "scripts_executed": false,
+  "manuscript_edited": false,
+  "recommended_core": "Finite normalized distributions over coded answers to prespecified questions under an explicit acquisition/coding protocol; exact enumeration replaces corpus generation and Monte Carlo.",
+  "findings": [
+    {"id":"B01","type":"proposal","claim":"Replicate coded answers rather than text or whole historical worlds.","scope":"Only properties represented by the questions and acquisition protocol are checked."},
+    {"id":"B02","type":"mathematical_correction","claim":"Uncertain internal parameters are not necessary for predictive checking; a degenerate parameter distribution still permits replicated data.","source_locator":"paper_draft_v1.Rmd:44,75-91,537","implication":"Reframe mechanism decomposition as operational help and diagnostic structure, not a mathematical enabling condition."},
+    {"id":"B03","type":"identification_limit","claim":"Likelihood ratios alone do not determine absolute predictive probabilities.","analytic_counterexample":{"LR":4,"pair_1":[0.8,0.2],"pair_2":[0.08,0.02],"weights":[0.8,0.2],"predictives":[0.68,0.068]},"implication":"Additional absolute probabilities or meaningful bounds are indispensable."},
+    {"id":"B04","type":"taxonomy","claim":"Distinguish same-data PPC, held-out posterior prediction, Bayes-factor updating, absolute inadequacy, and localized diagnosis.","implication":"A Bayes factor favoring a composite does not establish likelihood misspecification."},
+    {"id":"B05","type":"proposal","claim":"Treat complete configuration C as the latent state within model M, not a fixed configuration with separately uncertain component states.","source_locator":"paper_draft_v1.Rmd:107,180-188","contract_claims":["C02","C03"]},
+    {"id":"B06","type":"measurement_requirement","claim":"Absence of recovered records requires a detection/false-positive model or conditional target with explicit limits.","analytic_example":{"true_lobby_probabilities":[0.7,0.1],"detection_interval":[0.2,0.9],"BF_no_record_interval_approx":[1.14,2.46],"BF_perfect_detection":3}},
+    {"id":"B07","type":"dependence_requirement","claim":"Reserve source blocks and model joint or sequential conditional distributions; source separation alone does not guarantee statistical independence.","implication":"Do not count copied accounts or related statements as independent holdouts."},
+    {"id":"B08","type":"robustness_proposal","claim":"Use coherent sets of full probability models when elicitation is weak, propagate whole models, and report predictive envelopes.","limitation":"Wide sets may correctly yield no informative diagnosis; LLM agreement does not identify calibration."},
+    {"id":"B09","type":"synthetic_analytic_demonstration","claim":"A strongly discriminating result can be unsurprising absolutely.","example":{"weights":[0.8,0.2],"observed_pattern":"R=1,L=0","likelihoods":[0.25,0.82],"predictive":0.364,"BF_composite":3.28,"posterior_composite_approx":0.451},"empirical_status":"Synthetic limiting case with perfect recording, recovery and coding; no Chile validation","round1_clarifications":["Complete archive does not imply perfect recording.","Small point probability alone does not establish inadequacy; T is a narrow prespecified directional check and a family of checks requires evaluation of the full alarm rule."]},
+    {"id":"B10","type":"scope_limit","claim":"A few heterogeneous checks cannot establish calibration or uniquely localize a faulty causal link.","implication":"Report tension and candidate components; require further independent observations for adjudication."}
+  ],
+  "debate_positions": {
+    "against_full_corpus_requirement": "Need only the marginal observation distribution for targets, but must defend acquisition and coding assumptions.",
+    "against_verbal_only_PPC": "Ordinal plausibility is useful but cannot identify absolute model inadequacy and should not be labeled PPC.",
+    "publication_contribution": "Operational protocol plus minimal-information and insufficiency results, with prospective blocked evaluation; not novelty of Bayesian integration."
+  },
+  "primary_sources_added": [
+    {"title":"Gneiting and Raftery 2007, Strictly Proper Scoring Rules, Prediction, and Estimation","url":"https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jasa.pdf","used_for":"Proper scores evaluate probabilistic predictions in expectation, not proof of calibration from one result."},
+    {"title":"Dawid 1984, Statistical Theory: The Prequential Approach","url":"https://academic.oup.com/jrsssa/article/147/2/278/7106293","used_for":"Sequential probability forecasting framework."},
+    {"title":"Stan User's Guide, Posterior and Prior Predictive Checks","url":"https://mc-stan.org/docs/2_39/stan-users-guide/posterior-predictive-checks.html","used_for":"Observed and replicated data compared through same statistic."}
+  ]
+}

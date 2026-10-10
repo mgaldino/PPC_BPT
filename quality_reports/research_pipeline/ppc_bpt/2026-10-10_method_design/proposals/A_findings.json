@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "reviewer": "A_generative",
+  "contract_id": "ppc_bpt:8bcda550633f:round1",
+  "source_sha256": "8bcda550633f3d55369a9c4b26d8732d2da73ecb086c506c8d6e53634939446f",
+  "scope": "Method-design proposals and candidate findings; no manuscript implementation or empirical validation",
+  "findings": [
+    {
+      "id": "A01",
+      "status": "CANDIDATE",
+      "claim": "The main missing operational object is the observation protocol and its complete outcome distribution, not a prose simulator.",
+      "source": "paper_draft_v1.Rmd",
+      "lines": [203, 213],
+      "evidence": "The workflow elicits probabilities for selected evidence and compares them qualitatively, without a sampling frame, exhaustive outcomes or general replication kernel.",
+      "proposal": "Replicate coded results of prespecified documentary opportunities, including contradiction, inconclusive search and inaccessibility."
+    },
+    {
+      "id": "A02",
+      "status": "CANDIDATE",
+      "claim": "The categorical assertion that within-hypothesis parameters are required for proper PPC is too strong.",
+      "source": "paper_draft_v1.Rmd",
+      "lines": [73, 85],
+      "evidence": "Line 85 says proper PPC requires internal parameters; a degenerate posterior over a fully specified model still induces a replicated-data distribution.",
+      "proposal": "Claim that mechanism decomposition enables additional diagnostic contrasts, while an explicit generative probability model is what permits replication."
+    },
+    {
+      "id": "A03",
+      "status": "CANDIDATE",
+      "claim": "Choosing complete configurations makes the within-configuration distribution of the same links degenerate; any nondegenerate internal variables must be separately defined.",
+      "source": "paper_draft_v1.Rmd",
+      "lines": [107, 188],
+      "evidence": "107 defines a full binary vector; 180–188 integrates variable link states within each configuration. Both literal claims are retained by the contract.",
+      "proposal": "Use a complete historical configuration C and separate event, source and measurement states; this is a new proposed ontology, not inferred authorial intent."
+    },
+    {
+      "id": "A04",
+      "status": "CANDIDATE",
+      "claim": "Link-level localization is conditional on distinguishable emission distributions and anchored source processes.",
+      "source": "paper_draft_v1.Rmd",
+      "lines": [167, 175],
+      "evidence": "The worked calculation attributes ambiguous reactive evidence to the override link but does not distinguish a weak link from failure to record or retrieve it.",
+      "proposal": "Treat mismatch as a set of candidate causes and assess sensitivity to observation parameters; report only the finest historically identifiable block."
+    },
+    {
+      "id": "A05",
+      "status": "CANDIDATE",
+      "claim": "Documentary silence must be separated from inaccessible sources and explicit evidence of non-mobilization.",
+      "source": "paper_draft_v1.Rmd",
+      "lines": [315, 331],
+      "evidence": "e*4 is defined as no organized lobbying, assessed as no mobilization documented, and later contributes to the low-stakes diagnosis. The text also recognizes its ambiguity.",
+      "proposal": "Create separate response categories and detection assumptions; the existing ambiguous assessment is not by itself evidence for an identified low-stakes link."
+    },
+    {
+      "id": "A06",
+      "status": "CANDIDATE",
+      "claim": "A documented holdout boundary is needed for e*3 because its named episodes recur in original E4 and E5.",
+      "source": "paper_draft_v1.Rmd",
+      "lines": [296, 323],
+      "evidence": "296–297 map E4 and E5 to leadership override and threat; 323 invokes the ILD opposition and 1999-trap episode again as holdout evidence.",
+      "proposal": "Obtain new source opportunities or label the exercise retrospective and exploratory, preserving dependence on the original episode."
+    },
+    {
+      "id": "A07",
+      "status": "CANDIDATE",
+      "claim": "Likelihood ratios in an original BPT analysis do not uniquely determine absolute predictive probabilities.",
+      "source": "paper_draft_v1.Rmd",
+      "lines": [271, 315],
+      "evidence": "Original evidence is represented in weights of evidence while the proposed check needs absolute probabilities; the source does not give a general conversion, which cannot be unique without extra assumptions.",
+      "proposal": "Demonstrate observational scaling equivalence: likelihood pairs (0.8,0.2) and (0.04,0.01) imply the same update but different replication distributions."
+    },
+    {
+      "id": "A08",
+      "status": "CANDIDATE",
+      "claim": "CausalQueries already provides event probabilities and posterior-draw data generation, including observation strategies.",
+      "source": "paper_draft_v1.Rmd",
+      "lines": [95, 95],
+      "evidence": "The table describes CausalQueries as a different formalism, not a posterior predictive distribution. Official version 1.4.3 documentation includes make_data with param_type='posterior_draw', observation probabilities and given-node conditions.",
+      "external_sources": [
+        "https://integrated-inferences.github.io/CausalQueries/reference/data_helpers.html",
+        "https://integrated-inferences.github.io/CausalQueries/reference/get_event_probabilities.html"
+      ],
+      "proposal": "Benchmark and potentially implement the documentary protocol using existing generation infrastructure; do not claim novelty for simulation or marginalization alone."
+    }
+  ],
+  "validation_state": "Source read in full; equations and synthetic numbers inspected analytically; no code, simulations, primary-source collection or empirical calibration executed."
+}
