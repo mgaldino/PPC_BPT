@@ -1,0 +1,33 @@
+{
+  "name": "gen_B_CA_3",
+  "model_alias_requested": "gpt-6-sol",
+  "reasoning_effort": "low",
+  "command": [
+    "/opt/homebrew/bin/codex",
+    "exec",
+    "--ignore-user-config",
+    "--skip-git-repo-check",
+    "--ephemeral",
+    "-s",
+    "read-only",
+    "-C",
+    "/private/tmp/ppc-carbon-cli-empty",
+    "-m",
+    "gpt-6-sol",
+    "-c",
+    "model_reasoning_effort=\"low\"",
+    "--json",
+    "--output-schema",
+    "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_pilot/raw/gen_B_CA_3/schema.json",
+    "-o",
+    "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_pilot/raw/gen_B_CA_3/answer.json",
+    "-"
+  ],
+  "started_utc": "2026-10-11T03:31:43Z",
+  "prompt_sha256": "86fe5dc74e38e42630e5609f3859d8a2e7c7f60491c6799f7e184d104931530d",
+  "returncode": 1,
+  "answer_exists": false,
+  "elapsed_seconds": 1.492,
+  "tool_events": [],
+  "usage": []
+}

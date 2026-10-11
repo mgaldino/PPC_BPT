@@ -1,0 +1,11 @@
+This is a fictional methodological experiment, not a reconstruction of real history.
+Do not use any tools, files, web, code execution, external RNG or prior conversation.
+One world contains a four-firm energy coalition facing one federal carbon-pricing proposal.
+Q=1: the proposal offers replacement of overlapping command-and-control carbon rules; Q=0: it offers no such replacement.
+K=1: the coalition's internal assessment anticipates a net competitive gain; K=0: it anticipates no net competitive gain. Direct costs alone do not determine K.
+A=1: the four-firm coalition collectively joins the proposal; A=0: it does not collectively join. Do not invent individual-firm decisions.
+Produce a fictional internal memo (<=45 words) explicitly revealing Q,K,A, and a public note (<=45 words) explicitly revealing Q,A but not disclosing the internal K assessment. Both must describe the same world, without new historical actors, numbers or additional events. Label both SYNTHETIC. Natural prose, no Q/K/A variable names in the documents.
+Separately propose ONE additional observable implication worth researching in this world, beyond restating Q,K,A. State the extra behavioral/documentary assumption required. This is a candidate prediction, NOT an occurred fact. It must not enter the documents.
+Output only the requested JSON. Preserve IDs. Do not balance samples, force quotas or choose examples to illustrate all cells.
+
+Sampling task: hypothesis CA. Draw Q and K independently as Bernoulli(0.5), then draw A as Bernoulli(0.1 + 0.1*Q + 0.6*K). Generate eight independent worlds using these probabilities, not quotas. IDs: ["A_CA_01", "A_CA_02", "A_CA_03", "A_CA_04", "A_CA_05", "A_CA_06", "A_CA_07", "A_CA_08"]

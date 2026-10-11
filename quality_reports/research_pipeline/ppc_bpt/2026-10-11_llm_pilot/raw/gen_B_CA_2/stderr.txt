@@ -1,0 +1,14 @@
+2026-10-11T03:31:43.482141Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
+2026-10-11T03:31:43.482239Z  WARN codex_protocol::openai_models: Model personality requested but model_messages is missing, falling back to base instructions. model=gpt-6-sol personality=pragmatic
+2026-10-11T03:31:43.500368Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:31:43.512633Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:31:43.524507Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:31:43.543957Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:31:43.563368Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:31:43.580457Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:31:43.620872Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at "/Users/manoelgaldino/.codex/shell_snapshots/01a12904-2aed-7d41-8aa8-859a39d23b1e.1791689501422253000.sh": Os { code: 2, kind: NotFound, message: "No such file or directory" }
+2026-10-11T03:31:43.623334Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
+2026-10-11T03:31:43.627379Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
+2026-10-11T03:31:43.634426Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:31:44.312801Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: {"type":"error","status":400,"error":{"type":"invalid_request_error","message":"The 'gpt-6-sol' model is not supported when using Codex with a ChatGPT account."}}
+2026-10-11T03:31:44.892343Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf("/Users/manoelgaldino/.codex/shell_snapshots/01a12904-32fa-7860-b9a4-0cc525be083a.1791689503482563000.sh"): Os { code: 2, kind: NotFound, message: "No such file or directory" }
