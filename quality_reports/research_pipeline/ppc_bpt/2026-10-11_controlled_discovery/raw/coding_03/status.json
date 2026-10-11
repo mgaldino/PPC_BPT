@@ -1,0 +1,41 @@
+{
+  "name": "coding_03",
+  "model_alias_requested": "gpt-5.6-sol",
+  "reasoning_effort": "low",
+  "command": [
+    "/opt/homebrew/bin/codex",
+    "exec",
+    "--ignore-user-config",
+    "--skip-git-repo-check",
+    "--ephemeral",
+    "-s",
+    "read-only",
+    "-C",
+    "/private/tmp/ppc-carbon-controlled-empty",
+    "-m",
+    "gpt-5.6-sol",
+    "-c",
+    "model_reasoning_effort=\"low\"",
+    "--json",
+    "--output-schema",
+    "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-11_controlled_discovery/raw/coding_03/schema.json",
+    "-o",
+    "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-11_controlled_discovery/raw/coding_03/answer.json",
+    "-"
+  ],
+  "started_utc": "2026-10-11T12:48:17Z",
+  "prompt_sha256": "0e6d0ac675498934a1b8a3f86c8471d28e0d05ebf2c586fbe331c1dea8cca463",
+  "returncode": 0,
+  "answer_exists": true,
+  "elapsed_seconds": 6.331,
+  "tool_events": [],
+  "usage": [
+    {
+      "input_tokens": 18030,
+      "cached_input_tokens": 0,
+      "output_tokens": 338,
+      "reasoning_output_tokens": 26
+    }
+  ],
+  "model_id_self_reported": "UNKNOWN"
+}

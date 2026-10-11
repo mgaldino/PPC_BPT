@@ -1,0 +1,43 @@
+{
+  "path": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/output/pdf/piloto_carbono_sorteios_controlados_2026-10-11.pdf",
+  "sha256": "9dd4c93d9111327c3f71f5d87c7eac1c9396c02dc9e022c0d3a8bac58320705c",
+  "pages": [
+    {
+      "page": 1,
+      "words": 497,
+      "outside_page": []
+    },
+    {
+      "page": 2,
+      "words": 380,
+      "outside_page": []
+    },
+    {
+      "page": 3,
+      "words": 510,
+      "outside_page": []
+    },
+    {
+      "page": 4,
+      "words": 385,
+      "outside_page": []
+    },
+    {
+      "page": 5,
+      "words": 384,
+      "outside_page": []
+    },
+    {
+      "page": 6,
+      "words": 586,
+      "outside_page": []
+    },
+    {
+      "page": 7,
+      "words": 152,
+      "outside_page": []
+    }
+  ],
+  "visual_review": "All seven final PNG pages inspected. Tables, formulas, accents and figure legible, no overlaps or clipping.",
+  "text_extraction_note": "PDF kerning can merge extracted words; visual inspection confirms readable spacing."
+}

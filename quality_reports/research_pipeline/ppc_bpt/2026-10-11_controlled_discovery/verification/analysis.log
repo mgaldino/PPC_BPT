@@ -1,0 +1,29 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+[1] "en_US.UTF-8"
+N=24: generating two independent null references.
+  null complete; rejection rates: T0=0.049, Tpath=0.049, TpathXOR=0.050, TIA=0.049, Tfull=0.054, T0_Bonferroni=0.035
+  F1 complete; rejection rates: T0=0.295, Tpath=0.286, TpathXOR=0.280, TIA=0.344, Tfull=0.285, T0_Bonferroni=0.257
+  F2 complete; rejection rates: T0=0.047, Tpath=0.049, TpathXOR=0.046, TIA=0.044, Tfull=0.128, T0_Bonferroni=0.037
+  F2_weak complete; rejection rates: T0=0.052, Tpath=0.043, TpathXOR=0.045, TIA=0.044, Tfull=0.057, T0_Bonferroni=0.034
+N=96: generating two independent null references.
+  null complete; rejection rates: T0=0.048, Tpath=0.049, TpathXOR=0.049, TIA=0.048, Tfull=0.056, T0_Bonferroni=0.037
+  F1 complete; rejection rates: T0=0.908, Tpath=0.906, TpathXOR=0.924, TIA=0.941, Tfull=0.852, T0_Bonferroni=0.886
+  F2 complete; rejection rates: T0=0.045, Tpath=0.049, TpathXOR=0.040, TIA=0.041, Tfull=0.882, T0_Bonferroni=0.032
+  F2_weak complete; rejection rates: T0=0.049, Tpath=0.045, TpathXOR=0.042, TIA=0.043, Tfull=0.092, T0_Bonferroni=0.034
+N=384: generating two independent null references.
+  null complete; rejection rates: T0=0.048, Tpath=0.048, TpathXOR=0.049, TIA=0.050, Tfull=0.048, T0_Bonferroni=0.035
+  F1 complete; rejection rates: T0=1.000, Tpath=1.000, TpathXOR=1.000, TIA=1.000, Tfull=1.000, T0_Bonferroni=1.000
+  F2 complete; rejection rates: T0=0.045, Tpath=0.695, TpathXOR=0.859, TIA=0.857, Tfull=1.000, T0_Bonferroni=0.031
+  F2_weak complete; rejection rates: T0=0.052, Tpath=0.075, TpathXOR=0.101, TIA=0.101, Tfull=0.209, T0_Bonferroni=0.039
+Core analysis outputs and audit draws are saved.
+null device 
+          1 
+2026-10-11 09:51:27.391 R[93756:28626692] XType: Using static font registry.
+null device 
+          1 
+Figures saved. Analysis complete.

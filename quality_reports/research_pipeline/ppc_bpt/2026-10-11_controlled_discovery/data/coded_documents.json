@@ -1,0 +1,386 @@
+[
+  {
+    "id": "B001",
+    "S": 0,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Regulatory benefit falls; decision, memo, and announcement explicitly state opposition."
+  },
+  {
+    "id": "B002",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; decision, memo, and announcement explicitly state withdrawal of support."
+  },
+  {
+    "id": "B003",
+    "S": 1,
+    "A": 1,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; decision states support, while memo and announcement state non-support."
+  },
+  {
+    "id": "B004",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; records explicitly give A=0, M=0, and P=0."
+  },
+  {
+    "id": "B005",
+    "S": 0,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Regulatory benefit falls; decision, memo, and announcement explicitly state maintained support."
+  },
+  {
+    "id": "B006",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; decision states actual support is 0, and memo and announcement state opposition."
+  },
+  {
+    "id": "B007",
+    "S": 0,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Regulatory benefit falls; decision, memo, and announcement explicitly state opposition."
+  },
+  {
+    "id": "B008",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 1,
+    "basis": "Competitive benefit falls; decision and memo state withdrawal, while the announcement states maintained support."
+  },
+  {
+    "id": "B009",
+    "S": 0,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Notice says regulatory benefit falls; all three records say the coalition withdraws support."
+  },
+  {
+    "id": "B010",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Notice says competitive benefit falls; all three records say the coalition withdraws support."
+  },
+  {
+    "id": "B011",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Notice says competitive benefit falls; decision record, memorandum, and announcement explicitly state support."
+  },
+  {
+    "id": "B012",
+    "S": 0,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Notice says regulatory benefit falls; all three records say the coalition maintains support."
+  },
+  {
+    "id": "B013",
+    "S": 0,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Notice says avoided regulatory burden falls; all three records say the coalition maintains support."
+  },
+  {
+    "id": "B014",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 0,
+    "basis": "Notice says competitive benefit falls; decision record and memorandum say support, while the public announcement says support is withdrawn."
+  },
+  {
+    "id": "B015",
+    "S": 0,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Notice says regulatory benefit falls; all three records say the coalition withdraws support."
+  },
+  {
+    "id": "B016",
+    "S": 0,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Notice says regulatory benefit falls; all three records say the coalition maintains support."
+  },
+  {
+    "id": "B017",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; all three records state withdrawal."
+  },
+  {
+    "id": "B018",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; all three records state withdrawal."
+  },
+  {
+    "id": "B019",
+    "S": 0,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Regulatory benefit falls; all three records state withdrawal."
+  },
+  {
+    "id": "B020",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Competitive benefit falls; decision record, memorandum, and announcement state support."
+  },
+  {
+    "id": "B021",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 1,
+    "basis": "Competitive benefit falls; decision and memorandum state withdrawal, while the public announcement states continued endorsement."
+  },
+  {
+    "id": "B022",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Competitive benefit falls; all three records state maintained support."
+  },
+  {
+    "id": "B023",
+    "S": 0,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Regulatory benefit falls; each record explicitly codes or states support."
+  },
+  {
+    "id": "B024",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Competitive benefit falls; all three records state maintained support."
+  },
+  {
+    "id": "B025",
+    "S": 0,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Regulatory benefit falls; all three records say support is maintained."
+  },
+  {
+    "id": "B026",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; decision, memorandum, and announcement record opposition."
+  },
+  {
+    "id": "B027",
+    "S": 0,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Regulatory benefit falls; all three records say support is withdrawn."
+  },
+  {
+    "id": "B028",
+    "S": 1,
+    "A": 1,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; decision maintains support, while memorandum and announcement withdraw it."
+  },
+  {
+    "id": "B029",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; decision, memorandum, and announcement record withdrawal."
+  },
+  {
+    "id": "B030",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; decision, memorandum, and announcement record opposition."
+  },
+  {
+    "id": "B031",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 0,
+    "basis": "Competitive benefit falls; decision and memorandum maintain support, while the announcement withdraws it."
+  },
+  {
+    "id": "B032",
+    "S": 0,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Regulatory benefit falls; decision, memorandum, and announcement state non-support."
+  },
+  {
+    "id": "B033",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Competitive benefit falls; all three records state continued support."
+  },
+  {
+    "id": "B034",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; decision, memo, and announcement state withdrawal or opposition."
+  },
+  {
+    "id": "B035",
+    "S": 1,
+    "A": 1,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; decision supports, while memo and announcement record non-support."
+  },
+  {
+    "id": "B036",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Competitive benefit falls; decision, memo, and announcement state support."
+  },
+  {
+    "id": "B037",
+    "S": 0,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Regulatory benefit falls; decision, memo, and announcement state support."
+  },
+  {
+    "id": "B038",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; all three records state withdrawal."
+  },
+  {
+    "id": "B039",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Competitive benefit falls; the documents explicitly code A=0, M=0, and P=0."
+  },
+  {
+    "id": "B040",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Competitive benefit falls; all three records state continued support."
+  },
+  {
+    "id": "B041",
+    "S": 0,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Notice says regulatory benefit falls; decision record withdraws support; memo records opposition; announcement says does not support."
+  },
+  {
+    "id": "B042",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 0,
+    "basis": "Notice says competitive benefit falls; decision record and memo record support; announcement records opposition."
+  },
+  {
+    "id": "B043",
+    "S": 1,
+    "A": 1,
+    "M": 0,
+    "P": 0,
+    "basis": "Notice says competitive benefit falls; decision record maintains support; memo and announcement withdraw support."
+  },
+  {
+    "id": "B044",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Notice says competitive benefit falls; decision record, memo, and announcement record support."
+  },
+  {
+    "id": "B045",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Notice says competitive benefit falls; decision record, memo, and announcement withdraw support."
+  },
+  {
+    "id": "B046",
+    "S": 1,
+    "A": 1,
+    "M": 1,
+    "P": 0,
+    "basis": "Notice says competitive benefit falls; decision record and memo record support; announcement says does not support."
+  },
+  {
+    "id": "B047",
+    "S": 1,
+    "A": 0,
+    "M": 0,
+    "P": 0,
+    "basis": "Notice says competitive benefit falls; decision record, memo, and announcement withdraw support."
+  },
+  {
+    "id": "B048",
+    "S": 0,
+    "A": 1,
+    "M": 1,
+    "P": 1,
+    "basis": "Notice says regulatory benefit falls; decision record, memo, and announcement record support."
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "frozen_utc": "2026-10-11T12:45:22.284250+00:00",
+  "before_any_live_discovery": true,
+  "sha256": {
+    "protocol.md": "1ea4362953c4c657dcdcdb5192ea6736a2f86f467df3650b30fe51629fe4a8c7",
+    "foundations.txt": "ededcec40cc59d674475fb544ded856518e43d1255b6746c2b80fbb514b10c7b",
+    "scripts/prepare.R": "6ddc780b80cc8670699941c0af6959686c741542f6f62bf89766d9b3459be6cf",
+    "scripts/discover.py": "fd8defef0843d84084ecf433a3f8ce46122080c33b3bd5927bf5c2be87e31eb2",
+    "scripts/calls.py": "57372bdb8e80beab16db7a6c6e20b2c2b3cc80849194d343a42f45607b27445b",
+    "data/states.csv": "494205b4404e671da118ddb1101838870e6100537db06b48fd59f7c580825834",
+    "data/error_laws.csv": "afd2f32a62677d215cad2d63a9d6a32d4ac840652474d19d7ce516ceb15e8498",
+    "data/joint_laws.csv": "c9696e4773af331e16557bcff4e1bc1a95620af60296ee7e964636d5497a9ed9",
+    "data/controlled_draws.csv": "1923458ac58389142f1d1b609e0550510a2390aa081cf6b625160ec54e7f07d7",
+    "data/controlled_truth.csv": "10301bead75996869c630b1c323efd5c78e1d8c9887f956edd8fcd2813419816"
+  }
+}

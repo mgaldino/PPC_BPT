@@ -1,0 +1,106 @@
+{
+  "type": "object",
+  "properties": {
+    "model_id": {
+      "type": "string"
+    },
+    "worlds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "S": {
+            "type": "integer"
+          },
+          "A": {
+            "type": "integer"
+          },
+          "M": {
+            "type": "integer"
+          },
+          "P": {
+            "type": "integer"
+          },
+          "notice": {
+            "type": "string"
+          },
+          "decision_record": {
+            "type": "string"
+          },
+          "memo": {
+            "type": "string"
+          },
+          "public_note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "S",
+          "A",
+          "M",
+          "P",
+          "notice",
+          "decision_record",
+          "memo",
+          "public_note"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "implication": {
+            "type": "string"
+          },
+          "derivation": {
+            "type": "string"
+          },
+          "extra_assumption": {
+            "type": "string"
+          },
+          "indicator": {
+            "type": "string"
+          },
+          "category_labels": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "state_table": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "implication",
+          "derivation",
+          "extra_assumption",
+          "indicator",
+          "category_labels",
+          "state_table"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "model_id",
+    "worlds",
+    "candidates"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,34 @@
+{
+  "verified_utc": "2026-10-11T13:07:03Z",
+  "checks": [
+    "design_freeze.json: hashes match",
+    "selection_freeze.json: hashes match",
+    "addendum_freeze.json: hashes match",
+    "13 completed live calls, 0 model tool events, prompt hashes match",
+    "Independent blinded audit: 192/192 fields match controlled R truth",
+    "72 rates correspond to integer counts / 5000",
+    "Original manuscript and supplement hashes unchanged"
+  ],
+  "live_calls": 13,
+  "usage": {
+    "input_tokens": 243105,
+    "output_tokens": 13993,
+    "reasoning_output_tokens": 5524
+  },
+  "model_alias_requested": [
+    "gpt-5.6-sol"
+  ],
+  "self_reports": [
+    "UNKNOWN"
+  ],
+  "independent_fields_correct": 192,
+  "generated_worlds": 24,
+  "document_bundles": 48,
+  "evaluation_datasets": 60000,
+  "reference_datasets": 300000,
+  "primary_N": 96,
+  "report_pdf": {
+    "path": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/output/pdf/piloto_carbono_sorteios_controlados_2026-10-11.pdf",
+    "sha256": "9dd4c93d9111327c3f71f5d87c7eac1c9396c02dc9e022c0d3a8bac58320705c"
+  }
+}

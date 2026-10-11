@@ -1,0 +1,193 @@
+blind_id,id,arm,field,truth,coded,correct,basis
+B001,D08,AI,S,0,0,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state opposition."
+B001,D08,AI,A,0,0,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state opposition."
+B001,D08,AI,M,0,0,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state opposition."
+B001,D08,AI,P,0,0,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state opposition."
+B002,D13,template,S,1,1,1,"Competitive benefit falls; decision, memo, and announcement explicitly state withdrawal of support."
+B002,D13,template,A,0,0,1,"Competitive benefit falls; decision, memo, and announcement explicitly state withdrawal of support."
+B002,D13,template,M,0,0,1,"Competitive benefit falls; decision, memo, and announcement explicitly state withdrawal of support."
+B002,D13,template,P,0,0,1,"Competitive benefit falls; decision, memo, and announcement explicitly state withdrawal of support."
+B003,D09,AI,S,1,1,1,"Competitive benefit falls; decision states support, while memo and announcement state non-support."
+B003,D09,AI,A,1,1,1,"Competitive benefit falls; decision states support, while memo and announcement state non-support."
+B003,D09,AI,M,0,0,1,"Competitive benefit falls; decision states support, while memo and announcement state non-support."
+B003,D09,AI,P,0,0,1,"Competitive benefit falls; decision states support, while memo and announcement state non-support."
+B004,D22,AI,S,1,1,1,"Competitive benefit falls; records explicitly give A=0, M=0, and P=0."
+B004,D22,AI,A,0,0,1,"Competitive benefit falls; records explicitly give A=0, M=0, and P=0."
+B004,D22,AI,M,0,0,1,"Competitive benefit falls; records explicitly give A=0, M=0, and P=0."
+B004,D22,AI,P,0,0,1,"Competitive benefit falls; records explicitly give A=0, M=0, and P=0."
+B005,D23,template,S,0,0,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state maintained support."
+B005,D23,template,A,1,1,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state maintained support."
+B005,D23,template,M,1,1,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state maintained support."
+B005,D23,template,P,1,1,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state maintained support."
+B006,D19,AI,S,1,1,1,"Competitive benefit falls; decision states actual support is 0, and memo and announcement state opposition."
+B006,D19,AI,A,0,0,1,"Competitive benefit falls; decision states actual support is 0, and memo and announcement state opposition."
+B006,D19,AI,M,0,0,1,"Competitive benefit falls; decision states actual support is 0, and memo and announcement state opposition."
+B006,D19,AI,P,0,0,1,"Competitive benefit falls; decision states actual support is 0, and memo and announcement state opposition."
+B007,D07,AI,S,0,0,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state opposition."
+B007,D07,AI,A,0,0,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state opposition."
+B007,D07,AI,M,0,0,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state opposition."
+B007,D07,AI,P,0,0,1,"Regulatory benefit falls; decision, memo, and announcement explicitly state opposition."
+B008,D16,template,S,1,1,1,"Competitive benefit falls; decision and memo state withdrawal, while the announcement states maintained support."
+B008,D16,template,A,0,0,1,"Competitive benefit falls; decision and memo state withdrawal, while the announcement states maintained support."
+B008,D16,template,M,0,0,1,"Competitive benefit falls; decision and memo state withdrawal, while the announcement states maintained support."
+B008,D16,template,P,1,1,1,"Competitive benefit falls; decision and memo state withdrawal, while the announcement states maintained support."
+B009,D11,template,S,0,0,1,Notice says regulatory benefit falls; all three records say the coalition withdraws support.
+B009,D11,template,A,0,0,1,Notice says regulatory benefit falls; all three records say the coalition withdraws support.
+B009,D11,template,M,0,0,1,Notice says regulatory benefit falls; all three records say the coalition withdraws support.
+B009,D11,template,P,0,0,1,Notice says regulatory benefit falls; all three records say the coalition withdraws support.
+B010,D18,template,S,1,1,1,Notice says competitive benefit falls; all three records say the coalition withdraws support.
+B010,D18,template,A,0,0,1,Notice says competitive benefit falls; all three records say the coalition withdraws support.
+B010,D18,template,M,0,0,1,Notice says competitive benefit falls; all three records say the coalition withdraws support.
+B010,D18,template,P,0,0,1,Notice says competitive benefit falls; all three records say the coalition withdraws support.
+B011,D24,AI,S,1,1,1,"Notice says competitive benefit falls; decision record, memorandum, and announcement explicitly state support."
+B011,D24,AI,A,1,1,1,"Notice says competitive benefit falls; decision record, memorandum, and announcement explicitly state support."
+B011,D24,AI,M,1,1,1,"Notice says competitive benefit falls; decision record, memorandum, and announcement explicitly state support."
+B011,D24,AI,P,1,1,1,"Notice says competitive benefit falls; decision record, memorandum, and announcement explicitly state support."
+B012,D15,template,S,0,0,1,Notice says regulatory benefit falls; all three records say the coalition maintains support.
+B012,D15,template,A,1,1,1,Notice says regulatory benefit falls; all three records say the coalition maintains support.
+B012,D15,template,M,1,1,1,Notice says regulatory benefit falls; all three records say the coalition maintains support.
+B012,D15,template,P,1,1,1,Notice says regulatory benefit falls; all three records say the coalition maintains support.
+B013,D15,AI,S,0,0,1,Notice says avoided regulatory burden falls; all three records say the coalition maintains support.
+B013,D15,AI,A,1,1,1,Notice says avoided regulatory burden falls; all three records say the coalition maintains support.
+B013,D15,AI,M,1,1,1,Notice says avoided regulatory burden falls; all three records say the coalition maintains support.
+B013,D15,AI,P,1,1,1,Notice says avoided regulatory burden falls; all three records say the coalition maintains support.
+B014,D06,template,S,1,1,1,"Notice says competitive benefit falls; decision record and memorandum say support, while the public announcement says support is withdrawn."
+B014,D06,template,A,1,1,1,"Notice says competitive benefit falls; decision record and memorandum say support, while the public announcement says support is withdrawn."
+B014,D06,template,M,1,1,1,"Notice says competitive benefit falls; decision record and memorandum say support, while the public announcement says support is withdrawn."
+B014,D06,template,P,0,0,1,"Notice says competitive benefit falls; decision record and memorandum say support, while the public announcement says support is withdrawn."
+B015,D07,template,S,0,0,1,Notice says regulatory benefit falls; all three records say the coalition withdraws support.
+B015,D07,template,A,0,0,1,Notice says regulatory benefit falls; all three records say the coalition withdraws support.
+B015,D07,template,M,0,0,1,Notice says regulatory benefit falls; all three records say the coalition withdraws support.
+B015,D07,template,P,0,0,1,Notice says regulatory benefit falls; all three records say the coalition withdraws support.
+B016,D17,template,S,0,0,1,Notice says regulatory benefit falls; all three records say the coalition maintains support.
+B016,D17,template,A,1,1,1,Notice says regulatory benefit falls; all three records say the coalition maintains support.
+B016,D17,template,M,1,1,1,Notice says regulatory benefit falls; all three records say the coalition maintains support.
+B016,D17,template,P,1,1,1,Notice says regulatory benefit falls; all three records say the coalition maintains support.
+B017,D22,template,S,1,1,1,Competitive benefit falls; all three records state withdrawal.
+B017,D22,template,A,0,0,1,Competitive benefit falls; all three records state withdrawal.
+B017,D22,template,M,0,0,1,Competitive benefit falls; all three records state withdrawal.
+B017,D22,template,P,0,0,1,Competitive benefit falls; all three records state withdrawal.
+B018,D21,template,S,1,1,1,Competitive benefit falls; all three records state withdrawal.
+B018,D21,template,A,0,0,1,Competitive benefit falls; all three records state withdrawal.
+B018,D21,template,M,0,0,1,Competitive benefit falls; all three records state withdrawal.
+B018,D21,template,P,0,0,1,Competitive benefit falls; all three records state withdrawal.
+B019,D08,template,S,0,0,1,Regulatory benefit falls; all three records state withdrawal.
+B019,D08,template,A,0,0,1,Regulatory benefit falls; all three records state withdrawal.
+B019,D08,template,M,0,0,1,Regulatory benefit falls; all three records state withdrawal.
+B019,D08,template,P,0,0,1,Regulatory benefit falls; all three records state withdrawal.
+B020,D10,AI,S,1,1,1,"Competitive benefit falls; decision record, memorandum, and announcement state support."
+B020,D10,AI,A,1,1,1,"Competitive benefit falls; decision record, memorandum, and announcement state support."
+B020,D10,AI,M,1,1,1,"Competitive benefit falls; decision record, memorandum, and announcement state support."
+B020,D10,AI,P,1,1,1,"Competitive benefit falls; decision record, memorandum, and announcement state support."
+B021,D16,AI,S,1,1,1,"Competitive benefit falls; decision and memorandum state withdrawal, while the public announcement states continued endorsement."
+B021,D16,AI,A,0,0,1,"Competitive benefit falls; decision and memorandum state withdrawal, while the public announcement states continued endorsement."
+B021,D16,AI,M,0,0,1,"Competitive benefit falls; decision and memorandum state withdrawal, while the public announcement states continued endorsement."
+B021,D16,AI,P,1,1,1,"Competitive benefit falls; decision and memorandum state withdrawal, while the public announcement states continued endorsement."
+B022,D05,template,S,1,1,1,Competitive benefit falls; all three records state maintained support.
+B022,D05,template,A,1,1,1,Competitive benefit falls; all three records state maintained support.
+B022,D05,template,M,1,1,1,Competitive benefit falls; all three records state maintained support.
+B022,D05,template,P,1,1,1,Competitive benefit falls; all three records state maintained support.
+B023,D23,AI,S,0,0,1,Regulatory benefit falls; each record explicitly codes or states support.
+B023,D23,AI,A,1,1,1,Regulatory benefit falls; each record explicitly codes or states support.
+B023,D23,AI,M,1,1,1,Regulatory benefit falls; each record explicitly codes or states support.
+B023,D23,AI,P,1,1,1,Regulatory benefit falls; each record explicitly codes or states support.
+B024,D10,template,S,1,1,1,Competitive benefit falls; all three records state maintained support.
+B024,D10,template,A,1,1,1,Competitive benefit falls; all three records state maintained support.
+B024,D10,template,M,1,1,1,Competitive benefit falls; all three records state maintained support.
+B024,D10,template,P,1,1,1,Competitive benefit falls; all three records state maintained support.
+B025,D12,template,S,0,0,1,Regulatory benefit falls; all three records say support is maintained.
+B025,D12,template,A,1,1,1,Regulatory benefit falls; all three records say support is maintained.
+B025,D12,template,M,1,1,1,Regulatory benefit falls; all three records say support is maintained.
+B025,D12,template,P,1,1,1,Regulatory benefit falls; all three records say support is maintained.
+B026,D18,AI,S,1,1,1,"Competitive benefit falls; decision, memorandum, and announcement record opposition."
+B026,D18,AI,A,0,0,1,"Competitive benefit falls; decision, memorandum, and announcement record opposition."
+B026,D18,AI,M,0,0,1,"Competitive benefit falls; decision, memorandum, and announcement record opposition."
+B026,D18,AI,P,0,0,1,"Competitive benefit falls; decision, memorandum, and announcement record opposition."
+B027,D02,template,S,0,0,1,Regulatory benefit falls; all three records say support is withdrawn.
+B027,D02,template,A,0,0,1,Regulatory benefit falls; all three records say support is withdrawn.
+B027,D02,template,M,0,0,1,Regulatory benefit falls; all three records say support is withdrawn.
+B027,D02,template,P,0,0,1,Regulatory benefit falls; all three records say support is withdrawn.
+B028,D09,template,S,1,1,1,"Competitive benefit falls; decision maintains support, while memorandum and announcement withdraw it."
+B028,D09,template,A,1,1,1,"Competitive benefit falls; decision maintains support, while memorandum and announcement withdraw it."
+B028,D09,template,M,0,0,1,"Competitive benefit falls; decision maintains support, while memorandum and announcement withdraw it."
+B028,D09,template,P,0,0,1,"Competitive benefit falls; decision maintains support, while memorandum and announcement withdraw it."
+B029,D13,AI,S,1,1,1,"Competitive benefit falls; decision, memorandum, and announcement record withdrawal."
+B029,D13,AI,A,0,0,1,"Competitive benefit falls; decision, memorandum, and announcement record withdrawal."
+B029,D13,AI,M,0,0,1,"Competitive benefit falls; decision, memorandum, and announcement record withdrawal."
+B029,D13,AI,P,0,0,1,"Competitive benefit falls; decision, memorandum, and announcement record withdrawal."
+B030,D20,AI,S,1,1,1,"Competitive benefit falls; decision, memorandum, and announcement record opposition."
+B030,D20,AI,A,0,0,1,"Competitive benefit falls; decision, memorandum, and announcement record opposition."
+B030,D20,AI,M,0,0,1,"Competitive benefit falls; decision, memorandum, and announcement record opposition."
+B030,D20,AI,P,0,0,1,"Competitive benefit falls; decision, memorandum, and announcement record opposition."
+B031,D04,template,S,1,1,1,"Competitive benefit falls; decision and memorandum maintain support, while the announcement withdraws it."
+B031,D04,template,A,1,1,1,"Competitive benefit falls; decision and memorandum maintain support, while the announcement withdraws it."
+B031,D04,template,M,1,1,1,"Competitive benefit falls; decision and memorandum maintain support, while the announcement withdraws it."
+B031,D04,template,P,0,0,1,"Competitive benefit falls; decision and memorandum maintain support, while the announcement withdraws it."
+B032,D11,AI,S,0,0,1,"Regulatory benefit falls; decision, memorandum, and announcement state non-support."
+B032,D11,AI,A,0,0,1,"Regulatory benefit falls; decision, memorandum, and announcement state non-support."
+B032,D11,AI,M,0,0,1,"Regulatory benefit falls; decision, memorandum, and announcement state non-support."
+B032,D11,AI,P,0,0,1,"Regulatory benefit falls; decision, memorandum, and announcement state non-support."
+B033,D01,template,S,1,1,1,Competitive benefit falls; all three records state continued support.
+B033,D01,template,A,1,1,1,Competitive benefit falls; all three records state continued support.
+B033,D01,template,M,1,1,1,Competitive benefit falls; all three records state continued support.
+B033,D01,template,P,1,1,1,Competitive benefit falls; all three records state continued support.
+B034,D14,AI,S,1,1,1,"Competitive benefit falls; decision, memo, and announcement state withdrawal or opposition."
+B034,D14,AI,A,0,0,1,"Competitive benefit falls; decision, memo, and announcement state withdrawal or opposition."
+B034,D14,AI,M,0,0,1,"Competitive benefit falls; decision, memo, and announcement state withdrawal or opposition."
+B034,D14,AI,P,0,0,1,"Competitive benefit falls; decision, memo, and announcement state withdrawal or opposition."
+B035,D03,AI,S,1,1,1,"Competitive benefit falls; decision supports, while memo and announcement record non-support."
+B035,D03,AI,A,1,1,1,"Competitive benefit falls; decision supports, while memo and announcement record non-support."
+B035,D03,AI,M,0,0,1,"Competitive benefit falls; decision supports, while memo and announcement record non-support."
+B035,D03,AI,P,0,0,1,"Competitive benefit falls; decision supports, while memo and announcement record non-support."
+B036,D05,AI,S,1,1,1,"Competitive benefit falls; decision, memo, and announcement state support."
+B036,D05,AI,A,1,1,1,"Competitive benefit falls; decision, memo, and announcement state support."
+B036,D05,AI,M,1,1,1,"Competitive benefit falls; decision, memo, and announcement state support."
+B036,D05,AI,P,1,1,1,"Competitive benefit falls; decision, memo, and announcement state support."
+B037,D17,AI,S,0,0,1,"Regulatory benefit falls; decision, memo, and announcement state support."
+B037,D17,AI,A,1,1,1,"Regulatory benefit falls; decision, memo, and announcement state support."
+B037,D17,AI,M,1,1,1,"Regulatory benefit falls; decision, memo, and announcement state support."
+B037,D17,AI,P,1,1,1,"Regulatory benefit falls; decision, memo, and announcement state support."
+B038,D14,template,S,1,1,1,Competitive benefit falls; all three records state withdrawal.
+B038,D14,template,A,0,0,1,Competitive benefit falls; all three records state withdrawal.
+B038,D14,template,M,0,0,1,Competitive benefit falls; all three records state withdrawal.
+B038,D14,template,P,0,0,1,Competitive benefit falls; all three records state withdrawal.
+B039,D21,AI,S,1,1,1,"Competitive benefit falls; the documents explicitly code A=0, M=0, and P=0."
+B039,D21,AI,A,0,0,1,"Competitive benefit falls; the documents explicitly code A=0, M=0, and P=0."
+B039,D21,AI,M,0,0,1,"Competitive benefit falls; the documents explicitly code A=0, M=0, and P=0."
+B039,D21,AI,P,0,0,1,"Competitive benefit falls; the documents explicitly code A=0, M=0, and P=0."
+B040,D24,template,S,1,1,1,Competitive benefit falls; all three records state continued support.
+B040,D24,template,A,1,1,1,Competitive benefit falls; all three records state continued support.
+B040,D24,template,M,1,1,1,Competitive benefit falls; all three records state continued support.
+B040,D24,template,P,1,1,1,Competitive benefit falls; all three records state continued support.
+B041,D02,AI,S,0,0,1,Notice says regulatory benefit falls; decision record withdraws support; memo records opposition; announcement says does not support.
+B041,D02,AI,A,0,0,1,Notice says regulatory benefit falls; decision record withdraws support; memo records opposition; announcement says does not support.
+B041,D02,AI,M,0,0,1,Notice says regulatory benefit falls; decision record withdraws support; memo records opposition; announcement says does not support.
+B041,D02,AI,P,0,0,1,Notice says regulatory benefit falls; decision record withdraws support; memo records opposition; announcement says does not support.
+B042,D06,AI,S,1,1,1,Notice says competitive benefit falls; decision record and memo record support; announcement records opposition.
+B042,D06,AI,A,1,1,1,Notice says competitive benefit falls; decision record and memo record support; announcement records opposition.
+B042,D06,AI,M,1,1,1,Notice says competitive benefit falls; decision record and memo record support; announcement records opposition.
+B042,D06,AI,P,0,0,1,Notice says competitive benefit falls; decision record and memo record support; announcement records opposition.
+B043,D03,template,S,1,1,1,Notice says competitive benefit falls; decision record maintains support; memo and announcement withdraw support.
+B043,D03,template,A,1,1,1,Notice says competitive benefit falls; decision record maintains support; memo and announcement withdraw support.
+B043,D03,template,M,0,0,1,Notice says competitive benefit falls; decision record maintains support; memo and announcement withdraw support.
+B043,D03,template,P,0,0,1,Notice says competitive benefit falls; decision record maintains support; memo and announcement withdraw support.
+B044,D01,AI,S,1,1,1,"Notice says competitive benefit falls; decision record, memo, and announcement record support."
+B044,D01,AI,A,1,1,1,"Notice says competitive benefit falls; decision record, memo, and announcement record support."
+B044,D01,AI,M,1,1,1,"Notice says competitive benefit falls; decision record, memo, and announcement record support."
+B044,D01,AI,P,1,1,1,"Notice says competitive benefit falls; decision record, memo, and announcement record support."
+B045,D19,template,S,1,1,1,"Notice says competitive benefit falls; decision record, memo, and announcement withdraw support."
+B045,D19,template,A,0,0,1,"Notice says competitive benefit falls; decision record, memo, and announcement withdraw support."
+B045,D19,template,M,0,0,1,"Notice says competitive benefit falls; decision record, memo, and announcement withdraw support."
+B045,D19,template,P,0,0,1,"Notice says competitive benefit falls; decision record, memo, and announcement withdraw support."
+B046,D04,AI,S,1,1,1,Notice says competitive benefit falls; decision record and memo record support; announcement says does not support.
+B046,D04,AI,A,1,1,1,Notice says competitive benefit falls; decision record and memo record support; announcement says does not support.
+B046,D04,AI,M,1,1,1,Notice says competitive benefit falls; decision record and memo record support; announcement says does not support.
+B046,D04,AI,P,0,0,1,Notice says competitive benefit falls; decision record and memo record support; announcement says does not support.
+B047,D20,template,S,1,1,1,"Notice says competitive benefit falls; decision record, memo, and announcement withdraw support."
+B047,D20,template,A,0,0,1,"Notice says competitive benefit falls; decision record, memo, and announcement withdraw support."
+B047,D20,template,M,0,0,1,"Notice says competitive benefit falls; decision record, memo, and announcement withdraw support."
+B047,D20,template,P,0,0,1,"Notice says competitive benefit falls; decision record, memo, and announcement withdraw support."
+B048,D12,AI,S,0,0,1,"Notice says regulatory benefit falls; decision record, memo, and announcement record support."
+B048,D12,AI,A,1,1,1,"Notice says regulatory benefit falls; decision record, memo, and announcement record support."
+B048,D12,AI,M,1,1,1,"Notice says regulatory benefit falls; decision record, memo, and announcement record support."
+B048,D12,AI,P,1,1,1,"Notice says regulatory benefit falls; decision record, memo, and announcement record support."

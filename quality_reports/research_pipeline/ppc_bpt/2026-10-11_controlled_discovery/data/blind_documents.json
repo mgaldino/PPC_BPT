@@ -1,0 +1,338 @@
+[
+  {
+    "id": "B001",
+    "notice": "Private notice: avoided regulatory burden falls from 12 to 2; the competitive benefit remains 12.",
+    "decision_record": "Direct decision record: under strategic accommodation, avoided regulatory burden of 2 minus the proposal cost of 6 yields intended opposition. No decision reversal occurs; the coalition opposes the proposal.",
+    "memo": "Staff memorandum: the actual decision was to oppose the carbon-pricing proposal. No memorandum reversal occurs.",
+    "public_note": "Public announcement: the coalition opposes the carbon-pricing proposal, consistent with the staff memorandum."
+  },
+  {
+    "id": "B002",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B003",
+    "notice": "Private notice: competitive benefit falls from 12 to 2; avoided regulatory burden remains 12.",
+    "decision_record": "Under SA, avoided regulatory burden minus the 6 cost is nonnegative. No decision reversal occurs; the coalition supports the proposal.",
+    "memo": "The staff memorandum reverses the actual decision and records that the coalition does not support the proposal.",
+    "public_note": "The coalition announces that it does not support the carbon-pricing proposal, communicating the memorandum without reversal."
+  },
+  {
+    "id": "B004",
+    "notice": "Private notice: The competitive benefit falls from 12 to 2; the regulatory benefit remains 12. Under CA, the resulting payoff is negative after the proposal\u2019s cost.",
+    "decision_record": "Direct decision record: Intended support was 0 under CA. No decision reversal occurred, so the coalition\u2019s actual decision was opposition: A=0.",
+    "memo": "Staff memorandum: No memo reversal occurred. The memorandum records the actual decision as opposition: M=0.",
+    "public_note": "Public announcement: No public reversal occurred. Based on the staff memorandum, the coalition announces opposition to the carbon-pricing proposal: P=0."
+  },
+  {
+    "id": "B005",
+    "notice": "SYNTHETIC. Private notice: the regulatory benefit falls from 12 to 2; the competitive benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition maintains support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition maintains support."
+  },
+  {
+    "id": "B006",
+    "notice": "Private notice: competitive benefit falls from 12 to 2; avoided regulatory burden remains 12. The proposal still costs 6.",
+    "decision_record": "Direct decision record: under competitive advantage, the relevant benefit is 2 against a cost of 6. Intended support is 0. No decision reversal occurred; actual support is 0.",
+    "memo": "Staff memorandum: the actual decision was opposition. No memorandum reversal occurred; the memorandum records opposition.",
+    "public_note": "Public announcement: the coalition opposes the carbon-pricing proposal, consistent with the staff memorandum."
+  },
+  {
+    "id": "B007",
+    "notice": "Private notice: avoided regulatory burden falls from 12 to 2; the competitive benefit remains 12.",
+    "decision_record": "Direct decision record: under strategic accommodation, avoided regulatory burden of 2 minus the proposal cost of 6 yields intended opposition. No decision reversal occurs; the coalition opposes the proposal.",
+    "memo": "Staff memorandum: the actual decision was to oppose the carbon-pricing proposal. No memorandum reversal occurs.",
+    "public_note": "Public announcement: the coalition opposes the carbon-pricing proposal, consistent with the staff memorandum."
+  },
+  {
+    "id": "B008",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition maintains support."
+  },
+  {
+    "id": "B009",
+    "notice": "SYNTHETIC. Private notice: the regulatory benefit falls from 12 to 2; the competitive benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B010",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B011",
+    "notice": "Private notice: The competitive benefit falls from 12 to 2; the regulatory benefit remains 12. Under CA, the resulting payoff is negative after the proposal\u2019s cost.",
+    "decision_record": "Direct decision record: Intended support was 0 under CA, but the decision reversal occurred. The coalition\u2019s actual decision was therefore support: A=1.",
+    "memo": "Staff memorandum: No memo reversal occurred. The memorandum records the actual decision as support: M=1.",
+    "public_note": "Public announcement: No public reversal occurred. Based on the staff memorandum, the coalition announces support for the carbon-pricing proposal: P=1."
+  },
+  {
+    "id": "B012",
+    "notice": "SYNTHETIC. Private notice: the regulatory benefit falls from 12 to 2; the competitive benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition maintains support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition maintains support."
+  },
+  {
+    "id": "B013",
+    "notice": "Private notice: avoided regulatory burden falls from 12 to 2; competitive benefit remains 12.",
+    "decision_record": "Direct decision record: under CA, the competitive payoff is 12 minus 6, so intended support is 1. No decision reversal occurs; the coalition maintains support.",
+    "memo": "Staff memorandum: the actual decision was to maintain support. No memo reversal occurs.",
+    "public_note": "Public announcement: the coalition maintains its endorsement of the carbon-pricing proposal. No public reversal occurs."
+  },
+  {
+    "id": "B014",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition maintains support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B015",
+    "notice": "SYNTHETIC. Private notice: the regulatory benefit falls from 12 to 2; the competitive benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B016",
+    "notice": "SYNTHETIC. Private notice: the regulatory benefit falls from 12 to 2; the competitive benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition maintains support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition maintains support."
+  },
+  {
+    "id": "B017",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B018",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B019",
+    "notice": "SYNTHETIC. Private notice: the regulatory benefit falls from 12 to 2; the competitive benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B020",
+    "notice": "Private notice: competitive benefit falls from 12 to 2; avoided regulatory burden remains 12.",
+    "decision_record": "Under SA, avoided regulatory burden minus the 6 cost is nonnegative. No decision reversal occurs; the coalition supports the proposal.",
+    "memo": "The staff memorandum records the actual decision: the coalition supports the proposal.",
+    "public_note": "The coalition announces support for the carbon-pricing proposal, communicating the memorandum without reversal."
+  },
+  {
+    "id": "B021",
+    "notice": "Private notice: competitive benefit falls from 12 to 2; avoided regulatory burden remains 12.",
+    "decision_record": "Direct decision record: under CA, the competitive payoff is 2 minus 6, so intended support is 0. No decision reversal occurs; the coalition withdraws support.",
+    "memo": "Staff memorandum: the actual decision was to withdraw support. No memo reversal occurs.",
+    "public_note": "Public announcement: a public reversal occurs relative to the memorandum, so the coalition communicates continued endorsement of the carbon-pricing proposal."
+  },
+  {
+    "id": "B022",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition maintains support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition maintains support."
+  },
+  {
+    "id": "B023",
+    "notice": "Private notice: The regulatory benefit falls from 12 to 2; the competitive benefit remains 12. Under CA, the resulting payoff is nonnegative after the proposal\u2019s cost.",
+    "decision_record": "Direct decision record: Intended support was 1 under CA. No decision reversal occurred, so the coalition\u2019s actual decision was support: A=1.",
+    "memo": "Staff memorandum: No memo reversal occurred. The memorandum records the actual decision as support: M=1.",
+    "public_note": "Public announcement: No public reversal occurred. Based on the staff memorandum, the coalition announces support for the carbon-pricing proposal: P=1."
+  },
+  {
+    "id": "B024",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition maintains support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition maintains support."
+  },
+  {
+    "id": "B025",
+    "notice": "SYNTHETIC. Private notice: the regulatory benefit falls from 12 to 2; the competitive benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition maintains support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition maintains support."
+  },
+  {
+    "id": "B026",
+    "notice": "Private notice: competitive benefit falls from 12 to 2; avoided regulatory burden remains 12. The proposal still costs 6.",
+    "decision_record": "Direct decision record: under competitive advantage, the relevant benefit is 2 against a cost of 6. Intended support is 0. No decision reversal occurred; actual support is 0.",
+    "memo": "Staff memorandum: the actual decision was opposition. No memorandum reversal occurred; the memorandum records opposition.",
+    "public_note": "Public announcement: the coalition opposes the carbon-pricing proposal, consistent with the staff memorandum."
+  },
+  {
+    "id": "B027",
+    "notice": "SYNTHETIC. Private notice: the regulatory benefit falls from 12 to 2; the competitive benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B028",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B029",
+    "notice": "Private notice: competitive benefit falls from 12 to 2; avoided regulatory burden remains 12.",
+    "decision_record": "Direct decision record: under CA, the competitive payoff is 2 minus 6, so intended support is 0. No decision reversal occurs; the coalition withdraws support.",
+    "memo": "Staff memorandum: the actual decision was to withdraw support. No memo reversal occurs.",
+    "public_note": "Public announcement: the coalition withdraws its endorsement of the carbon-pricing proposal. No public reversal occurs."
+  },
+  {
+    "id": "B030",
+    "notice": "Private notice: competitive benefit falls from 12 to 2; avoided regulatory burden remains 12. The proposal still costs 6.",
+    "decision_record": "Direct decision record: under competitive advantage, the relevant benefit is 2 against a cost of 6. Intended support is 0. No decision reversal occurred; actual support is 0.",
+    "memo": "Staff memorandum: the actual decision was opposition. No memorandum reversal occurred; the memorandum records opposition.",
+    "public_note": "Public announcement: the coalition opposes the carbon-pricing proposal, consistent with the staff memorandum."
+  },
+  {
+    "id": "B031",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition maintains support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B032",
+    "notice": "Private notice: avoided regulatory burden falls from 12 to 2; competitive benefit remains 12.",
+    "decision_record": "Under SA, avoided regulatory burden minus the 6 cost is negative. No decision reversal occurs; the coalition does not support the proposal.",
+    "memo": "The staff memorandum records the actual decision: the coalition does not support the proposal.",
+    "public_note": "The coalition announces that it does not support the carbon-pricing proposal, communicating the memorandum without reversal."
+  },
+  {
+    "id": "B033",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition maintains support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition maintains support."
+  },
+  {
+    "id": "B034",
+    "notice": "Private notice: competitive benefit falls from 12 to 2; avoided regulatory burden remains 12.",
+    "decision_record": "Direct decision record: under CA, the competitive payoff is 2 minus 6, so intended support is 0. No decision reversal occurs; the coalition withdraws support.",
+    "memo": "Staff memorandum: the actual decision was to withdraw support. No memo reversal occurs.",
+    "public_note": "Public announcement: the coalition withdraws its endorsement of the carbon-pricing proposal. No public reversal occurs."
+  },
+  {
+    "id": "B035",
+    "notice": "Private notice: competitive benefit falls from 12 to 2; avoided regulatory burden remains 12.",
+    "decision_record": "Direct decision record: under strategic accommodation, the payoff is 12 minus 6. Intended support is maintained, and no decision reversal occurs. Actual decision: support.",
+    "memo": "Staff memorandum: a memo reversal occurs. Contrary to the actual decision, the memorandum records opposition.",
+    "public_note": "Public announcement: the coalition does not support the carbon-pricing proposal, consistent with the staff memorandum."
+  },
+  {
+    "id": "B036",
+    "notice": "Private notice: the competitive benefit falls from 12 to 2; avoided regulatory burden remains 12.",
+    "decision_record": "Direct decision record: under strategic accommodation, avoided regulatory burden of 12 minus the proposal cost of 6 yields intended support. No decision reversal occurs; the coalition supports the proposal.",
+    "memo": "Staff memorandum: the actual decision was to support the carbon-pricing proposal. No memorandum reversal occurs.",
+    "public_note": "Public announcement: the coalition supports the carbon-pricing proposal, consistent with the staff memorandum."
+  },
+  {
+    "id": "B037",
+    "notice": "Private notice: avoided regulatory burden falls from 12 to 2; competitive benefit remains 12. The proposal still costs 6.",
+    "decision_record": "Direct decision record: under competitive advantage, the relevant benefit is 12 against a cost of 6. Intended support is 1. No decision reversal occurred; actual support is 1.",
+    "memo": "Staff memorandum: the actual decision was support. No memorandum reversal occurred; the memorandum records support.",
+    "public_note": "Public announcement: the coalition supports the carbon-pricing proposal, consistent with the staff memorandum."
+  },
+  {
+    "id": "B038",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B039",
+    "notice": "Private notice: The competitive benefit falls from 12 to 2; the regulatory benefit remains 12. Under CA, the resulting payoff is negative after the proposal\u2019s cost.",
+    "decision_record": "Direct decision record: Intended support was 0 under CA. No decision reversal occurred, so the coalition\u2019s actual decision was opposition: A=0.",
+    "memo": "Staff memorandum: No memo reversal occurred. The memorandum records the actual decision as opposition: M=0.",
+    "public_note": "Public announcement: No public reversal occurred. Based on the staff memorandum, the coalition announces opposition to the carbon-pricing proposal: P=0."
+  },
+  {
+    "id": "B040",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition maintains support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition maintains support."
+  },
+  {
+    "id": "B041",
+    "notice": "Private notice: avoided regulatory burden falls from 12 to 2; competitive benefit remains 12.",
+    "decision_record": "Direct decision record: under strategic accommodation, the payoff is 2 minus 6. Intended support is withdrawn, and no decision reversal occurs. Actual decision: do not support.",
+    "memo": "Staff memorandum: no memo reversal occurs. The memorandum records the actual decision as opposition.",
+    "public_note": "Public announcement: the coalition does not support the carbon-pricing proposal, consistent with the staff memorandum."
+  },
+  {
+    "id": "B042",
+    "notice": "Private notice: the competitive benefit falls from 12 to 2; avoided regulatory burden remains 12.",
+    "decision_record": "Direct decision record: under strategic accommodation, avoided regulatory burden of 12 minus the proposal cost of 6 yields intended support. No decision reversal occurs; the coalition supports the proposal.",
+    "memo": "Staff memorandum: the actual decision was to support the carbon-pricing proposal. No memorandum reversal occurs.",
+    "public_note": "Public announcement: the coalition opposes the carbon-pricing proposal. This reverses the position recorded in the staff memorandum."
+  },
+  {
+    "id": "B043",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition maintains support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B044",
+    "notice": "Private notice: competitive benefit falls from 12 to 2; avoided regulatory burden remains 12.",
+    "decision_record": "Direct decision record: under strategic accommodation, the payoff is 12 minus 6. Intended support is maintained, and no decision reversal occurs. Actual decision: support.",
+    "memo": "Staff memorandum: no memo reversal occurs. The memorandum records the actual decision as support.",
+    "public_note": "Public announcement: the coalition supports the carbon-pricing proposal, consistent with the staff memorandum."
+  },
+  {
+    "id": "B045",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B046",
+    "notice": "Private notice: competitive benefit falls from 12 to 2; avoided regulatory burden remains 12.",
+    "decision_record": "Direct decision record: under strategic accommodation, the payoff is 12 minus 6. Intended support is maintained, and no decision reversal occurs. Actual decision: support.",
+    "memo": "Staff memorandum: no memo reversal occurs. The memorandum records the actual decision as support.",
+    "public_note": "Public announcement: a public reversal occurs. Contrary to the staff memorandum, the coalition announces that it does not support the carbon-pricing proposal."
+  },
+  {
+    "id": "B047",
+    "notice": "SYNTHETIC. Private notice: the competitive benefit falls from 12 to 2; the regulatory benefit stays at 12.",
+    "decision_record": "SYNTHETIC. Direct decision record: the coalition withdraws support.",
+    "memo": "SYNTHETIC. Next-day staff memorandum: the coalition withdraws support.",
+    "public_note": "SYNTHETIC. Following-day public announcement: the coalition withdraws support."
+  },
+  {
+    "id": "B048",
+    "notice": "Private notice: avoided regulatory burden falls from 12 to 2; competitive benefit remains 12.",
+    "decision_record": "Under SA, avoided regulatory burden minus the 6 cost is negative, implying intended opposition. A decision reversal occurs; the coalition instead supports the proposal.",
+    "memo": "The staff memorandum records the reversed actual decision: the coalition supports the proposal.",
+    "public_note": "The coalition announces support for the carbon-pricing proposal, communicating the memorandum without reversal."
+  }
+]

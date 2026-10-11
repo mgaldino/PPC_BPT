@@ -1,0 +1,19 @@
+All probabilities and defects are synthetic; no historical validity is inferred.
+Number of frozen selected IA checks: 3. Discovery status: nonempty_fixed_corpus.
+H is common to an entire dataset, drawn once with weights 0.6/0.4.
+Truth H is used only to generate data and record audit metadata, never to compute checks.
+Deviance uses log[0.6 product(q_SA) + 0.4 product(q_CA)], not product of marginal mixtures.
+Deviances are rounded to 12 decimal places before inclusive tail comparisons (numerical tie convention).
+Component p=(1+# reference_A T>=Tobs)/(50000+1).
+Family score=min component p; global p=(1+# reference_B score<=scoreobs)/(50000+1).
+Bonferroni uses 7*minimum T0 component p, capped at 1, and threshold 0.05.
+Reference A, reference B, and each evaluation condition use distinct seeds.
+All check families receive the exact same datasets and references.
+Wilson intervals and paired-difference intervals describe Monte Carlo evaluation conditional on the fixed corpus and references.
+They do not incorporate discovery-corpus, model, historical, or reference-estimation uncertainty.
+Each T0 marginal is invariant under F2; the joint distribution of their aggregate need not be invariant.
+TpathXOR is the pre-evaluation secondary comparator from the protocol addendum; it does not replace primary Tpath.
+TpathXOR uses three parity coarsenings, while the third IA check may differ; information budgets are not identical partitions.
+The N=96 example is selected illustratively as specified, not a representative or held-out success claim.
+Check probabilities labeled marginal_mixture_one_episode are for description only; not used as the joint dataset likelihood.
+RDS files retain references, evaluation counts, discrepancies, component p-values, scores and rejection flags for independent audit.

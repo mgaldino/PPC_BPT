@@ -1,0 +1,48 @@
+{
+  "type": "object",
+  "properties": {
+    "model_id": {
+      "type": "string"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "S": {
+            "type": "integer"
+          },
+          "A": {
+            "type": "integer"
+          },
+          "M": {
+            "type": "integer"
+          },
+          "P": {
+            "type": "integer"
+          },
+          "basis": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "S",
+          "A",
+          "M",
+          "P",
+          "basis"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "model_id",
+    "records"
+  ],
+  "additionalProperties": false
+}

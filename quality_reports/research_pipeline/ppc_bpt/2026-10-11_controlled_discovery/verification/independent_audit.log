@@ -1,0 +1,11 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+N=24: complete p-values, rejection rates and paired differences independently verified.
+N=96: complete p-values, rejection rates and paired differences independently verified.
+N=384: complete p-values, rejection rates and paired differences independently verified.
+Independent raw-deviance comparisons=61200; maximum absolute difference=3.211653e-12; globalp/rejection comparisons=360000
+All requested final output checks PASSED. No files modified.

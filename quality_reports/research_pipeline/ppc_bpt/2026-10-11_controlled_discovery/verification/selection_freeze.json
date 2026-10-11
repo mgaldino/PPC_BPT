@@ -1,0 +1,20 @@
+{
+  "frozen_utc": "2026-10-11T12:49:03.610224+00:00",
+  "before_any_benchmark_evaluation": true,
+  "selected_ids": [
+    "discovery_03_C1",
+    "discovery_03_C2",
+    "discovery_04_C1"
+  ],
+  "sha256": {
+    "data/candidates.json": "102283fdc60b88b1b8c5d85b581a07bf7fc9508c12cb997ea3ff6b448f9c0845",
+    "data/selected_checks.json": "975233e397a422f175952726bc1539cc040b6f9c5a3b9e357bfc337e25c749c3",
+    "raw/select/answer.json": "1b55eaeff1063a035106b05e392d22733db44a8b5917edf4a96e59763a14cc83",
+    "raw/discovery_01/answer.json": "c09e8805db613c5e9a6af4a54e0063a359ac2e8893d400eddfddf4fd46d78682",
+    "raw/discovery_02/answer.json": "03ad2a6d2de1df98855d73726e02556f195733fb9d91c1183803de5f93f2099e",
+    "raw/discovery_03/answer.json": "1118a94da14d46d2ae5d70b4e381b8f538384efeb0ad62f0eec71f662e2f246f",
+    "raw/discovery_04/answer.json": "7cd972e99752b0ce38e99357fb654aaea8aec563dece1c96188849dab1178c4b",
+    "raw/discovery_05/answer.json": "2dd85c29fac634c0a53c25ee2b2dd3ff4d38949d44a437e73b8bfeec1bd18760",
+    "raw/discovery_06/answer.json": "2f2b79d41edb9102413a457d161d72bf1c3708ade65e1fdf4bf8b9d8d128d025"
+  }
+}

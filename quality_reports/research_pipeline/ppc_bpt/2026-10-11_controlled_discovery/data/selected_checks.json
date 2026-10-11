@@ -1,0 +1,90 @@
+[
+  {
+    "id": "discovery_03_C1",
+    "implication": "Recording errors have an observable pipeline topology: zero adjacent disagreements means both transmission stages agree; one means exactly one observed transition disagrees; two means both disagree, restoring agreement between A and P.",
+    "derivation": "Combine the rule that M may reverse A with the rule that P may reverse M and is based on M. The category counts adjacent disagreements: 0 if A=M and M=P; 1 if exactly one equality fails; 2 if both fail.",
+    "extra_assumption": "NONE",
+    "indicator": "I(A!=M)+I(M!=P). Categories: 0 = no adjacent disagreement; 1 = exactly one adjacent disagreement; 2 = two adjacent disagreements.",
+    "category_labels": [
+      "no_adjacent_disagreement",
+      "one_adjacent_disagreement",
+      "two_adjacent_disagreements"
+    ],
+    "state_table": [
+      0,
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      0,
+      0,
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "discovery_03_C2",
+    "implication": "Notice-announcement concordance can be checked end to end: whether P equals S combines the hypothesis-dependent intended decision, possible decision reversal, and both sequential recording reversals under the fixed posterior predictive mixture.",
+    "derivation": "Under SA intended support equals S; under CA it equals 1-S. The actual-decision, memorandum, and public reversals then determine whether the final announcement P agrees with S. The reserved-evidence weights integrate over H without placing H in the indicator.",
+    "extra_assumption": "NONE",
+    "indicator": "I(P!=S). Categories: 0 = public announcement agrees with the notice state; 1 = public announcement disagrees with the notice state.",
+    "category_labels": [
+      "announcement_agrees_with_notice_state",
+      "announcement_disagrees_with_notice_state"
+    ],
+    "state_table": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "discovery_04_C1",
+    "implication": "The public announcement differs from the actual decision exactly when one, but not both, of the memo and public transmission stages reverses. Therefore the predictive disagreement probability is 0.2(0.8)+0.8(0.2)=0.32.",
+    "derivation": "Combines sequential transmission A\u2192M\u2192P with independent reversal probabilities of 0.2 at each transmission stage.",
+    "extra_assumption": "NONE",
+    "indicator": "Code 0 when A=P (the announcement agrees with the actual decision); code 1 when A\u2260P (the announcement disagrees with the actual decision).",
+    "category_labels": [
+      "A=P",
+      "A\u2260P"
+    ],
+    "state_table": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ]
+  }
+]

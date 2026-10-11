@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "adjudication_id": "controlled-carbon:semantic-corpus:round1",
+  "source": {
+    "reviewed_artifact": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_controlled_discovery/data/generated_worlds.json",
+    "sha256": "43d15657aabc373056880aca2de8435ae93ab21c420715bf432fa3b5b2b7bbe3",
+    "artifact_intact": true
+  },
+  "contract": {
+    "required": false,
+    "path": null,
+    "sha256": null,
+    "contract_id": null,
+    "artifact_sha256": null,
+    "status": null,
+    "stale": false
+  },
+  "review_sources": [
+    {
+      "review_id": "SEM",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_controlled_discovery/agents/blind_semantics.md",
+      "sha256": "5878163705d874db108890b701f110e386c2d7c8bb9f90edffc48b01a7b48f49"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "SEM-01",
+      "source_review": "SEM",
+      "quoted_finding": "24 conjuntos revelam SA/CA na própria prosa, de modo que este material não assegura cegamento à hipótese.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "measurement",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "data/generated_worlds.json, decision_record dos 24 episódios",
+        "foundations.txt, H e sorteios não observáveis",
+        "agents/blind_semantics.md, lista de 24 IDs cegos"
+      ],
+      "defect_evidence": [
+        "Prosa inclui Under SA/Under CA ou nomes completos das hipóteses nos 24 conjuntos IA.",
+        "Auditoria cega identifica rótulos e narrativas de reversão decisória."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "192/192 campos da codificação independente coincidem com verdade R.",
+        "Funções dos checks usam somente S,A,M,P em 16 estados.",
+        "Nenhum H verdadeiro é argumento da discrepância ou da codificação."
+      ],
+      "reasoning": "Fidelidade binária não elimina o defeito semântico. O benchmark de seleção não usa o rótulo revelado porque opera sobre estados R e funções observáveis, mas os textos não podem ser apresentados como plenamente cegos.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Preservar o corpus bruto e incorporar a limitação ao relatório, sem afirmar cegamento perfeito nem validar historicamente os documentos. Essa correção de relato foi implementada; redesenhar a camada de redação fica fora desta rodada, cujo resultado inclui a falha observada."
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "confirmed": 1,
+    "partial": 0,
+    "refuted": 0,
+    "unresolved": 0,
+    "held_decisions": 0
+  },
+  "adjudication": {
+    "verdict": "READY_FOR_IMPLEMENTATION",
+    "checked_at": "2026-10-11T13:02:53.426842+00:00",
+    "reasons": [
+      "A correção segura é limitar a interpretação e preservar a evidência do defeito, já refletida no relatório. Não apagar ou reparar retrospectivamente a saída."
+    ]
+  }
+}
