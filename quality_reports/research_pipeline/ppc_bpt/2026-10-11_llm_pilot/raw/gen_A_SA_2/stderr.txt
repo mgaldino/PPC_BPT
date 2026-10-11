@@ -1,14 +1,8 @@
-2026-10-11T03:31:28.947719Z ERROR codex_models_manager::cache: failed to load models cache: missing field `base_instructions` at line 139 column 5
-2026-10-11T03:31:29.278804Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
-2026-10-11T03:31:29.279010Z  WARN codex_protocol::openai_models: Model personality requested but model_messages is missing, falling back to base instructions. model=gpt-6-sol personality=pragmatic
-2026-10-11T03:31:29.375612Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.393218Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.410613Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.432308Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.467369Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.554980Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.560421Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
-2026-10-11T03:31:29.592590Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
-2026-10-11T03:31:29.598324Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:32.627616Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: {"type":"error","status":400,"error":{"type":"invalid_request_error","message":"The 'gpt-6-sol' model is not supported when using Codex with a ChatGPT account."}}
-2026-10-11T03:31:33.239926Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf("/Users/manoelgaldino/.codex/shell_snapshots/01a12903-fb7f-74c0-bfbd-d67f637bffc2.1791689489346235000.sh"): Os { code: 2, kind: NotFound, message: "No such file or directory" }
+2026-10-11T03:32:59.265895Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.285342Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.302083Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.319211Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.339717Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.360661Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.378447Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:33:14.292405Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf("/Users/manoelgaldino/.codex/shell_snapshots/01a12905-5ae8-7ca0-9d6f-fce21a227c7c.1791689579240862000.sh"): Os { code: 2, kind: NotFound, message: "No such file or directory" }

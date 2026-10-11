@@ -1,0 +1,64 @@
+{
+  "type": "object",
+  "properties": {
+    "worlds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "Q": {
+            "type": "integer",
+            "enum": [
+              0,
+              1
+            ]
+          },
+          "K": {
+            "type": "integer",
+            "enum": [
+              0,
+              1
+            ]
+          },
+          "A": {
+            "type": "integer",
+            "enum": [
+              0,
+              1
+            ]
+          },
+          "memo": {
+            "type": "string"
+          },
+          "public_note": {
+            "type": "string"
+          },
+          "candidate_implication": {
+            "type": "string"
+          },
+          "extra_assumption": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "Q",
+          "K",
+          "A",
+          "memo",
+          "public_note",
+          "candidate_implication",
+          "extra_assumption"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "worlds"
+  ],
+  "additionalProperties": false
+}

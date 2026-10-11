@@ -1,0 +1,4 @@
+"id","Q_c","K_c","A_c","contradiction","explanation"
+"AUDIT_UNKNOWN_K",1,-1,1,FALSE,"No competitive assessment is available, so K_c is unknown."
+"AUDIT_CONTRA_Q",-1,1,1,TRUE,"The memo says the proposal offers no replacement of carbon rules, while the public note says it replaces them."
+"AUDIT_CONTRA_A",1,0,-1,TRUE,"The memo says the coalition collectively joins, while the public note says it does not."

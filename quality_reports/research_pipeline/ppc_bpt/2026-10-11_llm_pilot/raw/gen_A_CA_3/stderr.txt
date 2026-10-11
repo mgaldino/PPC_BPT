@@ -1,13 +1,8 @@
-2026-10-11T03:31:34.744591Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
-2026-10-11T03:31:34.744670Z  WARN codex_protocol::openai_models: Model personality requested but model_messages is missing, falling back to base instructions. model=gpt-6-sol personality=pragmatic
-2026-10-11T03:31:34.770882Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:34.828227Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:34.840451Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:34.855462Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:34.866985Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:34.879657Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:34.889877Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:34.893796Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
-2026-10-11T03:31:34.896798Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
-2026-10-11T03:31:35.743311Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: {"type":"error","status":400,"error":{"type":"invalid_request_error","message":"The 'gpt-6-sol' model is not supported when using Codex with a ChatGPT account."}}
-2026-10-11T03:31:36.148900Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `base_instructions` at line 139 column 5
+2026-10-11T03:33:51.597097Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:33:51.609308Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:33:51.622840Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:33:51.646710Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:33:51.699660Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:33:51.710807Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:33:51.722497Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:34:08.271325Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf("/Users/manoelgaldino/.codex/shell_snapshots/01a12906-2759-7f10-a201-dcf30292113d.1791689631578211000.sh"): Os { code: 2, kind: NotFound, message: "No such file or directory" }

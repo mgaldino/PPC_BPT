@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CLI = '/opt/homebrew/bin/codex'
 EMPTY = Path('/private/tmp/ppc-carbon-cli-empty')
 EMPTY.mkdir(exist_ok=True)
-MODEL = 'gpt-6-sol'
+MODEL = 'gpt-5.6-sol'
 
 def readcsv(path):
     with open(path, encoding='utf-8') as f: return list(csv.DictReader(f))

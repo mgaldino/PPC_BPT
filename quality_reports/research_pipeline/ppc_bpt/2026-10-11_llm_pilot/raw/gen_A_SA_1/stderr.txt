@@ -1,14 +1,8 @@
-2026-10-11T03:31:28.947709Z ERROR codex_models_manager::cache: failed to load models cache: missing field `base_instructions` at line 139 column 5
-2026-10-11T03:31:29.294712Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
-2026-10-11T03:31:29.294737Z  WARN codex_protocol::openai_models: Model personality requested but model_messages is missing, falling back to base instructions. model=gpt-6-sol personality=pragmatic
-2026-10-11T03:31:29.375612Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.393146Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.410922Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.431676Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.462015Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.531205Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at "/Users/manoelgaldino/.codex/shell_snapshots/01a12901-c272-7222-a984-15938208a766.1791689343607295000.sh": Os { code: 2, kind: NotFound, message: "No such file or directory" }
-2026-10-11T03:31:29.557493Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:29.560430Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
-2026-10-11T03:31:29.592494Z  WARN codex_models_manager::model_info: Unknown model gpt-6-sol is used. This will use fallback model metadata.
-2026-10-11T03:31:29.600066Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
-2026-10-11T03:31:30.412320Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: {"type":"error","status":400,"error":{"type":"invalid_request_error","message":"The 'gpt-6-sol' model is not supported when using Codex with a ChatGPT account."}}
+2026-10-11T03:32:59.266744Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.283913Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.301252Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.318825Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.340850Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.361091Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:32:59.378352Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T03:33:27.077771Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf("/Users/manoelgaldino/.codex/shell_snapshots/01a12905-5aeb-7dd0-bf95-79e45d199b3b.1791689579243384000.sh"): Os { code: 2, kind: NotFound, message: "No such file or directory" }

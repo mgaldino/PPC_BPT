@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "adjudication_id": "carbon-llm-pilot:20261011:round1",
+  "source": {
+    "reviewed_artifact": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_pilot/design.md",
+    "sha256": "a366a878a45c769807a8c9b37e0141d9eb1ad528eb89d4fb710da14f3ffdffef",
+    "artifact_intact": true
+  },
+  "contract": {
+    "required": false,
+    "path": null,
+    "sha256": null,
+    "contract_id": null,
+    "artifact_sha256": null,
+    "status": null,
+    "stale": false
+  },
+  "review_sources": [
+    {
+      "review_id": "R1",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_pilot/agents/novelty_audit.md",
+      "sha256": "33c8cec4692d99632fc9ee8a07cc8829c7d8da41e0aa0600f2bea1cc0d7084bf"
+    },
+    {
+      "review_id": "R2",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_pilot/agents/semantic_audit.md",
+      "sha256": "babb348d5ca3a448ff51c962600f174825a0a69b09699d8494170e3fbdc316be"
+    },
+    {
+      "review_id": "R3",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_pilot/agents/code_audit.md",
+      "sha256": "e8652fe1206f4f42b67d025c51e625d3d7c2ce1d7086b069749e05e2b1083c2f"
+    },
+    {
+      "review_id": "R4",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_pilot/agents/world_implications_audit.md",
+      "sha256": "c75cd45bb03ee4d4843be72d757f9f4721c39bf9629ed6f0a67706235e0ba680"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "F1",
+      "source_review": "R1",
+      "quoted_finding": "I4 contém erros aritméticos e troca mundos por firmas.",
+      "type": "methodological",
+      "severity": "major",
+      "scientific_dimension": "execution",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "raw/discovery/answer.json"
+      ],
+      "defect_evidence": [
+        "I4 apresenta proporções incompatíveis com 0.375/0.45 e 0.25/0.45."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Conferência pelo coordenador nas fontes e equações declaradas."
+      ],
+      "reasoning": "A conferência da resposta bruta e enumeração dão 5/6 e 5/9; o denominador são mundos com adesão.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Preservar saída; rejeitar sugestão gerada e mostrar correção no relatório."
+    },
+    {
+      "finding_id": "F2",
+      "source_review": "R2",
+      "quoted_finding": "Duas justificativas causais adicionais passam na recuperação binária.",
+      "type": "methodological",
+      "severity": "major",
+      "scientific_dimension": "execution",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "data/documents.json"
+      ],
+      "defect_evidence": [
+        "A_CA_09 contém therefore; A_CA_28 contém so, ligando K=0 a A=0."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Conferência pelo coordenador nas fontes e equações declaradas."
+      ],
+      "reasoning": "QKA e a distribuição não determinam o motivo realizado de uma não adesão.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Relatar duas ocorrências em A; não atribuir falha causal comprovada a B."
+    },
+    {
+      "finding_id": "F3",
+      "source_review": "R3",
+      "quoted_finding": "Peso da posterior conjunta no PPC condicional pode estar incorreto.",
+      "type": "methodological",
+      "severity": "major",
+      "scientific_dimension": "execution",
+      "held_decision": false,
+      "status": "PARTIAL",
+      "source_locations": [
+        "scripts/analyze.R:ppc_summary"
+      ],
+      "defect_evidence": [
+        "O rótulo conditional_plugin não explicita qual alvo de condicionamento é usado."
+      ],
+      "refuting_evidence": [
+        "Manter E observado conjunto e fixar somente Qrep preserva o peso conjunto; sob o modelo exato Q é independente de H."
+      ],
+      "mechanical_checks": [
+        "Conferência pelo coordenador nas fontes e equações declaradas."
+      ],
+      "reasoning": "A suspeita depende de redefinir a análise inteira com Q fixo. O cálculo atual é consistente com posterior conjunta e intervenção na réplica.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Manter cálculo; explicitar alvo em analysis_notes e limitar discussão principal ao PPC conjunto."
+    },
+    {
+      "finding_id": "F4",
+      "source_review": "R4",
+      "quoted_finding": "Duas candidatas acrescentam observáveis úteis, mas as fontes não as confirmam.",
+      "type": "methodological",
+      "severity": "major",
+      "scientific_dimension": "execution",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "data/documents.json"
+      ],
+      "defect_evidence": [
+        "B_SA_24 sugere reação a emendas; A_CA_11 pede cronograma. API2021 não registra esses eventos específicos."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Conferência pelo coordenador nas fontes e equações declaradas."
+      ],
+      "reasoning": "São ações adicionais e operacionalizáveis, com premissas incompletas e sem poder discriminante automático. Nenhuma fonte é holdout.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Incluir como hipóteses auxiliares e busca documental, fora do PPC desta rodada."
+    },
+    {
+      "finding_id": "F5",
+      "source_review": "R4",
+      "quoted_finding": "Há inferências lógicas indevidas entre as 128 candidatas.",
+      "type": "methodological",
+      "severity": "major",
+      "scientific_dimension": "execution",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "data/documents.json"
+      ],
+      "defect_evidence": [
+        "A_CA_16 infere ausência do consequente a partir de ausência do antecedente; B_SA_08 usa suficiência; B_SA_30 confunde ganho líquido nulo com ausência de componentes positivos."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Conferência pelo coordenador nas fontes e equações declaradas."
+      ],
+      "reasoning": "A leitura das candidatas e premissas não sustenta essas conclusões.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Preservar saídas e registrar os contraexemplos; não usar as candidatas como dados."
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "confirmed": 4,
+    "partial": 1,
+    "refuted": 0,
+    "unresolved": 0,
+    "held_decisions": 0
+  },
+  "adjudication": {
+    "verdict": "READY_FOR_IMPLEMENTATION",
+    "checked_at": "2026-10-11T03:46:31.503427+00:00",
+    "reasons": [
+      "Adjudicação de protocolo técnico curto e saídas de experimento, sem transformação/revisão integral do manuscrito.",
+      "Correções e limites incorporados ao relatório; nenhuma geração bruta foi alterada."
+    ]
+  }
+}

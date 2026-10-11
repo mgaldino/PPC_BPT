@@ -1,0 +1,48 @@
+{
+  "type": "object",
+  "properties": {
+    "implications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "prediction": {
+            "type": "string"
+          },
+          "reasoning": {
+            "type": "string"
+          },
+          "extra_assumption": {
+            "type": "string"
+          },
+          "observable_document": {
+            "type": "string"
+          },
+          "rival_prediction": {
+            "type": "string"
+          },
+          "derivable_from_core": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "prediction",
+          "reasoning",
+          "extra_assumption",
+          "observable_document",
+          "rival_prediction",
+          "derivable_from_core"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "implications"
+  ],
+  "additionalProperties": false
+}

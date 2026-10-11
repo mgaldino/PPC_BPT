@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "A_SA_01",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. Nevertheless, the four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The four-firm coalition will collectively join the federal carbon-pricing proposal, which offers replacement of overlapping command-and-control carbon rules.",
+    "candidate_implication": "Candidate prediction: coalition communications will emphasize regulatory simplification more frequently than competitive benefits.",
+    "extra_assumption": "Public messaging reflects the coalition’s principal documented rationale for joining.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_02",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules, and our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The four-firm coalition will collectively join the federal carbon-pricing proposal, which offers replacement of overlapping command-and-control carbon rules.",
+    "candidate_implication": "Candidate prediction: internal planning documents will devote attention to positioning the coalition under the proposed pricing regime.",
+    "extra_assumption": "Anticipated competitive gains generate documented preparations before collective participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_03",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules, and our internal assessment anticipates a net competitive gain. Even so, the four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The four-firm coalition will not collectively join the federal carbon-pricing proposal, although it offers replacement of overlapping command-and-control carbon rules.",
+    "candidate_implication": "Candidate prediction: internal records will identify a coalition-level obstacle distinct from expected competitive effects.",
+    "extra_assumption": "When favorable assessed consequences do not yield participation, decision-makers document the overriding obstacle.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_04",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The four-firm coalition will not collectively join the federal carbon-pricing proposal, which offers no replacement of overlapping command-and-control carbon rules.",
+    "candidate_implication": "Candidate prediction: coalition records will request relief from regulatory overlap before reconsidering collective participation.",
+    "extra_assumption": "The coalition treats regulatory overlap as negotiable and records its desired policy revisions.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_05",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The four-firm coalition will collectively join the federal carbon-pricing proposal, which offers replacement of overlapping command-and-control carbon rules.",
+    "candidate_implication": "Candidate prediction: internal deliberations will cite reduced regulatory duplication as a reason for participation.",
+    "extra_assumption": "The coalition documents the considerations that materially support its collective decision.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_06",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The four-firm coalition will collectively join the federal carbon-pricing proposal, which offers replacement of overlapping command-and-control carbon rules.",
+    "candidate_implication": "Candidate prediction: internal implementation plans will prioritize opportunities created by the proposed policy environment.",
+    "extra_assumption": "Expected competitive advantages induce observable advance planning within the coalition.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_07",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The four-firm coalition will not collectively join the federal carbon-pricing proposal, which offers no replacement of overlapping command-and-control carbon rules.",
+    "candidate_implication": "Candidate prediction: coalition submissions will express concern about cumulative compliance obligations.",
+    "extra_assumption": "Continued overlapping regulation creates concerns that the coalition records in its policy submissions.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_08",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The four-firm coalition will collectively join the federal carbon-pricing proposal, which offers replacement of overlapping command-and-control carbon rules.",
+    "candidate_implication": "Candidate prediction: internal records will evaluate how participation could affect the coalition’s market positioning.",
+    "extra_assumption": "Anticipated competitive gains prompt written analysis of market positioning.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_09",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. Nevertheless, the four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition communications will emphasize regulatory replacement more often than competitive benefits.",
+    "extra_assumption": "Assume public communications reflect the coalition's principal stated rationale for joining.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_10",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: internal deliberations will devote attention to obstacles preventing collective participation despite the anticipated gain.",
+    "extra_assumption": "Assume internal records document unresolved obstacles when an anticipated gain does not produce collective participation.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_11",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition briefing materials will foreground regulatory simplification when explaining collective participation.",
+    "extra_assumption": "Assume briefing materials identify the proposal feature viewed as most useful for sustaining coalition unity.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_12",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition records will contain fewer efforts to resolve participation barriers than when a valued proposal feature is present.",
+    "extra_assumption": "Assume documented effort to resolve participation barriers increases with the coalition's perceived value of proposal features.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_13",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, but the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: internal discussions will question whether regulatory replacement alone justifies collective participation.",
+    "extra_assumption": "Assume internal records preserve deliberation about proposal features that are insufficient to secure coalition participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_14",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, yet the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: internal briefing materials will emphasize competitive positioning when justifying collective participation.",
+    "extra_assumption": "Assume internal briefing materials record the considerations that coalition decision-makers treated as decisive.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_15",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition records will show comparatively little effort devoted to overcoming objections to collective participation.",
+    "extra_assumption": "Assume anticipated advantages reduce documented internal resistance to collective participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_16",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: subsequent coalition analyses will request changes to the proposal before recommending collective participation.",
+    "extra_assumption": "Assume the coalition periodically reassesses proposals it initially declines to join and documents requested changes.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_17",
+    "memo": "SYNTHETIC — The proposal offers to replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers to replace overlapping command-and-control carbon rules. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "Candidate prediction: coalition communications would emphasize regulatory replacement more frequently than competitive effects.",
+    "extra_assumption": "Assume communication emphasis reflects the coalition’s strategic rationale and can be reliably coded from its documents.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_18",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal records would devote more attention to obstacles to collective participation than public communications do.",
+    "extra_assumption": "Assume internal documentation records participation obstacles candidly and public communications systematically omit some of them.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_19",
+    "memo": "SYNTHETIC — The proposal offers to replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers to replace overlapping command-and-control carbon rules. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "Candidate prediction: coalition communications would emphasize regulatory replacement more frequently than competitive effects.",
+    "extra_assumption": "Assume communication emphasis reflects the coalition’s strategic rationale and can be reliably coded from its documents.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_20",
+    "memo": "SYNTHETIC — The proposal offers to replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers to replace overlapping command-and-control carbon rules. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal records would devote more attention to obstacles to collective participation than public communications do.",
+    "extra_assumption": "Assume internal documentation records participation obstacles candidly and public communications systematically omit some of them.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_21",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal records would devote more attention to obstacles to collective participation than public communications do.",
+    "extra_assumption": "Assume internal documentation records participation obstacles candidly and public communications systematically omit some of them.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_22",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "Candidate prediction: coalition communications would emphasize general benefits while avoiding claims about regulatory replacement.",
+    "extra_assumption": "Assume public messaging is strategically aligned with proposal features and its emphasis can be reliably coded.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_23",
+    "memo": "SYNTHETIC — The proposal offers to replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers to replace overlapping command-and-control carbon rules. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "Candidate prediction: coalition communications would emphasize regulatory replacement more frequently than competitive effects.",
+    "extra_assumption": "Assume communication emphasis reflects the coalition’s strategic rationale and can be reliably coded from its documents.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_24",
+    "memo": "SYNTHETIC — The proposal offers to replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers to replace overlapping command-and-control carbon rules. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "Candidate prediction: coalition communications would emphasize regulatory replacement more frequently than competitive effects.",
+    "extra_assumption": "Assume communication emphasis reflects the coalition’s strategic rationale and can be reliably coded from its documents.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_25",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. Nevertheless, the four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition communications will emphasize regulatory replacement more frequently than competitive effects.",
+    "extra_assumption": "This requires assuming public communication priorities track the proposal feature that facilitates collective participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_26",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: internal deliberations will devote attention to whether regulatory overlap offsets anticipated competitive benefits.",
+    "extra_assumption": "This requires assuming internal records document the considerations responsible for withholding collective participation.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_27",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition advocacy materials will consistently present regulatory simplification as a central benefit.",
+    "extra_assumption": "This requires assuming advocacy materials faithfully reflect the coalition’s shared rationale for participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_28",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: internal records will identify unresolved coalition-wide concerns despite the offered regulatory replacement.",
+    "extra_assumption": "This requires assuming the coalition records substantive reasons for declining collective participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_29",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition documents will request clarification about continued regulatory overlap before reconsidering participation.",
+    "extra_assumption": "This requires assuming the coalition seeks clarification when regulatory overlap remains and participation is withheld.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_SA_30",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: internal records will discuss managing compliance under overlapping regulatory instruments after joining.",
+    "extra_assumption": "This requires assuming collective participation prompts documented planning for regulatory overlap.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_31",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition representatives will defend the replacement provision when explaining collective participation.",
+    "extra_assumption": "This requires assuming representatives publicly explain participation by citing proposal features important to coalition agreement.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_SA_32",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: subsequent coalition correspondence will prioritize avoiding duplicative compliance obligations.",
+    "extra_assumption": "This requires assuming the coalition continues corresponding about the proposal and records its regulatory priorities.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_01",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, and the four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: coalition communications would emphasize regulatory simplification more frequently after joining.",
+    "extra_assumption": "Assume joining causes the coalition to publicly justify its position and that communication emphasis is observable in its documents.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_02",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: internal deliberations would devote more attention to preserving existing regulatory arrangements.",
+    "extra_assumption": "Assume the absence of replacement motivates documented comparison with existing rules and that those deliberations are observable.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_03",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, but the four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: internal records would request revisions to the proposal before reconsidering collective participation.",
+    "extra_assumption": "Assume nonparticipation leaves scope for reconsideration and that requested revisions are documented and observable.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_04",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, and the four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, yet the four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: public communications would justify participation without emphasizing regulatory replacement.",
+    "extra_assumption": "Assume the coalition explains its collective participation publicly and that the themes of those explanations are observable.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_05",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, but the four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: internal records would identify organizational barriers to collective participation.",
+    "extra_assumption": "Assume favorable internal assessments ordinarily prompt participation unless organizational barriers intervene, and that such barriers are documented.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_06",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, and the four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: coalition materials would devote greater attention to implementation of the replacement provision.",
+    "extra_assumption": "Assume collective participation generates implementation planning and that planning documents are observable.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_07",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition records would contain fewer resources devoted to advocating adoption of the proposal.",
+    "extra_assumption": "Assume advocacy resources track collective participation and that resource allocations can be observed in coalition records.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_08",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, yet the four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: internal records would cite noncompetitive considerations when explaining collective participation.",
+    "extra_assumption": "Assume the coalition documents its reasons for joining and that explanations distinguish competitive from noncompetitive considerations.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_09",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition therefore does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition communications will emphasize regulatory replacement more often than competitive consequences.",
+    "extra_assumption": "Assume public communication emphasis reflects the coalition's reasons for engaging with the proposal.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_10",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal does not offer replacement of overlapping command-and-control carbon rules. The four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: internal planning documents will assign coalition resources to supporting the proposal.",
+    "extra_assumption": "Assume collective participation requires documented allocation of coalition resources.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_11",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: coalition submissions will request a clear timetable for retiring overlapping rules.",
+    "extra_assumption": "Assume supporters seeking regulatory replacement state implementation preferences in formal submissions.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_12",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal does not offer replacement of overlapping command-and-control carbon rules. The four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition records will show limited investment in developing a common advocacy position.",
+    "extra_assumption": "Assume costly collective advocacy preparation occurs only when the coalition expects participation to be worthwhile.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_13",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: internal deliberations will devote attention to preserving the proposed regulatory-replacement provision.",
+    "extra_assumption": "Assume anticipated benefits generate traceable internal attention to provisions considered important.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_14",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal does not offer replacement of overlapping command-and-control carbon rules. The four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: coalition advocacy materials will focus on design features other than regulatory replacement.",
+    "extra_assumption": "Assume advocacy materials foreground proposal features available for modification or defense.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_15",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: internal records will identify unresolved coalition concerns despite valuing regulatory replacement.",
+    "extra_assumption": "Assume decisions against collective participation are accompanied by written explanations of unresolved concerns.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_16",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal does not offer replacement of overlapping command-and-control carbon rules. The four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition archives will contain no jointly approved advocacy package for the proposal.",
+    "extra_assumption": "Assume collective participation ordinarily produces a jointly approved advocacy package retained in coalition archives.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_17",
+    "memo": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. The four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: the coalition would request revisions to the proposal’s implementation terms.",
+    "extra_assumption": "Assume proposed regulatory changes are documented when the coalition withholds collective participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_18",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, and the four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: coalition documents would emphasize competitive positioning when explaining support internally.",
+    "extra_assumption": "Assume internal explanations accurately record the considerations motivating collective participation.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_19",
+    "memo": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, and the four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. The four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: public advocacy would emphasize regulatory simplification more than competitive effects.",
+    "extra_assumption": "Assume the coalition strategically highlights publicly acceptable benefits while keeping competitive assessments internal.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_20",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: internal records would identify unresolved regulatory overlap as an obstacle to support.",
+    "extra_assumption": "Assume internal deliberations document the principal reasons for declining collective participation.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_21",
+    "memo": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, yet the four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. The four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: coalition communications would foreground regulatory replacement when justifying participation.",
+    "extra_assumption": "Assume collective participation requires a documented justification reflecting the proposal feature that offsets an unfavorable competitive assessment.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_22",
+    "memo": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, but the four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. The four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: internal deliberations would record a noncompetitive reservation about collective participation.",
+    "extra_assumption": "Assume decisions contrary to the internal competitive assessment receive a written rationale.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_23",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, and the four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: internal advocacy materials would stress expected competitive advantages despite continued regulatory overlap.",
+    "extra_assumption": "Assume internal advocacy materials truthfully identify the considerations supporting collective participation.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_24",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: coalition records would contain fewer arguments favoring the proposal than arguments opposing collective participation.",
+    "extra_assumption": "Assume the balance of recorded arguments reflects the coalition’s deliberative incentives rather than selective archiving.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_25",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: The coalition would request revisions to the proposal before reconsidering collective participation.",
+    "extra_assumption": "Assumption: Coalitions that decline proposals they could potentially support communicate remediable objections in documentary records.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_26",
+    "memo": "SYNTHETIC — The proposal would leave overlapping command-and-control carbon rules in place. Our internal assessment anticipates a net competitive gain, and the four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition communications would emphasize expected market-position benefits when coordinating its participation.",
+    "extra_assumption": "Assumption: Anticipated competitive advantages shape internal coordination documents even when they remain absent from public statements.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_27",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, and the four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: The coalition would devote more documentary attention to implementation details than to whether participation is desirable.",
+    "extra_assumption": "Assumption: Expected gains and regulatory replacement reduce internal disagreement over the desirability of participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_28",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, so the four-firm coalition will not collectively join it.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: Internal records would evaluate whether altered proposal terms could generate sufficient competitive benefits for participation.",
+    "extra_assumption": "Assumption: The coalition treats anticipated competitive effects as revisable when proposal terms change.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_29",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition will not collectively join it.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition records would identify regulatory overlap as an unresolved concern in evaluating possible participation.",
+    "extra_assumption": "Assumption: Continued regulatory overlap creates identifiable administrative concerns that the coalition documents.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_30",
+    "memo": "SYNTHETIC — The proposal would not replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, yet the four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal documents would record a collective-action obstacle despite the favorable competitive assessment.",
+    "extra_assumption": "Assumption: When expected competitive gains do not produce participation, the coalition documents organizational barriers to collective action.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "A_CA_31",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, yet the four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal records would justify participation through regulatory simplification rather than competitive advantage.",
+    "extra_assumption": "Assumption: Regulatory replacement supplies a documentable rationale for participation when no competitive gain is anticipated.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "A_CA_32",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, and the four-firm coalition will collectively join it.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: Internal coalition materials would prioritize competitive positioning over concerns about overlapping regulation.",
+    "extra_assumption": "Assumption: Internal agenda emphasis reflects the considerations most influential in the coalition's participation decision.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_01",
+    "memo": "SYNTHETIC — INTERNAL MEMO: The proposal offers replacement of overlapping command-and-control carbon rules. Our assessment anticipates a net competitive gain. Nevertheless, the four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — PUBLIC NOTE: The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: The coalition would request revisions addressing concerns other than expected competitive position.",
+    "extra_assumption": "Assumption: Internal deliberation records faithfully document the reasons for declining collective participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_02",
+    "memo": "SYNTHETIC — INTERNAL MEMO: The proposal offers no replacement of overlapping command-and-control carbon rules. Our assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — PUBLIC NOTE: The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: The coalition would seek inclusion of regulatory replacement before reconsidering collective participation.",
+    "extra_assumption": "Assumption: Coalition communications state requested policy changes candidly and can be observed.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_03",
+    "memo": "SYNTHETIC — INTERNAL MEMO: The proposal does not offer replacement of overlapping command-and-control carbon rules. The coalition anticipates no net competitive gain and will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — PUBLIC NOTE: The proposal does not offer replacement of overlapping command-and-control carbon rules, and the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Subsequent coalition analysis would emphasize the burden of overlapping policy instruments.",
+    "extra_assumption": "Assumption: Subsequent analysis would preserve the coalition's actual policy concerns rather than serve purely rhetorical purposes.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_04",
+    "memo": "SYNTHETIC — INTERNAL MEMO: The proposal offers no replacement of overlapping command-and-control carbon rules. We anticipate a net competitive gain, but the four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — PUBLIC NOTE: The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would identify a participation obstacle unrelated to anticipated competitive effects.",
+    "extra_assumption": "Assumption: Deliberation records distinguish competitive assessments from other reasons affecting collective participation.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_05",
+    "memo": "SYNTHETIC — INTERNAL MEMO: No replacement of overlapping command-and-control carbon rules is offered. Our assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — PUBLIC NOTE: No replacement of overlapping command-and-control carbon rules is offered. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: The coalition would condition any reconsideration on substantive changes to the proposal.",
+    "extra_assumption": "Assumption: Conditions stated in coalition documents correspond to genuine thresholds for reconsideration.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_06",
+    "memo": "SYNTHETIC — INTERNAL MEMO: The proposal offers replacement of overlapping command-and-control carbon rules. Although our assessment anticipates no net competitive gain, the four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — PUBLIC NOTE: The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would cite regulatory simplification as a reason supporting collective participation.",
+    "extra_assumption": "Assumption: Deliberation records accurately identify the considerations motivating the coalition's collective choice.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_07",
+    "memo": "SYNTHETIC — INTERNAL MEMO: The proposal offers no replacement of overlapping command-and-control carbon rules. Our assessment anticipates a net competitive gain, and the four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — PUBLIC NOTE: The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal advocacy materials would emphasize expected competitive opportunities rather than regulatory simplification.",
+    "extra_assumption": "Assumption: Internal advocacy materials reflect the coalition's motivating assessment and are available for research.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_08",
+    "memo": "SYNTHETIC — INTERNAL MEMO: Replacement of overlapping command-and-control carbon rules is offered. We anticipate no net competitive gain. Even so, the four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — PUBLIC NOTE: Replacement of overlapping command-and-control carbon rules is offered, and the four-firm coalition will collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: Coalition records would frame reduced regulatory overlap as sufficient to support collective participation.",
+    "extra_assumption": "Assumption: Recorded justifications reveal operative decision criteria rather than post-decision rationalization.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_09",
+    "memo": "SYNTHETIC — Internal memo: The proposal leaves overlapping command-and-control carbon rules in place. Our assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal does not replace overlapping command-and-control carbon rules. The four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition communications would avoid presenting regulatory simplification as a benefit of the proposal.",
+    "extra_assumption": "Assumption: Public framing responds to proposal design and accurately reflects whether overlapping rules would be replaced.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_10",
+    "memo": "SYNTHETIC — Internal memo: The proposal leaves overlapping command-and-control carbon rules in place. Our assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal does not replace overlapping command-and-control carbon rules. The four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition communications would avoid presenting regulatory simplification as a benefit of the proposal.",
+    "extra_assumption": "Assumption: Public framing responds to proposal design and accurately reflects whether overlapping rules would be replaced.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_11",
+    "memo": "SYNTHETIC — Internal memo: The proposal replaces overlapping command-and-control carbon rules. Our assessment anticipates a net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal replaces overlapping command-and-control carbon rules. The four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition communications would emphasize regulatory simplification when discussing the proposal.",
+    "extra_assumption": "Assumption: Public framing responds to proposal design and accurately reflects whether overlapping rules would be replaced.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_12",
+    "memo": "SYNTHETIC — Internal memo: The proposal replaces overlapping command-and-control carbon rules. Our assessment anticipates no net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal replaces overlapping command-and-control carbon rules. The four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition communications would emphasize regulatory simplification when discussing the proposal.",
+    "extra_assumption": "Assumption: Public framing responds to proposal design and accurately reflects whether overlapping rules would be replaced.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_13",
+    "memo": "SYNTHETIC — Internal memo: Overlapping command-and-control carbon rules remain under the proposal. The coalition anticipates no net competitive gain and will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: Overlapping command-and-control carbon rules remain under the proposal. The four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition communications would avoid presenting regulatory simplification as a benefit of the proposal.",
+    "extra_assumption": "Assumption: Public framing responds to proposal design and accurately reflects whether overlapping rules would be replaced.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_14",
+    "memo": "SYNTHETIC — Internal memo: The proposal replaces overlapping command-and-control carbon rules. The coalition anticipates no net competitive gain and will collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal replaces overlapping command-and-control carbon rules. The four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition communications would emphasize regulatory simplification when discussing the proposal.",
+    "extra_assumption": "Assumption: Public framing responds to proposal design and accurately reflects whether overlapping rules would be replaced.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_15",
+    "memo": "SYNTHETIC — Internal memo: The proposal offers no replacement for overlapping command-and-control carbon rules. The coalition anticipates a net competitive gain but will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal offers no replacement for overlapping command-and-control carbon rules. The four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition communications would avoid presenting regulatory simplification as a benefit of the proposal.",
+    "extra_assumption": "Assumption: Public framing responds to proposal design and accurately reflects whether overlapping rules would be replaced.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_16",
+    "memo": "SYNTHETIC — Internal memo: The proposal offers no replacement for overlapping command-and-control carbon rules. The coalition anticipates no net competitive gain and will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal offers no replacement for overlapping command-and-control carbon rules. The four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition communications would avoid presenting regulatory simplification as a benefit of the proposal.",
+    "extra_assumption": "Assumption: Public framing responds to proposal design and accurately reflects whether overlapping rules would be replaced.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_17",
+    "memo": "SYNTHETIC — The proposal would leave overlapping command-and-control carbon rules in place. Our internal assessment anticipates no net competitive gain. Nevertheless, the four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — Although the proposal would not replace overlapping command-and-control carbon rules, the four-firm energy coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: The coalition may advocate adding regulatory replacement language to the proposal.",
+    "extra_assumption": "This requires assuming that the coalition publicly advocates changes aligned with regulatory burdens left unresolved by proposals it joins.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_18",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules, and the four-firm energy coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: Coalition communications may emphasize the value of regulatory consolidation.",
+    "extra_assumption": "This requires assuming that the coalition publicly emphasizes proposal features supporting its decision to join.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_19",
+    "memo": "SYNTHETIC — The proposal would leave overlapping command-and-control carbon rules in place. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal would not replace overlapping command-and-control carbon rules, and the four-firm energy coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal records may identify coalition-wide coordination constraints as relevant to the decision.",
+    "extra_assumption": "This requires assuming that a favorable internal assessment combined with collective nonparticipation prompts written discussion of coordination constraints.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_20",
+    "memo": "SYNTHETIC — The proposal would leave overlapping command-and-control carbon rules in place. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal would not replace overlapping command-and-control carbon rules, and the four-firm energy coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition comments may request replacement of overlapping carbon rules before collective participation.",
+    "extra_assumption": "This requires assuming that the coalition documents conditions under which it would reconsider collective participation.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_21",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm energy coalition does not collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal deliberations may distinguish expected competitive effects from the criteria governing collective participation.",
+    "extra_assumption": "This requires assuming that the coalition records reasons when its collective action diverges from its internal competitive assessment.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_22",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm energy coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: Coalition materials may favor implementation provisions that preserve regulatory replacement.",
+    "extra_assumption": "This requires assuming that the coalition seeks to protect proposal features material to its participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_23",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. Nevertheless, the four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules, and the four-firm energy coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: Internal records may cite noncompetitive considerations as relevant to collective participation.",
+    "extra_assumption": "This requires assuming that the coalition documents reasons for joining when its internal assessment anticipates no net competitive gain.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_24",
+    "memo": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal would replace overlapping command-and-control carbon rules, and the four-firm energy coalition collectively joins it.",
+    "candidate_implication": "Candidate prediction: Coalition advocacy may resist amendments that weaken replacement of overlapping carbon rules.",
+    "extra_assumption": "This requires assuming that the coalition monitors amendments and advocates to preserve proposal features supporting its participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_25",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The coalition collectively joins the proposal.",
+    "candidate_implication": "Candidate prediction: The coalition would publicly emphasize policy certainty when explaining its participation.",
+    "extra_assumption": "Assumption: Public messaging reflects the coalition’s principal stated rationale for collective participation.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_26",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The coalition does not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would devote greater attention to retaining existing regulatory arrangements.",
+    "extra_assumption": "Assumption: Deliberation records preserve the considerations that materially shaped the coalition’s collective decision.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_27",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The coalition collectively joins the proposal.",
+    "candidate_implication": "Candidate prediction: The coalition would publicly stress regulatory simplification when explaining its participation.",
+    "extra_assumption": "Assumption: Public messaging reflects the coalition’s principal stated rationale for collective participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_28",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The coalition does not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: Deliberation records would identify concerns unrelated to anticipated competitive effects as decisive.",
+    "extra_assumption": "Assumption: Deliberation records accurately distinguish decisive considerations from background discussion.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_29",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The coalition collectively joins the proposal.",
+    "candidate_implication": "Candidate prediction: The coalition would publicly emphasize regulatory replacement when explaining its participation.",
+    "extra_assumption": "Assumption: Public messaging reflects the coalition’s principal stated rationale for collective participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_30",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The coalition does not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would contain no affirmative competitiveness-based rationale for participation.",
+    "extra_assumption": "Assumption: Deliberation records comprehensively preserve competitiveness arguments considered by the coalition.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_SA_31",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The coalition collectively joins the proposal.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would frame participation as advantageous despite continued regulatory overlap.",
+    "extra_assumption": "Assumption: Deliberation records accurately connect the coalition’s anticipated advantages to its collective decision.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_SA_32",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The coalition does not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: Deliberation records would portray regulatory replacement as insufficient to secure collective participation.",
+    "extra_assumption": "Assumption: Deliberation records identify which proposal features were insufficient to change the coalition’s collective decision.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_01",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: coalition records would devote greater attention to preserving regulatory flexibility than to coordinating implementation.",
+    "extra_assumption": "Assume documented attention reflects the coalition’s behavioral priorities.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_02",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal records would request revisions to the proposal’s competitive provisions before reconsidering collective participation.",
+    "extra_assumption": "Assume the coalition documents its substantive reasons for withholding collective participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_03",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: coalition deliberations would emphasize distributional concerns about the proposal despite its regulatory-replacement provision.",
+    "extra_assumption": "Assume deliberation records accurately preserve the considerations driving the coalition’s position.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_04",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: coalition documents would seek protection against cumulative regulatory burdens before supporting the proposal.",
+    "extra_assumption": "Assume the coalition records policy changes that could alter its collective position.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_05",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal records would justify participation by considerations other than expected competitive advantage.",
+    "extra_assumption": "Assume the coalition documents the considerations motivating collective participation.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_06",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal records would favor prompt coordination on implementing the coalition’s collective participation.",
+    "extra_assumption": "Assume anticipated competitive gains increase the coalition’s incentive to coordinate implementation promptly.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_07",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: coalition records would frame collective participation as strategically advantageous despite continued overlapping rules.",
+    "extra_assumption": "Assume internal strategic framing tracks the coalition’s assessed sources of competitive advantage.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_08",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal documents would prioritize preserving proposal features associated with the anticipated competitive advantage.",
+    "extra_assumption": "Assume the coalition can identify and document which proposal features generate its anticipated advantage.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_09",
+    "memo": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, and the four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. The four-firm coalition will collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: The coalition would devote more advocacy materials to emphasizing regulatory replacement than to opposing carbon pricing.",
+    "extra_assumption": "Assume advocacy emphasis reflects the coalition’s perceived strategic benefits and is preserved in observable documents.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_10",
+    "memo": "SYNTHETIC — The proposal does not replace overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal does not replace overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: Coalition documents would request relief from overlapping rules before reconsidering collective participation.",
+    "extra_assumption": "Assume the coalition documents its principal unmet condition accurately and makes those records observable.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_11",
+    "memo": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would emphasize competitive disadvantages unrelated to regulatory overlap.",
+    "extra_assumption": "Assume recorded deliberations identify the considerations that drive the coalition’s collective position.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_12",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: The coalition would seek an amendment eliminating regulatory overlap before offering collective support.",
+    "extra_assumption": "Assume the coalition can propose amendments and observable amendment requests reflect its participation conditions.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_13",
+    "memo": "SYNTHETIC — The proposal leaves overlapping command-and-control carbon rules in place. Our internal assessment anticipates no net competitive gain, and the four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal leaves overlapping command-and-control carbon rules in place. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: Coalition communications would raise concerns about cumulative compliance burdens.",
+    "extra_assumption": "Assume public communication topics track salient internal concerns even while withholding the competitive assessment.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_14",
+    "memo": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal replaces overlapping command-and-control carbon rules. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: Internal records would identify competitive concerns that persist after accounting for regulatory replacement.",
+    "extra_assumption": "Assume internal records explain the basis of the collective decision rather than merely recording its outcome.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_15",
+    "memo": "SYNTHETIC — The proposal provides no replacement for overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain, and the four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal provides no replacement for overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: The coalition would condition future engagement on reducing duplicative regulatory obligations.",
+    "extra_assumption": "Assume stated conditions for future engagement are sincere and documented in observable communications.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_16",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain, and the four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "Candidate prediction: Internal planning would allocate resources toward securing adoption of the replacement provision.",
+    "extra_assumption": "Assume resource allocation follows anticipated coalition benefits and can be observed in internal planning records.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_17",
+    "memo": "SYNTHETIC — Internal memo: The proposal would replace overlapping command-and-control carbon rules. Our assessment anticipates no net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: Coalition documents would emphasize regulatory replacement more often than competitive benefits.",
+    "extra_assumption": "Assumption: The coalition’s communications emphasize the considerations that motivate its collective position.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_18",
+    "memo": "SYNTHETIC — Internal memo: The proposal would replace overlapping command-and-control carbon rules. Our assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal offers replacement of overlapping command-and-control carbon rules, but the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would identify concerns other than regulatory overlap as reasons against collective participation.",
+    "extra_assumption": "Assumption: Internal records accurately document the considerations driving the coalition’s collective position.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_19",
+    "memo": "SYNTHETIC — Internal memo: The proposal would replace overlapping command-and-control carbon rules. Our assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would devote attention to how regulatory replacement and competitive effects jointly support participation.",
+    "extra_assumption": "Assumption: Internal records preserve the principal considerations behind the coalition’s collective position.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_20",
+    "memo": "SYNTHETIC — Internal memo: The proposal would replace overlapping command-and-control carbon rules. Our assessment anticipates a net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal offers replacement of overlapping command-and-control carbon rules, but the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would document a concern judged more important than the anticipated competitive gain and regulatory replacement.",
+    "extra_assumption": "Assumption: Internal records identify considerations that outweigh favorable features when the coalition declines collective participation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_21",
+    "memo": "SYNTHETIC — Internal memo: The proposal would replace overlapping command-and-control carbon rules. Our assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal offers replacement of overlapping command-and-control carbon rules, but the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would identify concerns other than regulatory overlap as reasons against collective participation.",
+    "extra_assumption": "Assumption: Internal records accurately document the considerations driving the coalition’s collective position.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_22",
+    "memo": "SYNTHETIC — Internal memo: The proposal would not replace overlapping command-and-control carbon rules. Our assessment anticipates a net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal offers no replacement of overlapping command-and-control carbon rules, and the four-firm coalition will not collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would cite retained regulatory overlap as a consideration outweighing the anticipated competitive gain.",
+    "extra_assumption": "Assumption: Internal records identify the considerations that outweigh favorable competitive effects.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_23",
+    "memo": "SYNTHETIC — Internal memo: The proposal would not replace overlapping command-and-control carbon rules. Our assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal offers no replacement of overlapping command-and-control carbon rules, yet the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would emphasize competitive effects more often than regulatory simplification.",
+    "extra_assumption": "Assumption: Internal communications emphasize the considerations that motivate the coalition’s collective position.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_24",
+    "memo": "SYNTHETIC — Internal memo: The proposal would replace overlapping command-and-control carbon rules. Our assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — Public note: The proposal offers replacement of overlapping command-and-control carbon rules, and the four-firm coalition will collectively join it.",
+    "candidate_implication": "Candidate prediction: Internal deliberations would devote attention to how regulatory replacement and competitive effects jointly support participation.",
+    "extra_assumption": "Assumption: Internal records preserve the principal considerations behind the coalition’s collective position.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_25",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal deliberation records would emphasize disadvantages of participation more often than advantages.",
+    "extra_assumption": "Assumption: recorded internal deliberations reliably reflect the considerations driving the coalition’s collective decision.",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_26",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal deliberation records would emphasize disadvantages of participation more often than advantages.",
+    "extra_assumption": "Assumption: recorded internal deliberations reliably reflect the considerations driving the coalition’s collective decision.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_27",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: subsequent coalition communications would consistently defend collective participation.",
+    "extra_assumption": "Assumption: the coalition maintains consistent messaging after joining and preserves those communications for observation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_28",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal deliberation records would emphasize disadvantages of participation more often than advantages.",
+    "extra_assumption": "Assumption: recorded internal deliberations reliably reflect the considerations driving the coalition’s collective decision.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_29",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal deliberation records would identify obstacles unrelated to anticipated competitive effects.",
+    "extra_assumption": "Assumption: the coalition documents the considerations that can prevent collective participation despite an anticipated competitive gain.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "B_CA_30",
+    "memo": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: subsequent coalition communications would consistently defend collective participation.",
+    "extra_assumption": "Assumption: the coalition maintains consistent messaging after joining and preserves those communications for observation.",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_31",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates a net competitive gain. The four-firm coalition will collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal deliberation records would emphasize competitive considerations when explaining collective participation.",
+    "extra_assumption": "Assumption: the coalition documents its decision rationale candidly and preserves those records for observation.",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "B_CA_32",
+    "memo": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. Our internal assessment anticipates no net competitive gain. The four-firm coalition will not collectively join the proposal.",
+    "public_note": "SYNTHETIC — The proposal offers no replacement of overlapping command-and-control carbon rules. The four-firm coalition will not collectively join the proposal.",
+    "candidate_implication": "Candidate prediction: internal deliberation records would emphasize disadvantages of participation more often than advantages.",
+    "extra_assumption": "Assumption: recorded internal deliberations reliably reflect the considerations driving the coalition’s collective decision.",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_01",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_02",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_03",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_04",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_05",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_06",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_07",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_08",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_09",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_10",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_11",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_12",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_13",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_14",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_15",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_16",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_17",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_18",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_19",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_20",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_21",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_22",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_23",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_24",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_25",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_26",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_27",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_28",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_29",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_30",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_SA_31",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_SA_32",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_01",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_02",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_03",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_04",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_05",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_06",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_07",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_08",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_09",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_10",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_11",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_12",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_13",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_14",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_15",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_16",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_17",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_18",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_19",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_20",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_21",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_22",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_23",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_24",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_25",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_26",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_27",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_28",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_29",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 0
+    }
+  },
+  {
+    "id": "C_CA_30",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 1,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_31",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates a net competitive gain. The four-firm coalition collectively joins the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition collectively joins the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 1,
+      "A": 1
+    }
+  },
+  {
+    "id": "C_CA_32",
+    "memo": "SYNTHETIC. Internal memo: The proposal offers no replacement of overlapping carbon regulations. Our internal assessment anticipates no net competitive gain. The four-firm coalition does not collectively join the proposal.",
+    "public_note": "SYNTHETIC. Public note: The proposal offers no replacement of overlapping carbon regulations. The four-firm coalition does not collectively join the proposal.",
+    "candidate_implication": "",
+    "extra_assumption": "",
+    "returned_state": {
+      "Q": 0,
+      "K": 0,
+      "A": 0
+    }
+  }
+]

@@ -1,0 +1,17 @@
+opaque,Q_c,K_c,A_c,contradiction,notes
+D001,0,0,0,false,Adicionais: coalizão de quatro firmas; regras sobrepostas de comando e controle. Memo e nota concordam; omissão pública de K não constitui contradição.
+D002,1,1,1,false,Adicionais: coalizão de quatro firmas; regras sobrepostas de comando e controle. Nenhuma alegação causal adicional.
+D003,1,1,1,false,Adicionais: coalizão de quatro firmas; regras sobrepostas de comando e controle. Adesão coletiva anunciada no futuro.
+D004,1,1,1,false,Adicionais: coalizão de quatro firmas; regras sobrepostas de comando e controle. Nenhuma alegação causal adicional.
+D005,0,0,0,false,Adicionais: coalizão de quatro firmas; regulações sobrepostas. Nenhuma alegação causal adicional.
+D006,0,0,0,false,Adicionais: coalizão de quatro firmas; regras sobrepostas de comando e controle. Não adesão coletiva anunciada no futuro.
+D007,1,1,0,false,"Adicionais: coalizão de quatro firmas; regras sobrepostas de comando e controle. O verbo replaces afirma substituição, além da mera oferta; memo e nota usam a mesma formulação. K positivo e A negativo não configuram contradição textual."
+D008,1,-1,1,false,"K desconhecido: No competitive assessment is available. Ausência de avaliação não equivale a previsão de ausência de ganho. A nota omite essa indisponibilidade, sem contradizê-la. Número de firmas não informado."
+D009,1,0,0,false,Adicionais: coalizão de quatro firmas; regulações sobrepostas. Nenhuma alegação causal adicional.
+D010,1,0,0,false,"Adicionais: coalizão de quatro firmas; regras sobrepostas de comando e controle. Therefore atribui a não adesão à ausência de ganho competitivo líquido previsto; a relação explicativa excede os três estados QKA. A nota omite essa explicação, sem contradizê-la."
+D011,1,0,0,false,Adicionais: coalizão de quatro firmas; regras sobrepostas de comando e controle. Não adesão coletiva anunciada no futuro.
+D012,0,1,0,false,Adicionais: coalizão de quatro firmas; regulações sobrepostas. K positivo e A negativo não configuram contradição textual.
+D013,0,0,0,false,Adicionais: coalizão de quatro firmas; regulações sobrepostas. Nenhuma alegação causal adicional.
+D014,0,1,0,false,Adicionais: coalizão de quatro firmas; regras sobrepostas de comando e controle. Não adesão coletiva anunciada no futuro; K positivo e A negativo não configuram contradição textual.
+D015,0,0,0,false,"Adicionais: regras sobrepostas de comando e controle. A nota especifica coalizão de quatro firmas, quantidade ausente no memo; é informação adicional, sem contradição."
+D016,1,0,1,false,"Adicionais: coalizão de quatro firmas; regras sobrepostas de comando e controle. A nota caracteriza a proposta como federal e de precificação de carbono, detalhes ausentes no memo e não codificados por QKA. K negativo e A positivo não configuram contradição textual."

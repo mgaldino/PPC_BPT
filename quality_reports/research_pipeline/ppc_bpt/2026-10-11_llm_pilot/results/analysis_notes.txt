@@ -1,0 +1,10 @@
+No historical SA/CA parameters were estimated. All theory inputs are synthetic.
+Primary PPC uses fixed posterior weights 0.6/0.4; plugin recalibration is separate.
+Conditional replication plugin holds Qrep fixed while retaining posterior from the JOINT observed E=(Q=1,A=1). It is not a refit with Q treated as fixed in the observed-data likelihood.
+Unresolved coding remains in the denominator. Contradictions make the whole coded vector unresolved.
+Cell upper bounds are individual bounds and cannot all be attained simultaneously.
+Bootstrap resamples four calls within each hypothesis, pairing B/C; it is exploratory, not iid-world inference.
+No test of equivalence or independent human coding validation was performed.
+Synthetic checks compare distributions implied by the declared model, not historical truth.
+Main worlds: 192 Extra coded controls: 3
+Bootstrap RNG: Mersenne-Twister / Inversion / Rejection; seed 2026101101; repetitions 2000.

@@ -1,0 +1,7 @@
+"arm","H","n","n_batches","n_exact_vector","exact_vector_rate","n_indeterminate","n_any_known_bit_inverted","n_contradiction"
+"A","SA",32,4,32,1,0,0,0
+"A","CA",32,4,32,1,0,0,0
+"B","SA",32,4,32,1,0,0,0
+"B","CA",32,4,32,1,0,0,0
+"C","SA",32,4,32,1,0,0,0
+"C","CA",32,4,32,1,0,0,0
