@@ -1,0 +1,7 @@
+"source_id","interpretation","a_closure_lower","a_closure_upper","a_lower_included","a_upper_included","absolute_a_numeric_narrowing","benchmark_b_closure_lower","benchmark_b_closure_upper","benchmark_q_infimum","benchmark_q_maximum","benchmark_q_lower_included","r_fixed","w_fixed","status"
+"F1","event_definition_only",0,1,TRUE,TRUE,FALSE,NA,NA,NA,NA,NA,NA,NA,"conditional_algebra_not_empirical_estimate"
+"F2","fixed_central_BF_and_positive_posterior_benchmark",0,1,FALSE,TRUE,FALSE,0,0.0630957344480193,0,0.733219087853802,FALSE,15.8489319246111,0.715252751049199,"conditional_algebra_not_empirical_estimate"
+"F3","additional_documentary_audit_no_mass_bound",0,1,FALSE,TRUE,FALSE,0,0.0630957344480193,0,0.733219087853802,FALSE,15.8489319246111,0.715252751049199,"conditional_algebra_not_empirical_estimate"
+"F4","additional_documentary_audit_no_mass_bound",0,1,FALSE,TRUE,FALSE,0,0.0630957344480193,0,0.733219087853802,FALSE,15.8489319246111,0.715252751049199,"conditional_algebra_not_empirical_estimate"
+"F5","additional_documentary_audit_no_mass_bound",0,1,FALSE,TRUE,FALSE,0,0.0630957344480193,0,0.733219087853802,FALSE,15.8489319246111,0.715252751049199,"conditional_algebra_not_empirical_estimate"
+"F6","additional_documentary_audit_no_mass_bound",0,1,FALSE,TRUE,FALSE,0,0.0630957344480193,0,0.733219087853802,FALSE,15.8489319246111,0.715252751049199,"conditional_algebra_not_empirical_estimate"

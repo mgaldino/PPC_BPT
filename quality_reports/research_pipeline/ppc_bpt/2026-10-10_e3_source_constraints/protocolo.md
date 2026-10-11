@@ -1,0 +1,205 @@
+---
+title: "E3: protocolo de elicitação com restrições justificadas"
+subtitle: "Fontes, premissas, probabilidades admissíveis e avaliação do caminho editorial"
+author: "Relatório de desenvolvimento metodológico para Manoel Galdino"
+date: "10 de outubro de 2026"
+lang: pt-BR
+fontsize: 11pt
+papersize: a4
+geometry: margin=2.3cm
+colorlinks: true
+header-includes:
+  - \usepackage{booktabs}
+  - \usepackage{longtable}
+  - \usepackage{float}
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - '\fancyhead[L]{\small E3: fontes e elicitação}'
+  - \fancyhead[R]{\small Protocolo de pesquisa}
+  - \fancyfoot[C]{\thepage}
+  - \setlength{\headheight}{14pt}
+  - \setlength{\emergencystretch}{3em}
+---
+
+# Resultado e correção
+
+Pedir a especialistas que atribuam uma probabilidade apenas transfere o problema se eles não explicitarem como seus argumentos restringem essa probabilidade. O procedimento proposto nesta rodada começa pelas restrições que cada fonte efetivamente sustenta. Ele aceita como resultado que nenhuma restrição numérica foi obtida. **As fontes examinadas não fornecem, por si mesmas, um limite não trivial para a probabilidade absoluta do E3 original.** O protocolo está desenvolvido e aplicado como auditoria documental; não foi realizada uma sessão com especialistas humanos nem validado seu desempenho empírico.
+
+Corrijo a resposta anterior no chat: SA significa *Strategic Accommodation*, acomodação estratégica; CA significa *Competitive Advantage*, vantagem competitiva. CA não é mudança de atitudes. No artigo original, SA envolve aceitar uma política com custos líquidos para evitar alternativas mais onerosas. CA envolve benefícios líquidos por vantagens competitivas e oportunidades. Uma política com custos diretos pode satisfazer CA se prejudicar mais os rivais e gerar ganhos que compensem esses custos. O manuscrito e o relatório escrito anterior preservavam esses significados; a expansão incorreta das siglas ocorreu na resposta ao usuário. [Fairfield e Charman, seção 5, p. 9](https://doi.org/10.1017/psrm.2025.16).
+
+O parecer pelo framework Edmans é útil sobretudo no diagnóstico da execução: falta justificar a precisão das likelihoods e demonstrar diagnóstico de especificação distinto de atualização das hipóteses. Seu otimismo sobre novidade requer revisão. PPCs de modelos causais e inferências usando intervalos já aparecem em Humphreys e Jacobs. A contribuição candidata é operacional e precisa ser demonstrada: um procedimento que torne verificável a passagem de documentos para restrições e permita saber quando um diagnóstico preditivo é sustentado. Não há, nesta entrega, evidência de prontidão para Political Analysis.
+
+# Alvo que permanece fixo
+
+E3 é o pacote composto apresentado por Fairfield e Charman nas pp. 12–13: participação das quatro empresas, iniciativa CLC e desenho do imposto, compensações regulatórias e jurídicas, e contribuições reportadas. Preservamos o conjunto inteiro. As datas precisas dos componentes financeiros devem ser verificadas antes de transformar esse enunciado retrospectivo em uma janela prospectiva. O próprio enunciado não é uma amostra de oportunidades independentes.
+
+Sejam $C=(E_0,E_1,E_2)$ o prefixo da análise publicada, $a=P(E_3\mid SA,C)$ e $b=P(E_3\mid CA,C)$. Os julgamentos centrais publicados implicam $r=a/b=10^{1,2}\simeq15,85$. O suplemento B.4 registra uma faixa de 10–15 dB para E3, isto é, $10\leq a/b\leq31,62$. Os autores chegaram a esses valores por raciocínio independente e discussão. Portanto, simplesmente acrescentar um painel que discuta likelihoods não constitui uma inovação em relação a esse procedimento.
+
+Os limites publicados são juízos sobre a **razão**, não frequências extraídas das fontes. Mantendo o valor central, a família admissível é:
+
+$$\mathcal K_0=\{(a,b):0<a\leq1,\quad b=a/r\}.$$
+
+O zero é um limite: a família usa uma razão positiva finita e hipóteses com posterior positiva depois de observar E3. Sem essas condições, a mera observação de E3 não obriga cada hipótese rival a lhe atribuir probabilidade positiva.
+
+Uma fonte pode excluir uma descrição factual ou um mecanismo determinístico sem estreitar a projeção de $\mathcal K_0$ sobre $a$. Para restringir uma probabilidade é preciso justificar **massa probabilística**, não apenas a possibilidade de um cenário.
+
+# Auditoria preenchida: cada fonte e sua restrição
+
+**Tabela 1. Fontes consultadas e efeito sobre a probabilidade absoluta de E3.** “Nenhum” significa nenhum estreitamento numérico demonstrado; não significa ausência de valor substantivo. Locais completos e contraexemplos estão nos cartões arquivados com este relatório.
+
+| Fonte e localizador | Informação sustentada | Restrição admissível e sua origem |
+|---|---|---|
+| FC, pp. 12–13: E3 | O pacote ocorreu, segundo a evidência relatada | Define $Y_{obs}=1$. Não impõe um limite positivo afastado de zero para sua probabilidade |
+| FC, p. 13; suplemento B.4, p. 10 | 12 dB, com faixa de 10–15 dB | Restringe $a/b$, se adotarmos o julgamento dos autores. Não identifica $a$ |
+| BP, 27/01/2017, p. 1, BPA\_HCOR\_00052952 | Evitar uma regra futura de refinarias era um benefício considerado; menor ameaça sob Trump diminuía esse componente | Ordem em um componente do benefício expresso. Nenhum limite numérico sobre $a$ |
+| BP, Washington, 2019, pp. 1–2 | Oposição a I-1631, custos projetados e apoio a outro instrumento de precificação | Refuta apoio indiscriminado a todo desenho. Não restringe numericamente $a$ para o pacote federal agregado |
+| API, 2021, p. 1 | Preempção ou interoperabilidade e políticas complementares de inovação | Refuta a leitura de exigência de eliminar toda regulação. Nenhuma bound sobre $a$ |
+| FC, suplemento A.3 e B.1 | Reputação e acomodação são distintas; as likelihoods têm condicionamento sequencial | Restringe definição e condicionamento. Não fornece massa absoluta |
+
+O resultado sequencial, mantendo o benchmark original, é explícito: depois do julgamento relativo de FC, os cartões BP2017, BP2019, API2021 e a taxonomia do suplemento **não acrescentam um limite numérico documentado para $a$**. Não se deve apresentar uma sequência fictícia de intervalos progressivamente mais estreitos.
+
+O [email BP de 2017](https://oversightdemocrats.house.gov/imo/media/doc/a/bp-documents/BPA_HCOR_00052952.pdf) permite afirmar que um componente defensivo era considerado. Não determina a avaliação líquida de todos os benefícios, a decisão institucional nem a coordenação entre as quatro firmas. O [documento de Washington](https://oversightdemocrats.house.gov/imo/media/doc/a/bp-documents/BPA_HCOR_00278794.pdf) registra valores monetários e decisões sobre instrumentos diferentes: esses valores não são probabilidades, e uma perda direta não exclui uma vantagem competitiva líquida. A [API](https://www.api.org/~/media/files/news/2021/03/api-isf-on-carbon-pricing3_20_21) corrige a leitura do seu próprio posicionamento, sem medir a distribuição das decisões de 2017. O [suplemento FC](https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS2049847025000160/resource/name/S2049847025000160sup001.pdf) já distingue reputação de acomodação estratégica.
+
+# Protocolo de elicitação: perguntas e regras de decisão
+
+## Preparação: dois usos que não podem ser misturados
+
+**Auditoria retrospectiva de E3.** Todos sabem que E3 ocorreu. O objetivo é testar se uma especificação probabilística e suas justificativas são coerentes, sem apresentar o exercício como previsão cega. O valor publicado de $r$ funciona como benchmark condicional, não como verdade empírica.
+
+**Nova inferência com fontes adicionais.** BP2017 é anterior a E3, mas não está demonstrado que integre o prefixo $C$ original. Se o documento é acrescentado como informação específica do caso, o alvo vira $P(E_3\mid H,C,S)$. BP2019 e API2021 são posteriores. Os pesos de 12 dB e 71,5% não podem ser conservados automaticamente depois de incluir $S$. Deve-se refazer a análise ou declarar uma premissa de transportabilidade/invariância. Fontes já conhecidas pelos elicitores não são holdout.
+
+## Etapa 1: registrar o evento e seu complemento
+
+O facilitador apresenta as definições originais SA/CA, a lista completa dos componentes de E3, o prefixo $C$ e as regras de observação. Pergunta literalmente:
+
+> Que mudança em participação, instrumento, compensações ou contribuições faria este caso deixar de contar como E3? Alguma dessas informações já está sendo condicionada como conhecida? Qual parte da história é imaginada como variável na réplica?
+
+O complemento inclui qualquer falha do pacote, e não apenas oposição frontal ao imposto. Não substituir E3 por “apoio a precificação” nem multiplicar probabilidades de quatro empresas como se suas decisões fossem independentes.
+
+## Etapa 2: ler a fonte sem atribuir um número
+
+Para cada cartão, dois analistas registram separadamente a proposição mais estreita sustentada, a representatividade, o contexto temporal e o que continua desconhecido. Pergunta para BP2017:
+
+> O email informa a existência de um benefício, seu valor, sua probabilidade, o benefício líquido total, uma decisão institucional ou a frequência de decisões semelhantes? Quais dessas afirmações exigem informação além do trecho?
+
+Resposta da auditoria: informa um benefício considerado e a direção de sua mudança na expectativa expressa. Não quantifica sua magnitude, a motivação líquida ou a chance de formar o pacote CLC. Autenticidade, sinceridade e representatividade permanecem premissas distintas.
+
+**Tabela 2. Roteiro específico BP2017, com o preenchimento documental disponível.** ND significa não determinado no acervo examinado. Nenhuma resposta foi atribuída a um especialista humano.
+
+| Pergunta ao especialista | Preenchimento atual e tarefa que falta |
+|---|---|
+| Quem expressa a avaliação e ela governa a decisão institucional? | James Nolan, 27/01/2017. Ligação com autorização de adesão ao CLC: ND; buscar memorando decisório |
+| Qual regra, horizonte e custo seriam evitados? | Futura regra de emissões de refinarias. Horizonte e comparação financeira completa: ND; buscar anexos de avaliação regulatória |
+| Trump elimina toda ameaça futura ou reduz um benefício temporário? | O texto indica redução temporária. Distribuição de expectativas e horizonte: ND |
+| Qual é o ganho líquido, incluindo gás, rivais, imposto, litígios e lobbying? | O documento não fornece essa conta. Buscar projeções contemporâneas com e sem política, para cada firma |
+| Mesmo com benefício defensivo, o que pode impedir E3 inteiro? | Adesão, desenho, financiamento e negociação. Buscar alternativas, vetos e minutas; probabilidades dessas contingências: ND |
+| O que transporta a avaliação da BP para as quatro firmas conjuntamente? | Nenhuma ponte validada. Não supor independência; buscar condições de adesão das demais firmas |
+| Por que E3 seria mais provável que seu complemento completo? | Nenhuma resposta humana obtida. Deve-se considerar conjuntamente todos os modos de não produzir o pacote, não um rival escolhido |
+| Que informação sustenta o limite e faria revisá-lo? | Nenhuma magnitude adicional fundamentada. Registrar fonte/teoria/experiência/julgamento, ou suspender a quantificação |
+
+Mesmo que os registros financeiros sejam obtidos, falta uma regra que traduza incentivos, negociação e estados políticos no pacote exato. Escrever um modelo de escolha com erro logístico e escala escolhida livremente esconderia a mesma lacuna. Previsões internas com probabilidades documentadas poderiam ancorar crenças dos decisores, mas ainda exigiriam a ponte até E3 e não seriam frequências verdadeiras por definição.
+
+## Etapa 3: formular uma ponte que possa ser contestada
+
+O analista escreve uma restrição candidata e sua derivação. O formulário exige: **alvo; fonte e localização; proposição; premissa adicional; desigualdade; fundamento da premissa; contraexemplo; estado da restrição**. A desigualdade só entra no conjunto principal se sua cadeia estiver explicitada. A discordância sobre a premissa deve produzir análise separada, não desaparecer numa média.
+
+Existem três vias para justificar uma restrição:
+
+1. **Lógica/estrutura:** E3 implica a participação conjunta especificada. Logo $a\leq P(\text{participação conjunta}\mid SA,C)$. A implicação é válida, mas só fornece uma bound numérica se o termo à direita for fundamentado.
+2. **Dados com denominador:** oportunidades definidas antes dos resultados, classificação do mecanismo por informação independente, seleção e transporte explicitados. Contagens sustentam uma região de incerteza sob essas condições; a proporção bruta não vira automaticamente a probabilidade do E3 agregado.
+3. **Julgamento substantivo:** o especialista defende uma comparação ou limite com argumentos e alternativas. É uma restrição assumida, informada pelas fontes. Um consenso não a converte em restrição imposta pelos documentos.
+
+Uma roleta ou alocação de pontos pode ajudar a expressar crenças. Não fornece a razão para acreditar nelas. Decompor a probabilidade em cinco probabilidades arbitrárias também não resolve o problema.
+
+## Etapa 4: testar a restrição por contraexemplo
+
+Outro analista recebe a fonte, a ponte e a desigualdade. Sua tarefa é construir uma **distribuição de réplicas** que preserve as restrições admitidas e viole o limite, ou mostrar que a derivação usa uma premissa sem fundamento declarado. Uma história possível em que E3 falha não refuta, sozinha, uma probabilidade alta: essa história poderia ter massa pequena. Para BP2017:
+
+> Mantendo a consideração sobre a futura regra de refinarias, é possível que SA leve a apoiar outro instrumento, adiar a iniciativa, não coordenar as quatro empresas ou negociar um pacote diferente? Qual passagem ou premissa exclui essas alternativas, e com que peso?
+
+Se essas alternativas continuam possíveis e sua massa está livre, a fonte não exclui uma probabilidade de E3 arbitrariamente pequena. O inverso também vale: a mesma consideração defensiva pode coexistir com coordenação muito provável. Uma regra de monotonicidade, como “maior ameaça aumenta apoio, mantendo o resto constante”, não fixa o nível absoluto de apoio nem a probabilidade deste pacote.
+
+Formalmente, se restam uma réplica admissível com E3 e outra sem E3, atribuir massas $x$ e $1-x$ permite qualquer $x$ quando nenhuma restrição de massa foi justificada. Isso é um contraexemplo à alegação de que a fonte determina o limite. Não refuta automaticamente a preferência probabilística subjetiva de alguém que explicitamente adote outro peso e explique suas razões.
+
+**Tabela 3. Certificado preenchido para BP2017.** Não representa entrevista humana realizada.
+
+| Campo | Resultado da auditoria |
+|---|---|
+| Afirmação extraída | Evitar futura regra de refinarias era benefício considerado; Trump diminuía temporariamente esse benefício |
+| Restrição tentadora | O pacote E3 tem probabilidade elevada sob SA |
+| Elo ausente | Conversão de um benefício parcial em escolha conjunta do pacote exato |
+| Contraexemplo | A BP aceita o raciocínio defensivo, mas a coalizão escolhe outro instrumento ou não se coordena |
+| Informação que decidiria | Alternativas efetivamente avaliadas, condições de adesão e veto, payoffs completos, regras de escolha e distribuição das contingências |
+| Estado | Afirmação documental aceita; limite numérico não fundamentado |
+| Efeito sobre $a$ | Nenhum estreitamento numérico demonstrado |
+
+## Etapa 5: elicitar somente a parte que permaneceu sem medida
+
+O especialista identifica qual premissa está disposto a assumir e sua justificativa. Se apenas sustenta uma ordem entre probabilidades, registramos essa ordem. Se defende um limite, deve responder:
+
+> Qual família de situações incompatíveis com esse limite você está excluindo? O fundamento é observação, teoria comportamental, experiência comparável ou uma crença pessoal? Qual dado o faria retirar o limite?
+
+O protocolo distingue **não identificado pelas fontes**, **julgamento explícito** e **restrição sustentada sob premissas verificadas**. Não exige transformar desconhecimento em intervalo estreito. A avaliação inicial ocorre sem revelar a posterior favorecida ou um limiar de PPC desejado. Só depois se examina a sensibilidade das decisões às premissas.
+
+Um julgamento pode ser fundamentado sem ser dedução lógica nem frequência: experiência comparável, conhecimento de negociação e comparação sistemática de alternativas podem sustentar crenças. O protocolo exige que o responsável indique essa origem, sua sensibilidade e os motivos de revisão. Não oferece uma certificação automática de acurácia. Na aplicação atual, nenhum especialista humano forneceu esse julgamento; não fabricamos respostas em seu lugar.
+
+Há uma tradução concreta possível sem escolher um percentual arbitrário: **se** o especialista sustentar explicitamente que E3 é mais provável que todo o seu complemento, ele assume $a>1/2$. A desigualdade decorre dessa comparação, mas a comparação é um julgamento dele. A expressão “altamente plausível” usada por outro autor não autoriza atribuir-lhe esse compromisso. No dossiê atual, a pergunta permanece sem resposta humana. Se o especialista só compara E3 sob SA e CA, continua informando uma razão ou ordem entre $a$ e $b$, sem ancorar o nível absoluto.
+
+## Etapa 6: combinar e auditar o conjunto
+
+Restrições conjuntamente defendidas podem ser impostas em conjunto. Opiniões rivais que representam modelos alternativos devem permanecer em conjuntos separados, com envelope quando pertinente; sua interseção automática produziria falsa precisão. Se o conjunto ficar vazio, investigar contradição de contexto, codificação, premissas ou desigualdades antes de calcular qualquer check.
+
+Eliminar uma fonte permite verificar que parte do resultado depende dela. Se a remoção de BP2017 deixa o intervalo de $a$ inalterado, o relatório deve dizer isso. A fonte pode continuar relevante para o mecanismo. Dependência documental, cópias e relatos do mesmo acontecimento devem permanecer identificados; não são novas oportunidades independentes.
+
+# Da restrição admitida ao PPC
+
+Se $G$ é um conjunto de condições que, **no modelo declarado**, garante E3 e $B$ um conjunto que o impede, então:
+
+$$P(G\mid H,C)\leq P(E_3\mid H,C)\leq1-P(B\mid H,C).$$
+
+Esta identidade torna a exigência concreta: fundamentar apenas a possibilidade de $G$ não fornece seu peso. As fontes atuais não quantificam massas para esses conjuntos. Tampouco demonstram que o benefício parcial citado pela BP seja suficiente para o pacote agregado.
+
+Se uma sessão futura justificar $a\in[L,U]$, mantendo especificamente o benchmark original $r$ e sua posterior $w=0,715252751$, a família anterior produz:
+
+$$P(Y^{rep}=1\mid D,C,a)=\left[w+\frac{1-w}{r}\right]a
+=0,733219088\,a.$$
+
+Cada especificação fixa gera $H^{rep}$ da posterior e $Y^{rep}$ de uma Bernoulli com probabilidade $a$ sob SA ou $a/r$ sob CA. A réplica acrescenta independência condicional em relação à realização original e a E4, dados hipótese, prefixo e especificação. Com $T(Y)=Y$, a comparação com $Y_{obs}=1$ é um PPC condicional in-sample, não uma previsão independente nem um gerador de todo E1–E4.
+
+O envelope é $[0,733219088L;\;0,733219088U]$, respeitando extremos abertos quando $L=0$. **Nesta auditoria, nenhum novo limite numérico foi admitido: o conjunto continua $(0;0,733219088]$.** O coeficiente é cálculo condicional aos julgamentos centrais, não precisão empírica. A incerteza publicada dos pesos também deve ser propagada numa análise substantiva completa.
+
+O evento composto foi selecionado retrospectivamente. Sua raridade não prova inadequação causal: todos os detalhes de uma história podem ser raros mesmo sob um modelo adequado. Para um diagnóstico substantivo, é preciso justificar a estatística e a granularidade antes de avaliar o resultado. Agregar E3 em categorias menos específicas requer reconstruir as likelihoods dessas categorias; não herda os 12 dB.
+
+# Parecer Edmans: estamos no caminho certo?
+
+O parecer de 6 de março de 2026 é uma avaliação pelo framework Edmans, com recomendação simulada de revisão substancial. Não é parecer do próprio Edmans nem decisão de periódico. Sua versão de referência não tem hash registrado e menciona um stress test ausente da versão atual. Verificamos as críticas relevantes diretamente no manuscrito atual, cujo contrato e hash permanecem válidos.
+
+**Tabela 4. Confronto das críticas com o trabalho atual.** A melhora do relatório não equivale a correção do manuscrito, que não foi alterado.
+
+| Questão | Verificação e implicação |
+|---|---|
+| Precisão espúria | Confirmada: números de likelihood e elos carecem de derivação nas linhas 165–175 e 427–435; limitação reconhecida na linha 533. O protocolo evita novos números sem fundamento, mas ainda não obtém a âncora |
+| Diagnóstico versus atualização | A distinção conceitual existe na linha 196. A afirmação empírica de likelihoods mal calibradas, linhas 465–479, ainda não é demonstrada por uma discrepância e referência que separem as operações |
+| Valor da formalização | Há uma justificativa conceitual nas linhas 190–192. Falta demonstrar ganho sobre elicitação direta ou sensibilidade usual, incluindo custo |
+| Validação / true positive | Falta validação independente. Procurar até obter rejeição seria inadequado; avaliar falsos alarmes e abstenções também é necessário |
+| Concordância de LLMs | A contaminação já é discutida, mas a alegação de que dados pós-2020 a eliminam não está sustentada. Concordância não é calibração causal |
+| Novidade | Ausência geral de PPC no campo é uma alegação insustentável diante de Humphreys e Jacobs. Intervalos, isoladamente, também não bastam como novidade |
+
+A [avaliação de modelos de Humphreys e Jacobs](https://integrated-inferences.github.io/book/16-evaluating-models.html) inclui PPC, aplicação a dados codificados de vinhetas e discussão de intervalos/signos. Seu [capítulo sobre justificação](https://integrated-inferences.github.io/book/15-justifying-models.html) trata de como dados e estrutura podem fundamentar o valor probatório. O protocolo deve se posicionar frente a essas contribuições, à estrutura de cenários já existente em FC e aos procedimentos de elicitação, como [SHELF](https://shelf.sites.sheffield.ac.uk/) e [EFSA](https://www.efsa.europa.eu/en/efsajournal/pub/3734). As fontes metodológicas justificam examinar premissas e documentar julgamentos; não fornecem as probabilidades deste caso.
+
+Minha avaliação é que esta direção melhora a integridade e a operacionalização da pergunta, mas ainda não demonstrou a utilidade necessária para sustentar a promessa do paper. O teste seguinte precisa mostrar pelo menos uma restrição informativa defensável ou uma melhora verificável de decisão. Acrescentar camadas de elicitação sem esse resultado não fecha a crítica Edmans.
+
+# Piloto concreto e condições para avançar
+
+Proposta de piloto, ainda não executado: quatro especialistas humanos, dois com conhecimento de regulação e coalizões climáticas e dois de economia política do petróleo, trabalham primeiro separadamente. Um facilitador probabilístico e um curador documental apoiam o processo sem acrescentar votos sobre $a$. Registrar experiência, conflitos e exposição anterior. No contraditório, cada proponente recebe uma crítica independente. O painel não representa amostra aleatória de especialistas nem consenso populacional. Prever preparação documental, entrevista individual de 90 minutos, debate de 60 minutos e revisão individual de 20 minutos. Os tempos são parâmetros organizacionais propostos, não resultados de viabilidade.
+
+Comparar com uma equipe que recebe o mesmo dossiê e faz elicitação direta, sem acesso às respostas da outra equipe. Controlar ordem e exposição; E3 conhecido permite testar viabilidade e rastreabilidade, não previsão cega. Registrar tempo, restrições propostas e retiradas, fundamento de cada limite, conjuntos antes/depois, contradições, dependência de fontes e decisões que mudam. Concordância e intervalos estreitos não são, por si, sucesso.
+
+Encerrar a rodada depois do contraditório e de uma busca adicional delimitada. Antes de prometer frequências, auditar se o inventário recupera oportunidades e negociações fracassadas. Ausência de documento é desconhecimento, não fracasso. O alvo literal pode corresponder a uma única realização histórica; nesse caso não há denominador repetido diretamente observável. Dados de componentes ou episódios análogos exigirão transporte e agregação. Se isso não puder ser defendido, interromper a tentativa de contar frequências de E3, preservando a opção de julgamento explícito e de não quantificação.
+
+Complementar o piloto com processos simulados conhecidos, claramente separados das fontes reais: variar erro de classificação, dependência entre firmas, seleção documental, quantidade de informação de massa e grau de má especificação. Medir cobertura das regiões, alarmes, falhas não detectadas e abstenções. Não assumir que um PPC tem nível frequentista calibrado. Uma aplicação real subsequente exige evidência ainda não examinada, especificação e discrepância congeladas, e probabilidades próprias do seu evento e contexto.
+
+Critério substantivo para avançar com a promessa atual: o procedimento deve produzir uma restrição não trivial que sobreviva à auditoria, preserve a unidade e ajude uma decisão previamente definida, com limites e custo documentados. Se todas as massas forem julgamentos livres e E3 continuar inconclusivo, ele permanece uma ilustração honesta dos limites. Não deve ser vendido como solução empírica completa. Essa constatação pode motivar outra aplicação com informação melhor, mas não autoriza transferir o BF de E3 para o novo alvo.
+
+As fontes primárias e suas extrações foram preservadas na rodada anterior; nesta entrega estão os cartões, o roteiro, as contribuições e o debate. A verificação computacional e a auditoria independente constam dos arquivos que acompanham este relatório. Nenhuma elicitação humana, nova amostra empírica, publicação ou alteração do manuscrito foi realizada.

@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "adjudication_id": "ppc_bpt:8bcda550633f:e3-edmans",
+  "source": {
+    "reviewed_artifact": "paper_draft_v1.Rmd",
+    "sha256": "8bcda550633f3d55369a9c4b26d8732d2da73ecb086c506c8d6e53634939446f",
+    "artifact_intact": true
+  },
+  "contract": {
+    "required": true,
+    "path": "quality_reports/argument_contracts/ppc_bpt/8bcda550633f/argument_contract.json",
+    "sha256": "a23e23f326ebb14930e9c946a264215f005fedc97290a6aa2ea2ffa02b49df02",
+    "contract_id": "ppc_bpt:8bcda550633f:round1",
+    "artifact_sha256": "8bcda550633f3d55369a9c4b26d8732d2da73ecb086c506c8d6e53634939446f",
+    "status": "PASS",
+    "stale": false
+  },
+  "review_sources": [
+    {
+      "review_id": "R1",
+      "path": "quality_reports/edmans_review_2026-03-06.md",
+      "sha256": "04e0101e67d3491c5dd00d29ba494423cc0a16d2900e49884fb13383bd020d38"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "E01",
+      "source_review": "R1",
+      "quoted_finding": "Predictive likelihoods sao precisos (0.85, 0.90) mas a precisao e espuria. Incerteza nao propagada.",
+      "type": "method",
+      "severity": "major",
+      "scientific_dimension": "measurement",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "paper_draft_v1.Rmd:165-175",
+        "paper_draft_v1.Rmd:427-435",
+        "paper_draft_v1.Rmd:533"
+      ],
+      "defect_evidence": [
+        "Probabilidades e posteriors de elos sem derivacao documentada; limitacao reconhecida."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Hash e contrato conferidos; trechos atuais lidos; adjudicacao independente no parecer 03."
+      ],
+      "reasoning": "A proposta nova evita escolher escala, mas nao a identifica; limite reconhecido nao e descoberta nova.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Registrar para desenho do protocolo; manuscrito nao alterado."
+    },
+    {
+      "finding_id": "E02",
+      "source_review": "R1",
+      "quoted_finding": "Oil Majors conflate diagnostico com updating.",
+      "type": "method",
+      "severity": "major",
+      "scientific_dimension": "inference",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "paper_draft_v1.Rmd:196",
+        "paper_draft_v1.Rmd:446-479"
+      ],
+      "defect_evidence": [
+        "A alegacao empirica de likelihoods mal calibradas nao tem discrepancia e distribuicao de referencia que a demonstrem."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Hash e contrato conferidos; trechos atuais lidos; adjudicacao independente no parecer 03."
+      ],
+      "reasoning": "Confirmado no escopo da demonstracao empirica. A distincao conceitual existe e nao e negada por este finding.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Registrar para desenho do protocolo; manuscrito nao alterado."
+    },
+    {
+      "finding_id": "E03",
+      "source_review": "R1",
+      "quoted_finding": "O PPC e formalizacao do que bons pesquisadores ja fazem? Nao adequadamente confrontado.",
+      "type": "method",
+      "severity": "major",
+      "scientific_dimension": "contribution",
+      "held_decision": false,
+      "status": "PARTIAL",
+      "source_locations": [
+        "paper_draft_v1.Rmd:190-192"
+      ],
+      "defect_evidence": [
+        "Nao ha comparacao que demonstre ganho ou custo frente a alternativas."
+      ],
+      "refuting_evidence": [
+        "A secao Why formalize apresenta justificacao conceitual explicita."
+      ],
+      "mechanical_checks": [
+        "Hash e contrato conferidos; trechos atuais lidos; adjudicacao independente no parecer 03."
+      ],
+      "reasoning": "Ha argumento, mas falta demonstracao do ganho.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Registrar para desenho do protocolo; manuscrito nao alterado."
+    },
+    {
+      "finding_id": "E04",
+      "source_review": "R1",
+      "quoted_finding": "Nenhum dos dois casos produz o true positive.",
+      "type": "method",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "PARTIAL",
+      "source_locations": [
+        "paper_draft_v1.Rmd:319-346",
+        "paper_draft_v1.Rmd:465-479"
+      ],
+      "defect_evidence": [
+        "Nao ha validacao independente de diagnostico correto."
+      ],
+      "refuting_evidence": [
+        "O texto propoe revisoes substantivas; ausencia de qualquer revisao e leitura excessiva."
+      ],
+      "mechanical_checks": [
+        "Hash e contrato conferidos; trechos atuais lidos; adjudicacao independente no parecer 03."
+      ],
+      "reasoning": "Nao selecionar casos ou discrepancias ate obter rejeicao; testar falsos alarmes e abstencoes.",
+      "proposed_fix_assessment": "needs_design",
+      "disposition": "Registrar para desenho do protocolo; manuscrito nao alterado."
+    },
+    {
+      "finding_id": "E05",
+      "source_review": "R1",
+      "quoted_finding": "Discutir contaminacao de training data dos LLMs.",
+      "type": "method",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "PARTIAL",
+      "source_locations": [
+        "paper_draft_v1.Rmd:391",
+        "paper_draft_v1.Rmd:487"
+      ],
+      "defect_evidence": [
+        "A alegacao de que evidencia pos-2020 elimina contaminacao nao esta documentada."
+      ],
+      "refuting_evidence": [
+        "A possibilidade de contaminacao ja e explicitamente discutida."
+      ],
+      "mechanical_checks": [
+        "Hash e contrato conferidos; trechos atuais lidos; adjudicacao independente no parecer 03."
+      ],
+      "reasoning": "Concordancia ordinal nao mede independencia nem calibracao causal.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Registrar para desenho do protocolo; manuscrito nao alterado."
+    },
+    {
+      "finding_id": "E06",
+      "source_review": "R1",
+      "quoted_finding": "A lacuna e real e a formalizacao e nova: ausencia de model checking.",
+      "type": "overclaim",
+      "severity": "major",
+      "scientific_dimension": "contribution",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "paper_draft_v1.Rmd:95",
+        "https://integrated-inferences.github.io/book/16-evaluating-models.html"
+      ],
+      "defect_evidence": [],
+      "refuting_evidence": [
+        "Humphreys e Jacobs cap16.1.2 apresenta PPC;16.2.2 aplicacao a vinhetas;16.1.4 intervalos/signos."
+      ],
+      "mechanical_checks": [
+        "Hash e contrato conferidos; trechos atuais lidos; adjudicacao independente no parecer 03."
+      ],
+      "reasoning": "A ausencia geral alegada pelo parecer nao se sustenta. Lacuna operacional especifica continua candidata a ser demonstrada.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Registrar para desenho do protocolo; manuscrito nao alterado."
+    },
+    {
+      "finding_id": "E07",
+      "source_review": "R1",
+      "quoted_finding": "Com uma revisao focada, o paper tem potencial de publicacao em Political Analysis.",
+      "type": "scope_or_consistency",
+      "severity": "major",
+      "scientific_dimension": "editorial_scope",
+      "held_decision": false,
+      "status": "UNRESOLVED",
+      "source_locations": [
+        "quality_reports/edmans_review_2026-03-06.md:45"
+      ],
+      "defect_evidence": [],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Hash e contrato conferidos; trechos atuais lidos; adjudicacao independente no parecer 03."
+      ],
+      "reasoning": "Juizo editorial simulado; originalidade especifica e desempenho do novo protocolo nao demonstrados.",
+      "proposed_fix_assessment": "owner_decision",
+      "disposition": "Registrar para desenho do protocolo; manuscrito nao alterado."
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "confirmed": 2,
+    "partial": 3,
+    "refuted": 1,
+    "unresolved": 1,
+    "held_decisions": 0
+  },
+  "adjudication": {
+    "verdict": "BLOCKED",
+    "checked_at": "2026-10-11T00:00:43-03:00",
+    "reasons": [
+      "Juizo editorial e demonstracao empirica permanecem nao resolvidos; nao encaminhar como protocolo cientificamente validado.",
+      "Este estado nao impede entregar protocolo e auditoria documental nem exige permissao adicional."
+    ]
+  }
+}
