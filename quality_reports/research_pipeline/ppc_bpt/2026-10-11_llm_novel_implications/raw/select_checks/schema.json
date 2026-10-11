@@ -1,0 +1,80 @@
+{
+  "type": "object",
+  "properties": {
+    "model_id": {
+      "type": "string"
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "first_candidate_id": {
+            "type": "string"
+          },
+          "prediction": {
+            "type": "string"
+          },
+          "indicator_definition": {
+            "type": "string"
+          },
+          "required_document_fields": {
+            "type": "string"
+          },
+          "novel_combination": {
+            "type": "string"
+          },
+          "extra_assumption": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "first_candidate_id",
+          "prediction",
+          "indicator_definition",
+          "required_document_fields",
+          "novel_combination",
+          "extra_assumption"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "candidate_audit": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "world_id": {
+            "type": "string"
+          },
+          "admissible": {
+            "type": "boolean"
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "world_id",
+          "admissible",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "model_id",
+    "checks",
+    "candidate_audit"
+  ],
+  "additionalProperties": false
+}

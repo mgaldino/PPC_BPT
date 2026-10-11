@@ -1,0 +1,10 @@
+{
+  "frozen_at_utc": "2026-10-11T12:00:44.224965+00:00",
+  "status": "SECONDARY_EXPLORATORY_AUDIT_CORRECTION; primary unchanged",
+  "reason": "Independent design reviewer identified SA02_02 as a distinct observable (shock x public statement), combining decision and communication. Selection rejected it too broadly as redundancy. No benchmark evaluation or confirmation inspection preceded this correction; reviewers know benchmark condition definitions. This is not an independent confirmatory selection.",
+  "candidate_id": "discovery_SA_02_02",
+  "additional_check": "joint(shock, public_support); SA predicts more public withdrawals following a regulatory decrease than a competitive decrease, with compounded behavioral and reporting errors",
+  "combined_indicator": "joint(shock, internal_support, public_support), 8 cells",
+  "analysis": "same frozen surprise-of-histogram exact predictive tail with 12 worlds, mixture H common; empirical MLE and Dirichlet(.5 x8) sensitivity",
+  "limitations": "No proof of improvement attributable to autonomous selection. The primary one-check analysis remains fully reported."
+}

@@ -1,0 +1,642 @@
+[
+  {
+    "id": "template_CA_04_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_06_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_04_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_05_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_08_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_02_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_01_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_05_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_02_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_06_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_05_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_08_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_02_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_02_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_05_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_06_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_03_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_02_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_02_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_03_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_08_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_01_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_04_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_07_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_04_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_03_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_05_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_03_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_07_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_06_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_05_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_08_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_02_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_02_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_08_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_01_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_06_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_08_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_05_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_03_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_08_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_04_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_08_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_08_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_08_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_07_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_01_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_05_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_01_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_03_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_08_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_03_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_01_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_06_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_08_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_07_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_07_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_01_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_01_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_06_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_06_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_06_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_08_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_07_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_04_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_07_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_01_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_02_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_03_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_06_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_05_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_03_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_05_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_08_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_05_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_04_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_07_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_03_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_07_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_06_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_07_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_05_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_03_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_05_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_07_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_02_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_02_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_03_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_04_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_04_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_03_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_01_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_04_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_07_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_04_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_01_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_02_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_02_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_06_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_06_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_02_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_01_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_01_07",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_01_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_07_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_05_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_02_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_03_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_04_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_05_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_06_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_04_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_02_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_04_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_06_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_07_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_01_03",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_07_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_03_01",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_CA_06_05",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_05_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_04_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_01_06",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_07_08",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_SA_08_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition withdraws support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition withdraws support."
+  },
+  {
+    "id": "template_SA_03_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, competitive benefit fell from 12 to 2; the burden of alternative regulation stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_04_04",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the burden of alternative regulation fell from 12 to 2; competitive benefit stayed at 12. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  },
+  {
+    "id": "template_CA_08_02",
+    "memo": "SYNTHETIC. Day 11. After the private notice on day 10, the notice type is unavailable. The coalition maintains support.",
+    "public_note": "SYNTHETIC. Day 12. The coalition maintains support."
+  }
+]

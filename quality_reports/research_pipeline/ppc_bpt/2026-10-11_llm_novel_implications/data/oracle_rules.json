@@ -1,0 +1,61 @@
+{
+  "status": "FROZEN_BEFORE_LLM_DISCOVERY",
+  "frozen_at_utc": "2026-10-11T11:52:45Z",
+  "synthetic_only": true,
+  "seed": 2026101121,
+  "rng": ["Mersenne-Twister", "Inversion", "Rejection"],
+  "r_version": "R version 4.4.2 (2024-10-31)",
+  "parameter_origin": "Explicit synthetic design choices; not estimated historical probabilities.",
+  "analysis_unit": "A coalition of four firms; H is drawn once per dataset and shared across its 12 worlds.",
+  "baseline": {
+    "day": 0,
+    "support": 1,
+    "cost": 6,
+    "regulatory_alternative_burden": 12,
+    "net_competitive_gain": 12
+  },
+  "shock": {
+    "day": 10,
+    "probability_regulatory": 0.5,
+    "changed_component_from": 12,
+    "changed_component_to": 2,
+    "unchanged_component": 12,
+    "privately_received_reliable": true
+  },
+  "hypothesis_prior_for_replication": {
+    "SA": 0.59999999999999998,
+    "CA": 0.40000000000000002,
+    "interpretation": "Fixed posterior weights inherited from the synthetic reduced E3 model, conditional on D=1."
+  },
+  "behavior": {
+    "SA_payoff": "regulatory_post - cost",
+    "CA_payoff": "competitive_post - cost",
+    "decision_rule": "support iff payoff >= 0",
+    "probability_decision_flip": 0.050000000000000003
+  },
+  "documents": {
+    "internal_memo_day": 11,
+    "public_note_day": 12,
+    "internal_memo_reports_decision_without_error": true,
+    "public_note_probability_flip_null": 0.050000000000000003,
+    "no_public_private_commercial_numbers": true,
+    "no_information_before_signal": true
+  },
+  "conditions": {
+    "null": "Use stipulated H payoff and null documentary process.",
+    "fault_mechanism": "Swap SA and CA payoff rules for decisions only; leave stipulated H and documentary process unchanged.",
+    "fault_documentation": "Use stipulated H for decisions; set public-note probability of inverting the internal decision to 0.80."
+  },
+  "sampling": {
+    "datasets_per_condition": 1000,
+    "worlds_per_dataset": 12,
+    "textual_audit_worlds_per_condition": 12,
+    "conditional_independence": "World shocks, decision flips, and public-note flips are independent conditional on the shared dataset H; the public decision depends on its internal decision."
+  },
+  "secrecy": {
+    "not_supplied_to": ["LLM discovery", "LLM generator", "blind coders"],
+    "text_condition_mapping": "Stored only in benchmark.csv rows with role=textual_audit.",
+    "candidate_statistics": "Intentionally unspecified; no retuning after discovery."
+  },
+  "limitations": ["Fault-mechanism ensembles can resemble the alternative hypothesis; mixture PPC power may be weak, which is an intended possible result.", "The H draw is common across worlds; treating all worlds as unconditionally independent is incorrect.", "These synthetic inputs and documents do not validate historical likelihoods."]
+}

@@ -1,0 +1,545 @@
+{
+  "description": "Synthetic documentary corpus; no real carbon-case quotations.",
+  "worlds": [
+    {
+      "id": "SYN_DOC_001",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_002",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_003",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_004",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_005",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_006",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_007",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_008",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_009",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_010",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_011",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_012",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_013",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_014",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_015",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_016",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_017",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_018",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_019",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_020",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_021",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_022",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_023",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_024",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_025",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_026",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_027",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_028",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_029",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_030",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_031",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_032",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_033",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação do ganho competitivo. A avaliação da carga regulatória alternativa permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_034",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_035",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é manter o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: mantemos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    },
+    {
+      "id": "SYN_DOC_036",
+      "documents": [
+        {
+          "type": "internal_memo",
+          "day": 11,
+          "text": "SINTÉTICO. Memorando interno, dia 11. A coalizão das quatro firmas endossou a proposta no dia 0. O custo da proposta é 6. No dia 10, um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa. A avaliação do ganho competitivo permaneceu em 12. A decisão registrada após esse aviso é retirar o apoio. Este memorando é interno; o aviso não foi divulgado diretamente ao público."
+        },
+        {
+          "type": "public_note",
+          "day": 12,
+          "text": "SINTÉTICO. Nota pública, dia 12. A coalizão das quatro firmas comunica: retiramos nosso apoio à proposta de precificação de carbono. Esta nota não divulga avaliações comerciais internas."
+        }
+      ]
+    }
+  ]
+}

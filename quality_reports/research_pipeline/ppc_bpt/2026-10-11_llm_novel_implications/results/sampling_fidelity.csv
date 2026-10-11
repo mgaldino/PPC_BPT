@@ -1,0 +1,3 @@
+"H","worlds","regulatory_shocks","behavior_errors","public_errors","behavior_rate","public_error_rate","iid_behavior_p","iid_public_p","joint_TV"
+"CA",64,28,4,8,0.0625,0.125,0.562511974860106,0.0142186446287164,0.14
+"SA",64,28,6,8,0.09375,0.125,0.137621130071628,0.0142186446287164,0.125625

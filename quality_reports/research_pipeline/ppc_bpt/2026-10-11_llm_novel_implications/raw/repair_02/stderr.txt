@@ -1,0 +1,9 @@
+2026-10-11T12:09:17.479599Z ERROR codex_models_manager::cache: failed to load models cache: missing field `base_instructions` at line 139 column 5
+2026-10-11T12:09:18.129749Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T12:09:18.143106Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T12:09:18.153565Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T12:09:18.164066Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T12:09:18.177427Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T12:09:18.231368Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at "/Users/manoelgaldino/.codex/shell_snapshots/01a12add-edcc-7251-b2fb-c4ed3e776420.1791720549843093000.sh": Os { code: 2, kind: NotFound, message: "No such file or directory" }
+2026-10-11T12:09:18.242217Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-11T12:09:32.000727Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf("/Users/manoelgaldino/.codex/shell_snapshots/01a12ade-0e00-75d0-bc8d-89b834ae1065.1791720558113575000.sh"): Os { code: 2, kind: NotFound, message: "No such file or directory" }

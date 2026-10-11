@@ -1,0 +1,277 @@
+[
+  {
+    "id": "BLIND_120",
+    "memo": "SINT\u00c9TICO. Memorando interno, dia 11. A coaliz\u00e3o das quatro firmas endossou a proposta no dia 0. O custo da proposta \u00e9 6. No dia 10, um aviso confi\u00e1vel recebido internamente reduziu de 12 para 2 a avalia\u00e7\u00e3o da carga regulat\u00f3ria alternativa. A avalia\u00e7\u00e3o do ganho competitivo permaneceu em 12. A decis\u00e3o registrada ap\u00f3s esse aviso \u00e9 manter o apoio. Este memorando \u00e9 interno; o aviso n\u00e3o foi divulgado diretamente ao p\u00fablico.",
+    "public_note": "SINT\u00c9TICO. Nota p\u00fablica, dia 12. A coaliz\u00e3o das quatro firmas comunica: retiramos nosso apoio \u00e0 proposta de precifica\u00e7\u00e3o de carbono. Esta nota n\u00e3o divulga avalia\u00e7\u00f5es comerciais internas."
+  },
+  {
+    "id": "BLIND_135",
+    "memo": "SINT\u00c9TICO. Memorando interno, dia 11. A coaliz\u00e3o das quatro firmas endossou a proposta no dia 0. O custo da proposta \u00e9 6. No dia 10, um aviso confi\u00e1vel recebido internamente reduziu de 12 para 2 a avalia\u00e7\u00e3o do ganho competitivo. A avalia\u00e7\u00e3o da carga regulat\u00f3ria alternativa permaneceu em 12. A decis\u00e3o registrada ap\u00f3s esse aviso \u00e9 retirar o apoio. Este memorando \u00e9 interno; o aviso n\u00e3o foi divulgado diretamente ao p\u00fablico.",
+    "public_note": "SINT\u00c9TICO. Nota p\u00fablica, dia 12. A coaliz\u00e3o das quatro firmas comunica: mantemos nosso apoio \u00e0 proposta de precifica\u00e7\u00e3o de carbono. Esta nota n\u00e3o divulga avalia\u00e7\u00f5es comerciais internas."
+  },
+  {
+    "id": "BLIND_090",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The reliable notice lowered the incremental competitive benefit from 12 to 2. With the proposal cost fixed at 6, the [HYPOTHESIS LABEL REDACTED] payoff is \u22124. The coalition accordingly decided to withdraw support.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition continues to support the federal carbon-pricing proposal following its internal review."
+  },
+  {
+    "id": "BLIND_033",
+    "memo": "SYNTHETIC. Competitive benefit fell from 12 to 2, and alternative-regulation burden stayed at 12. We maintain support.",
+    "public_note": "SYNTHETIC. We maintain support."
+  },
+  {
+    "id": "BLIND_025",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: Yesterday\u2019s notice reduced the expected burden from alternative carbon regulation to 2. With the proposal cost at 6, continued support now yields a payoff of -4. The coalition therefore withdrew its support.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition no longer supports the federal carbon-pricing proposal following its latest internal review."
+  },
+  {
+    "id": "BLIND_068",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: Yesterday\u2019s reliable notice sharply reduced the proposal\u2019s incremental competitive benefit. After subtracting the common proposal cost, continued support has a negative payoff. The coalition decided not to support the federal proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition no longer supports the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_073",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11\nThe notice cuts the expected alternative-regulation burden to 2. Because continued support still carries the proposal cost of 6, its payoff is -4. The coalition accordingly will not continue supporting the federal proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12\nThe coalition will not continue supporting the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_053",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The reliable notice lowered the expected burden of alternative regulation from 12 to 2. Subtracting the proposal cost of 6 produces a continued-support payoff of -4. The coalition decided not to support the proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition continues to support the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_143",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The private notice reduced the incremental competitive benefit to 2. Deducting the proposal cost of 6 produces a payoff of \u22124 under [HYPOTHESIS LABEL REDACTED]. The coalition has decided to end its support for the proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition has ended its support for the federal carbon-pricing proposal after a confidential reassessment."
+  },
+  {
+    "id": "BLIND_052",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The notice materially lowered the proposal\u2019s incremental competitive benefit, leaving the calculated payoff from support below zero. Nevertheless, the coalition decided to continue supporting the proposal, contrary to the indicated course.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition continues to support the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_045",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The notice lowered the incremental competitive benefit from 12 to 2, making the [HYPOTHESIS LABEL REDACTED] payoff 2 minus 6, or -4. The ordinary rule points to ending support. Nevertheless, the coalition's realized decision reversed that prescription and retained support for the proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition continues to support the federal carbon-pricing proposal. Private commercial figures remain undisclosed."
+  },
+  {
+    "id": "BLIND_007",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The reliable notice reduced expected exposure to alternative regulation from 12 to 2. Continued support now has an [HYPOTHESIS LABEL REDACTED] payoff of 2 minus the proposal cost of 6, or -4. The coalition decided to withdraw support.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition has ended its support for the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_089",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The new commercial notice reduced the proposal\u2019s incremental competitive benefit. Once the proposal cost is deducted, support yields a negative payoff. The coalition decided not to support the proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition has withdrawn its support for the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_072",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The reliable notice lowered the expected burden of alternative regulation to 2. With the proposal cost fixed at 6, continued support has payoff -4. Despite that calculation, the coalition chose to maintain its endorsement, reversing the decision normally implied by the negative payoff.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition continues to endorse the federal carbon-pricing proposal. Confidential internal assessments will not be disclosed."
+  },
+  {
+    "id": "BLIND_158",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The private notice lowered the incremental competitive benefit to 2. The expected burden of alternative regulation remains 12. Because the [HYPOTHESIS LABEL REDACTED] payoff is 12 less the proposal cost of 6, continued support retains a payoff of 6. The coalition will maintain its endorsement.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition maintains its endorsement of the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_037",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The expected burden of alternative regulation remains 12 after yesterday\u2019s notice. Subtracting the proposal cost of 6 leaves a positive payoff of 6 from continued support. The coalition therefore maintains its endorsement.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition has ended its support for the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_077",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The updated notice concerns the burden of alternative regulation, while incremental competitive benefit remains 12. Deducting the proposal cost leaves a payoff of 6. The coalition therefore continues its endorsement.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition remains supportive of the federal carbon-pricing proposal. It will not disclose private commercial estimates."
+  },
+  {
+    "id": "BLIND_047",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: Yesterday\u2019s notice revised our assessment of alternative regulatory burdens, but it did not change the proposal\u2019s incremental competitive benefit. Net of the common proposal cost, continued support remains advantageous. The coalition decided to maintain support.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition remains supportive of the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_026",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The private commercial assessment cut the incremental competitive benefit from 12 to 2. With the common proposal cost of 6 deducted once, continued support has a payoff of \u22124. The coalition decided to withdraw support.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition continues to support the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_010",
+    "memo": "SINT\u00c9TICO. Memorando interno, dia 11. A coaliz\u00e3o das quatro firmas endossou a proposta no dia 0. O custo da proposta \u00e9 6. No dia 10, um aviso confi\u00e1vel recebido internamente reduziu de 12 para 2 a avalia\u00e7\u00e3o da carga regulat\u00f3ria alternativa. A avalia\u00e7\u00e3o do ganho competitivo permaneceu em 12. A decis\u00e3o registrada ap\u00f3s esse aviso \u00e9 retirar o apoio. Este memorando \u00e9 interno; o aviso n\u00e3o foi divulgado diretamente ao p\u00fablico.",
+    "public_note": "SINT\u00c9TICO. Nota p\u00fablica, dia 12. A coaliz\u00e3o das quatro firmas comunica: retiramos nosso apoio \u00e0 proposta de precifica\u00e7\u00e3o de carbono. Esta nota n\u00e3o divulga avalia\u00e7\u00f5es comerciais internas."
+  },
+  {
+    "id": "BLIND_150",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The reliable notice reduces the expected incremental competitive benefit to 2. Against the proposal cost of 6, continued support now yields \u22124. We therefore withdraw support for the federal proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition no longer supports the federal carbon-pricing proposal. Confidential commercial calculations will not be released."
+  },
+  {
+    "id": "BLIND_167",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The private notice concerned the expected burden of alternative regulation. Our incremental competitive benefit from the proposal remains sufficient after accounting for the proposal cost. The coalition decided to continue supporting the proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition continues to support the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_061",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: Yesterday\u2019s reliable notice sharply reduced the proposal\u2019s incremental competitive benefit. The remaining benefit does not offset the common proposal cost, so continued support has a negative payoff. The coalition decided to withdraw support.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition no longer supports the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_109",
+    "memo": "SYNTHETIC. The burden of alternative regulation fell from 12 to 2, with competitive benefit unchanged at 12. We withdrew support.",
+    "public_note": "SYNTHETIC. We continue supporting the proposal."
+  },
+  {
+    "id": "BLIND_126",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The private notice revised the incremental competitive benefit from 12 to 2 while leaving the expected alternative-regulation burden at 12. Under the competitive-advantage assessment, continued support yields 2 minus the proposal cost of 6, or -4. The coalition therefore decided not to support the proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition no longer supports the federal carbon-pricing proposal. Private commercial assessments underlying this decision remain confidential."
+  },
+  {
+    "id": "BLIND_153",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: Yesterday\u2019s reliable notice reduced the expected incremental competitive benefit to 2. With the proposal cost of 6, continued support yields a payoff of -4 under our commercial assessment. The coalition therefore decided not to support the federal proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition no longer supports the federal carbon-pricing proposal. Private commercial assessments remain confidential."
+  },
+  {
+    "id": "BLIND_019",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The private notice reduced the incremental competitive benefit from 12 to 2. After subtracting the proposal cost of 6, continued support yields \u22124. The coalition therefore decided not to support the federal proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition no longer supports the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_041",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The reliable notice reduced the proposal\u2019s expected competitive advantage enough that its benefit no longer covers the proposal cost. The coalition decided to end its support.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition continues to support the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_058",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The private notice reduced the expected burden of alternative regulation to 2. Subtracting the proposal cost of 6 gives a continued-support payoff of -4 under [HYPOTHESIS LABEL REDACTED]. The coalition decided to withdraw support.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition has withdrawn support for the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_103",
+    "memo": "SYNTHETIC. No record of which notice arrived or of the decision is available.",
+    "public_note": "SYNTHETIC. We announce our continued support for the proposal."
+  },
+  {
+    "id": "BLIND_133",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The reliable notice reduced the expected burden from alternative regulation to 2. With the proposal cost at 6, continued support now yields -4 under [HYPOTHESIS LABEL REDACTED]. The coalition therefore decided not to support the proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition is withdrawing its support for the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_044",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The private notice reduced our expected burden from alternative regulation to 2. With the proposal cost remaining 6, continued support yields -4 under the [HYPOTHESIS LABEL REDACTED] calculation. The coalition therefore decided to withdraw support.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition no longer supports the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_085",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The notice lowered the expected alternative-regulation burden to 2. After subtracting the proposal cost of 6, continued support has a payoff of -4 under [HYPOTHESIS LABEL REDACTED]. The coalition decided to end its support.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition continues to endorse the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_131",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The expected burden of alternative regulation was revised downward to 2 by the private notice. Subtracting the proposal cost of 6 gives a continued-support payoff of -4. The coalition accordingly decided not to support the proposal further.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition has ended its support for the federal carbon-pricing proposal. Its underlying private assessments remain confidential."
+  },
+  {
+    "id": "BLIND_059",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The private commercial notice revised the incremental competitive benefit from 12 to 2. Continued support would therefore produce a payoff of 2 minus the proposal cost of 6, equal to -4. The coalition decided not to support the proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition has withdrawn its support for the federal carbon-pricing proposal. Confidential commercial estimates are not being released."
+  },
+  {
+    "id": "BLIND_079",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The private commercial update places the incremental competitive benefit at 2. After subtracting the proposal cost of 6, the payoff from continued endorsement is \u22124. The coalition has decided to end its support.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition continues to support the federal carbon-pricing proposal. Private commercial information remains undisclosed."
+  },
+  {
+    "id": "BLIND_012",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The reliable notice lowered the incremental competitive benefit to 2. Net of the proposal cost of 6, continued endorsement has a payoff of \u22124 under [HYPOTHESIS LABEL REDACTED]. The coalition has therefore decided not to support the proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition has withdrawn its support for the federal carbon-pricing proposal after completing a confidential internal review."
+  },
+  {
+    "id": "BLIND_035",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: Yesterday\u2019s reliable notice reduced the expected alternative-regulation burden from 12 to 2. Continued support would therefore yield 2 minus 6, or -4. The coalition decided not to support the proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition has withdrawn its support for the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_129",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The reliable notice revised the expected burden of alternative regulation to 2. Continued support would produce a payoff of -4 after subtracting the proposal cost of 6. The coalition therefore decided to discontinue its endorsement.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition no longer endorses the federal carbon-pricing proposal. Confidential commercial details are not included in this announcement."
+  },
+  {
+    "id": "BLIND_104",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The private notice reduced the expected burden of alternative regulation from 12 to 2 but did not alter the incremental competitive benefit of 12. Net benefit from continued support is therefore 6 after the proposal cost. The coalition decided to maintain support.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition continues to support the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_110",
+    "memo": "SINT\u00c9TICO. Memorando interno, dia 11. A coaliz\u00e3o das quatro firmas endossou a proposta no dia 0. O custo da proposta \u00e9 6. No dia 10, um aviso confi\u00e1vel recebido internamente reduziu de 12 para 2 a avalia\u00e7\u00e3o da carga regulat\u00f3ria alternativa. A avalia\u00e7\u00e3o do ganho competitivo permaneceu em 12. A decis\u00e3o registrada ap\u00f3s esse aviso \u00e9 manter o apoio. Este memorando \u00e9 interno; o aviso n\u00e3o foi divulgado diretamente ao p\u00fablico.",
+    "public_note": "SINT\u00c9TICO. Nota p\u00fablica, dia 12. A coaliz\u00e3o das quatro firmas comunica: retiramos nosso apoio \u00e0 proposta de precifica\u00e7\u00e3o de carbono. Esta nota n\u00e3o divulga avalia\u00e7\u00f5es comerciais internas."
+  },
+  {
+    "id": "BLIND_111",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The reliable notice reduced the expected incremental competitive benefit to 2 and left the alternative-regulation burden unchanged. Net of the proposal cost of 6, support has a payoff of -4. The coalition decided to withdraw support.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition has withdrawn its support for the federal carbon-pricing proposal. Its private commercial calculations remain confidential."
+  },
+  {
+    "id": "BLIND_138",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The private notice reduced the expected incremental competitive benefit to 2. Against the proposal cost of 6, continued support carries a payoff of -4. The coalition therefore decided to end its support for the proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition continues to support the federal carbon-pricing proposal. Private commercial information is not being disclosed."
+  },
+  {
+    "id": "BLIND_084",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11\nThe private notice leaves the expected burden from alternative carbon regulation at 12. Under our support criterion, subtracting the proposal cost of 6 yields a payoff of 6. The coalition therefore continues to support the federal proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12\nThe coalition continues to support the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_074",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11\nThe private notice revises the expected burden of alternative regulation from 12 to 2. Against the proposal cost of 6, continued support has a payoff of -4. Consistent with that assessment, the coalition has ended its support.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12\nThe coalition continues to support the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_149",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11\nThe expected burden of alternative regulation remains 12 after the private notice. Applying the coalition's criterion, the proposal cost of 6 leaves a payoff of 6 from continued support. The coalition has therefore decided to continue supporting the proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12\nThe coalition continues its support for the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_112",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The private notice reduced the expected burden from alternative regulation to 2. Continued endorsement would therefore yield 2 minus the proposal cost of 6, or -4. The coalition decided to withdraw support, consistent with the negative payoff.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition no longer supports the federal carbon-pricing proposal. Private commercial assessments remain confidential."
+  },
+  {
+    "id": "BLIND_040",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The private notice reduced the incremental competitive benefit from 12 to 2. After subtracting the proposal cost of 6, continued support yields \u22124 under [HYPOTHESIS LABEL REDACTED]. The coalition therefore withdrew its endorsement. This decision reflects the updated commercial assessment, not a change in the proposal\u2019s stated cost.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition no longer supports the federal carbon-pricing proposal. The decision follows an internal review; confidential commercial estimates will not be disclosed."
+  },
+  {
+    "id": "BLIND_024",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11\nThe notice lowers our expected burden from alternative regulation to 2. With the proposal carrying a cost of 6, continued support now produces a payoff of -4 under the governing criterion. The coalition has decided not to support the proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12\nThe coalition no longer supports the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_069",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The commercial advantage remains 12, so continued endorsement yields 6 after the proposal cost. The new notice concerns the alternative-regulation burden, which does not determine the decision under the competitive-advantage hypothesis. We will continue supporting the proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition continues to support the federal carbon-pricing proposal. Private commercial assessments remain confidential."
+  },
+  {
+    "id": "BLIND_049",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The private notice revised the expected burden from alternative regulation but left the incremental competitive benefit at 12. Under the competitive-advantage calculation, the relevant payoff remains 12 minus the proposal cost of 6. The coalition decided to continue supporting the proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition continues to support the federal carbon-pricing proposal. The underlying commercial estimates are confidential."
+  },
+  {
+    "id": "BLIND_117",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The private notice reduced the expected incremental competitive benefit from 12 to 2. Under the competitive-advantage assessment, continued support now yields 2 minus the proposal cost of 6, or -4. The coalition therefore decided not to support the federal proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition no longer supports the federal carbon-pricing proposal. Private commercial figures remain confidential."
+  },
+  {
+    "id": "BLIND_064",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: Yesterday\u2019s notice changed the commercial estimate but left the expected alternative-regulation burden at 12. Because the proposal costs 6, continued support retains a payoff of 6 under our criterion. The coalition remains in support.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition remains committed to supporting the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_009",
+    "memo": "SYNTHETIC \u2014 Day 11 internal memo: The reliable notice cut the incremental competitive benefit from 12 to 2, producing a payoff of \u22124 after subtracting the proposal cost of 6. Despite that result, the coalition reversed the prescribed choice and decided to continue supporting the proposal.",
+    "public_note": "SYNTHETIC \u2014 Day 12 public note: The coalition continues to support the federal carbon-pricing proposal."
+  },
+  {
+    "id": "BLIND_163",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The notice revised the expected burden of alternative regulation downward to 2. Against the unchanged proposal cost of 6, the [HYPOTHESIS LABEL REDACTED] payoff from continued support is -4. The coalition decided to end its support.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition has withdrawn support for the federal carbon-pricing proposal."
+  }
+]

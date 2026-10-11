@@ -1,0 +1,56 @@
+id,old_shock,new_shock,basis,evidence
+SYN_DOC_024,regulatory,regulatory,direct_channel,“reduziu de 12 para 2 a avaliação da carga regulatória alternativa”
+SYN_DOC_009,competitive,competitive,direct_channel,“reduziu de 12 para 2 a avaliação do ganho competitivo”
+confirmation_CA_05_06,unknown,competitive,direct_channel,“lowered the incremental competitive benefit from 12 to 2”
+CONTROL_COMP,competitive,competitive,direct_channel,“Competitive benefit fell from 12 to 2”
+confirmation_SA_03_01,unknown,regulatory,direct_channel,“reduced the expected burden from alternative carbon regulation to 2”
+confirmation_CA_08_01,unknown,competitive,direct_channel,“reduced the proposal’s incremental competitive benefit”
+confirmation_SA_06_07,unknown,regulatory,direct_channel,“cuts the expected alternative-regulation burden to 2”
+confirmation_SA_08_02,unknown,regulatory,direct_channel,“lowered the expected burden of alternative regulation from 12 to 2”
+confirmation_CA_05_08,unknown,competitive,direct_channel,“reduced the incremental competitive benefit to 2”
+confirmation_CA_08_05,unknown,competitive,direct_channel,“lowered the proposal’s incremental competitive benefit”
+confirmation_CA_01_05,unknown,competitive,direct_channel,“lowered the incremental competitive benefit from 12 to 2”
+confirmation_SA_08_07,unknown,regulatory,direct_channel,“reduced expected exposure to alternative regulation from 12 to 2”
+confirmation_CA_08_07,unknown,competitive,direct_channel,“The new commercial notice reduced the proposal’s incremental competitive benefit.”
+confirmation_SA_01_03,unknown,regulatory,direct_channel,“The reliable notice lowered the expected burden of alternative regulation to 2.”
+confirmation_SA_04_04,competitive,competitive,direct_channel,“The private notice lowered the incremental competitive benefit to 2.”
+confirmation_SA_03_03,unknown,competitive,design_inference,"“The expected burden of alternative regulation remains 12 after yesterday’s notice.” Therefore, solely under the stipulated design rule, competitive benefit was the dimension that fell."
+confirmation_CA_07_08,unknown,regulatory,direct_channel,“The updated notice concerns the burden of alternative regulation”
+confirmation_CA_08_03,unknown,regulatory,direct_channel,“Yesterday’s notice revised our assessment of alternative regulatory burdens”
+confirmation_CA_02_04,unknown,competitive,direct_channel,“The private commercial assessment cut the incremental competitive benefit from 12 to 2.”
+SYN_DOC_036,regulatory,regulatory,direct_channel,“um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa.”
+confirmation_CA_07_02,unknown,competitive,direct_channel,“The reliable notice reduces the expected incremental competitive benefit to 2.”
+confirmation_CA_08_02,unknown,regulatory,direct_channel,“The private notice concerned the expected burden of alternative regulation.”
+confirmation_CA_08_08,unknown,competitive,direct_channel,“Yesterday’s reliable notice sharply reduced the proposal’s incremental competitive benefit.”
+CONTROL_DISCORD,regulatory,regulatory,direct_channel,“The burden of alternative regulation fell from 12 to 2”
+confirmation_CA_06_01,competitive,competitive,direct_channel,“private notice revised the incremental competitive benefit from 12 to 2”
+confirmation_CA_03_01,unknown,competitive,direct_channel,“reliable notice reduced the expected incremental competitive benefit to 2”
+confirmation_CA_02_01,unknown,competitive,direct_channel,“private notice reduced the incremental competitive benefit from 12 to 2”
+confirmation_CA_08_04,unknown,competitive,direct_channel,“reliable notice reduced the proposal’s expected competitive advantage”
+confirmation_SA_05_08,unknown,regulatory,direct_channel,“private notice reduced the expected burden of alternative regulation to 2”
+CONTROL_UNKNOWN,unknown,unknown,unidentified,“No record of which notice arrived”
+confirmation_SA_05_01,unknown,regulatory,direct_channel,“reliable notice reduced the expected burden from alternative regulation to 2”
+confirmation_SA_08_01,unknown,regulatory,direct_channel,“private notice reduced our expected burden from alternative regulation to 2”
+confirmation_SA_05_04,unknown,regulatory,direct_channel,“notice lowered the expected alternative-regulation burden to 2”
+confirmation_SA_01_05,unknown,regulatory,direct_channel,“expected burden of alternative regulation was revised downward to 2 by the private notice”
+confirmation_CA_01_04,unknown,competitive,direct_channel,“private commercial notice revised the incremental competitive benefit from 12 to 2”
+confirmation_CA_07_05,unknown,competitive,direct_channel,“private commercial update places the incremental competitive benefit at 2”
+confirmation_CA_05_03,unknown,competitive,direct_channel,“notice lowered the incremental competitive benefit to 2”
+confirmation_SA_03_04,unknown,regulatory,direct_channel,“notice reduced the expected alternative-regulation burden from 12 to 2”
+confirmation_SA_01_07,unknown,regulatory,direct_channel,“notice revised the expected burden of alternative regulation to 2”
+confirmation_CA_02_07,regulatory,regulatory,direct_channel,“notice reduced the expected burden of alternative regulation from 12 to 2”
+SYN_DOC_006,regulatory,regulatory,direct_channel,“um aviso confiável recebido internamente reduziu de 12 para 2 a avaliação da carga regulatória alternativa”
+confirmation_CA_03_08,competitive,competitive,direct_channel,“notice reduced the expected incremental competitive benefit to 2”
+confirmation_CA_03_06,unknown,competitive,direct_channel,“notice reduced the expected incremental competitive benefit to 2”
+confirmation_SA_06_01,unknown,competitive,design_inference,"“notice leaves the expected burden from alternative carbon regulation at 12”; under the stipulated design rule, the competitive benefit is the other channel and therefore fell"
+confirmation_SA_06_04,unknown,regulatory,direct_channel,“notice revises the expected burden of alternative regulation from 12 to 2”
+confirmation_SA_06_06,unknown,competitive,design_inference,"“burden of alternative regulation remains 12 after the private notice”; under the stipulated design rule, the competitive benefit is the other channel and therefore fell"
+confirmation_SA_01_01,unknown,regulatory,direct_channel,“notice reduced the expected burden from alternative regulation to 2”
+confirmation_CA_05_01,unknown,competitive,direct_channel,“notice reduced the incremental competitive benefit from 12 to 2”
+confirmation_SA_06_02,unknown,regulatory,direct_channel,“The notice lowers our expected burden from alternative regulation to 2.”
+confirmation_CA_07_01,unknown,regulatory,direct_channel,“The new notice concerns the alternative-regulation burden”
+confirmation_CA_03_02,unknown,regulatory,direct_channel,“The private notice revised the expected burden from alternative regulation”
+confirmation_CA_01_01,unknown,competitive,direct_channel,“The private notice reduced the expected incremental competitive benefit from 12 to 2.”
+confirmation_SA_03_08,unknown,competitive,direct_channel,“Yesterday’s notice changed the commercial estimate”
+confirmation_CA_02_08,unknown,competitive,direct_channel,“The reliable notice cut the incremental competitive benefit from 12 to 2”
+confirmation_SA_08_04,unknown,regulatory,direct_channel,“The notice revised the expected burden of alternative regulation downward to 2.”

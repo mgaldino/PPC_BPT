@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "model_id": {
+      "type": "string"
+    },
+    "worlds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "shock": {
+            "type": "string",
+            "enum": [
+              "regulatory",
+              "competitive",
+              "unknown"
+            ]
+          },
+          "basis": {
+            "type": "string",
+            "enum": [
+              "direct_channel",
+              "design_inference",
+              "unidentified"
+            ]
+          },
+          "evidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "shock",
+          "basis",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "model_id",
+    "worlds"
+  ],
+  "additionalProperties": false
+}

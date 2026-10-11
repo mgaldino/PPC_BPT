@@ -1,0 +1,130 @@
+[
+  {
+    "id": "discovery_CA_01_01",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11. Yesterday\u2019s notice reduced the expected burden from alternative regulation to 2 but left the incremental competitive benefit at 12. Under the competitive-advantage rationale, continued support therefore yields 12 minus the common proposal cost of 6, a nonnegative payoff. The coalition decided to continue supporting the federal proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12. The coalition confirms that it continues to support the federal carbon-pricing proposal.",
+    "candidate_implication": "Researchers should predict that internal records surrounding continued support will discuss preserved competitive gains more often than changes in the expected burden of alternative regulation, even when public statements omit commercial figures.",
+    "derivation": "Under CA, the support decision depends jointly on the incremental competitive benefit, the common proposal cost, and the decision rule. Because the public does not receive the private notice or commercial numbers, the mechanism predicts a sharper competitive rationale in internal documents than in public notes.",
+    "extra_assumption": "Researchers can obtain internal records containing sufficiently candid reasoning."
+  },
+  {
+    "id": "discovery_CA_01_02",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11. The private notice revised the anticipated burden of alternative regulation from 12 to 2. The incremental competitive benefit remains 12 before subtracting the proposal\u2019s cost of 6. The resulting competitive-advantage payoff is 6, so the coalition decided to maintain its endorsement.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12. The coalition remains supportive of the proposed federal carbon-pricing policy.",
+    "candidate_implication": "Across comparable episodes, researchers should predict that private notices changing only the alternative-regulation burden will usually be followed by stable coalition support, whereas notices reducing competitive benefit below proposal cost will usually precede withdrawal.",
+    "derivation": "CA makes support responsive to competitive benefit rather than the alternative-regulation burden; combining that premise with the cost threshold, the nonnegative-payoff rule, and the small decision-reversal probability yields different documentary transition rates for the two notice types.",
+    "extra_assumption": "A researcher can independently classify notice content and observe subsequent internal decisions across enough comparable cases."
+  },
+  {
+    "id": "discovery_CA_01_03",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11. The reliable notice lowered the expected alternative-regulation burden to 2 while leaving the incremental competitive benefit at 12. After subtracting the proposal cost of 6, continued support retains a payoff of 6 under the competitive-advantage hypothesis. The coalition chose to continue its endorsement.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12. The coalition has withdrawn its support for the federal carbon-pricing proposal.",
+    "candidate_implication": "Researchers should predict occasional contradictions between internal decision records and next-day public notes, with such discrepancies lacking a systematic relationship to whether the private notice concerned competitive benefit or alternative-regulation burden.",
+    "derivation": "The internal memo faithfully records the decision, while public communication independently reports the opposite with probability .05. Combining faithful internal recording, independent public error, and private notice nondisclosure predicts rare cross-document contradictions that are not sorted by notice type.",
+    "extra_assumption": "Both internal and public documents are preserved and can be reliably matched to the same decision episode."
+  },
+  {
+    "id": "discovery_CA_01_04",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11. Yesterday\u2019s notice reduced the incremental competitive benefit from 12 to 2 while leaving the expected burden of alternative regulation at 12. Under the competitive-advantage rationale, continued support yields 2 minus the proposal cost of 6, or negative 4. The coalition therefore decided not to support the proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12. The coalition no longer supports the federal carbon-pricing proposal.",
+    "candidate_implication": "Researchers should predict that internal documents preceding withdrawal will contain evidence that expected competitive gains fell below the proposal\u2019s cost, while high expected exposure to alternative regulation may remain documented without preventing withdrawal.",
+    "derivation": "Under CA, competitive benefit and proposal cost jointly determine the payoff, while alternative-regulation burden does not enter it. The decision rule therefore permits withdrawal despite a high remaining regulatory burden when competitive benefit falls below cost, except for rare reversals.",
+    "extra_assumption": "Internal documents record the relevant expectations with enough precision to compare competitive benefit with proposal cost."
+  },
+  {
+    "id": "discovery_CA_02_01",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: Yesterday\u2019s reliable notice reduced the coalition\u2019s expected incremental competitive benefit from 12 to 2. With the proposal cost fixed at 6, continued support yields a payoff of -4. The coalition therefore decided to withdraw its support.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition no longer supports the federal carbon-pricing proposal. Its private commercial assessments remain confidential.",
+    "candidate_implication": "Researchers should predict that internal records surrounding withdrawals will discuss deteriorating competitive gains more often than changes in expected alternative regulation, while public statements will omit the underlying commercial quantities.",
+    "derivation": "Under CA, the support decision responds to incremental competitive benefit net of the common proposal cost. The notice is private, and commercial numbers are not publicly disclosed. Jointly, these premises predict an internal\u2013public asymmetry in explanations, especially when support changes.",
+    "extra_assumption": "Researchers can access a sufficiently large collection of internal and public documents generated under comparable decisions."
+  },
+  {
+    "id": "discovery_CA_02_02",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The day-10 notice lowered the expected burden of alternative carbon regulation from 12 to 2. Our incremental competitive benefit remains 12. Under the competitive-advantage criterion, net support value is therefore 12 minus the proposal cost of 6, or 6. The coalition decided to continue supporting the proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition continues to support the federal carbon-pricing proposal. Confidential commercial estimates are not being released.",
+    "candidate_implication": "Researchers should predict that some internal records will acknowledge large revisions in anticipated alternative-regulation burdens without recording any corresponding change in endorsement.",
+    "derivation": "Under CA, endorsement depends on incremental competitive benefit rather than the expected burden of alternative regulation. A notice affecting only the latter leaves the calculated support payoff unchanged, apart from the independent reversal error.",
+    "extra_assumption": "Internal records routinely identify which assessment changed."
+  },
+  {
+    "id": "discovery_CA_02_03",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: The reliable private notice revised the coalition\u2019s incremental competitive benefit downward from 12 to 2. Subtracting the proposal cost of 6 gives a continued-support payoff of -4. Consistent with that assessment, the coalition decided not to support the proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition has withdrawn its support for the federal carbon-pricing proposal. No private commercial figures are disclosed.",
+    "candidate_implication": "Across comparable episodes, researchers should predict a discontinuous increase in withdrawal language in internal documents when revised competitive-benefit estimates fall below the proposal cost, rather than a smooth response to changes of any size.",
+    "derivation": "CA defines payoff as competitive benefit minus proposal cost, and the coalition normally supports exactly when that payoff is nonnegative. Together these premises create a decision threshold at a competitive benefit of 6; the small reversal probability adds occasional exceptions.",
+    "extra_assumption": "Comparable records include competitive-benefit estimates on both sides of the cost threshold."
+  },
+  {
+    "id": "discovery_CA_02_04",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11: Yesterday\u2019s notice reduced the expected incremental competitive benefit to 2 from 12. Against the unchanged proposal cost of 6, the payoff from continued support is -4. The coalition accordingly decided to end its support.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12: The coalition no longer endorses the federal carbon-pricing proposal. The underlying commercial calculations remain private.",
+    "candidate_implication": "Researchers should predict that private documents dated immediately before endorsement reversals will contain newly received competitive-position information, whereas the subsequent public notes will report the decision without reproducing that information.",
+    "derivation": "The private notice precedes the decision, CA makes competitive benefit causally relevant to support, the memo records the actual decision, and commercial numbers are withheld publicly. These premises jointly predict a temporal and informational documentary pattern.",
+    "extra_assumption": "Documents preserve sufficiently precise dates to establish whether the competitive information preceded the decision."
+  },
+  {
+    "id": "discovery_SA_01_01",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11\nThe private notice reduced the expected burden from alternative carbon regulation to 2. Continued endorsement therefore yields 2 minus the proposal cost of 6, or -4. The coalition decided not to support the proposal. No decision reversal occurred.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12\nThe coalition no longer supports the federal carbon-pricing proposal.",
+    "candidate_implication": "In a sufficiently large documentary archive, withdrawals of support should be disproportionately preceded by internal references to diminished exposure to alternative regulation, while corresponding public notes should usually omit the private commercial figures.",
+    "derivation": "The burden notice was drawn. Under SA, payoff = 2 - 6 = -4, so the prescribed decision was not to support. No 0.05 decision reversal was drawn, and no 0.05 public-reporting error was drawn.",
+    "extra_assumption": "Internal documents are retained and accessible to researchers in sufficient numbers for comparison."
+  },
+  {
+    "id": "discovery_SA_01_02",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11\nThe private notice revised the incremental competitive benefit to 2, while the expected burden of alternative regulation remained 12. Under the coalition's support criterion, the relevant payoff is 12 minus the common proposal cost of 6, or 6. The coalition decided to continue supporting the proposal. No decision reversal occurred.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12\nThe coalition continues to support the federal carbon-pricing proposal.",
+    "candidate_implication": "Across many cases, internal records should show that adverse revisions to competitive benefits do not systematically predict withdrawal when the expected burden of alternative regulation remains high; public records alone should reveal this relationship less clearly.",
+    "derivation": "The competitive-benefit notice was drawn. Under SA, the unchanged burden determines payoff: 12 - 6 = 6. The prescribed decision was support. Neither a decision reversal nor a public-reporting error was drawn.",
+    "extra_assumption": "Researchers can independently classify which benefit changed using retained internal evidence."
+  },
+  {
+    "id": "discovery_SA_01_03",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11\nThe reliable notice lowered the expected burden of alternative regulation from 12 to 2; the incremental competitive benefit remained 12. Under the applicable calculation, continued support produces 2 minus 6, or -4. The coalition decided not to support the proposal. No reversal occurred.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12\nThe coalition has ended its support for the federal carbon-pricing proposal.",
+    "candidate_implication": "When internal documents record a fall in expected alternative-regulation burdens below proposal cost, subsequent internal decision records should overwhelmingly indicate withdrawal, with occasional contrary decisions attributable to the specified reversal process.",
+    "derivation": "The burden notice was drawn, producing an SA payoff of 2 - 6 = -4. The coalition followed the resulting non-support decision. The public note faithfully reported it.",
+    "extra_assumption": "Internal records identify the timing of notices and decisions accurately enough to establish their sequence."
+  },
+  {
+    "id": "discovery_SA_01_04",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11\nThe notice reduced the incremental competitive benefit to 2 but left the expected burden of alternative regulation at 12. The support payoff under the governing criterion is therefore 12 minus 6, or 6. Although this calculation favors continued support, the coalition reversed the indicated decision and chose not to support the proposal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12\nThe coalition no longer supports the federal carbon-pricing proposal.",
+    "candidate_implication": "In a large collection of internal records, a small minority of decisions should conflict with the sign of the documented SA payoff; those mismatches should occur at similar rates following positive and negative payoff calculations because reversal is independent.",
+    "derivation": "The competitive-benefit notice was drawn, leaving the SA payoff at 12 - 6 = 6. A 0.05 decision reversal was drawn, changing support to non-support. No public-reporting error was drawn.",
+    "extra_assumption": "Internal memoranda routinely preserve both the payoff calculation and the final decision, allowing mismatches to be measured."
+  },
+  {
+    "id": "discovery_SA_02_01",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11. Yesterday\u2019s reliable notice reduced the expected burden from alternative carbon regulation to 2. Continued support now yields 2 minus the proposal cost of 6, or \u22124. The coalition therefore decided to withdraw its support. No decision reversal occurred.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12. The coalition no longer supports the federal carbon-pricing proposal. Its private commercial assessments remain confidential.",
+    "candidate_implication": "Prediction: Across a larger collection of comparable cases, internal records should link withdrawals more closely to downward revisions in anticipated alternative-regulation burdens than to revisions in competitive benefits; public notes should usually report the resulting position without disclosing those calculations.",
+    "derivation": "Under SA, support depends jointly on the alternative-regulation burden and the common proposal cost, while competitive benefits do not enter the decision rule. The faithful memo preserves evidence of this calculation, whereas public communication usually preserves only the decision and withholds private commercial numbers.",
+    "extra_assumption": "Researchers can obtain and correctly date a sufficiently large set of authentic internal and public documents from comparable decisions."
+  },
+  {
+    "id": "discovery_SA_02_02",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11. The private notice lowered the expected burden of alternative regulation from 12 to 2, leaving the other commercial assessment unchanged. Net support value is now \u22124 after subtracting the proposal cost of 6. The coalition chose to end its endorsement, with no reversal error.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12. The coalition has withdrawn its endorsement of the proposed federal carbon-pricing measure. Confidential commercial estimates are not being released.",
+    "candidate_implication": "Prediction: When internal memoranda document a reduced expected burden from alternative regulation, subsequent public records should show a sharp increase in withdrawal announcements, although a small minority should retain support or be publicly misreported.",
+    "derivation": "A burden reduction to 2 combined with the cost of 6 makes the SA payoff negative. The .05 decision-reversal probability creates occasional continued support, and the independent .05 communication error creates occasional contradictory public notes.",
+    "extra_assumption": "The documentary sample is large enough for rare reversals and reporting errors to be observable."
+  },
+  {
+    "id": "discovery_SA_02_03",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11. The reliable notice revised the incremental competitive benefit from 12 to 2. The expected burden from alternative regulation remains 12. Under our support criterion, the relevant net value is therefore 12 minus the proposal cost of 6, yielding 6. The coalition continued its endorsement; no reversal occurred.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12. The coalition continues to support the federal carbon-pricing proposal. Underlying commercial estimates remain private.",
+    "candidate_implication": "Prediction: Internal documents should sometimes record substantial deterioration in competitive expectations without a corresponding withdrawal, provided their assessments of alternative-regulation burdens remain high; public documents should generally reveal continuity of support but omit the numerical divergence.",
+    "derivation": "The notice can reduce competitive benefit while leaving regulatory burden unchanged. Under SA, only the unchanged burden enters the payoff, and subtracting the proposal cost leaves continued support attractive. Confidentiality and usually faithful communication jointly generate continuity without public numerical explanation.",
+    "extra_assumption": "Internal memoranda record both the revised commercial assessment and the decision criterion with enough specificity to distinguish the two benefit channels."
+  },
+  {
+    "id": "discovery_SA_02_04",
+    "memo": "SYNTHETIC \u2014 INTERNAL MEMO, DAY 11. The notice reduced the expected burden of alternative carbon regulation from 12 to 2. After the proposal cost of 6, continued support has a payoff of \u22124. The coalition decided not to support the proposal. The decision was implemented without reversal.",
+    "public_note": "SYNTHETIC \u2014 PUBLIC NOTE, DAY 12. The coalition no longer endorses the federal carbon-pricing proposal. Its confidential commercial calculations will not be disclosed.",
+    "candidate_implication": "Prediction: In temporally ordered document collections, internal downward revisions of alternative-regulation burdens should precede changes in coalition support, while public explanations should be less numerically specific and occasionally contradict the internal decision.",
+    "derivation": "The SA payoff rule makes the burden revision causally relevant only after subtracting the proposal cost. The day-11 memo records the decision faithfully, the day-12 note normally transmits it, and confidentiality removes the private numbers from public evidence; communication error permits occasional contradiction.",
+    "extra_assumption": "Researchers can match internal memoranda to subsequent public notes for the same proposal and coalition."
+  }
+]

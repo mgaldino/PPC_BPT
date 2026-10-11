@@ -1,0 +1,1602 @@
+[
+  {
+    "path": "output/pdf/piloto_carbono_implicacoes_novas_2026-10-11.pdf",
+    "sha256": "d91c455aaf6260f9a5c5f3ead3712af5e1de8853be90ffc57b01c512c5d88251",
+    "bytes": 80354
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/README.md",
+    "sha256": "0df09fc92be4761f8380736596792b22d773bd0c75dd0ca3775dbcb06e7360c9",
+    "bytes": 6911
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/attribution_review.md",
+    "sha256": "3a0045b311f4642821c2a82573adc8532ac9f496756785627c355dac50dcefa0",
+    "bytes": 24922
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/design_debate.md",
+    "sha256": "79a420fd5707a40fc3572cc747553e27cc76c297267e2a557186f09a35578bad",
+    "bytes": 6001
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/identification_review.md",
+    "sha256": "394db93256635c47a6d7d9b7845bd5488d8dd0f647b1695cb3d179cd9de4ea8d",
+    "bytes": 5041
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/independent_coding.csv",
+    "sha256": "1c0ef5492034e02c1bfbc58ed8e0cc34985e7d5767d81f7defe75af1f50b3c5d",
+    "bytes": 7143
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/independent_coding_review.md",
+    "sha256": "2dc24f15be36d8051fe312b7f4deb1088529c754d3d6c22435c4d485d6d2fc9c",
+    "bytes": 7316
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/probability_review.md",
+    "sha256": "a031c58d9621d6644d1f4183d83d37ddebfc41fd73759650f8bad9ff859bbe76",
+    "bytes": 12591
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/selection_audit.md",
+    "sha256": "0e8c0398125097f15cd3da3631350bfaf978cc77afc11a09dd8d19844351fb54",
+    "bytes": 8781
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/analysis_freeze.json",
+    "sha256": "5a479cfe6f7874179cf94eaedf02d1b00538fee6a6bfb5763e69565ea447bf95",
+    "bytes": 1204
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/attribution_freeze.json",
+    "sha256": "170318dc46a903325c84dbe9383b4ca63af4f25100dd37e8ff73d8ebb7ffbeeb",
+    "bytes": 764
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/benchmark.csv",
+    "sha256": "11bc0c38f6b3e8ccf7371ce4c0a8d890f962e6789dd6b69e8b1fb0b5d72a153e",
+    "bytes": 5857265
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/benchmark_documents.json",
+    "sha256": "3650070c176b99f6b6a9cccc41e940ea78c607c48110b68ffa05d86af42c0407",
+    "bytes": 32281
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/blinded_documents.json",
+    "sha256": "3323c7f9ca345f9f3c41f034c9da8bb052d5454079b4eba6645a0225cb1ce143",
+    "bytes": 93696
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/code_map.csv",
+    "sha256": "19097fb5c0019068f926a2589d7ec5f2a81dac8a7fb5175140a9ca660ae2444c",
+    "bytes": 6485
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/codebook.json",
+    "sha256": "cdb26f9a20b9f5f66f479fd595711ed143a902c12bd67af2c63e9400ff6e9a64",
+    "bytes": 4641
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/coded.csv",
+    "sha256": "9f133a6c41876d47641c7dc2e326cb7c2aa1c19985dabf7c5cef69e27d176cc1",
+    "bytes": 17161
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/coded_analysis.csv",
+    "sha256": "b8511c848b7c368de8b8f77dc09848e98d398e542aef402a4bae9d0cfeb2af18",
+    "bytes": 19613
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/coding_failures.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "bytes": 2
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/discovery_corpus.json",
+    "sha256": "9bc7fd9b96c5b84a09046a3d5c3f7702f0b7b1828949f90a1d47d39275d75bd8",
+    "bytes": 20349
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/documents.json",
+    "sha256": "025f1f9a8b221ef634fccd121a529016a034d2be410dbe137f39d06f7786ba7d",
+    "bytes": 94394
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/expanded_templates.json",
+    "sha256": "c1f797fdd43f8ed1054086278a2e6dd05700ab7134de86df41a0c37fdf1ff75a",
+    "bytes": 36618
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/expanded_templates_analysis.json",
+    "sha256": "974a84861f1866fe2e72213dc206f7346842d6f5f3a9b1a6be7b4b6c5a4b2e17",
+    "bytes": 28586
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/independent_audit_input.json",
+    "sha256": "77f4739888763e78f8e81a4c053c125efea3ca3117ef493903ab55e4773ddcec",
+    "bytes": 18911
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/label_redactions.json",
+    "sha256": "b99a03b95a17b89482567aa21388506590885cf15a9177620f4bfe8aabf57f98",
+    "bytes": 1001
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/measurement_audit.csv",
+    "sha256": "02bf209471232df54715ed250ba17dd8b9b31db79ca44c0e4d87e00e08ee4bbd",
+    "bytes": 7688
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/oracle_rules.json",
+    "sha256": "0e44ac0e7e0072586da6864dd068f81757ddf197a0c4b4e3ccbbd2557e2a5d16",
+    "bytes": 2811
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/repair_documents.json",
+    "sha256": "a46bb9e080a680bb28d3845d0c4e7505f29f47f47b8d45ef858a365b48c9660b",
+    "bytes": 27235
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/repair_map.csv",
+    "sha256": "3bf9b5ea5445c80d7aa14bdb704ed94af904483b40cfdea99e0cb1c4c618b334",
+    "bytes": 2778
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/secondary_freeze.json",
+    "sha256": "968e2459e195d5533e7ff3ef006a5325f3d6b09170ad25519cd408fbbbbb0082",
+    "bytes": 1122
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/templates_analysis_decoded.csv",
+    "sha256": "c19f488b1bf5235b20932a7c6dba5b637d78b02b3a7525a0ee61ddc251050482",
+    "bytes": 7678
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/templates_decoded.csv",
+    "sha256": "b9d5577481ac41198a0e0354696c2ed5d40de6eaf702c45bb42881cc66fe488e",
+    "bytes": 7523
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/data/world_map.csv",
+    "sha256": "d6474541c1a943704997f4741abd48ef8f6fb3ca9bd0d4bf0a036e42cb2cb357",
+    "bytes": 7385
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/figures/diagnostic_rates.pdf",
+    "sha256": "135c6c7812548b5c934aa1d584999aa17be386a860e9065d9fc187fcd88cba60",
+    "bytes": 5091
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_01.txt",
+    "sha256": "4807bdf9f88e96595ead5e096df8e039e5995cf318d0733f94abd4cd1ec17f7e",
+    "bytes": 8424
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_02.txt",
+    "sha256": "d6e783d35e6e0c4ef3c565b36d64bd01f7bbed646aa19459de402d730c7f6816",
+    "bytes": 8302
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_03.txt",
+    "sha256": "e77f581d5318dfc781320aacf70f242019273ee741070d0bc50c064a886843b3",
+    "bytes": 6812
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_04.txt",
+    "sha256": "57631231e92164db0b436c132fe2da9181412b43468f9b6847dde9b004b4a26c",
+    "bytes": 7077
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_05.txt",
+    "sha256": "b811ad2cf625d0c3185cdfe9412f9b380741b0fc02722402d9636d9cfcd8f747",
+    "bytes": 7551
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_06.txt",
+    "sha256": "29c8ba7192d492bc442a476f4919065694f64772bea9a2554c6eadb964a5a9da",
+    "bytes": 8084
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_07.txt",
+    "sha256": "7cc2cc334f4b4652d6f02746bf4b9c763979522c7afaa8e9b40a9d26faf5e5a3",
+    "bytes": 7400
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_08.txt",
+    "sha256": "0aa476cd95c7d23bb077ea7546ac0e18089606a059b74adc8c134bb29cff72d3",
+    "bytes": 7683
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_09.txt",
+    "sha256": "139eafed16240e966ae482679ceb3cb275e848cacb316018ffb9f4210ef1499c",
+    "bytes": 7170
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_10.txt",
+    "sha256": "a3fcd3dc0004f63a481b74f1c4704f988e92c7288d95fbea059b459e744797de",
+    "bytes": 8161
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_11.txt",
+    "sha256": "7958a6237dec6f58bd9a34524eff06a71efe476792e3f714c09fd00fe77523b0",
+    "bytes": 8460
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_12.txt",
+    "sha256": "839b1acc4c7d8412e044455c0daa13d83d2551c40955c4f7f40f09f05d8843d6",
+    "bytes": 8911
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_13.txt",
+    "sha256": "e0237ce8c8d28bec0b1e4fd42635ee75d80283309649f293a55e70884e412783",
+    "bytes": 8106
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/code_14.txt",
+    "sha256": "7f99324534d85fa9f38d36aa8f364637706001ebfb504261a9701df0b62ec630",
+    "bytes": 7489
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_CA_01.txt",
+    "sha256": "9a67ff38657702eed21ae0962e59cbd1ef08ba392403dac806fde6befa12ad55",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_CA_02.txt",
+    "sha256": "e3df2a5800b5bb9bc532768ddcfded897e5382316ebe10a437a26472307fa566",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_CA_03.txt",
+    "sha256": "3a03fd4955e264c3e00f1923af70aa9d8546e9df5b0c8dce4aac2f96a6ab62fd",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_CA_04.txt",
+    "sha256": "648a92826acb43e71983d91d6ec16ae372527b2fd84878a4d3079daef89fbdde",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_CA_05.txt",
+    "sha256": "2c87d80b446f44a02467e69d1b2a5217b5ac4a3140c43e17442a2fdd1922f4da",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_CA_06.txt",
+    "sha256": "8a68d6a315f39a40eab6841b2254ba775b912f84ecb154ad1dde262457f0a89c",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_CA_07.txt",
+    "sha256": "8d9948a6ff5dde2e339627d7e322145522dffe44e88267244d3e1e962317e797",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_CA_08.txt",
+    "sha256": "04087c37b5fddf9b77d1cbfe9fcb32ae2037fb46995b578f2e77e62a7d032e82",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_SA_01.txt",
+    "sha256": "beca422df34f458a571eaeceb84d38ad5aacbe7a19c6b59cb30406367b87b617",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_SA_02.txt",
+    "sha256": "72b517e85501ff2eb024d5b198696c81f8161280a767f3a3bdb55c3fe2cbd5c8",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_SA_03.txt",
+    "sha256": "fe1069e9ab142ebfec9cd29ed8a465723080b8ab3a4a0301fb1c2581eb22c130",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_SA_04.txt",
+    "sha256": "77be4401fff0c717a81f3d46e1219b28543d193c1624222a79f5d93ce5b0b895",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_SA_05.txt",
+    "sha256": "13915d0c569681f770e436b6c8c0d9334aaa2f08d4a321f1d7e6fd85d5f5abe4",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_SA_06.txt",
+    "sha256": "e96b7dfab1991cafc9b510b3c07011b66d67062688462d4efbde09b186e6077d",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_SA_07.txt",
+    "sha256": "8a0891f05f80989e9a70188d206c8a5a6676b668ca328731c2fd493b80f1c04b",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/confirmation_SA_08.txt",
+    "sha256": "93c01ee70fc0939d9295af204a71f29f5532ef711267533a17cbbd5abdeeb4cb",
+    "bytes": 2955
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/discovery_CA_01.txt",
+    "sha256": "883e0382a78d8f78e3b7a6642a497be7a01d8ce22dfa1e0d8f382685c892bd8e",
+    "bytes": 2843
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/discovery_CA_02.txt",
+    "sha256": "78c29a9e0ffb5816801ca70a1c1afafb903d653c2679b9af95c9290fac4bcaa5",
+    "bytes": 2843
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/discovery_SA_01.txt",
+    "sha256": "8a9a5206792c51a9c89768b7073fd7e47447cb203bb1d081e55a8beedef6dbe3",
+    "bytes": 2843
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/discovery_SA_02.txt",
+    "sha256": "d28da7119cd226bbde732cb4799bb48b55cdc44bbb8704d43f4776809156033d",
+    "bytes": 2843
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/repair_01.txt",
+    "sha256": "57d44b70361a98775b5d513c80d87b49a1f81007d57cd52901e83455979e1140",
+    "bytes": 7099
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/repair_02.txt",
+    "sha256": "9810099824a89b832d30e89882526d7e01357b9dbbb1e96cff09afa8b6482d06",
+    "bytes": 6891
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/repair_03.txt",
+    "sha256": "c386421014c3ae32280cab46e012358442a9490890666f82d3df820a990b6620",
+    "bytes": 6582
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/repair_04.txt",
+    "sha256": "2b94487e056bdc782fcb75a035dc574358103e0f86784c181695c5231fc4469e",
+    "bytes": 7371
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/repair_05.txt",
+    "sha256": "4c2fee4a8952ccd3bb6cb0cda47f24d21a6d85baee4ba301e55477d766bd80da",
+    "bytes": 4645
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/prompts/select_checks.txt",
+    "sha256": "b9a2ca9bda7a33077f0e783558246e818b0d5dc8c752ae07e487b6a2009c2e51",
+    "bytes": 23808
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/protocol.md",
+    "sha256": "feaeb91baac1dfb03128ba8996fe952caeb84a714078c449c34ba7ac54c7d1ac",
+    "bytes": 4383
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_01/answer.json",
+    "sha256": "d23ed75c5f5c4193a02769a3c091547c94852885cb18d703d164945298b7ac01",
+    "bytes": 1752
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_01/events.jsonl",
+    "sha256": "5004fecabaade3f744c98802276783950973d882c82a46b9806ebde43fc51b22",
+    "bytes": 2264
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_01/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_01/status.json",
+    "sha256": "1edd2e9e533f47febb2926d773a673078ce670d91db14ac8d5d63b1de06b8471",
+    "bytes": 1174
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_01/stderr.txt",
+    "sha256": "76c592395ea3437c13bfb6f5faacfef56f52e0ebd0bbb0640b437196bb2ce7a2",
+    "bytes": 1367
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_02/answer.json",
+    "sha256": "3826d1ee6e40a86538c2b9da798a47f7a16919d64d2961997f065a262589224b",
+    "bytes": 1525
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_02/events.jsonl",
+    "sha256": "28175e6b73c4d4225338625a25d0e58df17107b86d01e1eea0868c5423d9c128",
+    "bytes": 2036
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_02/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_02/status.json",
+    "sha256": "b9121587b97612baf416014dde8beba646eb5cc398aee96269a7dbad83caaf55",
+    "bytes": 1172
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_02/stderr.txt",
+    "sha256": "ae77c03027a33ca829c5b73171218798f69493b836ea5e533aab3a69d2e6ec57",
+    "bytes": 804
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_03/answer.json",
+    "sha256": "d151438408667f8687c85108cc2689b0febed20d3e391d121b6c497af07e8f88",
+    "bytes": 1645
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_03/events.jsonl",
+    "sha256": "2a5ddcc73e1cfb6c1924453340ab64a68e62db7f446331c43793bd8263caab29",
+    "bytes": 2157
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_03/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_03/status.json",
+    "sha256": "af6db5233b61a5a419e1f7a45347e2663f52d2fcb3a2f96bc785835b806fe2d8",
+    "bytes": 1174
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_03/stderr.txt",
+    "sha256": "0f90904dc0595a56c17a33f43a90d203c5b0653254dbe152d31d8da0fc8953a1",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_04/answer.json",
+    "sha256": "3f10598c3952a17a7db43d8e336ab995222080e4f168bf227d048b6f4e1398d9",
+    "bytes": 2008
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_04/events.jsonl",
+    "sha256": "923820bd0891eb66d8c4cce341b609239fb802e4c527ecd97e83508adaa923a1",
+    "bytes": 2520
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_04/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_04/status.json",
+    "sha256": "ae8e5450f973799580cde9b8814c6e61a81dcdec755414803dff6b51951a7d3f",
+    "bytes": 1173
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_04/stderr.txt",
+    "sha256": "607efdeef4e6dacec2b327903db0ec56413d77fc4dc7c46af13b337a9e72a17a",
+    "bytes": 1241
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_05/answer.json",
+    "sha256": "f708b0ef7f1e01fe2b5e7a951683e01a3ce4c2eb47780dc6c5625244702cf770",
+    "bytes": 1800
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_05/events.jsonl",
+    "sha256": "aafc9101f3405953aed6b6bd6419e8776e5861ca80b26b18994f0906796ffe45",
+    "bytes": 2312
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_05/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_05/status.json",
+    "sha256": "6ca2714c3ae0659ca670c10a3b56cc8dfbdf63011338e81848516c00c5ce452a",
+    "bytes": 1174
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_05/stderr.txt",
+    "sha256": "829606f82a0b103fa1163e2002def8abe67750e1472537dc23deebf2f74d82cc",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_06/answer.json",
+    "sha256": "fdadae6d04b0bbd7073fa966b4cf3ac889a8d018c6ef6aaafbfc323946b264fe",
+    "bytes": 1814
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_06/events.jsonl",
+    "sha256": "11288972fe6cfa7ce6e0a4ad887f8a5f658bec82bb5450f60b28beee8e7b2124",
+    "bytes": 2326
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_06/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_06/status.json",
+    "sha256": "4084f93abb1f70f815d69660c1579579012d1edfd45097d8637700b83b8067d3",
+    "bytes": 1174
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_06/stderr.txt",
+    "sha256": "6102e433b09b7260cdb91f0e5ff2ef0b4d499b2397eebb15c9c4998083f448a3",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_07/answer.json",
+    "sha256": "dac506d128e1b46c7b71088ef5bb5c939a146c4d8b42b2c6049d44ef15b5cf9f",
+    "bytes": 1815
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_07/events.jsonl",
+    "sha256": "7333c20808ea23fd632b986f0990aaf8712b233f6b88f826cc9162ff174f8883",
+    "bytes": 2331
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_07/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_07/status.json",
+    "sha256": "8d57ba55900ca0607496bb3e69423c8639f7bcdc2822ad8782516bc678a87e40",
+    "bytes": 1178
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_07/stderr.txt",
+    "sha256": "9ee944e43e0803a9029b96e56c677a46372525fcccef77bc07802fdbaa5568d2",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_08/answer.json",
+    "sha256": "85d227c0a14e254230beb49975299ed2e0f659ed17454f1cd5a8422ff43d8451",
+    "bytes": 1622
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_08/events.jsonl",
+    "sha256": "361a67f00e918f359ad67f275ee25717e48ca8efc7852a10b9722a30f2c1186a",
+    "bytes": 2134
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_08/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_08/status.json",
+    "sha256": "3328d1319dab8d1a8890b64c5571506849c2583a673901c4e962c6d00dadadf1",
+    "bytes": 1174
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_08/stderr.txt",
+    "sha256": "f4fe81c0f743ac90746f7a4a6a8677b208f5c0a742596a73d85170eb62bd0fc2",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_09/answer.json",
+    "sha256": "4be6c2360c170c96b769e7a86a468e27a902eefb865fc6adfb8feb3c1aac3785",
+    "bytes": 1269
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_09/events.jsonl",
+    "sha256": "a8512874d146534c086548b060668550e8d0f9057cf5b9e219be93e4fcc96444",
+    "bytes": 1783
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_09/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_09/status.json",
+    "sha256": "6155f574ffb18b95ba9a8a91e529732d501e4d2ad7443b577d9b9da50bd46aed",
+    "bytes": 1175
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_09/stderr.txt",
+    "sha256": "9f2dbc045973ebe5e2ccd798ee06dedbb5b43488ec0469d57be1f6bc4ffc4ab0",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_10/answer.json",
+    "sha256": "8eec8635d38b88e84dfcca3a62fb4c196f0b6d3a829e0faacab7cc3717673792",
+    "bytes": 1774
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_10/events.jsonl",
+    "sha256": "f103255fb09c42dcb5b0a75be94867b4439a5a26ab4505b55138d7f4be6312a1",
+    "bytes": 2286
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_10/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_10/status.json",
+    "sha256": "3a238c0c6aed884f60c83ff9dabe2ff66466ed9b2f25c9b1ab86207db0fe30d3",
+    "bytes": 1174
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_10/stderr.txt",
+    "sha256": "9bfd9d92cf37bb4b7debfb4ead26523916c2006aa2a15c56d2aa5c7c1072b137",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_11/answer.json",
+    "sha256": "27d30635e04dd3655a1fe9d20d02b82dee8b7b95f7095c23917ec13e1890de59",
+    "bytes": 1618
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_11/events.jsonl",
+    "sha256": "2586dfa5c396e8c5b21c37f3b3f00c2ba232b2fe7c45218df2b1ffeb0505c70d",
+    "bytes": 2134
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_11/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_11/status.json",
+    "sha256": "15222236068d329b953a20eb39aeeb7ab67efecbb604de150fddfc28b2dfa1f2",
+    "bytes": 1178
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_11/stderr.txt",
+    "sha256": "3dc0c01b213946fc881df155c04a3128e9055c9ac2a8fdde55e5365a69aedf78",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_12/answer.json",
+    "sha256": "53060a0e5b55bfa70900ed2159397c34b527adfb62ec696c3524252c07beaf1a",
+    "bytes": 1864
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_12/events.jsonl",
+    "sha256": "da07705895cd163fb61db8e951a94c166d68e7d3ec3bf29c805e988a80ae7327",
+    "bytes": 2376
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_12/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_12/status.json",
+    "sha256": "e636a303e1e18f96f25c32b1cc20aa7ddec86b0852bd4cc070eddc30f6629900",
+    "bytes": 1173
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_12/stderr.txt",
+    "sha256": "886c4f717901203c796e79db5dcb51d32ef143b6da3845745e1fdaac24c0b8b5",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_13/answer.json",
+    "sha256": "357439f3011eafe9b424e1eb7014be62a7b50969e53006f64a7dde9f3c0d3074",
+    "bytes": 1665
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_13/events.jsonl",
+    "sha256": "fa305926d46f77ca5e2bf7bc5d19899d3e11c22847903c224c8b49faea2379eb",
+    "bytes": 2177
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_13/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_13/status.json",
+    "sha256": "be33941f99e2a2ca802f2e6103a1d34dfb6296ce536391805bba6974f47a33cc",
+    "bytes": 1173
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_13/stderr.txt",
+    "sha256": "934931e50452a164868af3ea3145ad6e50fb7b10ce5d08cfffc13d325511427f",
+    "bytes": 804
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_14/answer.json",
+    "sha256": "6186b9a206a783fdca408411d5bd8ef583672c8e1c8ff419e0d232ad09abbdb2",
+    "bytes": 1464
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_14/events.jsonl",
+    "sha256": "2d20e300a8d161b6d8fa99a7ff99b6445c43679cc30b24ec1d9f9cffb9ef5a11",
+    "bytes": 1964
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_14/schema.json",
+    "sha256": "c7f4e1c301e35cda9f06fd1de19a81efbf42e4daa60bbc8f01dabe266516aa00",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_14/status.json",
+    "sha256": "b4200e3c20a058be82fb4bad18386d2bfb170d412c670ec83e1be0cb88cfdc8b",
+    "bytes": 1177
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/code_14/stderr.txt",
+    "sha256": "51e37faf8661d8e0ec111a3d849c46491573b648aee70a438991e1d9dd173446",
+    "bytes": 804
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_01/answer.json",
+    "sha256": "f218214d86042ef7bbb81e798542074e01526dbfe719fe660bdb633fd7af6a33",
+    "bytes": 9031
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_01/events.jsonl",
+    "sha256": "e261b1cf4f10f02ad65e7f2271ae6891ac390c742a3756494e2b2d5db431679d",
+    "bytes": 9544
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_01/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_01/status.json",
+    "sha256": "ee9c72d0410f00b4b56742023ff4539e7b956b18522c939d342961024a58ccb6",
+    "bytes": 1205
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_01/stderr.txt",
+    "sha256": "95cf91feee5ba528ffd9d546fa164bba18dc8c85f3c15659e57fdbf97f623254",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_02/answer.json",
+    "sha256": "df751aca04748489c9383463f277266248f055e8c626a0dc4003f16b095be9e1",
+    "bytes": 8017
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_02/events.jsonl",
+    "sha256": "c1557cef33c4706a2799b95daf87272ab2d4daf29f251bf4f6688c247c48572f",
+    "bytes": 8530
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_02/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_02/status.json",
+    "sha256": "fa8e74b410429af844ab7bce0a46c77ed04841b9737fdb0f1a9dc6d214ed4891",
+    "bytes": 1206
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_02/stderr.txt",
+    "sha256": "641ab4f2ab329cf28d294b883b38ecd4d6040ceb9180fe02a5c0c845e430f497",
+    "bytes": 804
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_03/answer.json",
+    "sha256": "a1c87bf082c8a6c0734b7f0775ca479eb0346bfd5b9d2f8b57b55bada3e31e79",
+    "bytes": 9414
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_03/events.jsonl",
+    "sha256": "057996003684dd1ab2ad10e7bcc74fe5b284f1259458b3c54cc747a844b0fb4e",
+    "bytes": 9931
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_03/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_03/status.json",
+    "sha256": "553673cfe499a409e0e8b101d0d13b4e5aa30e4ea7557480768931f1742bfbe0",
+    "bytes": 1210
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_03/stderr.txt",
+    "sha256": "e761aaadc21d62bac0987ac64214f096ff12373de2dffe2ff1547fe9ac5a7641",
+    "bytes": 1241
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_04/answer.json",
+    "sha256": "a344a51d84c1df8d9856fe3e27898a3f6e293ed5ab1ff73db9ef83fd6ff39ffd",
+    "bytes": 9505
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_04/events.jsonl",
+    "sha256": "ec7d23235ce1e1704b523719bace1c76df73f9644498b9d534d17bb36685906c",
+    "bytes": 10022
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_04/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_04/status.json",
+    "sha256": "a50f93767ba2a39066c7087a8ef22fe06a6a5a181c43a18e4cc3d6d7e5bf0297",
+    "bytes": 1212
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_04/stderr.txt",
+    "sha256": "12d27e46ce65bb4a7acefac5243b3bd5c85d829e59e1e7124d4929aefc9ee1eb",
+    "bytes": 804
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_05/answer.json",
+    "sha256": "7b8c4bfdfd5e63aa062efd237d93479dbef180b7becce5572a7c398f952537c7",
+    "bytes": 8670
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_05/events.jsonl",
+    "sha256": "0e93de81fbeeaf5eca36f67f7bad11caa7b1b7da7a28c534e7652648083dbd0d",
+    "bytes": 9187
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_05/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_05/status.json",
+    "sha256": "bfd250cb7b95a3f1ad70143be3dff18546d98b4bcd71ba244cf68e156cdcceee",
+    "bytes": 1212
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_05/stderr.txt",
+    "sha256": "a5b6f8320feeb7b0e0baf496ce02e1c4112fbb2162567e4049853e458f352b56",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_06/answer.json",
+    "sha256": "8c43131eee65b9d8601912d34319221a789ec0384624c713fd4c26de84c719d3",
+    "bytes": 9283
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_06/events.jsonl",
+    "sha256": "08d87725b0d0818687e47bf6e9c7f6fbb811dd25877ec3fd132ed8fc9d86c50f",
+    "bytes": 9800
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_06/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_06/status.json",
+    "sha256": "b73c9e6d188dbf4358413d6efb1cf99697251ef93bee5aeb29af9a3bf531d896",
+    "bytes": 1212
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_06/stderr.txt",
+    "sha256": "d8d93129bf9d47e828239f426005b0dfb8551272b3ab557ce84823f8e40df1e3",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_07/answer.json",
+    "sha256": "1f6826bf89adfaf15fe60c53d699f97536a4b390da7aeb1db9d34f4cb0a3db1f",
+    "bytes": 8747
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_07/events.jsonl",
+    "sha256": "1f188508d23743824b3071806245d5ee039d1ac38013181e3c2591bd59089543",
+    "bytes": 9260
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_07/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_07/status.json",
+    "sha256": "5790e1c469db82ba6ac4dea7362791ab36435dcad9a42588941eb422ca123754",
+    "bytes": 1206
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_07/stderr.txt",
+    "sha256": "f91303ffcac65c5f4e5355d3b73577ea31cfd60c47bb39e9b34d168546154e53",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_08/answer.json",
+    "sha256": "8614b045ee9528d86c26508e7358ddfcad0f8e65ba0246a4d78d8cd347505a72",
+    "bytes": 8239
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_08/events.jsonl",
+    "sha256": "7d741eef19974f911f25e45e3b7cfb7ab079521bf4657081ca2f67577251d2e0",
+    "bytes": 8756
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_08/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_08/status.json",
+    "sha256": "245b64935796490b0383d50ffee7c2e37f7f6badd3d83448d135c052f1405800",
+    "bytes": 1212
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_CA_08/stderr.txt",
+    "sha256": "2b9055e0444e4cbbfb7e1b827e6ef364c87952a7be681fc166954e0d370c60a0",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_01/answer.json",
+    "sha256": "5c79b5bfcf5950d405cc067e467f725d97a1649ba10a23ea9ad0a691825367f6",
+    "bytes": 9065
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_01/events.jsonl",
+    "sha256": "17f2427a0867d9a9caa47083062b9745e36d0e977378bc957daa658e2ac1fc24",
+    "bytes": 9578
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_01/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_01/status.json",
+    "sha256": "fbdbb8d2f37328c519816ae3a7317e59422d227936886ffdbe114dd8e108b179",
+    "bytes": 1206
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_01/stderr.txt",
+    "sha256": "9db7a475edb466bc9c7468b84529bb5b8886c8274cfb0adcd8b0550014e16aa4",
+    "bytes": 1241
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_02/answer.json",
+    "sha256": "a1e0be41c52a523b76c835f62ade88c962bdb3beaa336ac6335becdecccdb9cd",
+    "bytes": 9213
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_02/events.jsonl",
+    "sha256": "231ff4b93a14010c0f7d661ac2cc72c07e6ae06edfadb0d3564bd8f307a1f0cd",
+    "bytes": 9730
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_02/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_02/status.json",
+    "sha256": "428d46e6bb43ce21fa3108eb175454ef41e9262bf1041e9a27f9c16f00f86942",
+    "bytes": 1208
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_02/stderr.txt",
+    "sha256": "7dc10818cebe5a543c063c38dacbbe38efb4df4d05e64c2ef33961a490e21ae3",
+    "bytes": 1241
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_03/answer.json",
+    "sha256": "e2a58b088e6008d7b8e5a84d690cae6597a45d7a9ae2e5d1059e3b721cc20fad",
+    "bytes": 7980
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_03/events.jsonl",
+    "sha256": "81957b0fa2935e2474a2eb5dea0ccc499071c4cf636224bcfaee5ded2f1f03fb",
+    "bytes": 8497
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_03/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_03/status.json",
+    "sha256": "aa651f84048be1d80552649a92a6b9f70f749da6a6f52f8e27a2242e32f2c1f3",
+    "bytes": 1210
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_03/stderr.txt",
+    "sha256": "4df8613f513442a78e547a1dede8cfca0dc2e5ec4a08884baf914a3b6e0bb506",
+    "bytes": 1241
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_04/answer.json",
+    "sha256": "4e4c0017da1203b502d8dde2900c3a59ca9266a0e83061bd20d15e917ece8cb4",
+    "bytes": 8119
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_04/events.jsonl",
+    "sha256": "896f0de8f8253d1b3eef3ca225905f704a76a086fdc35ae183be0146e32838ad",
+    "bytes": 8632
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_04/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_04/status.json",
+    "sha256": "9feed9a9ac2b2fc04ea4ad83642b4452b2be35fd86b38803509dbf651d72c1a0",
+    "bytes": 1208
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_04/stderr.txt",
+    "sha256": "572ffbb9767eb407270bcda27d5321fe17cfb46418b2d07cf5f48c9dea63b2a0",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_05/answer.json",
+    "sha256": "5a2de95962f978a06b9a16055d2445300b1cd7590071c64403562cc03c15d307",
+    "bytes": 8494
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_05/events.jsonl",
+    "sha256": "9b48a3a60403d7b9c307d6c9a5a79c8e227dc9f456ba23655fbdd794d8c2e3c8",
+    "bytes": 9007
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_05/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_05/status.json",
+    "sha256": "bec3ba58c8c687b6ded76531c250c2452e0e0005ddba9bf57d2c9c2279e1f9e6",
+    "bytes": 1208
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_05/stderr.txt",
+    "sha256": "f161c0828adff1ceb0d63f1b751cf35aaa09835a9c7c7027eb2e984291ab6119",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_06/answer.json",
+    "sha256": "98c92566ea9eb9bfaf122adb9432247cc5c58902a0b93dc107e8bca3869bf4cd",
+    "bytes": 8324
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_06/events.jsonl",
+    "sha256": "192a2d9d7f4937109b74db7f539985631164ddc93501c27f811b0d938a108e37",
+    "bytes": 8853
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_06/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_06/status.json",
+    "sha256": "1c45b297ce30426d0e79a4e70c8cfa44052e82f7a301048fe7b22738e5763ec4",
+    "bytes": 1208
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_06/stderr.txt",
+    "sha256": "c0decf42319c3f8c9ee35f47a131e7fa722d96a890216577249dc838a9a0db00",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_07/answer.json",
+    "sha256": "4167761ca26f280db4190155b684fca008cf61da996cb35d1060594a4005216a",
+    "bytes": 8611
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_07/events.jsonl",
+    "sha256": "9845c13b312983d75cf582a06e7ce8282a5606d845228957b4754dd611b644d5",
+    "bytes": 9124
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_07/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_07/status.json",
+    "sha256": "d31d6746455c0ad4c1fadf0695aa7c45c4f8b81fde92894de3d22bef335eb54f",
+    "bytes": 1208
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_07/stderr.txt",
+    "sha256": "ed4fe8d1b3be44425af12152078d00346ab609a90b597adda44c2b691e1ecd27",
+    "bytes": 1241
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_08/answer.json",
+    "sha256": "ccf628613c9ec16dd6eeb1a6ae98f52e728e5bc370d22c4dbe75017ee4839d4a",
+    "bytes": 8106
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_08/events.jsonl",
+    "sha256": "c14410d1868ecdc3c33920ac4178a20b74c14ebbc6a010bfd6a7a92b3461326f",
+    "bytes": 8623
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_08/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_08/status.json",
+    "sha256": "f47508a6d17ec294f6ed9338edc0de25ad794137aaa0b266f5d1c3a207696cf8",
+    "bytes": 1210
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/confirmation_SA_08/stderr.txt",
+    "sha256": "fe067ee16367c688a7e390534db201c8126c98dab631c0d9b3690483798dd4e2",
+    "bytes": 804
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_CA_01/answer.json",
+    "sha256": "059057f8725cd5d42959b6de0c9d12798666cb808e70ef0a99dfa9afd81512ff",
+    "bytes": 5068
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_CA_01/events.jsonl",
+    "sha256": "ad2ce8cb08b834ca89ef32a7563fcd4253c1a309fb7476b4959e3278c8a65df4",
+    "bytes": 5485
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_CA_01/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_CA_01/status.json",
+    "sha256": "08c2c4fcc7afa8033b00834f15864a0de9b40330c71e683e2ad22ea706c1dd98",
+    "bytes": 1199
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_CA_01/stderr.txt",
+    "sha256": "71dd8b8bb43d7eb3e8731243e345ae79ceffbceb82377dfee08d256dffca722d",
+    "bytes": 1241
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_CA_02/answer.json",
+    "sha256": "691cc58c68b22fbcbe658f4d14fe023eab144be556c630ac41ba0b54cc4e594c",
+    "bytes": 4780
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_CA_02/events.jsonl",
+    "sha256": "59eb722fde45f89aba9945391dac6cd7fc2800b7d7694140d77b23d61921cf2d",
+    "bytes": 5197
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_CA_02/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_CA_02/status.json",
+    "sha256": "3a9012a38d401e282f8027e79399da607d54da1763ccb812c912e361eb995600",
+    "bytes": 1197
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_CA_02/stderr.txt",
+    "sha256": "c064c7a5c020d1788fb90e95d3ed486f5b85187df19bf63bacf74be71cd306c0",
+    "bytes": 804
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_SA_01/answer.json",
+    "sha256": "49440bc26bc11a86f62f8e817231b012531c393f119d2b7c8583f4219b2fc7b1",
+    "bytes": 4519
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_SA_01/events.jsonl",
+    "sha256": "9a955b5b468b9035163c23c29c394d02093078f2b9e49fef1a76d83675a95ed5",
+    "bytes": 4944
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_SA_01/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_SA_01/status.json",
+    "sha256": "d93e7b9cf8ff6217c943d5b6e08a4fd0d77f8b37813cd6777a09a2424b266770",
+    "bytes": 1197
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_SA_01/stderr.txt",
+    "sha256": "97879563b7e46c6bb6b0ec36bd0e504b2f172c3d5843e930927f9dd477763201",
+    "bytes": 1514
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_SA_02/answer.json",
+    "sha256": "4e6cade55868b524ab78a59986b26333884160dfd2e33b673ec1e3070befc2ca",
+    "bytes": 5301
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_SA_02/events.jsonl",
+    "sha256": "2057eac424ad2aa27a3b1d22604aec9ba9d0c2aeddcead67331ddce83f70f92b",
+    "bytes": 5718
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_SA_02/schema.json",
+    "sha256": "56b1952cb1b518ced748f3dd7858b3ab153f3fa9c6ea36c43f33fb4870839068",
+    "bytes": 936
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_SA_02/status.json",
+    "sha256": "5bb809d527de1feeacdf0b29f3d393ef0b1467069b97f3f12f9901db782de20f",
+    "bytes": 1199
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/discovery_SA_02/stderr.txt",
+    "sha256": "bf47d5890d6ee10ecdb969bf52e204baf043f5de024bb5bb738008f35d6c66f9",
+    "bytes": 951
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_01/answer.json",
+    "sha256": "5059488829a24fe31bc7d6ff4d8d1abb19ab3b7f490746df3c9489d15397bda4",
+    "bytes": 1741
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_01/events.jsonl",
+    "sha256": "dc14eae08ee179e03e92156476ee22d649a461750cfca79648945443898ed5a7",
+    "bytes": 2256
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_01/schema.json",
+    "sha256": "32a73916ff931134d0f8e55b03ecbebf0da8830d636c1cd4605d98c33096da1c",
+    "bytes": 954
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_01/status.json",
+    "sha256": "b75a1ff220dfc59f192763e39efa54eff0292da9d1afaa6b8b75d2268ee5951f",
+    "bytes": 1182
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_01/stderr.txt",
+    "sha256": "76d6f027d8c445854e382014ca3151a388c1531ab2b316c1124d7d716822a3b3",
+    "bytes": 951
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_02/answer.json",
+    "sha256": "f909acf593a247457f4011e59820d15854fff029e9b7fb224ef1d3331feec78e",
+    "bytes": 2115
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_02/events.jsonl",
+    "sha256": "9ceef2f42ddc3c4c8efdf81a89a3811599cac81dee02203360b35d4cc43e42ba",
+    "bytes": 2627
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_02/schema.json",
+    "sha256": "32a73916ff931134d0f8e55b03ecbebf0da8830d636c1cd4605d98c33096da1c",
+    "bytes": 954
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_02/status.json",
+    "sha256": "7579c1d27816e39cdfea14f5ca1e7d6c87090c77420186cf481187881801d344",
+    "bytes": 1177
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_02/stderr.txt",
+    "sha256": "23c1d6f4f444097688a15123db4334aaed70f230317f6b15189e99bd53f1e308",
+    "bytes": 1514
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_03/answer.json",
+    "sha256": "eb26eca73646b55cacf22a519b672115f1ae598227d570a7a071b06554cad862",
+    "bytes": 1903
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_03/events.jsonl",
+    "sha256": "60092adb9bd976cc6f7f0c89d0583cd4267e17c7e83f2187525dcd2a79b7e11c",
+    "bytes": 2414
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_03/schema.json",
+    "sha256": "32a73916ff931134d0f8e55b03ecbebf0da8830d636c1cd4605d98c33096da1c",
+    "bytes": 954
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_03/status.json",
+    "sha256": "1f6b0cc0ce0bb06cca6f77deebce575f4e5d63ff11ec883c35d372fb22666719",
+    "bytes": 1178
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_03/stderr.txt",
+    "sha256": "2017c56d73032e8860fa636ce2d85ac24ba2dc07e539e7180d1a968c91960e52",
+    "bytes": 1094
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_04/answer.json",
+    "sha256": "a11f9bb7fcf0c9e98b41558535959056f5750f964488247041da17b088784c66",
+    "bytes": 2107
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_04/events.jsonl",
+    "sha256": "adfd4b76e524f2fa9cfaba7bfdbe67d1fb1f51dfe47aaeb7f0df7f7f4fea5acf",
+    "bytes": 2618
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_04/schema.json",
+    "sha256": "32a73916ff931134d0f8e55b03ecbebf0da8830d636c1cd4605d98c33096da1c",
+    "bytes": 954
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_04/status.json",
+    "sha256": "758f8083ff8b260974cd66a3366ea6192820781465fb4843315aad538ec3f7cf",
+    "bytes": 1179
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_04/stderr.txt",
+    "sha256": "3c8a8ca49d00cb06bf23810dc6e52fb070f2920d9658f6e6d53db19984541d65",
+    "bytes": 2235
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_05/answer.json",
+    "sha256": "d75d334f8d56e2009bf3f631b5bbd530d24b923d8e4dad4c7473ec8a99c9f2ef",
+    "bytes": 1121
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_05/events.jsonl",
+    "sha256": "a7d2d44554152939bfbbe070f77f846d55d7b7f8222aa39bfb6540bbf4d3132b",
+    "bytes": 1552
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_05/schema.json",
+    "sha256": "32a73916ff931134d0f8e55b03ecbebf0da8830d636c1cd4605d98c33096da1c",
+    "bytes": 954
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_05/status.json",
+    "sha256": "2c55cc1841fa3d38ca6568de7183fc761a22fd497cc168ad563eaf503bb5c4bd",
+    "bytes": 1178
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/repair_05/stderr.txt",
+    "sha256": "c68674ef5fe4714f0fdbc2a523170c1c46b74abfb7e54ab670d08c2d1549c56e",
+    "bytes": 804
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/select_checks/answer.json",
+    "sha256": "cdb26f9a20b9f5f66f479fd595711ed143a902c12bd67af2c63e9400ff6e9a64",
+    "bytes": 4641
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/select_checks/events.jsonl",
+    "sha256": "a4be510217c88139d1dd99dafd6ff061670dbc41d62f62f3d679626826d961a6",
+    "bytes": 5156
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/select_checks/schema.json",
+    "sha256": "9caf930df2d06642b1c151cf25c05f937356611eb011f5248eef05f2a5b1b706",
+    "bytes": 1672
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/select_checks/status.json",
+    "sha256": "bbf24f96ec9f739e4c06bc90da07d3d8829fdad6ba7045a7ae79a588a9ca4a44",
+    "bytes": 1193
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/raw/select_checks/stderr.txt",
+    "sha256": "1e15fea8678fa1125019c9221afa6b665c5c4b3ffa21bffa78605e869b98b715",
+    "bytes": 804
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/report.md",
+    "sha256": "610bdf2e4556c3eb7a1d0690ac7f1828128c176de9d99ef431589c003f5ef990",
+    "bytes": 28095
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/batch_bootstrap.csv",
+    "sha256": "118b5e456d3d75311fccf20c911197cbe8c2d825c025eab6aef8a2785d6791eb",
+    "bytes": 194
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/batch_fidelity.csv",
+    "sha256": "17ed7271e4e3507b77f97b6a19c645603c353f5b2111a6313e3d6eab9379fe40",
+    "bytes": 324
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/call_pattern.csv",
+    "sha256": "84916351387f45b45bff4e9d3ece00eb4d0df21d60a0e27ed56544b072f790c7",
+    "bytes": 210
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/coding_oracle_audit.csv",
+    "sha256": "ca564c6b93957d8d880358d5d9ec9bb0f427a6480a8117fdc383c1c072feeb9d",
+    "bytes": 2617
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/conditional_implications.csv",
+    "sha256": "95bd7ffdc0d0102d1f5d62ec3fd4654456ae94619facf4c4e10d09f746d35c27",
+    "bytes": 249
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/exact_distribution_checks.csv",
+    "sha256": "eb9dafd4232b80a2d5c2d35e91b945210d5ab12043120ae4c58ab6a42ead2208",
+    "bytes": 381
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/exact_operating_rates.csv",
+    "sha256": "42e8412d1b8ff9cab37f0e60cddc760da151b59f494f6d02713f442420c64fd0",
+    "bytes": 1128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/explicit_premise_ppc.csv",
+    "sha256": "81bf16800859e5f8f304ab65814240c5700ddaa345b1f74fe647e34b21ade3e6",
+    "bytes": 184698
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/explicit_premise_rates.csv",
+    "sha256": "eee40be548ef41c83b99436d06bab1125a6b71cd06773b8a4af55563a9844c5c",
+    "bytes": 240
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/joint_kernel.csv",
+    "sha256": "cb888b0fc192be59d7ee6cd7ae1e8cd80bac3579ab6200c1203bc77c6c426e39",
+    "bytes": 728
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/measurement_sensitivity.csv",
+    "sha256": "36b6383e8c4cf484c93f59f8b848782133ea1938bb52a3b9723c1a4b89d88b66",
+    "bytes": 2387
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/missingness.csv",
+    "sha256": "ea9a7bdcfeb9ef8cf0e465142976b844f3ebbfaf0ab2e6bd8e95b584d6176575",
+    "bytes": 71
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/ppc_scores.csv",
+    "sha256": "f437e41c1f4b0b262b763fccc214cee5ecfa2c0db71d33b19a92b9f6c697714a",
+    "bytes": 2058070
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/rejection_rates.csv",
+    "sha256": "0e4b2af9946aa2e87eb103a801f8d026f42a25cac9f73224a1c91bd4039b43ca",
+    "bytes": 1712
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/sampling_fidelity.csv",
+    "sha256": "2d9d6253e1a56bf20ebc72b4a6ccd0fbedc9a569cb1d64545c4a5a9078b7ee32",
+    "bytes": 291
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/strict_missingness.csv",
+    "sha256": "760a17190f11d935c83c1809009f1ac8c6e2737e95fc0b035246f36af3806213",
+    "bytes": 72
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/template_equivalence.csv",
+    "sha256": "0f07f51d915407089b944d4fa1a489b526338cb559639045ec529274167786cc",
+    "bytes": 99
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/textual_ppc.csv",
+    "sha256": "badccff23a2b237e36d9471798008496e96c90df7a11b3917091a0b29f6f2cb9",
+    "bytes": 3003
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/results/worked_examples.csv",
+    "sha256": "f2af5abc8394e5fbb62187fc89f0c3d1a537c2964b854011c42bc6140896263d",
+    "bytes": 2963
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/scripts/analyze.R",
+    "sha256": "d9fb5929da42cfbe919c1fe747c37dbf3815de18ee93f1c4e660bd911711cc65",
+    "bytes": 14038
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/scripts/build_report.py",
+    "sha256": "998a239d804572905cf8d12a8e4b890d58ec92126951b493aee021b32c0af345",
+    "bytes": 30056
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/scripts/code_novel.py",
+    "sha256": "736d7b903927b96f084a29dc64768c0bc442766ebb822ce65103900ab08eff52",
+    "bytes": 7072
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/scripts/oracle.R",
+    "sha256": "4d635169d9f113cca4df4490b9bb76ec22b2a5919163070cc23a8e96320690f1",
+    "bytes": 9042
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/scripts/repair_measurement.py",
+    "sha256": "1a6f6811782760e39134e04c39eb76bd5e05aead05bf906e1546129017da59df",
+    "bytes": 5199
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/scripts/run_novel.py",
+    "sha256": "02ea76efa873668563220cd4fe15cb99e00c3e96d5b1e135b3cd2415416b087f",
+    "bytes": 8100
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/scripts/verify_run.py",
+    "sha256": "c68d9834938125cdc5bb425a1e258f2d5f3720573fcbf35726c3506bb2850385",
+    "bytes": 5064
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/adjudication.json",
+    "sha256": "1fe2e18b0080e1d312dfa379889ea71be7313b5e2d7d243679f98fab261557f5",
+    "bytes": 13503
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/adjudication.md",
+    "sha256": "ba8f807254bcfebbba7ec2854ae6a7cb4e91a4f70b3f9b86819c4a6ae741f65a",
+    "bytes": 2948
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/analysis.log",
+    "sha256": "286026f13358d8bd30c61d3f8d8fcd64f16472a38d95d1d5f1905f7c3a86295a",
+    "bytes": 380
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/final_verification.md",
+    "sha256": "f0da90356151095ff9ec103ef625b6c951f88b337363b4c256a2bdfcdf2c4ee7",
+    "bytes": 1255
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/independent_coding_agreement.csv",
+    "sha256": "94ecb6f34cc9d4a6af84cc234c10a7dd3bc2471ec5d540024adf413b5e609df9",
+    "bytes": 4128
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/pdf_qa.json",
+    "sha256": "a6c77197b7d4d56b5943eb2abc3e28447643ae903162a7b8ad33ac1947fbda40",
+    "bytes": 627
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/pdf_text.txt",
+    "sha256": "05c687755bacd6b7ceb0c51bbd9ff773af6505b51d610fbe7740f4e6bb11ed23",
+    "bytes": 33163
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/render.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/rendered_final/page-1.png",
+    "sha256": "093be2889d1f60e2f824b0337aa618f4cce7ba379b4e6ca019510b4d4357c609",
+    "bytes": 240811
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/rendered_final/page-2.png",
+    "sha256": "b023754c6841dd95188b26385dd65697b14abfda86e85ac5c52c42b50d066329",
+    "bytes": 237597
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/rendered_final/page-3.png",
+    "sha256": "c455c5dbb320146a7c1230539376b3fc55bcb5c59f1f7e6f56ff4259dc0ac356",
+    "bytes": 231524
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/rendered_final/page-4.png",
+    "sha256": "af27af1ff3964ea304f0659a47bb4f9e9393a51716b2271d6f3864faeb3eb847",
+    "bytes": 232831
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/rendered_final/page-5.png",
+    "sha256": "6598967a1dc1fd7d7fb409239fad3609e18f4e23caa00273e774e0022c6348e7",
+    "bytes": 187692
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/rendered_final/page-6.png",
+    "sha256": "8c6eae8a4276fff88102cd9c721fda100f0d328b5b77ccd355891a0bc60c9c83",
+    "bytes": 109525
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/rendered_final/page-7.png",
+    "sha256": "853339eddb82e944a135f505532bd3aeb98c2043e2ced007bdbd94aaef349ccc",
+    "bytes": 186093
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/rendered_final/page-8.png",
+    "sha256": "fe0435b17b727aec16da9473afb1e9008d25312bd03ddbceab8dd252e82f4b5b",
+    "bytes": 300398
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/rendered_final/page-9.png",
+    "sha256": "f8e5dce4bd0fa5f21104083964fef32e708581040f9e69bb3648662f042c8baf",
+    "bytes": 263232
+  },
+  {
+    "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/verification/summary.json",
+    "sha256": "cc7242934b3e9fbc4d8b7779b558f04eb8b940e4096d842b6f41505fb71503ad",
+    "bytes": 784
+  }
+]

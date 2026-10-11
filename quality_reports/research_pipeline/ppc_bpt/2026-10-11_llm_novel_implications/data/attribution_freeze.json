@@ -1,0 +1,7 @@
+{
+  "frozen_at_utc": "2026-10-11T12:05:46.672787+00:00",
+  "status": "SECONDARY_ATTRIBUTION_AUDIT; requested by independent probability reviewer before evaluation",
+  "comparator": "Templates using explicit premise public_note differs from actual decision with probability .05. K discordances in n12 worlds follows Binomial(12,.05). Exact upper-tail PPC. Same null fundamentals supplied to LLM, no novel implication needed.",
+  "purpose": "Avoid claiming AI novelty from beating old templates with less information. Show whether documentary detection is already achieved by checking a premise stated in prompt.",
+  "reporting": "Added comparator, never replace primary or secondary joint tests. Its good performance cannot prove absence of AI benefit elsewhere."
+}

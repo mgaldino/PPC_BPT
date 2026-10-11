@@ -1,0 +1,351 @@
+{
+  "schema_version": "1.0",
+  "adjudication_id": "carbon-novel-implications:20261011:technical-audit",
+  "source": {
+    "reviewed_artifact": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/protocol.md",
+    "sha256": "feaeb91baac1dfb03128ba8996fe952caeb84a714078c449c34ba7ac54c7d1ac",
+    "artifact_intact": true
+  },
+  "contract": {
+    "required": false,
+    "path": null,
+    "sha256": null,
+    "contract_id": null,
+    "artifact_sha256": null,
+    "status": null,
+    "stale": false
+  },
+  "review_sources": [
+    {
+      "review_id": "ID",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/identification_review.md",
+      "sha256": "394db93256635c47a6d7d9b7845bd5488d8dd0f647b1695cb3d179cd9de4ea8d"
+    },
+    {
+      "review_id": "SEL",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/selection_audit.md",
+      "sha256": "0e8c0398125097f15cd3da3631350bfaf978cc77afc11a09dd8d19844351fb54"
+    },
+    {
+      "review_id": "PROB",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/probability_review.md",
+      "sha256": "a031c58d9621d6644d1f4183d83d37ddebfc41fd73759650f8bad9ff859bbe76"
+    },
+    {
+      "review_id": "ATTR",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/attribution_review.md",
+      "sha256": "3a0045b311f4642821c2a82573adc8532ac9f496756785627c355dac50dcefa0"
+    },
+    {
+      "review_id": "CODE",
+      "path": "quality_reports/research_pipeline/ppc_bpt/2026-10-11_llm_novel_implications/agents/independent_coding_review.md",
+      "sha256": "2dc24f15be36d8051fe312b7f4deb1088529c754d3d6c22435c4d485d6d2fc9c"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "F01",
+      "source_review": "ID",
+      "quoted_finding": "A hipótese deve ser comum aos 12 mundos do conjunto.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "scripts/oracle.R",
+        "scripts/analyze.R"
+      ],
+      "defect_evidence": [
+        "A mistura .6/.4 é feita fora do produto multinomial."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "A mistura .6/.4 é feita fora do produto multinomial.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Preservado H comum; verificações independentes de massas passaram."
+    },
+    {
+      "finding_id": "F02",
+      "source_review": "ID",
+      "quoted_finding": "Trocar SA/CA não cria necessariamente uma falha fora da classe do modelo.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "data/oracle_rules.json",
+        "report.md seções1,6"
+      ],
+      "defect_evidence": [
+        "f1<=1.5f0 e poder<=1.5tamanho."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "f1<=1.5f0 e poder<=1.5tamanho.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Mantido como controle de discriminação; nenhuma atribuição de ganho por esse defeito."
+    },
+    {
+      "finding_id": "F03",
+      "source_review": "SEL",
+      "quoted_finding": "A exclusão de SA02_02 por redundância perde uma consequência pública distinta.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "PARTIAL",
+      "source_locations": [
+        "raw/select_checks/answer.json",
+        "data/secondary_freeze.json"
+      ],
+      "defect_evidence": [
+        "Wpub=Wint XOR C contém uma etapa adicional e não é função de choque e Wint."
+      ],
+      "refuting_evidence": [
+        "A seleção primária continua admissível; a contestação não justifica substituí-la."
+      ],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "Wpub=Wint XOR C contém uma etapa adicional e não é função de choque e Wint.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Preservado primário; análise secundária exploratória separada."
+    },
+    {
+      "finding_id": "F04",
+      "source_review": "PROB",
+      "quoted_finding": "Codificação de canal não exige declarar a constância da outra dimensão.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "data/coded.csv",
+        "data/measurement_audit.csv"
+      ],
+      "defect_evidence": [
+        "44 códigos unknown estritos, 41 canais diretos e 3 inferências do desenho na correção."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "44 códigos unknown estritos, 41 canais diretos e 3 inferências do desenho na correção.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Respostas originais preservadas; recodificação cega, flags e sensibilidade8atribuições+exclusão."
+    },
+    {
+      "finding_id": "F05",
+      "source_review": "PROB",
+      "quoted_finding": "Dirichlet .5 por célula não é a mesma prior projetada de 8 para 4 células.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "scripts/analyze.R",
+        "report.md seção6"
+      ],
+      "defect_evidence": [
+        "Agregar dois componentes .5 resulta em parâmetro1."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "Agregar dois componentes .5 resulta em parâmetro1.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Sensibilidades declaradas separadas e não interpretadas como efeito isolado do check."
+    },
+    {
+      "finding_id": "F06",
+      "source_review": "PROB",
+      "quoted_finding": "A taxa de alarme do kernel empírico é elevada sob o oráculo correto.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "results/exact_operating_rates.csv"
+      ],
+      "defect_evidence": [
+        "Taxas exatas .129485236 e .213651121."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "Taxas exatas .129485236 e .213651121.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Resultado negativo relatado; não chamar poder alto de melhora calibrada."
+    },
+    {
+      "finding_id": "F07",
+      "source_review": "ATTR",
+      "quoted_finding": "A falha documental pode ser detectada por premissa explícita sem implicação nova.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "results/explicit_premise_rates.csv",
+        "report.md seção6"
+      ],
+      "defect_evidence": [
+        "25 alarmes nulos e 1000 detecções; premissa Bin(12,.05) já no prompt."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "25 alarmes nulos e 1000 detecções; premissa Bin(12,.05) já no prompt.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Baseline adicionado antes da avaliação; nenhum ganho exclusivo atribuído à IA."
+    },
+    {
+      "finding_id": "F08",
+      "source_review": "ATTR",
+      "quoted_finding": "C0 não tem um teste para novos observáveis e C+ reutiliza os estados IA.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "protocol.md",
+        "results/template_equivalence.csv"
+      ],
+      "defect_evidence": [
+        "C0 não especificado;128 estados iguais em L/C+."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "C0 não especificado;128 estados iguais em L/C+.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Comparações rotuladas como cobertura e ablação de representação, não descoberta independente por templates."
+    },
+    {
+      "finding_id": "F09",
+      "source_review": "PROB",
+      "quoted_finding": "Uma divergência pública em cada chamada é incompatível com boa fidelidade demonstrada ao amostrador pedido.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "results/batch_fidelity.csv",
+        "results/call_pattern.csv"
+      ],
+      "defect_evidence": [
+        "16 de 16 chamadas têm 1 erro/8; referência exploratória 1.374e-9."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "16 de 16 chamadas têm 1 erro/8; referência exploratória 1.374e-9.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Padrão compatível com quota; não afirmar conhecer processo interno; não confundir bootstrap degenerado comcerteza."
+    },
+    {
+      "finding_id": "F10",
+      "source_review": "ATTR",
+      "quoted_finding": "As taxas de referência não são condicionais à calibração IA.",
+      "type": "method_or_scope",
+      "severity": "minor",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "report.md seção1 ecaptionTabela8"
+      ],
+      "defect_evidence": [
+        "Oráculo e check da premissa usam probabilidades estipuladas."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "Oráculo e check da premissa usam probabilidades estipuladas.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Rótulo corrigido para restringir condicionalidade aos kernels IA."
+    },
+    {
+      "finding_id": "F11",
+      "source_review": "ATTR",
+      "quoted_finding": "Benefício incremental em iguais informações e recursos não foi identificado.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "CONFIRMED",
+      "source_locations": [
+        "report.md seções6,7"
+      ],
+      "defect_evidence": [
+        "Não houve braço independente humano/template com iguais recursos de descoberta."
+      ],
+      "refuting_evidence": [],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "Não houve braço independente humano/template com iguais recursos de descoberta.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Limite de inferência explicitado; ausência de superioridade demonstrada não equivale a inutilidade geral."
+    },
+    {
+      "finding_id": "F12",
+      "source_review": "CODE",
+      "quoted_finding": "Divergência entre documentos deve tornar ambas as decisões desconhecidas.",
+      "type": "method_or_scope",
+      "severity": "major",
+      "scientific_dimension": "validation",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "agents/independent_coding.csv",
+        "data/coded_analysis.csv"
+      ],
+      "defect_evidence": [],
+      "refuting_evidence": [
+        "Cada documento contém decisão separadamente legível."
+      ],
+      "mechanical_checks": [
+        "Scripts e saídas preservadas, com revisão independente."
+      ],
+      "reasoning": "Cada documento contém decisão separadamente legível.",
+      "proposed_fix_assessment": "safe",
+      "disposition": "Contradição interdocumental preservada como observação do canal de comunicação."
+    }
+  ],
+  "summary": {
+    "total": 12,
+    "confirmed": 10,
+    "partial": 1,
+    "refuted": 1,
+    "unresolved": 0,
+    "held_decisions": 0
+  },
+  "adjudication": {
+    "verdict": "READY_FOR_IMPLEMENTATION",
+    "checked_at": "2026-10-11T12:25:27.635584+00:00",
+    "reasons": [
+      "Adjudicação do protocolo e validação técnica, sem revisão transformativa do manuscrito.",
+      "Correções seguras já implementadas; limites mantidos no relatório.",
+      "A questão científica futura do benefício incremental permanece aberta, sem bloquear a entrega deste experimento."
+    ]
+  }
+}

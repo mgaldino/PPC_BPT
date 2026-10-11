@@ -1,0 +1,36 @@
+id,shock,internal_support,public_support,notes
+BLIND_055,competitive,1,1,"Ganho competitivo reduzido de 12 para 2, carga alternativa mantida em 12. Memo: continues to support. Nota: continued support. A referência a alternative-burden rationale não foi usada para inferir a decisão."
+BLIND_152,regulatory,0,0,"Carga alternativa reduzida de 12 para 2, ganho competitivo mantido em 12. Memo: withdrawn its support. Nota: no longer supports."
+BLIND_129,regulatory,0,0,"Aviso revisou a carga alternativa para 2. Memo: discontinue its endorsement. Nota: no longer endorses. O ganho competitivo não é mencionado, portanto sua constância não pode ser verificada neste texto."
+BLIND_095,regulatory,1,1,"Aviso reduz a carga alternativa sem indicar seu novo valor, mantendo o ganho competitivo em 12. Memo: maintain its endorsement. Nota: continues its support."
+BLIND_046,competitive,1,1,Atualização reduz o benefício competitivo para 2 e mantém a carga alternativa em 12. Memo: continues its endorsement. Nota: continues to endorse.
+BLIND_082,regulatory,0,0,Aviso reduz a carga alternativa para 2 e mantém o ganho competitivo em 12. Memo: withdraw its support. Nota: withdrawn its support.
+BLIND_141,competitive,1,1,Aviso reduz o ganho competitivo de 12 para 2 e mantém a carga alternativa em 12. Memo: manter o apoio. Nota: mantemos nosso apoio.
+BLIND_076,regulatory,0,0,"Aviso reduz a carga alternativa para 2. Memo: decided not to support. Nota: withdrawn its support. O outro benefício privado é dito inalterado, mas não é nomeado como competitivo. O rótulo suprimido não foi utilizado."
+BLIND_026,competitive,0,1,"Avaliação reduz o ganho competitivo de 12 para 2. Memo: withdraw support. Nota: continues to support. Contradição explícita preservada. A carga alternativa não é mencionada, portanto sua constância não pode ser verificada."
+BLIND_058,regulatory,0,0,"Aviso reduz a carga alternativa para 2. Memo: withdraw support. Nota: withdrawn support. O ganho competitivo não é mencionado, portanto sua constância não pode ser verificada. O rótulo suprimido não foi utilizado."
+BLIND_137,competitive,0,1,Aviso reduz o ganho competitivo de 12 para 2 e mantém a carga alternativa em 12. Memo: retirar o apoio. Nota: mantemos nosso apoio. Contradição explícita preservada.
+BLIND_130,competitive,0,0,"Aviso reduz o ganho competitivo de 12 para 2 e deixa a carga alternativa inalterada, sem informar seu valor. Memo: discontinue support. Nota: no longer supports. O rótulo suprimido não foi utilizado."
+BLIND_159,competitive,1,1,Aviso reduz o ganho competitivo de 12 para 2 e mantém a carga alternativa em 12. Memo: manter o apoio. Nota: mantemos nosso apoio.
+BLIND_008,competitive,0,0,Aviso reduz o ganho competitivo de 12 para 2 e mantém a carga alternativa em 12. Memo: retirar o apoio. Nota: retiramos nosso apoio.
+BLIND_025,regulatory,0,0,"Aviso reduz a carga alternativa para 2. Memo: withdrew its support. Nota: no longer supports. O ganho competitivo não é mencionado, portanto sua constância não pode ser verificada."
+BLIND_033,competitive,1,1,"Ganho competitivo cai de 12 para 2 e carga alternativa permanece em 12. Memo e nota: maintain support. A dimensão reduzida é explícita, mas o memo curto não identifica aviso, datas ou caráter privado."
+BLIND_109,regulatory,0,1,"Carga alternativa cai de 12 para 2 e ganho competitivo permanece em 12. Memo: withdrew support. Nota: continue supporting. Contradição explícita preservada. A dimensão reduzida é explícita, mas o memo curto não identifica aviso, datas ou caráter privado."
+BLIND_030,competitive,1,1,Aviso revisa o ganho competitivo para 2 e mantém a carga alternativa em 12. Memo: continues to endorse. Nota: continues to support.
+BLIND_019,competitive,0,0,"Aviso reduz o ganho competitivo de 12 para 2. Memo: decided not to support. Nota: no longer supports. A carga alternativa não é mencionada, portanto sua constância não pode ser verificada."
+BLIND_132,regulatory,0,0,Aviso reduz a carga alternativa de 12 para 2 e mantém o ganho competitivo em 12. Memo: not to continue supporting. Nota: ended its support.
+BLIND_039,competitive,0,0,Aviso reduz o ganho competitivo para 2 e mantém a carga alternativa em 12. Memo: decided not to support. Nota: withdrawn its support.
+BLIND_108,regulatory,0,0,Aviso reduz a carga alternativa de 12 para 2 e mantém o ganho competitivo em 12. Memo: retirar o apoio. Nota: retiramos nosso apoio.
+BLIND_112,regulatory,0,0,"Aviso reduz a carga alternativa para 2. Memo: withdraw support. Nota: no longer supports. O ganho competitivo não é mencionado, portanto sua constância não pode ser verificada."
+BLIND_110,regulatory,1,0,Aviso reduz a carga alternativa de 12 para 2 e mantém o ganho competitivo em 12. Memo: manter o apoio. Nota: retiramos nosso apoio. Contradição explícita preservada.
+BLIND_099,regulatory,1,1,"Aviso reduz a carga alternativa para 2. Memo: final decision was to continue supporting, apesar do payoff negativo. Nota: continues to support. Decisão explícita prevalece sobre o payoff. O ganho competitivo não é mencionado."
+BLIND_148,regulatory,0,0,Aviso reduz a carga alternativa de 12 para 2 e mantém o ganho competitivo em 12. Memo: ended its support. Nota: no longer supports.
+BLIND_021,competitive,0,0,Aviso reduz o ganho competitivo de 12 para 2 e mantém a carga alternativa em 12. Memo: retirar o apoio. Nota: retiramos nosso apoio.
+BLIND_117,competitive,0,0,Aviso reduz o ganho competitivo de 12 para 2. Memo: decided not to support. Nota: no longer supports. A carga alternativa não é mencionada. A referência a competitive-advantage assessment não foi usada para inferir a decisão.
+BLIND_136,regulatory,0,0,Aviso reduz a carga alternativa de 12 para 2 e mantém o ganho competitivo em 12. Memo: retirar o apoio. Nota: retiramos nosso apoio.
+BLIND_162,competitive,1,1,Aviso reduz o ganho competitivo de 12 para 2 e mantém a carga alternativa em 12. Memo: retains its endorsement. Nota: retains its endorsement.
+BLIND_085,regulatory,0,1,Aviso reduz a carga alternativa para 2. Memo: end its support. Nota: continues to endorse. Contradição explícita preservada. O ganho competitivo não é mencionado. O rótulo suprimido não foi utilizado.
+BLIND_005,regulatory,1,1,Aviso reduz a carga alternativa para 2 e mantém o ganho competitivo em 12. Memo: continues to support. Nota: remains supportive. A referência a competitive-advantage assessment não foi usada para inferir a decisão.
+BLIND_103,unknown,-1,1,Memo declara indisponíveis o registro do aviso e o da decisão. A nota anuncia continued support. O apoio público explícito não foi convertido em decisão interna.
+BLIND_029,competitive,0,0,"Aviso reduz o ganho competitivo para 2 e mantém a carga alternativa em 12. Memo: decided not to support, apesar do payoff positivo. Nota: no longer supports. Decisão explícita prevalece sobre o payoff. O rótulo suprimido não foi utilizado."
+BLIND_086,competitive,1,1,Atualização comercial reduz o ganho competitivo para 2 e mantém a carga alternativa em 12. Memo: maintains its endorsement. Nota: continues its support.

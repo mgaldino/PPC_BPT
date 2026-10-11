@@ -1,0 +1,48 @@
+{
+  "type": "object",
+  "properties": {
+    "model_id": {
+      "type": "string"
+    },
+    "worlds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "memo": {
+            "type": "string"
+          },
+          "public_note": {
+            "type": "string"
+          },
+          "candidate_implication": {
+            "type": "string"
+          },
+          "derivation": {
+            "type": "string"
+          },
+          "extra_assumption": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "memo",
+          "public_note",
+          "candidate_implication",
+          "derivation",
+          "extra_assumption"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "model_id",
+    "worlds"
+  ],
+  "additionalProperties": false
+}

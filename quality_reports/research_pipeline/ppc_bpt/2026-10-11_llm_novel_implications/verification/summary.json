@@ -1,0 +1,26 @@
+{
+  "status": "PASS_STRUCTURAL_AND_PROVENANCE_NOT_HISTORICAL_VALIDATION",
+  "cli_calls": 40,
+  "tool_events": 0,
+  "discovery_worlds": 16,
+  "confirmation_worlds": 128,
+  "oracle_datasets": 3000,
+  "oracle_worlds": 36000,
+  "oracle_textual_worlds": 36,
+  "independent_pairs": 35,
+  "independent_fields": 105,
+  "independent_fields_agree": 105,
+  "oracle_fields_agree": 108,
+  "template_worlds_agree": 128,
+  "ppc_scores": 18000,
+  "strict_unknown_channels": 44,
+  "repaired_direct": 41,
+  "repaired_design_inference": 3,
+  "manuscript_unchanged": true,
+  "supplement_unchanged": true,
+  "pdf_path": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/output/pdf/piloto_carbono_implicacoes_novas_2026-10-11.pdf",
+  "usage": {
+    "input_tokens": 740385,
+    "output_tokens": 50457
+  }
+}

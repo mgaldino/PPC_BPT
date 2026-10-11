@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "pdf_sha256": "d91c455aaf6260f9a5c5f3ead3712af5e1de8853be90ffc57b01c512c5d88251",
+  "pages": 9,
+  "visual_inspection": "All nine final pages inspected at 100 dpi in rendered_final. Tables 1-8 and Figure 1 readable; no clipped cells or missing glyphs identified.",
+  "structural_checks": "PDF text extracted; word bounding boxes within physical page; final XeLaTeX log has no warnings.",
+  "scientific_scope": "Numerical/structural verification, not historical validation. Independent probability audit recalculated 18000 scores to within 1e-11.",
+  "checked_at_utc": "2026-10-11T12:29:57.388826+00:00"
+}

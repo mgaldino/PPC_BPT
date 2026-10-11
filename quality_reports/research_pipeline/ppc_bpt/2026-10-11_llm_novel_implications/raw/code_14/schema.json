@@ -1,0 +1,59 @@
+{
+  "type": "object",
+  "properties": {
+    "model_id": {
+      "type": "string"
+    },
+    "worlds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "shock": {
+            "type": "string",
+            "enum": [
+              "regulatory",
+              "competitive",
+              "unknown"
+            ]
+          },
+          "internal_support": {
+            "type": "integer",
+            "enum": [
+              -1,
+              0,
+              1
+            ]
+          },
+          "public_support": {
+            "type": "integer",
+            "enum": [
+              -1,
+              0,
+              1
+            ]
+          },
+          "explanation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "shock",
+          "internal_support",
+          "public_support",
+          "explanation"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "model_id",
+    "worlds"
+  ],
+  "additionalProperties": false
+}

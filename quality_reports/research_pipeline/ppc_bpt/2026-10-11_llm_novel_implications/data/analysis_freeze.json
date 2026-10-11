@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-10-11T11:58:59.805402+00:00",
+  "selection_sha256": "cdb26f9a20b9f5f66f479fd595711ed143a902c12bd67af2c63e9400ff6e9a64",
+  "primary_indicator": "joint (shock_type, internal_support), four cells; one selected check",
+  "primary_discrepancy": "negative log posterior predictive probability of the 4-cell count histogram, n=12, including multinomial coefficient; mixture over one common H",
+  "tail": "sum predictive probabilities of all histograms with discrepancy >= observed, exact enumeration",
+  "C0": "new indicator unspecified, not zero; no new-feature rejection test",
+  "kernel": "empirical confirmation frequencies within H; C+ exactly identical; no smoothing primary",
+  "sensitivity": "Dirichlet(.5,.5,.5,.5) posterior on simulator cell probabilities within H, posterior predictive Dirichlet-multinomial; oracle probabilities benchmark only",
+  "document_fidelity": "separate simulator fidelity diagnostic; not a newly discovered PPC because excluded by selector",
+  "exclusions": "Unknown shock or decision excluded from frequency kernel and reported. If target any unknown, no PPC for that dataset. No selected-check replacement or additional test based on faults."
+}
