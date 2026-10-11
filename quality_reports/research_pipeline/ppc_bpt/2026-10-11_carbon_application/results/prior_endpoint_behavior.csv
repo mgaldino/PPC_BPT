@@ -1,0 +1,5 @@
+"pi","rho","epsilon_SA","epsilon_CA","lambda_R","d_SA","d_CA","d_R","M0_prior_predictive_account","M0_prior_predictive_observed","M0_posterior_SA","M0_posterior_CA","M0_PPC_account_tail","M0_posterior_predictive_observed","M1_prior_predictive_account","M1_prior_predictive_observed","M1_posterior_SA","M1_posterior_CA","M1_posterior_HR","M1_PPC_account_tail","M1_posterior_predictive_observed","BF_HR_vs_old","rho_threshold_HR_majority","lambda_threshold_HR_majority","dR_threshold_HR_majority"
+0,0,0.15,0.1,0.65,0.9,0.9,0.9,0.1,0.09,0,1,0.1,0.09,0.1,0.09,0,1,0,0.1,0.09,6.5,0.133333333333333,Inf,Inf
+0,1,0.15,0.1,0.65,0.9,0.9,0.9,0.1,0.09,0,1,0.1,0.09,0.65,0.585,0,0,1,0.65,0.585,6.5,0.133333333333333,0,0
+1,0,0.15,0.1,0.65,0.9,0.9,0.9,0.15,0.135,1,0,0.15,0.135,0.15,0.135,1,0,0,0.15,0.135,4.33333333333333,0.1875,Inf,Inf
+1,1,0.15,0.1,0.65,0.9,0.9,0.9,0.15,0.135,1,0,0.15,0.135,0.65,0.585,0,0,1,0.65,0.585,4.33333333333333,0.1875,0,0

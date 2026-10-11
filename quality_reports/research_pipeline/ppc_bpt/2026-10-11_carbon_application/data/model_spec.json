@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-11",
+  "application": "Exxon endorsement episode, spring 2021",
+  "conditioning": "Public support on 2021-03-29 and the May insider-interview source design",
+  "observed_state": "account_denial",
+  "states": ["no_account", "account_no_denial", "account_denial"],
+  "primary_discrepancy": [0, 1, 1],
+  "parameter_origin": "Analyst judgments specified by the coordinating agent for this application; not human elicitation or frequency estimates",
+  "judgment_timing": "Retrospective judgments after reading the sources",
+  "q_definition": "P(McCoy-type reputational account | H,C), before the corporate response",
+  "d_definition": "P(formal corporate repudiation | reputational account,H,C)",
+  "sensitivity_interpretation": "Alternative fixed judgments; no uniform prior on the ranges",
+  "recoding_inconclusive": "Omit the joint likelihood for the interview account and subsequent repudiation; return to checkpoint priors, with no observed-account PPC",
+  "central": {
+    "pi": 0.5,
+    "rho": 0.2,
+    "epsilon_SA": 0.15,
+    "epsilon_CA": 0.1,
+    "lambda_R": 0.65,
+    "d_SA": 0.9,
+    "d_CA": 0.9,
+    "d_R": 0.9
+  },
+  "sensitivity": {
+    "pi": [0.25, 0.5, 0.715252751049199, 0.8],
+    "rho": [0.05, 0.1, 0.2, 0.3333333333333333, 0.5],
+    "epsilon_SA": [0.05, 0.1, 0.15, 0.2, 0.3, 0.4],
+    "epsilon_CA": [0.05, 0.1, 0.15, 0.2, 0.3, 0.4],
+    "lambda_R": [0.4, 0.5, 0.65, 0.8],
+    "d_R": [0.45, 0.6, 0.75, 0.9, 0.99]
+  },
+  "published_FC": {
+    "prior_db_SA_CA": 6,
+    "evidence_db_SA_CA": {"E1": -4, "E2": -3, "E3": 12, "E4": -7},
+    "origin": "Published author judgments, FC 2025 section 5"
+  },
+  "FC_completion_appendix": {
+    "favored_likelihood_anchors": [0.5, 0.65, 0.8, 0.95],
+    "observed_state": "1111",
+    "extra_assumption": "Conditional independence and invariance of item likelihoods across unobserved evidence histories",
+    "anchor_origin": "Analyst sensitivity values, not empirical estimates"
+  }
+}

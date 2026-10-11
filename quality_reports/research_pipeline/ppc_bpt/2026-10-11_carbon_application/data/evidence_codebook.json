@@ -1,0 +1,40 @@
+{
+  "application": "ExxonMobil, apoio ao imposto federal sobre carbono, primavera de 2021",
+  "coding_date": "2026-10-11",
+  "coding_status": "Codificação retrospectiva assistida por IA, conferida nas fontes primárias. Não é codificação cega nem observação direta da intenção corporativa.",
+  "conditioning": {
+    "id": "C",
+    "observed": "Apoio público da Exxon conhecido antes da entrevista e contexto de entrevista e seleção jornalística do relato",
+    "source_ids": ["F1", "F2"],
+    "value": 1,
+    "enters_likelihood": false
+  },
+  "observations": [
+    {
+      "id": "Q",
+      "value": 1,
+      "definition": "Registro de um diretor de relações governamentais que associa a utilidade comunicativa do apoio ao imposto à expectativa de inviabilidade da adoção",
+      "source_id": "F2",
+      "source_locator": "Seção Taxing carbon, e descrição da entrevista por Zoom realizada em maio",
+      "coding_rule": "Q=1 requer a ligação entre utilidade instrumental do apoio e inviabilidade esperada. Mera menção a reputação ou pessimismo isolado não basta.",
+      "alternative_coding": "Relato insuficiente para a ligação definida: marcar Q inconclusivo e excluir Q e a resposta dependente V desta atualização",
+      "unit": "Um episódio de entrevista de Keith McCoy. Notícias e republicações não são novas unidades."
+    },
+    {
+      "id": "V",
+      "value": 1,
+      "definition": "Desautorização formal da fala gravada, acompanhada de reafirmação da posição pública",
+      "source_id": "F3",
+      "source_locator": "Parágrafos de abertura e reafirmação do apoio ao preço do carbono",
+      "conditioning": "V só é modelado como resposta quando Q=1",
+      "coding_rule": "A crítica corporativa às falas é observada. Sua veracidade ou poder de refutação é um julgamento probabilístico separado."
+    }
+  ],
+  "sources": [
+    {"id":"F1","title":"Why ExxonMobil supports carbon pricing","author":"Darren W. Woods, ExxonMobil","date":"2021-03-29","url":"https://corporate.exxonmobil.com/news/viewpoints/supports-carbon-pricing","file":"sources/exxon_2021_03_29.html","role":"Condição de apoio público e contexto dos incentivos"},
+    {"id":"F2","title":"Inside Exxon's playbook","author":"Unearthed, reportagem originadora e entrevista gravada","event_date":"2021-05","publication_date":"2021-06-30","url":"https://unearthed.greenpeace.org/2021/06/30/exxon-climate-change-undercover/","file":"sources/unearthed_2021_06_30.html","role":"Q observado e contexto de produção/seleção do relato"},
+    {"id":"F3","title":"Our position on climate policy and carbon pricing","author":"Darren W. Woods, ExxonMobil","date":"2021-07-02","url":"https://corporate.exxonmobil.com/news/news-releases/statements/our-position-on-climate-policy-and-carbon-pricing","file":"sources/exxon_2021_07_02.html","role":"Contraditório observado V"},
+    {"id":"F4","title":"Bayesian reasoning for qualitative replication analysis: examples from climate politics","author":"Tasha Fairfield e Andrew Charman","year":2025,"url":"https://doi.org/10.1017/psrm.2025.16","file":"sources/fairfield_charman_2025.pdf","locator":"Seção 5, páginas 9–14","role":"Definições SA e CA, prior e pesos E1–E4 publicados"},
+    {"id":"F5","title":"Suplemento de Fairfield e Charman","year":2025,"url":"https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS2049847025000160/resource/name/S2049847025000160sup001.pdf","file":"sources/fairfield_charman_2025_supp.pdf","locator":"Apêndices A.3 e B.4","role":"Hipótese HR, distinção adoção/reputação e intervalos dos pesos publicados"}
+  ]
+}

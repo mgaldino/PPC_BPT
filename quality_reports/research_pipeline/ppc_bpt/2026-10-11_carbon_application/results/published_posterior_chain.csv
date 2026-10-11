@@ -1,0 +1,6 @@
+"stage","woe_db_sa_vs_ca","origin","source_location","cumulative_db_sa_vs_ca","odds_sa_vs_ca","probability_sa","probability_ca"
+"prior",6,"published_author_judgment","FC2025_p9",6,3.98107170553497,0.799239991086898,0.200760008913102
+"E1",-4,"published_author_judgment","FC2025_Section5",2,1.58489319246111,0.613136820153143,0.386863179846857
+"E2",-3,"published_author_judgment","FC2025_p12",-1,0.794328234724281,0.442688366237707,0.557311633762293
+"E3",12,"published_author_judgment","FC2025_p13",11,12.5892541179417,0.926412443882426,0.0735875561175735
+"E4",-7,"published_author_judgment","FC2025_p13",4,2.51188643150958,0.715252751049199,0.284747248950801

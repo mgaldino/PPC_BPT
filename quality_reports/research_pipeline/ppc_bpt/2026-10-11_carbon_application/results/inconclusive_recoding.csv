@@ -1,0 +1,6 @@
+"model","hypothesis","prior","scenario","posterior","joint_likelihood_omitted","observed_account_PPC"
+"M0","SA",0.5,"account_inconclusive_joint_record_omitted",0.5,TRUE,NA
+"M0","CA",0.5,"account_inconclusive_joint_record_omitted",0.5,TRUE,NA
+"M1","SA",0.4,"account_inconclusive_joint_record_omitted",0.4,TRUE,NA
+"M1","CA",0.4,"account_inconclusive_joint_record_omitted",0.4,TRUE,NA
+"M1","HR",0.2,"account_inconclusive_joint_record_omitted",0.2,TRUE,NA

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "method": "Independent direct algebra, without sourcing implementation functions",
+  "main_grid_rows": 14400,
+  "checked_numeric_values": 246087,
+  "checks": 115,
+  "maximum_absolute_error": 4.973799150320701e-14,
+  "source_fidelity": "Reviewed separately in agents/design_review.md and agents/source_assessment.md",
+  "scientific_status": "Numerical correctness conditional on explicit analyst judgments",
+  "reviewed_sha256": {
+    "data/model_spec.json": "df648bfa580ca8e3691257f51546b48638beced7891591e64df0311a882edd7e",
+    "data/evidence_codebook.json": "66a850f8777322b0adf7f977cf8c7211ec426b7efa8745d7668ef4845856ad8c",
+    "data/judgment_ledger.csv": "66b09806550cd6c63144f657be65d6c1fc9536493ec8c9b0e6dd0471ba4214a9",
+    "scripts/exact_bayes.R": "6ba9e0976f0a07daa8374b52053941ee9c2f211765d9a443f65272fbc2bbd6db",
+    "scripts/analyze_application.R": "e9dd421a4d5e78f6d4ffec3d1811d9a741d200bd791a393f7767d09cf7ca5f27",
+    "scripts/reproduce_published.R": "03f606c67bb7b792219b1a301dbaaca5d0932f38676b2f23b83534ea46a6cf7f",
+    "results/central_results.csv": "8cbfc52da7ac4dbb9253620591fccde69b6684cad7a515c02fbf16d844eeb6ea",
+    "results/central_kernel.csv": "7c8e1977a9aa7be2788c4c7c8f0c06581dc51f1b374b4b6a6c8661b62580ae7a",
+    "results/central_predictive_states.csv": "20025d00e5f1575ad66d4c37e916ace5a1f44fb03cfdf5840d0cfaa8c33352c9",
+    "results/central_posterior_calculation.csv": "6f902d2bf139de266502f9d50feacdedcc090c161ecfb733f5c06b215abfa1dc",
+    "results/sensitivity_full_grid.csv": "4f4796aff53057265fdfcc08ebd25c65600cf0ad4a2cbbb96225f005d9ec62d7",
+    "results/focal_sensitivity.csv": "3cd4c8b2649d39c8eef69dfa68fc65203bb42b94dca90eb158ab877308998beb",
+    "results/denial_sensitivity.csv": "4926d2fa8632d73bbe7fdd5c879e41e3fead58c9dd42df2456d576fd5e8ee30b",
+    "results/prior_endpoint_behavior.csv": "3e6a884559ec6db1e4604c52634cf6d3fa9b69f7ce12e3f6265299b1b90e3e5e",
+    "results/inconclusive_recoding.csv": "918a61d1947e0f2a2bcdb34817cba58df8c786e4e4d001d203ef883327aba658",
+    "results/majority_frontiers.csv": "fceb98b443464a86f6675ef7d487d0955f9483da6bc14bd0d8ec20d06a8030e6",
+    "results/FC_completion_all_states.csv": "202c9906dd4bd6cb06d10e00ce31663f9209cd9e3dbf049010d99e366aa00bc5",
+    "results/FC_completion_sensitivity.csv": "16c55893a5823185167c5331dc5bfede68d682340c75b4c73ae7c0c2d772560d",
+    "results/FC_completion_item_likelihoods.csv": "7501c317ecf6e47d0a519b6bf46081e2bb49d1433e0728d2351d08575e1977cf",
+    "agents/independent_audit.R": "7149981719a4708198790d781b564272c62e734a14b532352550e1edb7706eff",
+    "data/published_weights.csv": "721af49e3a1467de9ffc2e95724ca2c07c954b326c6b24d3e24a299f6eda0d5f",
+    "results/published_posterior_chain.csv": "2e8f5e6d63c3709aac122419dfa8e66ac4a0243700d42e5ea17b37d7c2e34c63",
+    "report.md": "c8235fa8d470bdd96dae8b8e2fb90209da3f05cf4c54dfffd798ecb1fe95659d"
+  },
+  "finalization_verification": {
+    "status": "PASS",
+    "unchanged_previous_audit_files": 19,
+    "changed_previous_audit_files": {
+      "scripts/reproduce_published.R": {
+        "previous": "451b9ebd846bc16771dcb6a7bb8dc21fbcd49a5cef59fddc4d0570293c0a222a",
+        "current": "03f606c67bb7b792219b1a301dbaaca5d0932f38676b2f23b83534ea46a6cf7f"
+      }
+    },
+    "published_weight_source_byte_identical_to_previous_package": true,
+    "published_chain_numeric_values_checked": 20,
+    "published_chain_max_abs_error": 2.4868995751603507e-14,
+    "main_grid_rerun": false,
+    "reason_main_grid_not_rerun": "All previously audited model, main analysis, main result and sensitivity files are byte-identical. Only published-weight input path changed in its reproduction script. The updated five-stage chain was independently checked.",
+    "report_text_review": "Read in full, approved scope and unchanged conclusions, new notation definitions correct."
+  }
+}

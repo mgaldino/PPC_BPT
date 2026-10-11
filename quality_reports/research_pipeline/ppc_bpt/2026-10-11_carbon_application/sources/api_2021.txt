@@ -1,0 +1,77 @@
+API Policy Principles on Carbon Pricing to Evaluate Government Policy Proposals
+Any government policies to price carbon should include complementary policies that support
+significant investments in innovation to develop technologies that lower the cost of GHG emissions
+abatement across the economy. API will engage policy makers so that the design of a potential
+approach would price carbon at the outset for all relevant GHG emissions from all relevant sectors
+and account accurately for the benefits, costs and amounts of GHG emissions, according to the
+following principles:
+    •   Goal – The goal of policies to put a price on carbon should be to achieve GHG emissions
+        reductions at the least cost to society, in order to meet the dual challenge of continued
+        economic growth while addressing the risks of climate change.
+    •   Scope of Coverage – Policies to put a price on carbon should be based on carbon-
+        equivalent emissions only on a GWP100 basis and should cover the widest scope of GHG
+        emissions US economy-wide as practically and economically achievable, including all
+        emitters.
+    •   Policy Duplication and Interoperability – If a price on carbon is introduced, it should
+        minimize the burden of duplicative regulations: by -either- preempting other duplicative
+        programs to reduce GHG emissions -or- being interoperable with these other policies, such
+        that there is minimal duplication of the price on carbon that consumers or emitters pay.
+    •   Setting the Ambition and Trajectory – API advocates that policy construct should be
+        phased in over time and that, ultimately, the carbon price should not exceed the marginal
+        cost of carbon emissions or the cost caused by an additional ton of carbon emitted into the
+        atmosphere.1
+    •   Rate or Cap Adjustments – The price on carbon or emissions cap should be adjusted
+        periodically through a defined, rational, and transparent process to meet GHG emissions
+        targets. Periodic rate adjustment should provide certainty for the economy and maintain the
+        integrity of the carbon pricing policy.
+    •   Uniform Treatment – A policy to put a price on carbon should ensure uniform cost of GHG
+        emissions on a CO2 equivalent basis throughout the economy.
+    •   Transparency for Consumers – The carbon pricing system should be designed so that
+        consumers have transparent incentives, based on actual GHG emissions if possible, to
+        reduce GHG emissions efficiently. With respect to transportation fuels, a government
+        policy-imposed carbon price should be disclosed at the point of retail sale.
+    •   Baseline – As applicable, the point in time reference or baseline against which future
+        targets for reducing GHG emissions are determined in the design of a policy to put a price
+        on carbon should be 2005. This is already the baseline for which US economy-wide policy
+        action has been determined in global climate negotiations.
+
+
+
+
+1
+ If a carbon pricing government policy uses the Social Cost of Carbon (SCC) to set a boundary on either a
+carbon price or a cap on emissions, it should adhere to the following criteria:
+     • Determined through a Notice and Comment Process.
+     • Based on transparent analyses (models, assumptions and inputs) that are subject to peer review.
+     • Calculated with discount rates of 3% and 7%, consistent with OMB Circular A-4.
+     • Based on a time horizon consistent with those most widely-used in integrated assessment models
+     • Account for US benefits as a share of global benefits.
+
+                                                    1
+•   Credits –
+    a. Accounting for net emissions. Credit should be provided for substances priced where
+       GHG emissions are captured or sequestered downstream of the point where the price
+       on carbon is assessed, such as for fossil fuels used as feedstocks in manufacturing
+       activities where the carbon is permanently stored.
+    b. Participation of parties. Allow any parties to generate emission reduction credits and
+       participate in the carbon pricing program to incentivize broad participation.
+    c. Credits. Allow for the trading of credits and their use in compliance.
+    d. Early action. Provide credit for early and/or voluntary actions.
+    e. Credit for other regulatory compliance. As applicable, credit should be granted for
+       compliance with other non-climate related regulations that produce a corollary benefit
+       of reducing GHG emissions.
+•   Global Carbon Markets – As applicable, allow for international trading in carbon mitigation
+    through interoperability with other carbon pricing regimes outside the US.
+•   Avoidance of Carbon Leakage – A policy regime to put a price on carbon should include a
+    WTO- compliant mechanism to prevent the movement, or “leakage,” of industry or trade
+    from the US that may create economic competitive disadvantages – and to prevent the
+    offshoring or outsourcing of GHG emissions that would negate overall global GHG
+    emissions reductions. A policy to put a price on carbon should be globally integrated so
+    that US entities have the incentive to reduce their carbon footprint on a worldwide basis
+    without being competitively disadvantaged.
+
+
+
+
+                                              2
+

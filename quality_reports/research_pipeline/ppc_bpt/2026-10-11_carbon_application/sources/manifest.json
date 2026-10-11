@@ -1,0 +1,99 @@
+[
+  {
+    "id": "exxon_2021_03_29",
+    "url": "https://corporate.exxonmobil.com/news/viewpoints/supports-carbon-pricing",
+    "accessed_at_utc": "2026-10-11T13:48:24.601060+00:00",
+    "final_url": "https://corporate.exxonmobil.com/news/viewpoints/supports-carbon-pricing",
+    "status": "archived",
+    "sha256": "9da8f2deaf34729aacb8aaf3c885f8a072a3413f4dabd293d2ad20528761105c",
+    "bytes": 132461
+  },
+  {
+    "id": "unearthed_2021_06_30",
+    "url": "https://unearthed.greenpeace.org/2021/06/30/exxon-climate-change-undercover/",
+    "accessed_at_utc": "2026-10-11T13:48:25.457712+00:00",
+    "final_url": "https://unearthed.greenpeace.org/2021/06/30/exxon-climate-change-undercover/",
+    "status": "archived",
+    "sha256": "e17144aa3d38d829bc260b8bdfc35d3057cc2f62e44aa0a78a091001dc49e543",
+    "bytes": 79535
+  },
+  {
+    "id": "exxon_2021_07_02",
+    "url": "https://corporate.exxonmobil.com/news/news-releases/statements/our-position-on-climate-policy-and-carbon-pricing",
+    "accessed_at_utc": "2026-10-11T13:48:27.810497+00:00",
+    "final_url": "https://corporate.exxonmobil.com/news/news-releases/statements/our-position-on-climate-policy-and-carbon-pricing",
+    "status": "archived",
+    "sha256": "2e6e6dfdae765719af6557cb755c2592e5f5828da42fa6036d83eacb31729dff",
+    "bytes": 109993
+  },
+  {
+    "id": "fairfield_charman_2025.pdf",
+    "status": "copied_preserved_source",
+    "original": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/sources/fairfield_charman_2025.pdf",
+    "sha256": "2704412515f982fc1bfa86b23b7cb3eee54a43fe67744a54405470b91a2c33ba",
+    "bytes": 401338
+  },
+  {
+    "id": "fairfield_charman_2025.txt",
+    "status": "copied_preserved_source",
+    "original": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/sources/fairfield_charman_2025.txt",
+    "sha256": "7f2e503dc7868db248ede43f16cc0792adf31648a12b448c6263524ea96a7ba5",
+    "bytes": 131788
+  },
+  {
+    "id": "fairfield_charman_2025_supp.pdf",
+    "status": "copied_preserved_source",
+    "original": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/sources/fairfield_charman_2025_supp.pdf",
+    "sha256": "a7278eb5f9b53241f6688a77c95d47932b57b6798435435fb87dcf68acf4b09c",
+    "bytes": 185926
+  },
+  {
+    "id": "fairfield_charman_2025_supp.txt",
+    "status": "copied_preserved_source",
+    "original": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/sources/fairfield_charman_2025_supp.txt",
+    "sha256": "15181518b50e2e83cdef3a32ab86c9826ddb1038b93df0be14651871cdd1ce5d",
+    "bytes": 25887
+  },
+  {
+    "id": "bp_2017.pdf",
+    "status": "copied_preserved_source",
+    "original": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/sources/bp_2017.pdf",
+    "sha256": "f2ce2c650fee59240daf8ae5947df195e628e950b453f3230b6b689866a34fed",
+    "bytes": 4870876
+  },
+  {
+    "id": "bp_2017.txt",
+    "status": "copied_preserved_source",
+    "original": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/sources/bp_2017.txt",
+    "sha256": "6548c87f0b0fe99200b1dd129fb3cf23e56dabc9871ab34f24a057ed112bf47f",
+    "bytes": 8787
+  },
+  {
+    "id": "bp_2019.pdf",
+    "status": "copied_preserved_source",
+    "original": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/sources/bp_2019.pdf",
+    "sha256": "a35e9464c63ae7ef646d5fde36f530da83d3abe244acef40007cb27a54ac22bd",
+    "bytes": 4685637
+  },
+  {
+    "id": "bp_2019.txt",
+    "status": "copied_preserved_source",
+    "original": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/sources/bp_2019.txt",
+    "sha256": "ba3e6e86e4511aed418d02b191929bd8d6230a10015b76b9562890bfa157a088",
+    "bytes": 6691
+  },
+  {
+    "id": "api_2021.pdf",
+    "status": "copied_preserved_source",
+    "original": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/sources/api_2021.pdf",
+    "sha256": "b72176e425ab45c3a9ef231f7a0ecb1f4f8b3cbc20cd5ad132ffd64827084114",
+    "bytes": 60134
+  },
+  {
+    "id": "api_2021.txt",
+    "status": "copied_preserved_source",
+    "original": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-10_causal_likelihoods/sources/api_2021.txt",
+    "sha256": "819eefee01a052d43ba9d561dccd9203a7e8e1c448066d8ed06568f2e15a7761",
+    "bytes": 5473
+  }
+]

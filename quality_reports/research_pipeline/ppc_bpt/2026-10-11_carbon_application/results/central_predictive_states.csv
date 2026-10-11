@@ -1,0 +1,7 @@
+"model","state","prior_predictive","posterior_predictive","observed","discrepancy"
+"M0","no_account",0.875,0.87,FALSE,0
+"M0","account_no_denial",0.0125,0.013,FALSE,1
+"M0","account_denial",0.1125,0.117,TRUE,1
+"M1","no_account",0.77,0.576086956521739,FALSE,0
+"M1","account_no_denial",0.023,0.0423913043478261,FALSE,1
+"M1","account_denial",0.207,0.381521739130435,TRUE,1

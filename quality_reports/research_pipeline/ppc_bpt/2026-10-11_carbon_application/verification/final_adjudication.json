@@ -1,0 +1,291 @@
+{
+  "schema_version": "1.0",
+  "adjudication_id": "carbon-application:c8235fa8d470:postcorrection",
+  "phase": "Verificação após correções. As classificações históricas dos pareceres permanecem preservadas.",
+  "source": {
+    "reviewed_artifact": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-11_carbon_application/report.md",
+    "sha256": "c8235fa8d470bdd96dae8b8e2fb90209da3f05cf4c54dfffd798ecb1fe95659d",
+    "artifact_intact": true
+  },
+  "contract": {
+    "required": false,
+    "path": null,
+    "sha256": null,
+    "contract_id": null,
+    "artifact_sha256": null,
+    "status": null,
+    "stale": false
+  },
+  "contract_scope": "Conferência delimitada da aplicação numérica, proveniência e correções do relatório, sem revisão transformativa do manuscrito.",
+  "review_sources": [
+    {
+      "review_id": "R1",
+      "path": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-11_carbon_application/agents/report_review.md",
+      "sha256": "39ede6d4a30d5197657fb70860b3a0a0571f7b0dc7a0e08e8ab6d14983ffae9b"
+    },
+    {
+      "review_id": "R2",
+      "path": "/Users/manoelgaldino/Documents/DCP/Papers/PPC_BPT/quality_reports/research_pipeline/ppc_bpt/2026-10-11_carbon_application/agents/source_ledger_review.md",
+      "sha256": "dd5dd9f688911117a3b816a2f6ae08eb028bddb168772096d7d5df6109470701"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "R1-F1",
+      "source_review": "R1",
+      "quoted_finding": "a definição abreviada de SA omitia o custo econômico líquido",
+      "type": "scope_or_consistency",
+      "severity": "minor",
+      "scientific_dimension": "fidelidade teórica",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "report.md, seção 1"
+      ],
+      "refuting_evidence": [
+        "SA significa aceitar uma política com custo econômico líquido para evitar alternativas regulatórias mais onerosas."
+      ],
+      "mechanical_checks": [
+        "Identidade atual e hashes conferidos em verification/delivery_verification.json.",
+        "Conferência direta do localizador e do relatório final."
+      ],
+      "reasoning": "O achado foi confirmado na versão anterior e corrigido. Esta adjudicação verifica sua persistência na versão final e a refuta, preservando a classificação histórica no parecer original.",
+      "proposed_fix_assessment": "not_provided",
+      "disposition": "Encerrado na versão final.",
+      "defect_evidence": []
+    },
+    {
+      "finding_id": "R1-F2",
+      "source_review": "R1",
+      "quoted_finding": "a expressão “relato puramente instrumental” era mais forte que o código Q",
+      "type": "overclaim",
+      "severity": "minor",
+      "scientific_dimension": "mensuração",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "report.md, Tabela 2"
+      ],
+      "refuting_evidence": [
+        "A linha CA usa relato que liga utilidade do apoio à inviabilidade, compatível com Q."
+      ],
+      "mechanical_checks": [
+        "Identidade atual e hashes conferidos em verification/delivery_verification.json.",
+        "Conferência direta do localizador e do relatório final."
+      ],
+      "reasoning": "O achado foi confirmado na versão anterior e corrigido. Esta adjudicação verifica sua persistência na versão final e a refuta, preservando a classificação histórica no parecer original.",
+      "proposed_fix_assessment": "not_provided",
+      "disposition": "Encerrado na versão final.",
+      "defect_evidence": []
+    },
+    {
+      "finding_id": "R1-F3",
+      "source_review": "R1",
+      "quoted_finding": "o percentual na primeira equação estava sem escape de LaTeX",
+      "type": "artifact",
+      "severity": "minor",
+      "scientific_dimension": "apresentação",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "report.md, equação da seção 1 e seção 4"
+      ],
+      "refuting_evidence": [
+        "A primeira equação usa 71{,}53\\%. O percentual 56,52% foi movido para fora do modo matemático. Ambas as expressões foram verificadas no PDF final."
+      ],
+      "mechanical_checks": [
+        "Identidade atual e hashes conferidos em verification/delivery_verification.json.",
+        "Conferência direta do localizador e do relatório final."
+      ],
+      "reasoning": "O achado foi confirmado na versão anterior e corrigido. Esta adjudicação verifica sua persistência na versão final e a refuta, preservando a classificação histórica no parecer original.",
+      "proposed_fix_assessment": "not_provided",
+      "disposition": "Encerrado na versão final.",
+      "defect_evidence": []
+    },
+    {
+      "finding_id": "SL1",
+      "source_review": "R2",
+      "quoted_finding": "Fonte incompleta para a condição C",
+      "type": "artifact",
+      "severity": "minor",
+      "scientific_dimension": "proveniência",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "data/evidence_codebook.json, conditioning.source_ids"
+      ],
+      "refuting_evidence": [
+        "O campo source_ids contém F1 e F2. A correção dos metadados preservou o valor C=1 e todos os parâmetros."
+      ],
+      "mechanical_checks": [
+        "Identidade atual e hashes conferidos em verification/delivery_verification.json.",
+        "Conferência direta do localizador e do relatório final."
+      ],
+      "reasoning": "O achado foi confirmado na versão anterior e corrigido. Esta adjudicação verifica sua persistência na versão final e a refuta, preservando a classificação histórica no parecer original.",
+      "proposed_fix_assessment": "not_provided",
+      "disposition": "Encerrado na versão final.",
+      "defect_evidence": []
+    },
+    {
+      "finding_id": "SL2",
+      "source_review": "R2",
+      "quoted_finding": "Q confundiria fala individual com motivação corporativa comprovada",
+      "type": "method",
+      "severity": "minor",
+      "scientific_dimension": "mensuração",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "report.md, seção 2; data/evidence_codebook.json, Q"
+      ],
+      "refuting_evidence": [
+        "Q codifica a ligação presente no relato. A representatividade corporativa entra como julgamento na likelihood."
+      ],
+      "mechanical_checks": [
+        "Identidade atual e hashes conferidos em verification/delivery_verification.json.",
+        "Conferência direta do localizador e do relatório final."
+      ],
+      "reasoning": "A formulação final e os registros de fontes/julgamentos contêm a evidência que refuta a interpretação candidata.",
+      "proposed_fix_assessment": "not_provided",
+      "disposition": "Encerrado na versão final.",
+      "defect_evidence": []
+    },
+    {
+      "finding_id": "SL3",
+      "source_review": "R2",
+      "quoted_finding": "V não teria suporte nas fontes ou seria contado como independente",
+      "type": "method",
+      "severity": "minor",
+      "scientific_dimension": "dependência da observação",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "report.md, seções 2 e 3; evidence_codebook.json, V"
+      ],
+      "refuting_evidence": [
+        "F3 registra desautorização e reafirmação. P(V|Q,H,C) especifica a resposta dependente e sua abrangência é o episódio gravado."
+      ],
+      "mechanical_checks": [
+        "Identidade atual e hashes conferidos em verification/delivery_verification.json.",
+        "Conferência direta do localizador e do relatório final."
+      ],
+      "reasoning": "A formulação final e os registros de fontes/julgamentos contêm a evidência que refuta a interpretação candidata.",
+      "proposed_fix_assessment": "not_provided",
+      "disposition": "Encerrado na versão final.",
+      "defect_evidence": []
+    },
+    {
+      "finding_id": "SL4",
+      "source_review": "R2",
+      "quoted_finding": "Os valores de J1–J8 seriam atribuídos indevidamente às fontes",
+      "type": "scope_or_consistency",
+      "severity": "minor",
+      "scientific_dimension": "proveniência dos julgamentos",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "report.md, seção 3; data/judgment_ledger.csv, J1–J8"
+      ],
+      "refuting_evidence": [
+        "Os valores são identificados como julgamentos dos agentes, com autoria, argumento e alternativas. A elicitação foi retrospectiva."
+      ],
+      "mechanical_checks": [
+        "Identidade atual e hashes conferidos em verification/delivery_verification.json.",
+        "Conferência direta do localizador e do relatório final."
+      ],
+      "reasoning": "A formulação final e os registros de fontes/julgamentos contêm a evidência que refuta a interpretação candidata.",
+      "proposed_fix_assessment": "not_provided",
+      "disposition": "Encerrado na versão final.",
+      "defect_evidence": []
+    },
+    {
+      "finding_id": "SL5",
+      "source_review": "R2",
+      "quoted_finding": "HR seria invenção posterior ou alteração disfarçada de SA",
+      "type": "scope_or_consistency",
+      "severity": "minor",
+      "scientific_dimension": "fidelidade teórica",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "report.md, seção 1; sources/fairfield_charman_2025_supp.txt, A.3"
+      ],
+      "refuting_evidence": [
+        "HR está formulada no suplemento FC como motivação reputacional associada à inviabilidade esperada."
+      ],
+      "mechanical_checks": [
+        "Identidade atual e hashes conferidos em verification/delivery_verification.json.",
+        "Conferência direta do localizador e do relatório final."
+      ],
+      "reasoning": "A formulação final e os registros de fontes/julgamentos contêm a evidência que refuta a interpretação candidata.",
+      "proposed_fix_assessment": "not_provided",
+      "disposition": "Encerrado na versão final.",
+      "defect_evidence": []
+    },
+    {
+      "finding_id": "SL6",
+      "source_review": "R2",
+      "quoted_finding": "A posterior setorial de FC seria transportada para Exxon2021 como fato",
+      "type": "scope_or_consistency",
+      "severity": "minor",
+      "scientific_dimension": "escopo",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "report.md, seções 1 e 6; data/judgment_ledger.csv, J1 e J12"
+      ],
+      "refuting_evidence": [
+        "A aplicação principal usa priors próprios. A reprodução de FC e a sensibilidade de seu PPC são identificadas separadamente."
+      ],
+      "mechanical_checks": [
+        "Identidade atual e hashes conferidos em verification/delivery_verification.json.",
+        "Conferência direta do localizador e do relatório final."
+      ],
+      "reasoning": "A formulação final e os registros de fontes/julgamentos contêm a evidência que refuta a interpretação candidata.",
+      "proposed_fix_assessment": "not_provided",
+      "disposition": "Encerrado na versão final.",
+      "defect_evidence": []
+    },
+    {
+      "finding_id": "SL7",
+      "source_review": "R2",
+      "quoted_finding": "As likelihoods de Q teriam sido elicitadas antes do conhecimento de V",
+      "type": "scope_or_consistency",
+      "severity": "minor",
+      "scientific_dimension": "proveniência temporal",
+      "held_decision": false,
+      "status": "REFUTED",
+      "source_locations": [
+        "report.md, seção 3; data/judgment_ledger.csv, J11"
+      ],
+      "refuting_evidence": [
+        "O relatório declara que os documentos eram conhecidos. O condicionamento pretendido de q é anterior à resposta, em uma elicitação retrospectiva."
+      ],
+      "mechanical_checks": [
+        "Identidade atual e hashes conferidos em verification/delivery_verification.json.",
+        "Conferência direta do localizador e do relatório final."
+      ],
+      "reasoning": "A formulação final e os registros de fontes/julgamentos contêm a evidência que refuta a interpretação candidata.",
+      "proposed_fix_assessment": "not_provided",
+      "disposition": "Encerrado na versão final.",
+      "defect_evidence": []
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "confirmed": 0,
+    "partial": 0,
+    "refuted": 10,
+    "unresolved": 0,
+    "held_decisions": 0
+  },
+  "adjudication": {
+    "verdict": "NO_CONFIRMED_DEFECTS",
+    "checked_at": "2026-10-11T14:17:15.274198+00:00",
+    "reasons": [
+      "Correções delimitadas verificadas na versão final e nas sete páginas renderizadas.",
+      "Auditoria numérica independente e hashes atuais conferidos.",
+      "Os números continuam julgamentos condicionais, cuja influência é mostrada pela sensibilidade."
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+"check","n_values","max_abs_error"
+"central_results/M0_prior_predictive_account",1,0
+"central_results/M0_prior_predictive_observed",1,1.38777878078145e-17
+"central_results/M0_posterior_SA",1,0
+"central_results/M0_posterior_CA",1,5.55111512312578e-17
+"central_results/M0_PPC_account_tail",1,2.77555756156289e-17
+"central_results/M0_posterior_predictive_observed",1,1.38777878078145e-17
+"central_results/M1_prior_predictive_account",1,0
+"central_results/M1_prior_predictive_observed",1,5.55111512312578e-17
+"central_results/M1_posterior_SA",1,2.77555756156289e-16
+"central_results/M1_posterior_CA",1,1.38777878078145e-16
+"central_results/M1_posterior_HR",1,2.22044604925031e-16
+"central_results/M1_PPC_account_tail",1,1.11022302462516e-16
+"central_results/M1_posterior_predictive_observed",1,2.22044604925031e-16
+"central_results/BF_HR_vs_old",1,0
+"central_results/rho_threshold_HR_majority",1,1.66533453693773e-16
+"central_results/lambda_threshold_HR_majority",1,1.11022302462516e-16
+"central_results/dR_threshold_HR_majority",1,4.44089209850063e-16
+"sensitivity_full_grid/M0_prior_predictive_account",14400,3.60822483003176e-16
+"sensitivity_full_grid/M0_prior_predictive_observed",14400,3.33066907387547e-16
+"sensitivity_full_grid/M0_posterior_SA",14400,4.44089209850063e-16
+"sensitivity_full_grid/M0_posterior_CA",14400,4.9960036108132e-16
+"sensitivity_full_grid/M0_PPC_account_tail",14400,4.9960036108132e-16
+"sensitivity_full_grid/M0_posterior_predictive_observed",14400,5.55111512312578e-16
+"sensitivity_full_grid/M1_prior_predictive_account",14400,7.21644966006352e-16
+"sensitivity_full_grid/M1_prior_predictive_observed",14400,6.10622663543836e-16
+"sensitivity_full_grid/M1_posterior_SA",14400,8.88178419700125e-16
+"sensitivity_full_grid/M1_posterior_CA",14400,8.32667268468867e-16
+"sensitivity_full_grid/M1_posterior_HR",14400,9.99200722162641e-16
+"sensitivity_full_grid/M1_PPC_account_tail",14400,7.7715611723761e-16
+"sensitivity_full_grid/M1_posterior_predictive_observed",14400,7.7715611723761e-16
+"sensitivity_full_grid/BF_HR_vs_old",14400,4.44089209850063e-14
+"sensitivity_full_grid/rho_threshold_HR_majority",14400,6.10622663543836e-16
+"sensitivity_full_grid/lambda_threshold_HR_majority",14400,4.61852778244065e-14
+"sensitivity_full_grid/dR_threshold_HR_majority",14400,4.9737991503207e-14
+"focal_sensitivity/M0_prior_predictive_account",8,5.55111512312578e-17
+"focal_sensitivity/M0_prior_predictive_observed",8,2.77555756156289e-17
+"focal_sensitivity/M0_posterior_SA",8,6.66133814775094e-16
+"focal_sensitivity/M0_posterior_CA",8,7.7715611723761e-16
+"focal_sensitivity/M0_PPC_account_tail",8,1.11022302462516e-16
+"focal_sensitivity/M0_posterior_predictive_observed",8,4.44089209850063e-16
+"focal_sensitivity/M1_prior_predictive_account",8,2.77555756156289e-17
+"focal_sensitivity/M1_prior_predictive_observed",8,1.94289029309402e-16
+"focal_sensitivity/M1_posterior_SA",8,4.16333634234434e-16
+"focal_sensitivity/M1_posterior_CA",8,4.44089209850063e-16
+"focal_sensitivity/M1_posterior_HR",8,4.44089209850063e-16
+"focal_sensitivity/M1_PPC_account_tail",8,4.9960036108132e-16
+"focal_sensitivity/M1_posterior_predictive_observed",8,4.44089209850063e-16
+"focal_sensitivity/BF_HR_vs_old",8,3.10862446895044e-15
+"focal_sensitivity/rho_threshold_HR_majority",8,4.9960036108132e-16
+"focal_sensitivity/lambda_threshold_HR_majority",8,2.22044604925031e-16
+"focal_sensitivity/dR_threshold_HR_majority",8,1.99840144432528e-15
+"denial_sensitivity/M0_prior_predictive_account",5,0
+"denial_sensitivity/M0_prior_predictive_observed",5,1.38777878078145e-17
+"denial_sensitivity/M0_posterior_SA",5,0
+"denial_sensitivity/M0_posterior_CA",5,5.55111512312578e-17
+"denial_sensitivity/M0_PPC_account_tail",5,2.77555756156289e-17
+"denial_sensitivity/M0_posterior_predictive_observed",5,1.38777878078145e-17
+"denial_sensitivity/M1_prior_predictive_account",5,0
+"denial_sensitivity/M1_prior_predictive_observed",5,5.55111512312578e-17
+"denial_sensitivity/M1_posterior_SA",5,4.44089209850063e-16
+"denial_sensitivity/M1_posterior_CA",5,4.44089209850063e-16
+"denial_sensitivity/M1_posterior_HR",5,2.22044604925031e-16
+"denial_sensitivity/M1_PPC_account_tail",5,3.88578058618805e-16
+"denial_sensitivity/M1_posterior_predictive_observed",5,3.33066907387547e-16
+"denial_sensitivity/BF_HR_vs_old",5,3.5527136788005e-15
+"denial_sensitivity/rho_threshold_HR_majority",5,3.88578058618805e-16
+"denial_sensitivity/lambda_threshold_HR_majority",5,3.33066907387547e-16
+"denial_sensitivity/dR_threshold_HR_majority",5,4.44089209850063e-16
+"prior_endpoint_behavior/M0_prior_predictive_account",4,0
+"prior_endpoint_behavior/M0_prior_predictive_observed",4,1.38777878078145e-17
+"prior_endpoint_behavior/M0_posterior_SA",4,0
+"prior_endpoint_behavior/M0_posterior_CA",4,0
+"prior_endpoint_behavior/M0_PPC_account_tail",4,0
+"prior_endpoint_behavior/M0_posterior_predictive_observed",4,1.38777878078145e-17
+"prior_endpoint_behavior/M1_prior_predictive_account",4,0
+"prior_endpoint_behavior/M1_prior_predictive_observed",4,1.11022302462516e-16
+"prior_endpoint_behavior/M1_posterior_SA",4,0
+"prior_endpoint_behavior/M1_posterior_CA",4,0
+"prior_endpoint_behavior/M1_posterior_HR",4,0
+"prior_endpoint_behavior/M1_PPC_account_tail",4,0
+"prior_endpoint_behavior/M1_posterior_predictive_observed",4,1.11022302462516e-16
+"prior_endpoint_behavior/BF_HR_vs_old",4,3.5527136788005e-15
+"prior_endpoint_behavior/rho_threshold_HR_majority",4,3.33066907387547e-16
+"prior_endpoint_behavior/lambda_threshold_HR_majority",4,0
+"prior_endpoint_behavior/dR_threshold_HR_majority",4,0
+"inconclusive_recoding",5,0
+"central_kernel_likelihoods",15,1.11022302462516e-16
+"kernel_normalization",5,0
+"M0/no_account/predictive",2,1.11022302462516e-16
+"M0/account_no_denial/predictive",2,0
+"M0/account_denial/predictive",2,1.38777878078145e-17
+"M1/no_account/predictive",2,0
+"M1/account_no_denial/predictive",2,0
+"M1/account_denial/predictive",2,1.66533453693773e-16
+"frontier_equality",720,4.71844785465692e-16
+"0.5 FC_likelihood_SA",16,1.66533453693773e-16
+"0.5 FC_likelihood_CA",16,1.80411241501588e-16
+"0.5 FC_predictive",16,2.22044604925031e-16
+"0.5 FC_normalization",3,2.22044604925031e-16
+"0.5 FC_summary",5,5.55111512312578e-16
+"0.65 FC_likelihood_SA",16,3.60822483003176e-16
+"0.65 FC_likelihood_CA",16,4.44089209850063e-16
+"0.65 FC_predictive",16,3.60822483003176e-16
+"0.65 FC_normalization",3,2.22044604925031e-16
+"0.65 FC_summary",5,4.9960036108132e-16
+"0.8 FC_likelihood_SA",16,3.60822483003176e-16
+"0.8 FC_likelihood_CA",16,3.33066907387547e-16
+"0.8 FC_predictive",16,1.38777878078145e-16
+"0.8 FC_normalization",3,2.22044604925031e-16
+"0.8 FC_summary",5,5.55111512312578e-16
+"0.95 FC_likelihood_SA",16,3.88578058618805e-16
+"0.95 FC_likelihood_CA",16,1.11022302462516e-16
+"0.95 FC_predictive",16,5.27355936696949e-16
+"0.95 FC_normalization",3,2.22044604925031e-16
+"0.95 FC_summary",5,5.55111512312578e-16
